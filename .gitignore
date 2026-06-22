@@ -19,3 +19,8 @@ web/.vercel/
 
 # OS
 .DS_Store
+
+# Next.js generated
+web/next-env.d.ts
+web/tsconfig.tsbuildinfo
+web/.vercel

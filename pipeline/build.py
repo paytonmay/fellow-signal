@@ -32,6 +32,14 @@ def split_list(v) -> list[str]:
     return [p.strip() for p in str(v).split(",") if p.strip()]
 
 
+def split_people(v) -> list[str]:
+    """Split a co-founder string on comma, '&', ' and ', '/'."""
+    if not v:
+        return []
+    parts = re.split(r"\s*(?:,|&|/|\band\b)\s*", str(v))
+    return [p.strip() for p in parts if p.strip()]
+
+
 def parse_link(v) -> tuple[str, str]:
     """'[Name](https://activate.org/slug)' -> (slug, url)."""
     m = re.search(r"\((https?://activate\.org/([^)]+))\)", str(v or ""))
@@ -75,7 +83,7 @@ def main() -> None:
             "cohort_year": year,
             "hub": clean_text(f.get("Community")),
             "verticals": verticals,
-            "fellows": split_list(f.get("Fellow(s) at Company") or f.get("Fellow(s)")),
+            "fellows": split_people(f.get("Fellow(s) at Company") or f.get("Fellow(s)")),
             "activate_url": activate_url,
             "website": s.get("website", ""),
             "linkedin": s.get("linkedin", ""),
