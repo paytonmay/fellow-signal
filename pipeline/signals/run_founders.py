@@ -43,7 +43,7 @@ def main() -> None:
         for fellow in c["fellows"]:
             total_fellows += 1
             a = resolve_with_retry(fellow, c)
-            time.sleep(0.25)
+            time.sleep(0.5)
             if not a:
                 founders.append({"name": fellow, "resolved": False})
                 continue
@@ -55,7 +55,7 @@ def main() -> None:
                     tl = works_timeline(a["openalex_id"])
                 except RateLimited:
                     tl = []
-            time.sleep(0.25)
+            time.sleep(0.5)
             pre = pre_founding_topics(tl, c["cohort_year"])
             founders.append({
                 "name": fellow,

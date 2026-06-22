@@ -90,6 +90,44 @@ def main() -> None:
     # Hubs.
     hubs = Counter(c["hub"] for c in companies if c["hub"])
 
+    # --- Hub Atlas: hub x vertical specialization (over/under-index vs global) ---
+    vert_order = [v["vertical"] for v in verticals]
+    n_total = len(companies)
+    global_share = {v: sum(1 for c in companies if v in c["verticals"]) / n_total
+                    for v in vert_order}
+    main_hubs = ["Berkeley", "Boston", "New York", "Houston", "Anywhere"]
+    hub_cells = {}
+    for hub in main_hubs:
+        rows = [c for c in companies if c["hub"] == hub]
+        n = len(rows) or 1
+        hub_cells[hub] = {
+            "n": len(rows),
+            "verticals": {
+                v: {
+                    "count": sum(1 for c in rows if v in c["verticals"]),
+                    "share": round(sum(1 for c in rows if v in c["verticals"]) / n, 4),
+                    "over": round(sum(1 for c in rows if v in c["verticals"]) / n - global_share[v], 4),
+                }
+                for v in vert_order
+            },
+        }
+    hub_atlas = {"hubs": main_hubs, "verticals": vert_order,
+                 "global_share": {v: round(s, 4) for v, s in global_share.items()},
+                 "cells": hub_cells}
+
+    # --- Convergence: vertical co-occurrence (where fields combine) ---
+    from itertools import combinations
+    pair = Counter()
+    for c in companies:
+        for a, b in combinations(sorted(set(c["verticals"])), 2):
+            pair[(a, b)] += 1
+    links = [{"a": a, "b": b, "count": n} for (a, b), n in pair.items() if n >= 4]
+    links.sort(key=lambda d: -d["count"])
+    convergence = {
+        "nodes": [{"vertical": v["vertical"], "count": v["count"]} for v in verticals],
+        "links": links,
+    }
+
     headline = {
         "companies": len(companies),
         "cohorts": f"{min(c['cohort_year'] for c in dated)}–{max(c['cohort_year'] for c in dated)}",
@@ -109,6 +147,8 @@ def main() -> None:
         "verticals": verticals,
         "hubs": hubs.most_common(),
         "radar": field["fields"],
+        "hub_atlas": hub_atlas,
+        "convergence": convergence,
     }, ensure_ascii=False), encoding="utf-8")
     kb = OUT.stat().st_size // 1024
     print(f"Wrote {OUT.relative_to(ROOT)} ({kb} KB)")

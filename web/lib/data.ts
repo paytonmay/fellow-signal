@@ -70,6 +70,19 @@ export type Headline = {
   fellows: number;
 };
 
+export type HubCell = { count: number; share: number; over: number };
+export type HubAtlas = {
+  hubs: string[];
+  verticals: string[];
+  global_share: Record<string, number>;
+  cells: Record<string, { n: number; verticals: Record<string, HubCell> }>;
+};
+
+export type Convergence = {
+  nodes: { vertical: string; count: number }[];
+  links: { a: string; b: string; count: number }[];
+};
+
 export type Dataset = {
   headline: Headline;
   companies: Company[];
@@ -77,6 +90,8 @@ export type Dataset = {
   verticals: Vertical[];
   hubs: [string, number][];
   radar: RadarRow[];
+  hub_atlas: HubAtlas;
+  convergence: Convergence;
 };
 
 export const data = dataset as unknown as Dataset;

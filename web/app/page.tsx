@@ -3,6 +3,8 @@ import FrontierRadar from "./components/FrontierRadar";
 import Directory from "./components/Directory";
 import OutcomesBars from "./components/OutcomesBars";
 import CohortDrift from "./components/CohortDrift";
+import HubAtlas from "./components/HubAtlas";
+import ConvergenceMap from "./components/ConvergenceMap";
 
 function Stat({ value, label, accent }: { value: string; label: string; accent?: string }) {
   return (
@@ -116,9 +118,41 @@ export default function Page() {
           </div>
         </section>
 
+        {/* ===== Hub Atlas ===== */}
+        <section className="py-16 border-b border-[#15181e]">
+          <SectionLabel n="04">Hub Atlas</SectionLabel>
+          <h2 className="text-2xl md:text-3xl font-semibold text-zinc-100 max-w-3xl">
+            Each hub is a different bet.
+          </h2>
+          <p className="mt-3 text-zinc-400 max-w-2xl">
+            How each community over-indexes versus Activate&apos;s overall mix. New York is a
+            climate and carbon cluster, Houston leans manufacturing and computing, Berkeley
+            skews industrial biotech.
+          </p>
+          <div className="panel mt-8 p-6">
+            <HubAtlas atlas={data.hub_atlas} />
+          </div>
+        </section>
+
+        {/* ===== Convergence ===== */}
+        <section className="py-16 border-b border-[#15181e]">
+          <SectionLabel n="05">Convergence</SectionLabel>
+          <h2 className="text-2xl md:text-3xl font-semibold text-zinc-100 max-w-3xl">
+            Where the sciences combine.
+          </h2>
+          <p className="mt-3 text-zinc-400 max-w-2xl">
+            Ventures rarely sit in one vertical. The thickest links show where new fields are
+            forming at the intersections: chemistry with climate, carbon with climate,
+            computing with electronics. Hover a node to trace its combinations.
+          </p>
+          <div className="panel mt-8 p-4 md:p-6">
+            <ConvergenceMap data={data.convergence} />
+          </div>
+        </section>
+
         {/* ===== Directory ===== */}
         <section className="py-16">
-          <SectionLabel n="04">Portfolio</SectionLabel>
+          <SectionLabel n="06">Portfolio</SectionLabel>
           <h2 className="text-2xl md:text-3xl font-semibold text-zinc-100 max-w-3xl">
             Not a directory. A dossier on every venture.
           </h2>
