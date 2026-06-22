@@ -1,8 +1,18 @@
+"use client";
+
 import { HubAtlas as HubAtlasData } from "@/lib/data";
 
 // Heatmap: each cell is a hub's over/under-index in a vertical vs the global mix.
 // Teal = the hub specializes there; faint = under-indexed.
-export default function HubAtlas({ atlas }: { atlas: HubAtlasData }) {
+export default function HubAtlas({
+  atlas,
+  onSelectHub,
+  activeHub,
+}: {
+  atlas: HubAtlasData;
+  onSelectHub?: (h: string) => void;
+  activeHub?: string;
+}) {
   const { hubs, verticals, cells } = atlas;
   const maxPos = Math.max(
     ...verticals.flatMap((v) => hubs.map((h) => cells[h].verticals[v].over))
@@ -23,10 +33,11 @@ export default function HubAtlas({ atlas }: { atlas: HubAtlasData }) {
         <div className="grid items-end" style={{ gridTemplateColumns: `190px repeat(${hubs.length}, 1fr)` }}>
           <div />
           {hubs.map((h) => (
-            <div key={h} className="px-2 pb-2 text-center">
-              <div className="text-[12.5px] font-medium text-zinc-200">{h}</div>
+            <button key={h} onClick={() => onSelectHub?.(h)}
+              className={`px-2 pb-2 text-center transition ${onSelectHub ? "cursor-pointer hover:text-teal-200" : ""}`}>
+              <div className={`text-[12.5px] font-medium ${activeHub === h ? "text-teal-300" : "text-zinc-200"}`}>{h}</div>
               <div className="text-[10.5px] text-zinc-600">{cells[h].n} cos</div>
-            </div>
+            </button>
           ))}
         </div>
         {/* rows */}

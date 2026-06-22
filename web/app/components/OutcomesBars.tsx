@@ -1,14 +1,21 @@
 import { Vertical, fmtUSD, verticalColor } from "@/lib/data";
 
-export default function OutcomesBars({ verticals }: { verticals: Vertical[] }) {
+export default function OutcomesBars({
+  verticals,
+  onSelect,
+}: {
+  verticals: Vertical[];
+  onSelect?: (v: string) => void;
+}) {
   const rows = [...verticals].sort((a, b) => b.nsf_total - a.nsf_total).slice(0, 12);
   const max = Math.max(...rows.map((r) => r.nsf_total), 1);
 
   return (
     <div className="space-y-2.5">
       {rows.map((r) => (
-        <div key={r.vertical} className="flex items-center gap-3">
-          <div className="w-44 shrink-0 text-[12.5px] text-zinc-400 text-right">
+        <div key={r.vertical} className={`flex items-center gap-3 ${onSelect ? "cursor-pointer group" : ""}`}
+          onClick={() => onSelect?.(r.vertical)}>
+          <div className={`w-44 shrink-0 text-[12.5px] text-right ${onSelect ? "text-zinc-400 group-hover:text-teal-200" : "text-zinc-400"}`}>
             {r.vertical.replace(" / CO2e", "")}
           </div>
           <div className="flex-1 h-6 bg-[#0e1014] rounded-md overflow-hidden">

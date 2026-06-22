@@ -16,7 +16,13 @@ function short(v: string): string {
     .replace(" & Delivery", "");
 }
 
-export default function ConvergenceMap({ data }: { data: Convergence }) {
+export default function ConvergenceMap({
+  data,
+  onSelect,
+}: {
+  data: Convergence;
+  onSelect?: (v: string) => void;
+}) {
   const [hover, setHover] = useState<string | null>(null);
 
   const cx = W / 2;
@@ -70,6 +76,7 @@ export default function ConvergenceMap({ data }: { data: Convergence }) {
             <g key={n.vertical}
               onMouseEnter={() => setHover(n.vertical)}
               onMouseLeave={() => setHover(null)}
+              onClick={() => onSelect?.(n.vertical)}
               style={{ cursor: "pointer" }} opacity={dim ? 0.4 : 1}>
               <circle cx={n.x} cy={n.y} r={active ? n.r + 2 : n.r}
                 fill={verticalColor(n.vertical)} stroke="#08090b" strokeWidth={1.5} />
