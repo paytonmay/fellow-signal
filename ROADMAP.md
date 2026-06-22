@@ -27,9 +27,10 @@ Secrets (LLM key) live only in the pipeline and never reach the client.
       pages, extract title/summary/body/links. → `01_raw_records.json`
 - [x] **Stage 2 — Clean** (`clean.py`). Filter to genuine fellow ventures,
       strip boilerplate, normalize. → **96 companies** in `02_companies.json`
-- [ ] **Stage 3 — Enrich**. Classify each company: hard-tech domain,
-      research field, target industry/market, impact dimensions, TRL/stage,
-      keywords. (LLM-assisted; heuristic fallback.)
+- [x] **Stage 3 — Enrich** (`enrich.py`). Each company classified by domain
+      (15-sector taxonomy), research field, target market, impact tags, and
+      auto-extracted keywords. → **93 companies** in `03_enriched.json`.
+      Reproducible Claude-API path included for future/unlabeled companies.
 - [ ] **Stage 4 — Cohort/founder linkage**. Derive cohort year + hub from the
       JS directory API / "cohort 20XX" news posts. (Data gap: not on detail page.)
 - [ ] **Stage 5 — Canonical store**. Build SQLite/DuckDB + denormalized JSON

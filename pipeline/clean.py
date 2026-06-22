@@ -39,6 +39,7 @@ JUNK_SLUGS = {
     "events", "faq", "get-involved", "global-programs", "innovation-labs",
     "job-listing", "news", "oldhome", "partners", "prospect-growth",
     "pumpkin", "hit-nano-draft", "meet-the-cohort2025-activate-houston-fellows",
+    "communities", "japan-bridge-program", "louisiana-bridge-program",
 }
 
 
