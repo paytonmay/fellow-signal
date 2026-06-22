@@ -21,6 +21,19 @@ web/ (Next.js)        static-exported, beautiful, deployed via public link
 Read-only static site = near-zero attack surface, fast, cheap to host.
 Secrets (LLM key) live only in the pipeline and never reach the client.
 
+## Data source (authoritative)
+
+Activate's `activate-companies` directory is a **Softr app over an Airtable
+base**. Its data proxy ignores `offset`, so we harvest via headless Chrome
+(`pipeline/harvester/harvest.mjs`) — **224 companies, cohorts 2015–2025**, with
+Activate's own fields: 16 **Verticals**, **Community** (hub), **Cohort Year**,
+**Fellow(s)**, and human-written **Critical Need / Technology Vision /
+Potential Impact**. This supersedes the page-scraper as the spine.
+
+Pipeline: `harvest.mjs → build.py → companies.json + taxonomy.json`.
+(The older `scrape/clean/enrich/cohort` chain is kept only for the company
+website / LinkedIn links it recovered.)
+
 ## Status
 
 - [x] **Stage 1 — Ingest** (`scrape.py`). Enumerate sitemap, fetch detail

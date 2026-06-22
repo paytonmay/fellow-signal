@@ -1,0 +1,108 @@
+{
+  "verticals": [
+    [
+      "Chemistry & Materials",
+      96
+    ],
+    [
+      "Climate",
+      62
+    ],
+    [
+      "Advanced Manufacturing & Robotics",
+      47
+    ],
+    [
+      "Industrial Biotechnology",
+      43
+    ],
+    [
+      "Electronics & Connectivity",
+      40
+    ],
+    [
+      "Computing",
+      37
+    ],
+    [
+      "Food & Agriculture",
+      37
+    ],
+    [
+      "Carbon Management / CO2e",
+      35
+    ],
+    [
+      "Life Science",
+      32
+    ],
+    [
+      "Energy Storage & Batteries",
+      26
+    ],
+    [
+      "Built Environment",
+      22
+    ],
+    [
+      "Energy Generation & Delivery",
+      20
+    ],
+    [
+      "Earth Resources",
+      18
+    ],
+    [
+      "Water",
+      16
+    ],
+    [
+      "Transportation & Mobility",
+      14
+    ],
+    [
+      "Space & Aeronautics",
+      12
+    ]
+  ],
+  "hubs": [
+    [
+      "Berkeley",
+      87
+    ],
+    [
+      "Boston",
+      50
+    ],
+    [
+      "Anywhere",
+      36
+    ],
+    [
+      "New York",
+      31
+    ],
+    [
+      "Houston",
+      17
+    ],
+    [
+      "New York, Boston",
+      3
+    ]
+  ],
+  "years": {
+    "2015": 6,
+    "2016": 5,
+    "2017": 4,
+    "2018": 8,
+    "2019": 9,
+    "2020": 16,
+    "2021": 17,
+    "2022": 32,
+    "2023": 39,
+    "2024": 50,
+    "2025": 38
+  },
+  "total": 224
+}
