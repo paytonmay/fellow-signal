@@ -53,9 +53,18 @@ website / LinkedIn links it recovered.)
 - [ ] **Stage 6 — Frontend**. Next.js + Tailwind + shadcn/ui. Views: domain
       treemap, cohort timeline, research→industry graph, impact metrics,
       searchable company directory.
-- [ ] **Stage 7 — Future-cast**. External signal feeds (arXiv, patents, funder
-      awards, venture funding) → gap analysis vs. fellow coverage. Emerging
-      fields where research/funding spikes but Activate hasn't yet sourced.
+- [~] **Stage 7 — Signal layers** (`pipeline/signals/`).
+  - [x] **Outcomes ledger** (`funding.py`, `run_outcomes.py`) → `outcomes.json`.
+        NSF + EDGAR across all 224. **$58.8M NSF non-dilutive, 74/224 (33%)
+        funded; 48 with Form D raises.** SBIR all-agency = next (backoff).
+  - [x] **Founder footprint** (`scholar.py`). OpenAlex, field/domain-aware
+        disambiguation. Resolves fellow → works, citations, h-index, and
+        **pre-founding research topics** (leading frontier signal). Generic
+        names need ORCID/institution cross-check for production precision.
+  - [ ] Run founder footprint + field publication-velocity across portfolio.
+  - [ ] **Frontier Radar**: internal presence × external momentum → whitespace.
+  - Principle: normalize every internal metric against the FIELD (base rates,
+    field-normalized citations) — the field is the denominator.
 - [ ] **Stage 8 — Deploy**. Vercel public link.
 
 ## Known data notes

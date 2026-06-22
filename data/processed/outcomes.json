@@ -1,0 +1,4258 @@
+[
+  {
+    "slug": "4th-state-energies",
+    "name": "4th State Energies",
+    "cohort_year": 2025,
+    "hub": "Berkeley",
+    "verticals": [
+      "Energy Storage & Batteries",
+      "Chemistry & Materials"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "aimm",
+    "name": "AIMM",
+    "cohort_year": 2025,
+    "hub": "Anywhere",
+    "verticals": [
+      "Water",
+      "Chemistry & Materials",
+      "Climate"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "alkali-labs",
+    "name": "AlkaLi Labs",
+    "cohort_year": 2025,
+    "hub": "Berkeley",
+    "verticals": [
+      "Industrial Biotechnology",
+      "Earth Resources"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 2,
+    "has_outcome": true
+  },
+  {
+    "slug": "astral-materials",
+    "name": "Astral Materials, Inc.",
+    "cohort_year": 2025,
+    "hub": "Berkeley",
+    "verticals": [
+      "Space & Aeronautics",
+      "Chemistry & Materials"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "biosimo-chemicals",
+    "name": "Biosimo",
+    "cohort_year": 2025,
+    "hub": "Houston",
+    "verticals": [
+      "Chemistry & Materials"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "biowraptor",
+    "name": "BioWraptor",
+    "cohort_year": 2025,
+    "hub": "New York",
+    "verticals": [
+      "Carbon Management / CO2e",
+      "Climate",
+      "Chemistry & Materials",
+      "Life Science",
+      "Industrial Biotechnology"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "brightlight-photonics",
+    "name": "Brightlight Photonics",
+    "cohort_year": 2025,
+    "hub": "Houston",
+    "verticals": [
+      "Electronics & Connectivity",
+      "Computing"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "BRIGHTLIGHT PHOTONICS, INC",
+        "amount": 275000,
+        "title": "STTR Phase I:  Wafer-scale, foundry-ready Ti:Sapphire integrated photonic lasers and amplifiers",
+        "date": "02/15/2025"
+      }
+    ],
+    "nsf_total": 275000,
+    "nsf_count": 1,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "carbide-radio",
+    "name": "Carbide Radio",
+    "cohort_year": 2025,
+    "hub": "Berkeley",
+    "verticals": [
+      "Electronics & Connectivity"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "CARBIDE RADIO INC",
+        "amount": 275000,
+        "title": "SBIR Phase I: Silicon Carbide Radio Frequency Switches",
+        "date": "12/01/2023"
+      }
+    ],
+    "nsf_total": 275000,
+    "nsf_count": 1,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "cellsius-bio",
+    "name": "Cellsius, Inc.",
+    "cohort_year": 2025,
+    "hub": "Boston",
+    "verticals": [
+      "Industrial Biotechnology",
+      "Chemistry & Materials",
+      "Advanced Manufacturing & Robotics"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "chipadd",
+    "name": "ChipAdd",
+    "cohort_year": 2025,
+    "hub": "New York",
+    "verticals": [
+      "Climate",
+      "Computing",
+      "Advanced Manufacturing & Robotics"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "deep-anchor-solutions",
+    "name": "Deep Anchor Solutions Inc.",
+    "cohort_year": 2025,
+    "hub": "Houston",
+    "verticals": [
+      "Energy Generation & Delivery"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "edulis-labs",
+    "name": "Edulis Labs",
+    "cohort_year": 2025,
+    "hub": "Berkeley",
+    "verticals": [
+      "Chemistry & Materials"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "epitactic",
+    "name": "Epitactic",
+    "cohort_year": 2025,
+    "hub": "Boston",
+    "verticals": [
+      "Chemistry & Materials"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "fast-metals-inc",
+    "name": "FAST Metals",
+    "cohort_year": 2025,
+    "hub": "New York",
+    "verticals": [
+      "Carbon Management / CO2e",
+      "Chemistry & Materials",
+      "Climate",
+      "Earth Resources"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "fermi-energy",
+    "name": "Fermi Energy",
+    "cohort_year": 2025,
+    "hub": "New York",
+    "verticals": [
+      "Energy Storage & Batteries",
+      "Climate",
+      "Chemistry & Materials"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "FERMI ENERGY, INC.",
+        "amount": 275000,
+        "title": "STTR Phase I:  Manufacturing nickel and cobalt-free cathodes for high-energy and low-cost lithium-ion batteries",
+        "date": "03/01/2023"
+      }
+    ],
+    "nsf_total": 275000,
+    "nsf_count": 1,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "flowcellutions",
+    "name": "FlowCellutions",
+    "cohort_year": 2025,
+    "hub": "Houston",
+    "verticals": [
+      "Energy Storage & Batteries"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "fourier",
+    "name": "Fourier",
+    "cohort_year": 2025,
+    "hub": "Boston",
+    "verticals": [
+      "Chemistry & Materials",
+      "Electronics & Connectivity"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 14,
+    "has_outcome": true
+  },
+  {
+    "slug": "gallox-semiconductors",
+    "name": "Gallox Semiconductors",
+    "cohort_year": 2025,
+    "hub": "Boston",
+    "verticals": [
+      "Chemistry & Materials",
+      "Electronics & Connectivity",
+      "Energy Generation & Delivery"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "GALLOX SEMICONDUCTORS INC.",
+        "amount": 305000,
+        "title": "STTR Phase I: Harnessing Gallium Oxide for High-Efficiency Power Conversion in Data Centers - Evaluation of Gallium Oxide Power Devices in Power Converters",
+        "date": "02/01/2025"
+      }
+    ],
+    "nsf_total": 305000,
+    "nsf_count": 1,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "greenshoot-materials",
+    "name": "Greenshoot Materials",
+    "cohort_year": 2025,
+    "hub": "Anywhere",
+    "verticals": [
+      "Climate",
+      "Chemistry & Materials"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "hypermelt",
+    "name": "Hypermelt",
+    "cohort_year": 2025,
+    "hub": "Anywhere",
+    "verticals": [
+      "Life Science"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "intero-biosystems",
+    "name": "Intero Biosystems",
+    "cohort_year": 2025,
+    "hub": "Anywhere",
+    "verticals": [
+      "Life Science"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "kira",
+    "name": "KIRA",
+    "cohort_year": 2025,
+    "hub": "Houston",
+    "verticals": [
+      "Water"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "Goldner, Kira",
+        "amount": 150000,
+        "title": "PostDoctoral Research Fellowship",
+        "date": "07/01/2019"
+      }
+    ],
+    "nsf_total": 150000,
+    "nsf_count": 1,
+    "edgar_formD": 49,
+    "has_outcome": true
+  },
+  {
+    "slug": "lagomics",
+    "name": "Lagomics",
+    "cohort_year": 2025,
+    "hub": "Berkeley",
+    "verticals": [
+      "Life Science"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "leap-photonics",
+    "name": "LEAP Photonics",
+    "cohort_year": 2025,
+    "hub": "Anywhere",
+    "verticals": [
+      "Electronics & Connectivity",
+      "Advanced Manufacturing & Robotics"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "LEAP PHOTONICS INC.",
+        "amount": 305000,
+        "title": "SBIR Phase I: Chip Scale Acousto-Optics Beam-Steering LiDAR",
+        "date": "07/15/2025"
+      }
+    ],
+    "nsf_total": 305000,
+    "nsf_count": 1,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "lift-biolabs",
+    "name": "Lift Biolabs",
+    "cohort_year": 2025,
+    "hub": "Houston",
+    "verticals": [
+      "Industrial Biotechnology",
+      "Life Science"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "lightfinder",
+    "name": "Lightfinder",
+    "cohort_year": 2025,
+    "hub": "Boston",
+    "verticals": [
+      "Electronics & Connectivity",
+      "Advanced Manufacturing & Robotics"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "macrobreed",
+    "name": "MacroBreed",
+    "cohort_year": 2025,
+    "hub": "New York",
+    "verticals": [
+      "Carbon Management / CO2e",
+      "Climate",
+      "Computing",
+      "Food & Agriculture",
+      "Water",
+      "Life Science"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "membravo",
+    "name": "Membravo",
+    "cohort_year": 2025,
+    "hub": "Berkeley",
+    "verticals": [
+      "Chemistry & Materials"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "netpreme",
+    "name": "Netpreme",
+    "cohort_year": 2025,
+    "hub": "Boston",
+    "verticals": [
+      "Computing",
+      "Electronics & Connectivity"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 2,
+    "has_outcome": true
+  },
+  {
+    "slug": "nextset-materials",
+    "name": "NextSet Materials",
+    "cohort_year": 2025,
+    "hub": "Berkeley",
+    "verticals": [
+      "Chemistry & Materials"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "osmopure-technologies",
+    "name": "OsmoPure Technologies",
+    "cohort_year": 2025,
+    "hub": "Anywhere",
+    "verticals": [
+      "Climate",
+      "Water",
+      "Chemistry & Materials"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "OSMOPURE TECHNOLOGIES, INC",
+        "amount": 1525915,
+        "title": "SBIR Fast-Track: Scaling Up Pressure-Driven Distillation for Ultrapure Water Production",
+        "date": "09/01/2025"
+      }
+    ],
+    "nsf_total": 1525915,
+    "nsf_count": 1,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "page-technologies",
+    "name": "PAGE Technologies",
+    "cohort_year": 2025,
+    "hub": "Anywhere",
+    "verticals": [
+      "Water",
+      "Electronics & Connectivity",
+      "Climate",
+      "Food & Agriculture",
+      "Chemistry & Materials"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 1,
+    "has_outcome": true
+  },
+  {
+    "slug": "retrn",
+    "name": "RETRN",
+    "cohort_year": 2025,
+    "hub": "New York",
+    "verticals": [
+      "Carbon Management / CO2e",
+      "Chemistry & Materials",
+      "Climate",
+      "Industrial Biotechnology",
+      "Food & Agriculture"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "RETRN BIOWORKS INC.",
+        "amount": 275000,
+        "title": "STTR Phase I:  High-performance biopolymer platform for sustainable, safe packaging",
+        "date": "09/01/2024"
+      }
+    ],
+    "nsf_total": 275000,
+    "nsf_count": 1,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "semion",
+    "name": "Semion",
+    "cohort_year": 2025,
+    "hub": "Houston",
+    "verticals": [
+      "Food & Agriculture"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 4,
+    "has_outcome": true
+  },
+  {
+    "slug": "unspent",
+    "name": "Unspent",
+    "cohort_year": 2025,
+    "hub": "New York",
+    "verticals": [
+      "Carbon Management / CO2e",
+      "Climate",
+      "Chemistry & Materials",
+      "Food & Agriculture"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "vectorwave",
+    "name": "VectorWave",
+    "cohort_year": 2025,
+    "hub": "Boston",
+    "verticals": [
+      "Electronics & Connectivity",
+      "Computing"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "VECTORWAVE CORPORATION",
+        "amount": 304638,
+        "title": "SBIR Phase I: Spectrum Coexistence Digital Twin",
+        "date": "10/01/2025"
+      }
+    ],
+    "nsf_total": 304638,
+    "nsf_count": 1,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "vertility-health",
+    "name": "Vertility Health",
+    "cohort_year": 2025,
+    "hub": "Berkeley",
+    "verticals": [
+      "Food & Agriculture",
+      "Life Science"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "wave-lumina",
+    "name": "Wave Lumina",
+    "cohort_year": 2025,
+    "hub": "Anywhere",
+    "verticals": [
+      "Water",
+      "Climate",
+      "Chemistry & Materials"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "WAVE LUMINA LLC",
+        "amount": 305000,
+        "title": "SBIR Phase I: Development of a Portable Contaminant Field Screening Device for Rapid Measurement of PFAS in Water.",
+        "date": "05/15/2025"
+      }
+    ],
+    "nsf_total": 305000,
+    "nsf_count": 1,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "andros",
+    "name": "Andros Innovations",
+    "cohort_year": 2024,
+    "hub": "Boston",
+    "verticals": [
+      "Food & Agriculture",
+      "Chemistry & Materials",
+      "Energy Generation & Delivery"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "anew-material",
+    "name": "Anew Material",
+    "cohort_year": 2024,
+    "hub": "New York",
+    "verticals": [
+      "Chemistry & Materials",
+      "Carbon Management / CO2e"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "bairitone-health",
+    "name": "Bairitone Health",
+    "cohort_year": 2024,
+    "hub": "Houston",
+    "verticals": [
+      "Computing",
+      "Life Science",
+      "Electronics & Connectivity"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 2,
+    "has_outcome": true
+  },
+  {
+    "slug": "calectra",
+    "name": "Calectra",
+    "cohort_year": 2024,
+    "hub": "Berkeley",
+    "verticals": [
+      "Energy Storage & Batteries",
+      "Energy Generation & Delivery",
+      "Chemistry & Materials"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "carbion",
+    "name": "Carbion",
+    "cohort_year": 2024,
+    "hub": "New York",
+    "verticals": [
+      "Water",
+      "Built Environment",
+      "Chemistry & Materials",
+      "Earth Resources",
+      "Food & Agriculture"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "carbon-infuse",
+    "name": "Carbon Infuse",
+    "cohort_year": 2024,
+    "hub": "New York",
+    "verticals": [
+      "Carbon Management / CO2e",
+      "Built Environment",
+      "Chemistry & Materials"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "cobi",
+    "name": "COBI",
+    "cohort_year": 2024,
+    "hub": "Anywhere",
+    "verticals": [
+      "Computing"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "coflux-purification",
+    "name": "Coflux Purification",
+    "cohort_year": 2024,
+    "hub": "Houston",
+    "verticals": [
+      "Water",
+      "Chemistry & Materials"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "daqus-energy",
+    "name": "Daqus Energy",
+    "cohort_year": 2024,
+    "hub": "Boston",
+    "verticals": [
+      "Transportation & Mobility",
+      "Energy Storage & Batteries"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "drul",
+    "name": "Drūl",
+    "cohort_year": 2024,
+    "hub": "Boston",
+    "verticals": [
+      "Life Science"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "eeli-technology",
+    "name": "EELI Technology",
+    "cohort_year": 2024,
+    "hub": "Berkeley",
+    "verticals": [
+      "Chemistry & Materials",
+      "Energy Storage & Batteries"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "elateq-inc",
+    "name": "Elateq, Inc.",
+    "cohort_year": 2024,
+    "hub": "Anywhere",
+    "verticals": [
+      "Water",
+      "Chemistry & Materials"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "ELATEQ, INC.",
+        "amount": 999603,
+        "title": "SBIR Phase II: Advanced electrochemical degradation of PFAS in water",
+        "date": "09/15/2024"
+      },
+      {
+        "source": "NSF",
+        "awardee": "ELATEQ, INC.",
+        "amount": 236645,
+        "title": "SBIR Phase I:  Advanced electrochemical degradation of PFAS in water",
+        "date": "03/15/2022"
+      }
+    ],
+    "nsf_total": 1236248,
+    "nsf_count": 2,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "elysia-creative-biology",
+    "name": "Elysia Creative Biology",
+    "cohort_year": 2024,
+    "hub": "Anywhere",
+    "verticals": [
+      "Food & Agriculture",
+      "Carbon Management / CO2e",
+      "Life Science"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "elysium-robotics",
+    "name": "Elysium Robotics",
+    "cohort_year": 2024,
+    "hub": "Houston",
+    "verticals": [
+      "Advanced Manufacturing & Robotics",
+      "Computing"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "every-electric",
+    "name": "Every Electric",
+    "cohort_year": 2024,
+    "hub": "New York",
+    "verticals": [
+      "Energy Storage & Batteries",
+      "Chemistry & Materials"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "exciplex-inc",
+    "name": "ExciPlex",
+    "cohort_year": 2024,
+    "hub": "Anywhere",
+    "verticals": [
+      "Food & Agriculture",
+      "Chemistry & Materials",
+      "Electronics & Connectivity"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "EXCIPLEX, INC.",
+        "amount": 256000,
+        "title": "SBIR Phase I:  Advanced Mycotoxin Detection with Novel Photochemical Diagnostics",
+        "date": "12/01/2021"
+      }
+    ],
+    "nsf_total": 256000,
+    "nsf_count": 1,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "expand-power-technologies",
+    "name": "Expand Power",
+    "cohort_year": 2024,
+    "hub": "Berkeley",
+    "verticals": [
+      "Energy Generation & Delivery",
+      "Advanced Manufacturing & Robotics",
+      "Electronics & Connectivity",
+      "Transportation & Mobility"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "heliotrope-photonics-inc",
+    "name": "Heliotrope Photonics",
+    "cohort_year": 2024,
+    "hub": "Boston",
+    "verticals": [
+      "Energy Generation & Delivery",
+      "Advanced Manufacturing & Robotics"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "hit-nano",
+    "name": "HiT Nano",
+    "cohort_year": 2024,
+    "hub": "New York",
+    "verticals": [
+      "Chemistry & Materials",
+      "Advanced Manufacturing & Robotics",
+      "Energy Storage & Batteries"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 1,
+    "has_outcome": true
+  },
+  {
+    "slug": "huminly",
+    "name": "Huminly",
+    "cohort_year": 2024,
+    "hub": "Berkeley",
+    "verticals": [
+      "Industrial Biotechnology",
+      "Chemistry & Materials",
+      "Computing",
+      "Life Science"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "hyperion-transport-systems-inc",
+    "name": "Hyperion Transport Systems",
+    "cohort_year": 2024,
+    "hub": "Boston",
+    "verticals": [
+      "Space & Aeronautics",
+      "Transportation & Mobility"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "icarus-quantum",
+    "name": "Icarus Quantum",
+    "cohort_year": 2024,
+    "hub": "Anywhere",
+    "verticals": [
+      "Computing"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "ICARUS QUANTUM INC.",
+        "amount": 305000,
+        "title": "SBIR Phase I: A Tunable Source of On-Demand Single and Entangled Photons",
+        "date": "10/01/2025"
+      }
+    ],
+    "nsf_total": 305000,
+    "nsf_count": 1,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "atolla-tech",
+    "name": "Kytyra",
+    "cohort_year": 2024,
+    "hub": "Houston",
+    "verticals": [
+      "Food & Agriculture"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "lumistrain",
+    "name": "LumiStrain, Inc.",
+    "cohort_year": 2024,
+    "hub": "Houston",
+    "verticals": [
+      "Advanced Manufacturing & Robotics",
+      "Chemistry & Materials"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "LUMISTRAIN, INC.",
+        "amount": 1549408,
+        "title": "SBIR Fast-Track: Strain Sensing Smart Skin (S4) for Structural Testing and Health Monitoring",
+        "date": "07/01/2026"
+      }
+    ],
+    "nsf_total": 1549408,
+    "nsf_count": 1,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "manifest-technologies",
+    "name": "Manifest Technologies",
+    "cohort_year": 2024,
+    "hub": "Anywhere",
+    "verticals": [
+      "Advanced Manufacturing & Robotics"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "mithril-technologies-inc",
+    "name": "Mithril Technologies",
+    "cohort_year": 2024,
+    "hub": "Boston",
+    "verticals": [
+      "Space & Aeronautics",
+      "Advanced Manufacturing & Robotics",
+      "Earth Resources",
+      "Food & Agriculture",
+      "Water"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "motibera-inc",
+    "name": "Motibera",
+    "cohort_year": 2024,
+    "hub": "Anywhere",
+    "verticals": [
+      "Energy Generation & Delivery",
+      "Advanced Manufacturing & Robotics",
+      "Climate"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "nanoscale-labs",
+    "name": "Nanoscale Labs",
+    "cohort_year": 2024,
+    "hub": "Houston",
+    "verticals": [
+      "Chemistry & Materials",
+      "Advanced Manufacturing & Robotics"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "newfound-materials",
+    "name": "Newfound Materials",
+    "cohort_year": 2024,
+    "hub": "Houston",
+    "verticals": [
+      "Chemistry & Materials",
+      "Advanced Manufacturing & Robotics",
+      "Computing"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "nextglass-llc",
+    "name": "NextGlass",
+    "cohort_year": 2024,
+    "hub": "Anywhere",
+    "verticals": [
+      "Built Environment",
+      "Advanced Manufacturing & Robotics",
+      "Carbon Management / CO2e"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "NEXTGLASS LLC",
+        "amount": 256000,
+        "title": "SBIR Phase I:  Low-Cost, High-Performance, Vacuum Insulated Glass Window",
+        "date": "08/01/2023"
+      }
+    ],
+    "nsf_total": 256000,
+    "nsf_count": 1,
+    "edgar_formD": 1,
+    "has_outcome": true
+  },
+  {
+    "slug": "oleo-sustainable-palm-oil-solutions",
+    "name": "Oleo",
+    "cohort_year": 2024,
+    "hub": "Berkeley",
+    "verticals": [
+      "Industrial Biotechnology",
+      "Carbon Management / CO2e",
+      "Food & Agriculture",
+      "Transportation & Mobility"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "one-d-nano",
+    "name": "One-D Nano",
+    "cohort_year": 2024,
+    "hub": "New York",
+    "verticals": [
+      "Chemistry & Materials",
+      "Energy Generation & Delivery"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "phnx-materials",
+    "name": "PHNX Materials",
+    "cohort_year": 2024,
+    "hub": "Houston",
+    "verticals": [
+      "Earth Resources",
+      "Built Environment",
+      "Chemistry & Materials"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "plumajet",
+    "name": "Plumajet Inc",
+    "cohort_year": 2024,
+    "hub": "New York",
+    "verticals": [
+      "Advanced Manufacturing & Robotics",
+      "Chemistry & Materials"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "praio",
+    "name": "Praio",
+    "cohort_year": 2024,
+    "hub": "Berkeley",
+    "verticals": [
+      "Industrial Biotechnology",
+      "Carbon Management / CO2e",
+      "Chemistry & Materials"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "prospect-growth",
+    "name": "Prospect Growth",
+    "cohort_year": 2024,
+    "hub": "Boston",
+    "verticals": [
+      "Food & Agriculture",
+      "Carbon Management / CO2e",
+      "Chemistry & Materials"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "pumpkin",
+    "name": "PumpKin",
+    "cohort_year": 2024,
+    "hub": "New York",
+    "verticals": [
+      "Food & Agriculture",
+      "Chemistry & Materials",
+      "Life Science"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 13,
+    "has_outcome": true
+  },
+  {
+    "slug": "rapid-radicals-technology",
+    "name": "Rapid Radicals",
+    "cohort_year": 2024,
+    "hub": "Anywhere",
+    "verticals": [
+      "Water",
+      "Built Environment",
+      "Chemistry & Materials"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "RAPID RADICALS TECHNOLOGY LLC",
+        "amount": 1180292,
+        "title": "SBIR Phase II:  An Advanced, Mobile, High-Rate Water Treatment System",
+        "date": "11/15/2021"
+      },
+      {
+        "source": "NSF",
+        "awardee": "RAPID RADICALS TECHNOLOGY LLC",
+        "amount": 224953,
+        "title": "STTR Phase I:  Pilot-scale Advanced, High-Rate Wet Weather Treatment Scale-up and Optimization",
+        "date": "07/01/2019"
+      }
+    ],
+    "nsf_total": 1405245,
+    "nsf_count": 2,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "raven-space-systems",
+    "name": "Raven Space Systems",
+    "cohort_year": 2024,
+    "hub": "Houston",
+    "verticals": [
+      "Space & Aeronautics",
+      "Advanced Manufacturing & Robotics"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "RAVEN SPACE SYSTEMS, INC.",
+        "amount": 275000,
+        "title": "SBIR Phase I: 3D Printing Reentry Capsules",
+        "date": "12/15/2023"
+      }
+    ],
+    "nsf_total": 275000,
+    "nsf_count": 1,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "reforge-robotics",
+    "name": "Reforge Robotics",
+    "cohort_year": 2024,
+    "hub": "Berkeley",
+    "verticals": [
+      "Advanced Manufacturing & Robotics",
+      "Built Environment",
+      "Computing",
+      "Space & Aeronautics"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "resolute-methane",
+    "name": "Resolute Methane",
+    "cohort_year": 2024,
+    "hub": "Boston",
+    "verticals": [
+      "Carbon Management / CO2e",
+      "Food & Agriculture"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "rhoic",
+    "name": "Rhoic",
+    "cohort_year": 2024,
+    "hub": "Berkeley",
+    "verticals": [
+      "Carbon Management / CO2e"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 2,
+    "has_outcome": true
+  },
+  {
+    "slug": "robotics-88",
+    "name": "Robotics 88",
+    "cohort_year": 2024,
+    "hub": "Boston",
+    "verticals": [
+      "Advanced Manufacturing & Robotics",
+      "Carbon Management / CO2e",
+      "Computing",
+      "Earth Resources",
+      "Life Science"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "rstream",
+    "name": "rStream",
+    "cohort_year": 2024,
+    "hub": "Boston",
+    "verticals": [
+      "Advanced Manufacturing & Robotics",
+      "Built Environment",
+      "Chemistry & Materials",
+      "Computing"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "RSTREAM RECYCLING INC",
+        "amount": 1194168,
+        "title": "SBIR Phase II: Autonomous waste sorting platform for decentralized pre-processing",
+        "date": "09/01/2024"
+      },
+      {
+        "source": "NSF",
+        "awardee": "RSTREAM RECYCLING LLC",
+        "amount": 275000,
+        "title": "SBIR Phase I:  Autonomous waste sorting platform for decentralized pre-processing",
+        "date": "02/01/2023"
+      }
+    ],
+    "nsf_total": 1469168,
+    "nsf_count": 2,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "sharp-diagnostics",
+    "name": "SHARP Diagnostics",
+    "cohort_year": 2024,
+    "hub": "Anywhere",
+    "verticals": [
+      "Life Science",
+      "Industrial Biotechnology"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "sinkco-labs",
+    "name": "Sinkco Labs",
+    "cohort_year": 2024,
+    "hub": "New York",
+    "verticals": [
+      "Carbon Management / CO2e",
+      "Chemistry & Materials",
+      "Food & Agriculture"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "solidec",
+    "name": "Solidec",
+    "cohort_year": 2024,
+    "hub": "Houston",
+    "verticals": [
+      "Carbon Management / CO2e"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "SOLIDEC INC.",
+        "amount": 1555000,
+        "title": "SBIR Fast-Track: Direct Electrochemical Generation of Caustic Peroxide in a Porous Solid Electrolyte Reactor for Onsite Applications",
+        "date": "09/01/2025"
+      }
+    ],
+    "nsf_total": 1555000,
+    "nsf_count": 1,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "supercarb",
+    "name": "Supercarb",
+    "cohort_year": 2024,
+    "hub": "Berkeley",
+    "verticals": [
+      "Chemistry & Materials",
+      "Advanced Manufacturing & Robotics",
+      "Carbon Management / CO2e",
+      "Earth Resources",
+      "Food & Agriculture",
+      "Industrial Biotechnology",
+      "Life Science"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "tatta-bio",
+    "name": "Tatta Bio",
+    "cohort_year": 2024,
+    "hub": "New York, Boston",
+    "verticals": [
+      "Life Science",
+      "Computing",
+      "Industrial Biotechnology"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "topolight",
+    "name": "TopoLight",
+    "cohort_year": 2024,
+    "hub": "Berkeley",
+    "verticals": [
+      "Electronics & Connectivity",
+      "Advanced Manufacturing & Robotics",
+      "Chemistry & Materials",
+      "Space & Aeronautics",
+      "Transportation & Mobility"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "TOPOLIGHT, INC.",
+        "amount": 305000,
+        "title": "SBIR Phase I: High-Power, Surface-Emitting, Single-Mode Laser Chips with Photonics Crystal Cavity Design",
+        "date": "10/01/2025"
+      }
+    ],
+    "nsf_total": 305000,
+    "nsf_count": 1,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Allium Engineering",
+    "cohort_year": 2023,
+    "hub": "Boston",
+    "verticals": [
+      "Climate",
+      "Built Environment",
+      "Transportation & Mobility"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "ALLIUM ENGINEERING, INC",
+        "amount": 294993,
+        "title": "SBIR Phase I:  High-performance, chloride-proof, ferritic steel for cold spray coating of steel rebar",
+        "date": "04/01/2023"
+      }
+    ],
+    "nsf_total": 294993,
+    "nsf_count": 1,
+    "edgar_formD": 2,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Alva Energy",
+    "cohort_year": 2023,
+    "hub": "Boston",
+    "verticals": [],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "",
+    "name": "Anthology",
+    "cohort_year": 2023,
+    "hub": "Boston",
+    "verticals": [
+      "Chemistry & Materials",
+      "Industrial Biotechnology"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 7,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Arbon",
+    "cohort_year": 2023,
+    "hub": "New York",
+    "verticals": [
+      "Climate",
+      "Carbon Management / CO2e"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 5,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Arrakis Materials",
+    "cohort_year": 2023,
+    "hub": "Boston",
+    "verticals": [
+      "Climate",
+      "Built Environment",
+      "Carbon Management / CO2e"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "",
+    "name": "AsimicA",
+    "cohort_year": 2023,
+    "hub": "Berkeley",
+    "verticals": [
+      "Industrial Biotechnology",
+      "Life Science"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "ASIMICA LLC",
+        "amount": 1250000,
+        "title": "SBIR Phase II: Microbial Stem Cell Technology for High-Yield Terpene Biomanufacturing",
+        "date": "06/15/2026"
+      },
+      {
+        "source": "NSF",
+        "awardee": "ASIMICA LLC",
+        "amount": 274100,
+        "title": "SBIR Phase I:  Boosting Industrial Bio-Fermentation with Microbial Stem Cells",
+        "date": "05/01/2023"
+      }
+    ],
+    "nsf_total": 1524100,
+    "nsf_count": 2,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Banyu Carbon",
+    "cohort_year": 2023,
+    "hub": "Anywhere",
+    "verticals": [
+      "Climate",
+      "Carbon Management / CO2e",
+      "Water"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "BANYU CARBON INC",
+        "amount": 274094,
+        "title": "SBIR Phase I: CAS: A light-based, energy-generating, carbon removal process",
+        "date": "01/15/2024"
+      }
+    ],
+    "nsf_total": 274094,
+    "nsf_count": 1,
+    "edgar_formD": 1,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Blaze Energy",
+    "cohort_year": 2023,
+    "hub": "Anywhere",
+    "verticals": [
+      "Climate",
+      "Chemistry & Materials",
+      "Energy Generation & Delivery"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "",
+    "name": "Boston Atomics",
+    "cohort_year": 2023,
+    "hub": "Boston",
+    "verticals": [
+      "Advanced Manufacturing & Robotics",
+      "Energy Generation & Delivery"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "",
+    "name": "Brekland",
+    "cohort_year": 2023,
+    "hub": "New York",
+    "verticals": [
+      "Food & Agriculture",
+      "Chemistry & Materials",
+      "Climate"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "",
+    "name": "Calion Technologies",
+    "cohort_year": 2023,
+    "hub": "Berkeley",
+    "verticals": [
+      "Climate",
+      "Built Environment",
+      "Chemistry & Materials"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "capillary-nanotechnologies",
+    "name": "Capillary Nanotechnologies",
+    "cohort_year": 2023,
+    "hub": "Anywhere",
+    "verticals": [
+      "Advanced Manufacturing & Robotics",
+      "Chemistry & Materials",
+      "Electronics & Connectivity"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "",
+    "name": "Cella Mineral Storage",
+    "cohort_year": 2023,
+    "hub": "New York",
+    "verticals": [
+      "Climate",
+      "Earth Resources",
+      "Carbon Management / CO2e"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 1,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Dottir Labs",
+    "cohort_year": 2023,
+    "hub": "Boston",
+    "verticals": [
+      "Advanced Manufacturing & Robotics",
+      "Chemistry & Materials"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "",
+    "name": "Eva",
+    "cohort_year": 2023,
+    "hub": "Boston",
+    "verticals": [
+      "Computing",
+      "Electronics & Connectivity"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 306,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Feon Energy",
+    "cohort_year": 2023,
+    "hub": "Boston",
+    "verticals": [
+      "Climate",
+      "Chemistry & Materials",
+      "Energy Storage & Batteries"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 1,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "florrent",
+    "cohort_year": 2023,
+    "hub": "Boston",
+    "verticals": [
+      "Climate",
+      "Food & Agriculture",
+      "Energy Storage & Batteries"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 3,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Flux XII",
+    "cohort_year": 2023,
+    "hub": "Anywhere",
+    "verticals": [
+      "Climate",
+      "Energy Storage & Batteries",
+      "Chemistry & Materials"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "gel-matter",
+    "name": "Gel Matter",
+    "cohort_year": 2023,
+    "hub": "New York",
+    "verticals": [
+      "Advanced Manufacturing & Robotics",
+      "Industrial Biotechnology",
+      "Life Science"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "",
+    "name": "Geolabe",
+    "cohort_year": 2023,
+    "hub": "Anywhere",
+    "verticals": [
+      "Climate",
+      "Computing",
+      "Space & Aeronautics",
+      "Carbon Management / CO2e"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "GEOLABE LLC",
+        "amount": 254707,
+        "title": "SBIR Phase I:  Autonomous Interferometric Synthetic Aperture Radar (InSAR) for surface deformation monitoring",
+        "date": "03/01/2023"
+      }
+    ],
+    "nsf_total": 254707,
+    "nsf_count": 1,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "HOPO Therapeutics",
+    "cohort_year": 2023,
+    "hub": "Berkeley",
+    "verticals": [
+      "Industrial Biotechnology",
+      "Life Science"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "",
+    "name": "Juno Propulsion",
+    "cohort_year": 2023,
+    "hub": "Anywhere",
+    "verticals": [
+      "Space & Aeronautics"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "JUNO PROPULSION INC.",
+        "amount": 274969,
+        "title": "SBIR Phase I: Rotating Detonation Combustion Satellite Thruster Using Novel, Non-toxic Propellants",
+        "date": "09/15/2024"
+      }
+    ],
+    "nsf_total": 274969,
+    "nsf_count": 1,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Lucidean",
+    "cohort_year": 2023,
+    "hub": "Anywhere",
+    "verticals": [
+      "Computing",
+      "Electronics & Connectivity"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "",
+    "name": "Morphosis",
+    "cohort_year": 2023,
+    "hub": "Berkeley",
+    "verticals": [
+      "Computing",
+      "Life Science",
+      "Electronics & Connectivity"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "MORPHOSIS INC",
+        "amount": 275000,
+        "title": "SBIR Phase I:  Continuous Identity Verification via Wearable Neural Interfaces",
+        "date": "09/01/2024"
+      }
+    ],
+    "nsf_total": 275000,
+    "nsf_count": 1,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Novel Farms",
+    "cohort_year": 2023,
+    "hub": "Berkeley",
+    "verticals": [
+      "Industrial Biotechnology",
+      "Food & Agriculture"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "NOVEL FARMS, INC.",
+        "amount": 1582910,
+        "title": "SBIR Phase II:  Microbe-based scaffold for the generation of structured cell-based meat",
+        "date": "09/15/2023"
+      },
+      {
+        "source": "NSF",
+        "awardee": "NOVEL FARMS, INC.",
+        "amount": 256000,
+        "title": "SBIR Phase I:  Microbe-based scaffold for the generation of structured cell-based meat",
+        "date": "08/01/2021"
+      }
+    ],
+    "nsf_total": 1838910,
+    "nsf_count": 2,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Opera Bioscience",
+    "cohort_year": 2023,
+    "hub": "Anywhere",
+    "verticals": [
+      "Industrial Biotechnology",
+      "Life Science"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "OPERA BIOSCIENCE, INC.",
+        "amount": 1248994,
+        "title": "SBIR Phase II:  A Gram-Negative Bacterial Secretion Platform for Cost-Effective, High-Purity Recombinant Protein Production",
+        "date": "06/15/2025"
+      },
+      {
+        "source": "NSF",
+        "awardee": "OPERA BIOSCIENCE, INC.",
+        "amount": 275000,
+        "title": "SBIR Phase I: A low-cost, bacterial production platform for the manufacturing of high purity recombinant proteins and growth factors",
+        "date": "06/15/2023"
+      }
+    ],
+    "nsf_total": 1523994,
+    "nsf_count": 2,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "OsRostrum Inc",
+    "cohort_year": 2023,
+    "hub": "Anywhere",
+    "verticals": [
+      "Computing",
+      "Food & Agriculture"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "",
+    "name": "Pascal",
+    "cohort_year": 2023,
+    "hub": "Boston",
+    "verticals": [
+      "Climate",
+      "Built Environment",
+      "Chemistry & Materials"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "PASCAL TAGS INC",
+        "amount": 1731999,
+        "title": "SBIR Phase II:  Material Adjusted Signature Tags for Cradle-to-Grave Inventory Applications",
+        "date": "04/01/2022"
+      }
+    ],
+    "nsf_total": 1731999,
+    "nsf_count": 1,
+    "edgar_formD": 527,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Photonect Interconnect Solutions",
+    "cohort_year": 2023,
+    "hub": "New York",
+    "verticals": [
+      "Advanced Manufacturing & Robotics",
+      "Computing",
+      "Electronics & Connectivity"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "PHOTONECT INTERCONNECT SOLUTIONS INC",
+        "amount": 1499871,
+        "title": "SBIR Phase II: Development of a Chip Technology for Cheaper and Easier Photonic Device Manufacturing",
+        "date": "06/15/2025"
+      },
+      {
+        "source": "NSF",
+        "awardee": "PHOTONECT INTERCONNECT SOLUTIONS INC",
+        "amount": 274996,
+        "title": "SBIR Phase I: Development of a Chip Technology for Cheaper and Easier Photonic Device Manufacturing",
+        "date": "06/15/2023"
+      }
+    ],
+    "nsf_total": 1774867,
+    "nsf_count": 2,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "RareTerra",
+    "cohort_year": 2023,
+    "hub": "Berkeley",
+    "verticals": [
+      "Chemistry & Materials",
+      "Industrial Biotechnology"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "",
+    "name": "ReynKo",
+    "cohort_year": 2023,
+    "hub": "New York",
+    "verticals": [
+      "Advanced Manufacturing & Robotics",
+      "Transportation & Mobility",
+      "Computing",
+      "Space & Aeronautics"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "",
+    "name": "RockFix",
+    "cohort_year": 2023,
+    "hub": "New York",
+    "verticals": [
+      "Climate",
+      "Earth Resources",
+      "Chemistry & Materials",
+      "Carbon Management / CO2e"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "",
+    "name": "SirenOpt",
+    "cohort_year": 2023,
+    "hub": "Berkeley",
+    "verticals": [
+      "Advanced Manufacturing & Robotics",
+      "Chemistry & Materials",
+      "Computing"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "SIRENOPT INC",
+        "amount": 274770,
+        "title": "SBIR Phase I: Cold Atmospheric Plasma Sensor for In-Line Metrology of Battery Electrode Manufacturing",
+        "date": "09/01/2024"
+      }
+    ],
+    "nsf_total": 274770,
+    "nsf_count": 1,
+    "edgar_formD": 1,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "SixLine Semiconductor",
+    "cohort_year": 2023,
+    "hub": "Anywhere",
+    "verticals": [
+      "Computing",
+      "Electronics & Connectivity",
+      "Chemistry & Materials"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "SIXLINE SEMICONDUCTOR, INC.",
+        "amount": 274503,
+        "title": "STTR Phase I:  Next-Gen Radiofrequency Transistors on Silicon via Aligned, Residue-Free Carbon Nanotubes",
+        "date": "09/01/2023"
+      }
+    ],
+    "nsf_total": 274503,
+    "nsf_count": 1,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Terra Watts",
+    "cohort_year": 2023,
+    "hub": "New York",
+    "verticals": [
+      "Earth Resources",
+      "Energy Generation & Delivery",
+      "Food & Agriculture"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "TERRA WATTS INC.",
+        "amount": 305000,
+        "title": "STTR Phase I: Development of Earth-Based, Long-Range Wireless Power Transfer for Subsurface IoT Systems",
+        "date": "07/15/2025"
+      }
+    ],
+    "nsf_total": 305000,
+    "nsf_count": 1,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Varada Agriculture",
+    "cohort_year": 2023,
+    "hub": "Berkeley",
+    "verticals": [
+      "Industrial Biotechnology",
+      "Food & Agriculture"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "",
+    "name": "Vellex Computing",
+    "cohort_year": 2023,
+    "hub": "Berkeley",
+    "verticals": [
+      "Climate",
+      "Energy Generation & Delivery",
+      "Computing",
+      "Electronics & Connectivity"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "VELLEX COMPUTING, INC.",
+        "amount": 305000,
+        "title": "SBIR Phase I: An Analog Hardware Accelerator for Power Systems Feasibility Studies",
+        "date": "10/01/2025"
+      }
+    ],
+    "nsf_total": 305000,
+    "nsf_count": 1,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Vyir",
+    "cohort_year": 2023,
+    "hub": "New York",
+    "verticals": [
+      "Climate",
+      "Electronics & Connectivity",
+      "Carbon Management / CO2e"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "",
+    "name": "Westwood Aerogel",
+    "cohort_year": 2023,
+    "hub": "Berkeley",
+    "verticals": [
+      "Advanced Manufacturing & Robotics",
+      "Chemistry & Materials",
+      "Transportation & Mobility",
+      "Energy Storage & Batteries"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "WESTWOOD AEROGEL CO.",
+        "amount": 274855,
+        "title": "SBIR Phase I:  Advanced Manufacturing for Aerogels for Low and Zero-Emission Applications",
+        "date": "07/01/2024"
+      }
+    ],
+    "nsf_total": 274855,
+    "nsf_count": 1,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Aepnus Technology",
+    "cohort_year": 2022,
+    "hub": "Berkeley",
+    "verticals": [
+      "Advanced Manufacturing & Robotics",
+      "Chemistry & Materials",
+      "Energy Storage & Batteries"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "AEPNUS TECHNOLOGY INC",
+        "amount": 274986,
+        "title": "SBIR Phase I:  Novel electrolyzer architectures to enable electrified chemical manufacturing at industrial scales",
+        "date": "09/15/2023"
+      }
+    ],
+    "nsf_total": 274986,
+    "nsf_count": 1,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Anvil Diagnostics",
+    "cohort_year": 2022,
+    "hub": "Boston",
+    "verticals": [
+      "Industrial Biotechnology",
+      "Life Science"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "ANVIL DIAGNOSTICS INC.",
+        "amount": 298646,
+        "title": "SBIR Phase I:  Ultra-Sensitive and Multiplexed Pathogen Profiling for Neonatal Sepsis Detection",
+        "date": "01/15/2025"
+      }
+    ],
+    "nsf_total": 298646,
+    "nsf_count": 1,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "BluumBio",
+    "cohort_year": 2022,
+    "hub": "Berkeley",
+    "verticals": [
+      "Industrial Biotechnology",
+      "Life Science"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "closed-composites",
+    "name": "Closed Composites",
+    "cohort_year": 2022,
+    "hub": "Boston",
+    "verticals": [
+      "Advanced Manufacturing & Robotics",
+      "Chemistry & Materials"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "",
+    "name": "Foray Bioscience",
+    "cohort_year": 2022,
+    "hub": "New York",
+    "verticals": [
+      "Industrial Biotechnology",
+      "Food & Agriculture"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 1,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Found Energy",
+    "cohort_year": 2022,
+    "hub": "Boston",
+    "verticals": [
+      "Climate",
+      "Chemistry & Materials",
+      "Energy Generation & Delivery"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 11,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Impact Cooling",
+    "cohort_year": 2022,
+    "hub": "Anywhere",
+    "verticals": [
+      "Climate",
+      "Computing",
+      "Electronics & Connectivity"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "innate-energy",
+    "name": "Innate Energy",
+    "cohort_year": 2022,
+    "hub": "New York",
+    "verticals": [
+      "Climate",
+      "Energy Storage & Batteries"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "",
+    "name": "Ivu Biologics",
+    "cohort_year": 2022,
+    "hub": "Boston",
+    "verticals": [
+      "Industrial Biotechnology",
+      "Food & Agriculture"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "IVU BIOLOGICS, INC.",
+        "amount": 256000,
+        "title": "SBIR Phase I:  Engineering Seed Microenvironment",
+        "date": "04/01/2022"
+      }
+    ],
+    "nsf_total": 256000,
+    "nsf_count": 1,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Limelight Steel",
+    "cohort_year": 2022,
+    "hub": "Anywhere",
+    "verticals": [
+      "Climate",
+      "Built Environment",
+      "Chemistry & Materials",
+      "Earth Resources"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "LIMELIGHT STEEL INC.",
+        "amount": 275000,
+        "title": "SBIR Phase I:  Laser furnace to thermally decompose iron oxides for cost-competitive green iron production",
+        "date": "05/01/2024"
+      }
+    ],
+    "nsf_total": 275000,
+    "nsf_count": 1,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Lithios",
+    "cohort_year": 2022,
+    "hub": "Boston",
+    "verticals": [
+      "Earth Resources",
+      "Energy Storage & Batteries"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 3,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Ludwig Computing",
+    "cohort_year": 2022,
+    "hub": "Berkeley",
+    "verticals": [
+      "Computing"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "orien-energy",
+    "name": "Orien Energy",
+    "cohort_year": 2022,
+    "hub": "Boston",
+    "verticals": [
+      "Climate",
+      "Energy Generation & Delivery",
+      "Chemistry & Materials"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "",
+    "name": "PseudolithIC",
+    "cohort_year": 2022,
+    "hub": "Anywhere",
+    "verticals": [
+      "Advanced Manufacturing & Robotics",
+      "Electronics & Connectivity",
+      "Computing"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "PSEUDOLITHIC, LLC",
+        "amount": 1491261,
+        "title": "SBIR Phase II:  Integration of Heterogeneous Device Technologies",
+        "date": "05/15/2023"
+      },
+      {
+        "source": "NSF",
+        "awardee": "PSEUDOLITHIC, LLC",
+        "amount": 255999,
+        "title": "SBIR Phase I: Integration of Heterogeneous Device Technologies",
+        "date": "08/01/2021"
+      }
+    ],
+    "nsf_total": 1747260,
+    "nsf_count": 2,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Pulsenics",
+    "cohort_year": 2022,
+    "hub": "Anywhere",
+    "verticals": [
+      "Climate",
+      "Chemistry & Materials",
+      "Energy Storage & Batteries"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "",
+    "name": "Quorum Bio",
+    "cohort_year": 2022,
+    "hub": "New York",
+    "verticals": [
+      "Industrial Biotechnology",
+      "Food & Agriculture"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "",
+    "name": "REEgen",
+    "cohort_year": 2022,
+    "hub": "Anywhere",
+    "verticals": [
+      "Industrial Biotechnology",
+      "Earth Resources",
+      "Climate"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "REEGEN INC",
+        "amount": 1112040,
+        "title": "SBIR Phase II: A biological solution to improving the United States rare earth supply chain",
+        "date": "09/15/2025"
+      },
+      {
+        "source": "NSF",
+        "awardee": "REEGEN INC",
+        "amount": 275000,
+        "title": "SBIR Phase I:  A clean, biological solution to sustainable energy’s rare earth problem",
+        "date": "08/01/2023"
+      }
+    ],
+    "nsf_total": 1387040,
+    "nsf_count": 2,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Robigo",
+    "cohort_year": 2022,
+    "hub": "Boston",
+    "verticals": [
+      "Industrial Biotechnology",
+      "Food & Agriculture"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "ROBIGO, INC.",
+        "amount": 1247238,
+        "title": "SBIR Phase II: Engineering the Plant Microbiome to Reduce Disease in Crops",
+        "date": "09/15/2025"
+      },
+      {
+        "source": "NSF",
+        "awardee": "ROBIGO, INC.",
+        "amount": 274999,
+        "title": "SBIR Phase I:  Engineering the Plant Microbiome to Reduce Disease in Crops",
+        "date": "05/01/2023"
+      }
+    ],
+    "nsf_total": 1522237,
+    "nsf_count": 2,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "roca-water",
+    "name": "Roca Water",
+    "cohort_year": 2022,
+    "hub": "Anywhere",
+    "verticals": [
+      "Water",
+      "Chemistry & Materials"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "ROCA WATER, INC.",
+        "amount": 1165000,
+        "title": "SBIR Phase II:  Addressing Freshwater Salinization and Freshwater Scarcity with a Chloride Selective Removal and Recovery System",
+        "date": "04/01/2024"
+      }
+    ],
+    "nsf_total": 1165000,
+    "nsf_count": 1,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Root Applied Sciences",
+    "cohort_year": 2022,
+    "hub": "Berkeley",
+    "verticals": [
+      "Advanced Manufacturing & Robotics",
+      "Industrial Biotechnology",
+      "Food & Agriculture"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "",
+    "name": "Soctera",
+    "cohort_year": 2022,
+    "hub": "Anywhere",
+    "verticals": [
+      "Electronics & Connectivity"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "SOCTERA, INC.",
+        "amount": 1487499,
+        "title": "SBIR Phase II: Thermally-optimized power amplifiers for next-generation telecommunication and radar",
+        "date": "03/15/2024"
+      },
+      {
+        "source": "NSF",
+        "awardee": "SOCTERA, INC.",
+        "amount": 256000,
+        "title": "STTR Phase I:  Scaling of AlN/GaN/AlN HEMTs via molecular beam epitaxy",
+        "date": "08/01/2021"
+      }
+    ],
+    "nsf_total": 1743499,
+    "nsf_count": 2,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Solopulse",
+    "cohort_year": 2022,
+    "hub": "Anywhere",
+    "verticals": [
+      "Transportation & Mobility",
+      "Space & Aeronautics",
+      "Electronics & Connectivity"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "SOLOPULSE CORP.",
+        "amount": 274059,
+        "title": "SBIR Phase I:  Single-Pulse Radio Frequency Software Suite to Improve Advanced Driver Assistance Systems Safety",
+        "date": "07/01/2023"
+      }
+    ],
+    "nsf_total": 274059,
+    "nsf_count": 1,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Still Bright",
+    "cohort_year": 2022,
+    "hub": "New York, Boston",
+    "verticals": [
+      "Climate",
+      "Earth Resources",
+      "Chemistry & Materials"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "",
+    "name": "Sunchem",
+    "cohort_year": 2022,
+    "hub": "Berkeley",
+    "verticals": [
+      "Chemistry & Materials",
+      "Water"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "SUNCHEM LLC",
+        "amount": 256000,
+        "title": "SBIR Phase I:  Nanofilters for Selective Gold Extraction",
+        "date": "05/15/2022"
+      }
+    ],
+    "nsf_total": 256000,
+    "nsf_count": 1,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Tensora",
+    "cohort_year": 2022,
+    "hub": "New York",
+    "verticals": [
+      "Climate",
+      "Earth Resources",
+      "Carbon Management / CO2e"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 1,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "ThermoBionics",
+    "cohort_year": 2022,
+    "hub": "Boston",
+    "verticals": [
+      "Climate",
+      "Built Environment",
+      "Life Science"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "THERMOBIONICS L.L.C.",
+        "amount": 225000,
+        "title": "SBIR Phase I:  Droplet Transport Technology for Ultralight Wearable Cooling System",
+        "date": "06/01/2019"
+      }
+    ],
+    "nsf_total": 225000,
+    "nsf_count": 1,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Turnover Labs",
+    "cohort_year": 2022,
+    "hub": "New York",
+    "verticals": [
+      "Climate",
+      "Chemistry & Materials",
+      "Carbon Management / CO2e"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "",
+    "name": "Tyfast",
+    "cohort_year": 2022,
+    "hub": "Berkeley",
+    "verticals": [
+      "Transportation & Mobility",
+      "Energy Storage & Batteries"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "TYFAST ENERGY CORP.",
+        "amount": 934823,
+        "title": "SBIR Phase II: High-Performance Batteries to Decarbonize Heavy Duty Construction Equipment",
+        "date": "04/01/2024"
+      },
+      {
+        "source": "NSF",
+        "awardee": "TYFAST ENERGY CORP.",
+        "amount": 256000,
+        "title": "SBIR Phase I:  Ultrafast Charge and Extended Life Batteries for Electric Transportation",
+        "date": "03/15/2022"
+      }
+    ],
+    "nsf_total": 1190823,
+    "nsf_count": 2,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "VERDE Nanomaterials",
+    "cohort_year": 2022,
+    "hub": "Berkeley",
+    "verticals": [
+      "Chemistry & Materials",
+      "Industrial Biotechnology"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "",
+    "name": "Vycarb",
+    "cohort_year": 2022,
+    "hub": "New York",
+    "verticals": [
+      "Climate",
+      "Carbon Management / CO2e",
+      "Water"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "",
+    "name": "Wild Microbes",
+    "cohort_year": 2022,
+    "hub": "Boston",
+    "verticals": [
+      "Industrial Biotechnology",
+      "Food & Agriculture"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "WILD MICROBES CO",
+        "amount": 295000,
+        "title": "SBIR Phase I:  Developing new bacterial hosts for productive secretion of difficult-to-express proteins by precision fermentation",
+        "date": "12/15/2024"
+      }
+    ],
+    "nsf_total": 295000,
+    "nsf_count": 1,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Ọsọ Semiconductor",
+    "cohort_year": 2022,
+    "hub": "Berkeley",
+    "verticals": [
+      "Electronics & Connectivity"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "",
+    "name": "Anthro",
+    "cohort_year": 2021,
+    "hub": "Berkeley",
+    "verticals": [
+      "Energy Storage & Batteries"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 3,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Aura Intelligent Systems",
+    "cohort_year": 2021,
+    "hub": "Boston",
+    "verticals": [
+      "Advanced Manufacturing & Robotics",
+      "Transportation & Mobility",
+      "Electronics & Connectivity"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "AURA INTELLIGENT SYSTEMS, INC.",
+        "amount": 256000,
+        "title": "SBIR Phase I:  Digital Imaging Radar for Autonomy Infrastructure",
+        "date": "01/01/2021"
+      }
+    ],
+    "nsf_total": 256000,
+    "nsf_count": 1,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Electrified Thermal Solutions",
+    "cohort_year": 2021,
+    "hub": "Boston",
+    "verticals": [
+      "Climate",
+      "Energy Storage & Batteries"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 2,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Enertia Microsystems",
+    "cohort_year": 2021,
+    "hub": "Berkeley",
+    "verticals": [
+      "Transportation & Mobility",
+      "Space & Aeronautics",
+      "Electronics & Connectivity"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "Enertia Microsystems Inc.",
+        "amount": 224903,
+        "title": "SBIR Phase I:  Commercialization of low-cost micro birdbath resonant gyroscope",
+        "date": "07/01/2018"
+      }
+    ],
+    "nsf_total": 224903,
+    "nsf_count": 1,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "FLO Materials",
+    "cohort_year": 2021,
+    "hub": "Berkeley",
+    "verticals": [
+      "Chemistry & Materials"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "FLO MATERIALS, INC.",
+        "amount": 1250000,
+        "title": "SBIR Phase II: Dynamic Covalent Polymers for Transition to Closed-loop Plastics Economy",
+        "date": "06/01/2026"
+      },
+      {
+        "source": "NSF",
+        "awardee": "FLO MATERIALS, INC.",
+        "amount": 275000,
+        "title": "STTR Phase I: Dynamic Covalent Polymers for Transition to Circular Plastics Economy",
+        "date": "09/01/2024"
+      }
+    ],
+    "nsf_total": 1525000,
+    "nsf_count": 2,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Inlyte Energy",
+    "cohort_year": 2021,
+    "hub": "Berkeley",
+    "verticals": [
+      "Climate",
+      "Energy Storage & Batteries"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 1,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Intropic Materials",
+    "cohort_year": 2021,
+    "hub": "Berkeley",
+    "verticals": [
+      "Chemistry & Materials",
+      "Industrial Biotechnology"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "",
+    "name": "Kano Therapeutics",
+    "cohort_year": 2021,
+    "hub": "Boston",
+    "verticals": [
+      "Industrial Biotechnology",
+      "Life Science"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 1,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "LintrinsIC",
+    "cohort_year": 2021,
+    "hub": "Boston",
+    "verticals": [
+      "Computing",
+      "Electronics & Connectivity"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "",
+    "name": "Loamist",
+    "cohort_year": 2021,
+    "hub": "Berkeley",
+    "verticals": [],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "",
+    "name": "Metavoxel Technologies",
+    "cohort_year": 2021,
+    "hub": "Berkeley",
+    "verticals": [
+      "Advanced Manufacturing & Robotics",
+      "Built Environment"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "",
+    "name": "Osmoses",
+    "cohort_year": 2021,
+    "hub": "Boston",
+    "verticals": [
+      "Climate",
+      "Chemistry & Materials",
+      "Carbon Management / CO2e"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "OSMOSES INC.",
+        "amount": 253815,
+        "title": "SBIR Phase I: Optimization and scaling of ladder polymers for membrane-based gas separations",
+        "date": "08/15/2023"
+      }
+    ],
+    "nsf_total": 253815,
+    "nsf_count": 1,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Pheronym",
+    "cohort_year": 2021,
+    "hub": "Berkeley",
+    "verticals": [
+      "Industrial Biotechnology",
+      "Food & Agriculture"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "Pheronym, Inc.",
+        "amount": 1592729,
+        "title": "SBIR Phase II:  A scalable platform to produce nematode pheromones for crop protection",
+        "date": "07/01/2023"
+      },
+      {
+        "source": "NSF",
+        "awardee": "Pheronym, Inc.",
+        "amount": 249800,
+        "title": "SBIR Phase I:  A scalable platform to produce nematode pheromones for crop protection",
+        "date": "05/01/2020"
+      }
+    ],
+    "nsf_total": 1842529,
+    "nsf_count": 2,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Qunnect",
+    "cohort_year": 2021,
+    "hub": "Boston",
+    "verticals": [
+      "Climate",
+      "Computing",
+      "Electronics & Connectivity"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "QUNNECT, LLC",
+        "amount": 255556,
+        "title": "SBIR Phase I:  Machine Learning Enhanced Hardware for Optimization and Self-tuning of High-Finesse Optical Cavities",
+        "date": "09/01/2020"
+      }
+    ],
+    "nsf_total": 255556,
+    "nsf_count": 1,
+    "edgar_formD": 6,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Revive Labs",
+    "cohort_year": 2021,
+    "hub": "Boston",
+    "verticals": [
+      "Computing"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "",
+    "name": "Semiotic Labs",
+    "cohort_year": 2021,
+    "hub": "Berkeley",
+    "verticals": [
+      "Computing"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "",
+    "name": "Thalo Labs",
+    "cohort_year": 2021,
+    "hub": "New York, Boston",
+    "verticals": [
+      "Climate",
+      "Built Environment",
+      "Carbon Management / CO2e"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "",
+    "name": "AeroShield",
+    "cohort_year": 2020,
+    "hub": "Boston",
+    "verticals": [
+      "Advanced Manufacturing & Robotics",
+      "Built Environment",
+      "Chemistry & Materials"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "AEROSHIELD MATERIALS, INC.",
+        "amount": 1499999,
+        "title": "SBIR Phase II:  Ultra-Clear and Insulating Aerogel for Energy-Efficient Windows",
+        "date": "06/01/2022"
+      },
+      {
+        "source": "NSF",
+        "awardee": "AEROSHIELD MATERIALS, INC.",
+        "amount": 256000,
+        "title": "SBIR Phase I: Defect-free manufacturing of ultra-clear monolithic silica aerogels for insulated glass units",
+        "date": "02/15/2021"
+      }
+    ],
+    "nsf_total": 1755999,
+    "nsf_count": 2,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Concerto Biosciences",
+    "cohort_year": 2020,
+    "hub": "Boston",
+    "verticals": [
+      "Industrial Biotechnology",
+      "Life Science"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 2,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Elmworks",
+    "cohort_year": 2020,
+    "hub": "Berkeley",
+    "verticals": [
+      "Built Environment",
+      "Energy Generation & Delivery",
+      "Electronics & Connectivity"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "",
+    "name": "GigaCrop",
+    "cohort_year": 2020,
+    "hub": "Berkeley",
+    "verticals": [
+      "Industrial Biotechnology",
+      "Food & Agriculture"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "",
+    "name": "Irradiant Technologies",
+    "cohort_year": 2020,
+    "hub": "Boston",
+    "verticals": [
+      "Advanced Manufacturing & Robotics",
+      "Electronics & Connectivity"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "Irradiant Technologies Inc.",
+        "amount": 255687,
+        "title": "SBIR Phase I:  Large nanostructured changes in refractive index in any 3D geometry",
+        "date": "06/01/2021"
+      }
+    ],
+    "nsf_total": 255687,
+    "nsf_count": 1,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "METAseismic",
+    "cohort_year": 2020,
+    "hub": "Berkeley",
+    "verticals": [
+      "Built Environment",
+      "Chemistry & Materials",
+      "Space & Aeronautics"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "MetaSeismic, Inc.",
+        "amount": 916940,
+        "title": "SBIR Phase II:  MetaMaterial for Seismic Energy Absorption",
+        "date": "08/15/2019"
+      },
+      {
+        "source": "NSF",
+        "awardee": "MetaSeismic, Inc.",
+        "amount": 225000,
+        "title": "SBIR Phase I:  MetaMaterial for Seismic Energy Absorption",
+        "date": "07/01/2017"
+      }
+    ],
+    "nsf_total": 1141940,
+    "nsf_count": 2,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Nitricity",
+    "cohort_year": 2020,
+    "hub": "Berkeley",
+    "verticals": [
+      "Climate",
+      "Food & Agriculture"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "NITRICITY INC.",
+        "amount": 256000,
+        "title": "SBIR Phase I:  Enabling On-site Nitrate Fertilizer Production: An Absorption Unit to Efficiently and Selectively Capture Nitrates",
+        "date": "06/15/2021"
+      }
+    ],
+    "nsf_total": 256000,
+    "nsf_count": 1,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Radical Plastics",
+    "cohort_year": 2020,
+    "hub": "Boston",
+    "verticals": [
+      "Chemistry & Materials"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "",
+    "name": "Resonant Link",
+    "cohort_year": 2020,
+    "hub": "Berkeley",
+    "verticals": [
+      "Advanced Manufacturing & Robotics",
+      "Transportation & Mobility",
+      "Life Science",
+      "Electronics & Connectivity"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "Resonant Link LLC",
+        "amount": 224997,
+        "title": "STTR Phase I:  Self-resonant Structures for Long-Range High-Efficiency Wireless Power Transfer",
+        "date": "06/15/2018"
+      }
+    ],
+    "nsf_total": 224997,
+    "nsf_count": 1,
+    "edgar_formD": 3,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "ReSource",
+    "cohort_year": 2020,
+    "hub": "Berkeley",
+    "verticals": [
+      "Chemistry & Materials",
+      "Industrial Biotechnology",
+      "Carbon Management / CO2e"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "",
+    "name": "SiTration",
+    "cohort_year": 2020,
+    "hub": "Boston",
+    "verticals": [
+      "Chemistry & Materials",
+      "Transportation & Mobility",
+      "Energy Storage & Batteries"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "SITRATION, INC.",
+        "amount": 255996,
+        "title": "SBIR Phase I:  Mobile Produced Water Recycling for Reducing Costs in Natural Gas Production",
+        "date": "05/01/2021"
+      }
+    ],
+    "nsf_total": 255996,
+    "nsf_count": 1,
+    "edgar_formD": 9,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Sublime Systems",
+    "cohort_year": 2020,
+    "hub": "Boston",
+    "verticals": [
+      "Climate",
+      "Built Environment",
+      "Chemistry & Materials"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 1,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Sync Computing",
+    "cohort_year": 2020,
+    "hub": "Boston",
+    "verticals": [
+      "Computing"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "",
+    "name": "Umaro Foods",
+    "cohort_year": 2020,
+    "hub": "Berkeley",
+    "verticals": [
+      "Industrial Biotechnology",
+      "Food & Agriculture"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "",
+    "name": "Zanskar",
+    "cohort_year": 2020,
+    "hub": "Berkeley",
+    "verticals": [
+      "Climate",
+      "Earth Resources",
+      "Energy Generation & Delivery",
+      "Computing"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "",
+    "name": "ZestBio",
+    "cohort_year": 2020,
+    "hub": "Berkeley",
+    "verticals": [
+      "Chemistry & Materials",
+      "Industrial Biotechnology",
+      "Food & Agriculture"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "ZestBio, Inc.",
+        "amount": 1143005,
+        "title": "SBIR Phase II:  Microbial conversion of pectin-rich agricultural byproducts into specialty chemicals",
+        "date": "05/01/2020"
+      },
+      {
+        "source": "NSF",
+        "awardee": "ZestBio, Inc.",
+        "amount": 225000,
+        "title": "SBIR Phase I:  Microbial conversion of pectin-rich agricultural waste into specialty chemicals",
+        "date": "07/01/2018"
+      }
+    ],
+    "nsf_total": 1368005,
+    "nsf_count": 2,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Aralez Bio",
+    "cohort_year": 2019,
+    "hub": "Berkeley",
+    "verticals": [
+      "Chemistry & Materials",
+      "Industrial Biotechnology",
+      "Life Science"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 1,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Brimstone",
+    "cohort_year": 2019,
+    "hub": "Berkeley",
+    "verticals": [
+      "Climate",
+      "Earth Resources",
+      "Built Environment"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "BRIMSTONE ENERGY, INC.",
+        "amount": 256000,
+        "title": "SBIR Phase I:  Reducing Emissions and Cost in the Production of Conventional Cementitious Materials",
+        "date": "08/01/2021"
+      }
+    ],
+    "nsf_total": 256000,
+    "nsf_count": 1,
+    "edgar_formD": 6,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Cypris Materials",
+    "cohort_year": 2019,
+    "hub": "Berkeley",
+    "verticals": [
+      "Advanced Manufacturing & Robotics",
+      "Chemistry & Materials",
+      "Industrial Biotechnology"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "CYPRIS MATERIALS, INC.",
+        "amount": 1699644,
+        "title": "SBIR Phase II:  Structural Color for Sustainable Printing",
+        "date": "08/15/2021"
+      },
+      {
+        "source": "NSF",
+        "awardee": "CYPRIS MATERIALS, INC.",
+        "amount": 225000,
+        "title": "SBIR Phase I:  Paintable Solar Reflective Coatings for Cool Roof Retrofits",
+        "date": "01/01/2020"
+      }
+    ],
+    "nsf_total": 1924644,
+    "nsf_count": 2,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "InchFab",
+    "cohort_year": 2019,
+    "hub": "Berkeley",
+    "verticals": [
+      "Advanced Manufacturing & Robotics",
+      "Electronics & Connectivity"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "INCHFAB INC.",
+        "amount": 0,
+        "title": "SBIR Phase I:  An Agile Microfabrication Platform for High-Mix, Low-Volume Microchip Production",
+        "date": "02/01/2021"
+      }
+    ],
+    "nsf_total": 0,
+    "nsf_count": 1,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Perceptra Technologies",
+    "cohort_year": 2019,
+    "hub": "Berkeley",
+    "verticals": [
+      "Chemistry & Materials",
+      "Industrial Biotechnology",
+      "Food & Agriculture",
+      "Electronics & Connectivity"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "PERCEPTRA TECHNOLOGIES, INC.",
+        "amount": 275000,
+        "title": "SBIR Phase I: High-Performance Integrated Photonic Raman Analyzers",
+        "date": "09/15/2024"
+      }
+    ],
+    "nsf_total": 275000,
+    "nsf_count": 1,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Reveel",
+    "cohort_year": 2019,
+    "hub": "Berkeley",
+    "verticals": [
+      "Advanced Manufacturing & Robotics"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 1,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "SkyGig",
+    "cohort_year": 2019,
+    "hub": "Berkeley",
+    "verticals": [
+      "Electronics & Connectivity"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "SKYGIG, LLC",
+        "amount": 1199999,
+        "title": "SBIR Phase II: Power-Optimized Beamforming Front-End Technology for High-Capacity Millimeter-Wave Wireless Communications",
+        "date": "08/15/2023"
+      },
+      {
+        "source": "NSF",
+        "awardee": "SKYGIG, LLC",
+        "amount": 1199999,
+        "title": "SBIR Phase II:  High Performance Millimeter-Wave Radiofrequency (RF) Front-End Technology for Multi-Gigabit Wireless Communications",
+        "date": "03/01/2022"
+      },
+      {
+        "source": "NSF",
+        "awardee": "SKYGIG, LLC",
+        "amount": 225000,
+        "title": "SBIR Phase I:  Power-Optimized Beamforming Front-End Technology for High-Capacity Millimeter-Wave Wireless Communications",
+        "date": "06/01/2020"
+      },
+      {
+        "source": "NSF",
+        "awardee": "SKYGIG, LLC",
+        "amount": 225000,
+        "title": "SBIR Phase I:  High Performance Millimeter-Wave RF Front-End Technology for Multi-Gigabit Wireless Communications",
+        "date": "07/01/2019"
+      }
+    ],
+    "nsf_total": 2849998,
+    "nsf_count": 4,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Synopic",
+    "cohort_year": 2019,
+    "hub": "Berkeley",
+    "verticals": [
+      "Life Science",
+      "Electronics & Connectivity"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "Synopic Inc.",
+        "amount": 1199999,
+        "title": "SBIR Phase II: AI-driven 3D imaging and visualization for endoscopy",
+        "date": "09/01/2021"
+      },
+      {
+        "source": "NSF",
+        "awardee": "Synopic Inc.",
+        "amount": 224995,
+        "title": "STTR Phase I:  FlatCam: Inexpensive, Compact Lensless Cameras for IoT Applications",
+        "date": "07/15/2019"
+      }
+    ],
+    "nsf_total": 1424994,
+    "nsf_count": 2,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "terrafuse",
+    "cohort_year": 2019,
+    "hub": "Berkeley",
+    "verticals": [
+      "Climate",
+      "Computing"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "TERRAFUSE, INC.",
+        "amount": 1299950,
+        "title": "SBIR Phase II:  Physics-Informed Machine Learning Emulators to Model Physical Spatio-Temporal Processes for Climate and Weather Risk Forecasting",
+        "date": "04/15/2020"
+      },
+      {
+        "source": "NSF",
+        "awardee": "TERRAFUSE, INC.",
+        "amount": 242050,
+        "title": "SBIR Phase I:  Machine learning emulators of weather and hydroclimate models for operational and financial risk assessment",
+        "date": "01/01/2019"
+      }
+    ],
+    "nsf_total": 1542000,
+    "nsf_count": 2,
+    "edgar_formD": 2,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "ActiveMEMS",
+    "cohort_year": 2018,
+    "hub": "Berkeley",
+    "verticals": [
+      "Advanced Manufacturing & Robotics",
+      "Electronics & Connectivity"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "ActiveMEMS LLC",
+        "amount": 224941,
+        "title": "SBIR Phase I:  Advanced Micro Vibration Energy Harvesters for Energy-Autonomous Internet of Things",
+        "date": "07/01/2019"
+      }
+    ],
+    "nsf_total": 224941,
+    "nsf_count": 1,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Antora Energy",
+    "cohort_year": 2018,
+    "hub": "Berkeley",
+    "verticals": [
+      "Climate",
+      "Energy Storage & Batteries"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "Antora Energy, Inc.",
+        "amount": 1234779,
+        "title": "SBIR Phase II: Research and development of production-scale high-efficiency Thermal Photovoltaic (TPV) cells to enable ultra-low cost energy storage.",
+        "date": "06/01/2020"
+      },
+      {
+        "source": "NSF",
+        "awardee": "Antora Energy, Inc.",
+        "amount": 225000,
+        "title": "STTR Phase I:  Advanced Thermophotovoltaic Generators for High-Value Remote Power",
+        "date": "06/01/2018"
+      }
+    ],
+    "nsf_total": 1459779,
+    "nsf_count": 2,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "CinderBio",
+    "cohort_year": 2018,
+    "hub": "Berkeley",
+    "verticals": [
+      "Advanced Manufacturing & Robotics",
+      "Chemistry & Materials",
+      "Industrial Biotechnology"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "",
+    "name": "Fervo Energy",
+    "cohort_year": 2018,
+    "hub": "Berkeley",
+    "verticals": [
+      "Climate",
+      "Earth Resources",
+      "Energy Generation & Delivery"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 6,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Noble Thermodynamic Systems",
+    "cohort_year": 2018,
+    "hub": "Berkeley",
+    "verticals": [
+      "Climate",
+      "Built Environment",
+      "Energy Generation & Delivery"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "",
+    "name": "Noon Energy",
+    "cohort_year": 2018,
+    "hub": "Berkeley",
+    "verticals": [
+      "Energy Storage & Batteries"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "NOON ENERGY INC.",
+        "amount": 1000000,
+        "title": "SBIR Phase II:  Rechargeable Carbon-Oxygen Battery for Ultra-Low-Cost Renewable Energy Storage",
+        "date": "11/15/2023"
+      },
+      {
+        "source": "NSF",
+        "awardee": "NOON ENERGY INC.",
+        "amount": 225000,
+        "title": "SBIR Phase I:  Rechargeable Carbon-Oxygen Battery for Ultra-Low-Cost Renewable Energy Storage",
+        "date": "12/01/2019"
+      }
+    ],
+    "nsf_total": 1225000,
+    "nsf_count": 2,
+    "edgar_formD": 2,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Sonera",
+    "cohort_year": 2018,
+    "hub": "Berkeley",
+    "verticals": [
+      "Computing",
+      "Life Science",
+      "Electronics & Connectivity"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "SONERA MAGNETICS, INC",
+        "amount": 224996,
+        "title": "SBIR Phase I:  Evaluating ADFMR magnetometers for portable, non-invasive functional bioimaging",
+        "date": "02/01/2019"
+      }
+    ],
+    "nsf_total": 224996,
+    "nsf_count": 1,
+    "edgar_formD": 0,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Takachar",
+    "cohort_year": 2018,
+    "hub": "Berkeley",
+    "verticals": [
+      "Climate",
+      "Food & Agriculture",
+      "Carbon Management / CO2e"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "",
+    "name": "Dauntless.io",
+    "cohort_year": 2017,
+    "hub": "Berkeley",
+    "verticals": [
+      "Computing"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "",
+    "name": "Gradient",
+    "cohort_year": 2017,
+    "hub": "Berkeley",
+    "verticals": [
+      "Climate",
+      "Built Environment",
+      "Chemistry & Materials"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 34,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Nelumbo",
+    "cohort_year": 2017,
+    "hub": "Berkeley",
+    "verticals": [
+      "Advanced Manufacturing & Robotics",
+      "Chemistry & Materials"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 2,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Photia",
+    "cohort_year": 2017,
+    "hub": "Berkeley",
+    "verticals": [
+      "Advanced Manufacturing & Robotics",
+      "Chemistry & Materials"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "",
+    "name": "Liminal Insights",
+    "cohort_year": 2016,
+    "hub": "Berkeley",
+    "verticals": [
+      "Climate",
+      "Chemistry & Materials",
+      "Energy Storage & Batteries",
+      "Electronics & Connectivity"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 3,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Mallinda Materials",
+    "cohort_year": 2016,
+    "hub": "Berkeley",
+    "verticals": [
+      "Chemistry & Materials"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "",
+    "name": "Sepion Technologies",
+    "cohort_year": 2016,
+    "hub": "Berkeley",
+    "verticals": [
+      "Climate",
+      "Chemistry & Materials",
+      "Energy Storage & Batteries"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 2,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Tandem PV",
+    "cohort_year": 2016,
+    "hub": "Berkeley",
+    "verticals": [
+      "Climate",
+      "Chemistry & Materials",
+      "Energy Generation & Delivery"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 1,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Tierra Biosciences",
+    "cohort_year": 2016,
+    "hub": "Berkeley",
+    "verticals": [
+      "Industrial Biotechnology",
+      "Life Science"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "",
+    "name": "CalWave",
+    "cohort_year": 2015,
+    "hub": "Berkeley",
+    "verticals": [
+      "Climate",
+      "Energy Generation & Delivery",
+      "Water"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "",
+    "name": "Mosaic Materials",
+    "cohort_year": 2015,
+    "hub": "Berkeley",
+    "verticals": [
+      "Climate",
+      "Carbon Management / CO2e"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 0,
+    "has_outcome": false
+  },
+  {
+    "slug": "",
+    "name": "PolySpectra",
+    "cohort_year": 2015,
+    "hub": "Berkeley",
+    "verticals": [
+      "Advanced Manufacturing & Robotics",
+      "Chemistry & Materials"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "PolySpectra, Inc",
+        "amount": 1415837,
+        "title": "SBIR Phase II:  Modular Manufacturing - Democratizing Functional Materials Printing",
+        "date": "02/01/2018"
+      },
+      {
+        "source": "NSF",
+        "awardee": "PolySpectra, Inc",
+        "amount": 225000,
+        "title": "SBIR Phase I:  Modular Manufacturing - Democratizing Functional Materials Printing",
+        "date": "12/01/2016"
+      }
+    ],
+    "nsf_total": 1640837,
+    "nsf_count": 2,
+    "edgar_formD": 2,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Spark Thermionics",
+    "cohort_year": 2015,
+    "hub": "Berkeley",
+    "verticals": [
+      "Chemistry & Materials",
+      "Energy Storage & Batteries"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 1,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Twelve",
+    "cohort_year": 2015,
+    "hub": "Berkeley",
+    "verticals": [
+      "Climate",
+      "Chemistry & Materials",
+      "Carbon Management / CO2e"
+    ],
+    "nsf_awards": [],
+    "nsf_total": 0,
+    "nsf_count": 0,
+    "edgar_formD": 268,
+    "has_outcome": true
+  },
+  {
+    "slug": "",
+    "name": "Visolis",
+    "cohort_year": 2015,
+    "hub": "Berkeley",
+    "verticals": [
+      "Chemistry & Materials",
+      "Industrial Biotechnology",
+      "Life Science",
+      "Carbon Management / CO2e"
+    ],
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "Visolis, Inc",
+        "amount": 1203510,
+        "title": "SBIR Phase II:  High performance monomers from biomass",
+        "date": "04/01/2017"
+      },
+      {
+        "source": "NSF",
+        "awardee": "Visolis, Inc",
+        "amount": 225000,
+        "title": "STTR Phase I:  High performance polymers from biomass",
+        "date": "07/01/2015"
+      }
+    ],
+    "nsf_total": 1428510,
+    "nsf_count": 2,
+    "edgar_formD": 0,
+    "has_outcome": true
+  }
+]
