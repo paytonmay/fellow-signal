@@ -37,7 +37,7 @@ export default function Directory({ companies, verticals, hubs }: Props) {
     return [...rows].sort(sorters[sort]);
   }, [companies, q, vert, hub, fundedOnly, sort]);
 
-  // Live summary of the current filtered set — analysis Activate's directory lacks.
+  // Live summary of the current filtered set: analysis Activate's directory lacks.
   const summary = useMemo(() => {
     const nsf = filtered.reduce((s, c) => s + c.nsf_total, 0);
     const funded = filtered.filter((c) => c.nsf_total > 0 || c.edgar_formD > 0).length;
@@ -91,7 +91,7 @@ export default function Directory({ companies, verticals, hubs }: Props) {
               className="panel p-4 flex flex-col text-left hover:border-teal-500/40 transition group">
               <div className="flex items-start justify-between gap-2">
                 <h3 className="font-semibold text-zinc-100 leading-tight group-hover:text-teal-200 transition">{c.name}</h3>
-                <span className="text-[11px] text-zinc-500 whitespace-nowrap mt-0.5">{c.cohort_year ?? "—"}</span>
+                <span className="text-[11px] text-zinc-500 whitespace-nowrap mt-0.5">{c.cohort_year ?? "n/a"}</span>
               </div>
               <p className="text-[13px] text-zinc-400 mt-1.5 line-clamp-3 flex-1">{c.one_liner}</p>
 

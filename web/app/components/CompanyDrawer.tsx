@@ -66,7 +66,7 @@ export default function CompanyDrawer({
               <div className="text-[10.5px] text-zinc-500 mt-0.5">federal awards</div>
             </div>
             <div className="panel p-3">
-              <div className="text-lg font-semibold text-zinc-100">{c.edgar_formD > 0 ? "Yes" : "—"}</div>
+              <div className="text-lg font-semibold text-zinc-100">{c.edgar_formD > 0 ? "Yes" : "No"}</div>
               <div className="text-[10.5px] text-zinc-500 mt-0.5">SEC Form D</div>
             </div>
           </div>
@@ -100,7 +100,7 @@ export default function CompanyDrawer({
             </div>
           )}
 
-          {/* founders — the differentiator */}
+          {/* founders: the differentiator */}
           <div className="mt-6">
             <div className="text-[11px] uppercase tracking-wider text-zinc-500 mb-2">
               Founding scientist{c.fellows.length > 1 ? "s" : ""}
