@@ -1,0 +1,20 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+.env.local
+
+# Scraper cache (raw HTML can be re-fetched)
+data/raw/*.html
+
+# Node / Next.js
+node_modules/
+web/.next/
+web/out/
+web/.vercel/
+
+# OS
+.DS_Store

@@ -1,0 +1,61 @@
+# Activate Frontier Map
+
+A data system that maps Activate Global's fellow ventures — their science,
+their industries, and their potential impact — and future-casts where the
+frontier of hard tech is heading.
+
+This is a working prototype of the three responsibilities in Activate's
+*deep-tech founder discovery* role:
+1. **Talent engine** — a rigorous, structured view of the fellow pipeline.
+2. **Insight & strategy** — turn pipeline data into a read on the frontier.
+3. **Productize the pipeline** — a shareable, data-rich decision-support tool.
+
+## Architecture
+
+```
+pipeline/ (Python)   scrape -> clean -> enrich -> build store
+   data/processed/    versioned JSON dataset (canonical, read-only)
+web/ (Next.js)        static-exported, beautiful, deployed via public link
+```
+
+Read-only static site = near-zero attack surface, fast, cheap to host.
+Secrets (LLM key) live only in the pipeline and never reach the client.
+
+## Status
+
+- [x] **Stage 1 — Ingest** (`scrape.py`). Enumerate sitemap, fetch detail
+      pages, extract title/summary/body/links. → `01_raw_records.json`
+- [x] **Stage 2 — Clean** (`clean.py`). Filter to genuine fellow ventures,
+      strip boilerplate, normalize. → **96 companies** in `02_companies.json`
+- [ ] **Stage 3 — Enrich**. Classify each company: hard-tech domain,
+      research field, target industry/market, impact dimensions, TRL/stage,
+      keywords. (LLM-assisted; heuristic fallback.)
+- [ ] **Stage 4 — Cohort/founder linkage**. Derive cohort year + hub from the
+      JS directory API / "cohort 20XX" news posts. (Data gap: not on detail page.)
+- [ ] **Stage 5 — Canonical store**. Build SQLite/DuckDB + denormalized JSON
+      for the frontend.
+- [ ] **Stage 6 — Frontend**. Next.js + Tailwind + shadcn/ui. Views: domain
+      treemap, cohort timeline, research→industry graph, impact metrics,
+      searchable company directory.
+- [ ] **Stage 7 — Future-cast**. External signal feeds (arXiv, patents, funder
+      awards, venture funding) → gap analysis vs. fellow coverage. Emerging
+      fields where research/funding spikes but Activate hasn't yet sourced.
+- [ ] **Stage 8 — Deploy**. Vercel public link.
+
+## Known data notes
+
+- Person/staff pages are JS-rendered shells — not reliably scrapable. Founders
+  will be linked via the directory API or LinkedIn in a later pass.
+- Cohort year + hub are not on company detail pages; need a secondary source.
+- Sitemap exposed ~120 detail slugs; Activate cites 197 companies since 2015,
+  so the public sitemap is a recent subset. A fuller roster may need the
+  directory's backing API (HubDB).
+
+## Run
+
+```bash
+python -m venv .venv && . .venv/bin/activate
+pip install -r pipeline/requirements.txt
+python pipeline/scrape.py   # ingest (caches raw HTML in data/raw/)
+python pipeline/clean.py    # canonical company dataset
+```

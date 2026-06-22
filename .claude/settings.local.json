@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -vE '/\\(news|activate-fellows|activate-companies|the-fellowship|team|nominate|supporting-scientists|tools-for-scientists|technical-reviewer-reg|sipa|sf-climate-week-2026|meet-the-cohort-2025-activate-berkeley-fellows|techonomics\\)$')",
+      "Read(//tmp/**)"
+    ]
+  }
+}
