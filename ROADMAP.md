@@ -31,8 +31,10 @@ Secrets (LLM key) live only in the pipeline and never reach the client.
       (15-sector taxonomy), research field, target market, impact tags, and
       auto-extracted keywords. → **93 companies** in `03_enriched.json`.
       Reproducible Claude-API path included for future/unlabeled companies.
-- [ ] **Stage 4 — Cohort/founder linkage**. Derive cohort year + hub from the
-      JS directory API / "cohort 20XX" news posts. (Data gap: not on detail page.)
+- [x] **Stage 4 — Cohort linkage** (`cohort.py`). Match companies against
+      per-year cohort announcement posts. → **89/93** have cohort_year
+      (mostly 2024–2025; sitemap only exposes recent portfolio). Hub partial
+      (10/93). → `04_with_cohort.json`
 - [ ] **Stage 5 — Canonical store**. Build SQLite/DuckDB + denormalized JSON
       for the frontend.
 - [ ] **Stage 6 — Frontend**. Next.js + Tailwind + shadcn/ui. Views: domain
