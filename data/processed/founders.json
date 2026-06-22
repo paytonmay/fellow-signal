@@ -1,0 +1,2395 @@
+{
+  "4th State Energies": [
+    {
+      "name": "Pankaj Ghildiyal",
+      "resolved": true,
+      "display_name": "Pankaj Ghildiyal",
+      "institution": "University of California, Riverside",
+      "works_count": 27,
+      "cited_by_count": 539,
+      "h_index": 14,
+      "pre_founding_topics": [
+        "TiO2 Photocatalysis and Solar Cells",
+        "Gold and Silver Nanoparticles Synthesis and Applications",
+        "Laser-Ablation Synthesis of Nanoparticles",
+        "Nanocluster Synthesis and Applications",
+        "High Entropy Alloys Studies",
+        "Energetic Materials and Combustion"
+      ],
+      "first_pub_year": 2014
+    }
+  ],
+  "AIMM": [
+    {
+      "name": "Luis Estevez",
+      "resolved": true,
+      "display_name": "Luis Estevez",
+      "institution": "University of Dayton",
+      "works_count": 48,
+      "cited_by_count": 4669,
+      "h_index": 32,
+      "pre_founding_topics": [
+        "Gold and Silver Nanoparticles Synthesis and Applications",
+        "Fuel Cells and Related Materials",
+        "Graphene research and applications",
+        "Polymer Nanocomposites and Properties",
+        "Dielectric materials and actuators",
+        "Surface Modification and Superhydrophobicity"
+      ],
+      "first_pub_year": 2009
+    }
+  ],
+  "AlkaLi Labs": [
+    {
+      "name": "Luis Valencia",
+      "resolved": true,
+      "display_name": "Luis Valencia–Cabrera",
+      "institution": "Instituto de Recursos Naturales y Agrobiología de Sevilla",
+      "works_count": 159,
+      "cited_by_count": 1870,
+      "h_index": 24,
+      "pre_founding_topics": [
+        "Wildlife Ecology and Conservation",
+        "Advanced Data Storage Technologies",
+        "Graphite, nuclear technology, radiation studies",
+        "Recycling and Waste Management Techniques",
+        "Cultural Heritage Management and Preservation",
+        "Nuclear and radioactivity studies"
+      ],
+      "first_pub_year": 1986
+    }
+  ],
+  "Astral Materials, Inc.": [
+    {
+      "name": "Jessica Frick",
+      "resolved": true,
+      "display_name": "Jessica J. Frick",
+      "institution": "Vaughn College of Aeronautics and Technology",
+      "works_count": 29,
+      "cited_by_count": 313,
+      "h_index": 10,
+      "pre_founding_topics": [
+        "Crystallization and Solubility Studies",
+        "Synthesis and Reactivity of Heterocycles",
+        "CO2 Reduction Techniques and Catalysts",
+        "Chalcogenide Semiconductor Thin Films",
+        "Copper-based nanomaterials and applications",
+        "Electron and X-Ray Spectroscopy Techniques"
+      ],
+      "first_pub_year": 2014
+    },
+    {
+      "name": "Jiya Janowitz",
+      "resolved": true,
+      "display_name": "Jiya Janowitz",
+      "institution": "Department of Space",
+      "works_count": 6,
+      "cited_by_count": 31,
+      "h_index": 2,
+      "pre_founding_topics": [
+        "Magnetic Field Sensors Techniques",
+        "Spacecraft and Cryogenic Technologies",
+        "nanoparticles nucleation surface interactions",
+        "Fluid Dynamics and Heat Transfer",
+        "Spaceflight effects on biology"
+      ],
+      "first_pub_year": 2020
+    }
+  ],
+  "Biosimo": [
+    {
+      "name": "Iria Mostrou",
+      "resolved": false
+    }
+  ],
+  "BioWraptor": [
+    {
+      "name": "Maeva Coste",
+      "resolved": true,
+      "display_name": "Maëva Coste",
+      "institution": "École Nationale Supérieure de Chimie de Montpellier",
+      "works_count": 19,
+      "cited_by_count": 215,
+      "h_index": 9,
+      "pre_founding_topics": [
+        "Nanoplatforms for cancer theranostics",
+        "RNA Interference and Gene Delivery",
+        "Supramolecular Chemistry and Complexes",
+        "Advanced biosensing and bioanalysis techniques",
+        "Supramolecular Self-Assembly in Materials",
+        "Luminescence and Fluorescent Materials"
+      ],
+      "first_pub_year": 2019
+    }
+  ],
+  "Brightlight Photonics": [
+    {
+      "name": "Josh Yang",
+      "resolved": true,
+      "display_name": "Dale Schuurmans",
+      "institution": null,
+      "works_count": 357,
+      "cited_by_count": 14916,
+      "h_index": 51,
+      "pre_founding_topics": [
+        "Evolutionary Algorithms and Applications",
+        "Neural Networks and Applications",
+        "Machine Learning and Algorithms",
+        "Bayesian Modeling and Causal Inference",
+        "Robotic Locomotion and Control",
+        "Hermeneutics and Narrative Identity"
+      ],
+      "first_pub_year": 1988
+    }
+  ],
+  "Carbide Radio": [
+    {
+      "name": "Albert Kumar",
+      "resolved": true,
+      "display_name": "Michael O’Loughlin",
+      "institution": "British Psychoanalytical Society",
+      "works_count": 241,
+      "cited_by_count": 4871,
+      "h_index": 34,
+      "pre_founding_topics": [
+        "Acne and Rosacea Treatments and Effects",
+        "Renaissance Literature and Culture",
+        "Diverse Educational Innovations Studies",
+        "South Asian Cinema and Culture",
+        "Gothic Literature and Media Analysis",
+        "Experimental Learning in Engineering"
+      ],
+      "first_pub_year": 1964
+    }
+  ],
+  "Cellsius, Inc.": [
+    {
+      "name": "Juanjuan Zheng",
+      "resolved": true,
+      "display_name": "Huanquan Zheng",
+      "institution": "McGill University",
+      "works_count": 74,
+      "cited_by_count": 5696,
+      "h_index": 35,
+      "pre_founding_topics": [
+        "Plant Virus Research Studies",
+        "Advanced Materials and Mechanics",
+        "Photosynthetic Processes and Mechanisms",
+        "Cellular transport and secretion",
+        "Plant Surface Properties and Treatments",
+        "Polysaccharides and Plant Cell Walls"
+      ],
+      "first_pub_year": 1997
+    }
+  ],
+  "ChipAdd": [
+    {
+      "name": "Scott Schiffres",
+      "resolved": true,
+      "display_name": "Scott N. Schiffres",
+      "institution": "Binghamton University",
+      "works_count": 65,
+      "cited_by_count": 1665,
+      "h_index": 20,
+      "pre_founding_topics": [
+        "Robotic Path Planning Algorithms",
+        "Heat Transfer and Optimization",
+        "Thermal properties of materials",
+        "Aerogels and thermal insulation",
+        "Carbon Nanotubes in Composites",
+        "nanoparticles nucleation surface interactions"
+      ],
+      "first_pub_year": 2006
+    }
+  ],
+  "Deep Anchor Solutions Inc.": [
+    {
+      "name": "Junho Lee",
+      "resolved": true,
+      "display_name": "Jun-Ho Lee",
+      "institution": "Cleveland Clinic",
+      "works_count": 267,
+      "cited_by_count": 4338,
+      "h_index": 34,
+      "pre_founding_topics": [
+        "Mobile Agent-Based Network Management",
+        "Wireless Communication Networks Research",
+        "Information Retrieval and Search Behavior",
+        "Advanced Decision-Making Techniques",
+        "Microwave and Dielectric Measurement Techniques",
+        "Electronic Packaging and Soldering Technologies"
+      ],
+      "first_pub_year": 1996
+    }
+  ],
+  "Edulis Labs": [
+    {
+      "name": "Nina Warner",
+      "resolved": true,
+      "display_name": "Nina Warner Hooke",
+      "institution": null,
+      "works_count": 2,
+      "cited_by_count": 0,
+      "h_index": 0,
+      "pre_founding_topics": [
+        "Human-Animal Interaction Studies",
+        "Military Technology and Strategies"
+      ],
+      "first_pub_year": 1978
+    },
+    {
+      "name": "Andre Cruz",
+      "resolved": true,
+      "display_name": "André Luiz Santos Pessoa",
+      "institution": "Universidade Federal do Ceará",
+      "works_count": 133,
+      "cited_by_count": 2593,
+      "h_index": 22,
+      "pre_founding_topics": [
+        "Medicinal plant effects and applications",
+        "Hereditary Neurological Disorders",
+        "Neurogenetic and Muscular Disorders Research",
+        "Ethics and Legal Issues in Pediatric Healthcare",
+        "Alzheimer's disease research and treatments",
+        "Genomics and Rare Diseases"
+      ],
+      "first_pub_year": 2005
+    }
+  ],
+  "Epitactic": [
+    {
+      "name": "Larissa Little",
+      "resolved": true,
+      "display_name": "Larissa B. Little",
+      "institution": null,
+      "works_count": 8,
+      "cited_by_count": 0,
+      "h_index": 0,
+      "pre_founding_topics": [
+        "Magnetic and transport properties of perovskites and related materials",
+        "Transition Metal Oxide Nanomaterials",
+        "Physics of Superconductivity and Magnetism",
+        "Semiconductor materials and devices",
+        "Electronic and Structural Properties of Oxides"
+      ],
+      "first_pub_year": 2020
+    }
+  ],
+  "FAST Metals": [
+    {
+      "name": "Sumedh Gostu",
+      "resolved": true,
+      "display_name": "Sumedh Gostu",
+      "institution": "Air Liquide (United States)",
+      "works_count": 5,
+      "cited_by_count": 79,
+      "h_index": 3,
+      "pre_founding_topics": [
+        "Bauxite Residue and Utilization",
+        "Material Properties and Applications"
+      ],
+      "first_pub_year": 2017
+    }
+  ],
+  "Fermi Energy": [
+    {
+      "name": "Zhengrui (Ray) Xu",
+      "resolved": false
+    }
+  ],
+  "FlowCellutions": [
+    {
+      "name": "Becca Segel",
+      "resolved": true,
+      "display_name": "Becca Segel",
+      "institution": "University of Pittsburgh",
+      "works_count": 4,
+      "cited_by_count": 10,
+      "h_index": 1,
+      "pre_founding_topics": [
+        "Advanced battery technologies research",
+        "Extraction and Separation Processes",
+        "Electrochemical Analysis and Applications"
+      ],
+      "first_pub_year": 2022
+    }
+  ],
+  "Fourier": [
+    {
+      "name": "Jason Hoffman-Bice",
+      "resolved": true,
+      "display_name": "Jason Erik Hoffman-Bice",
+      "institution": null,
+      "works_count": 1,
+      "cited_by_count": 0,
+      "h_index": 0,
+      "pre_founding_topics": [
+        "Additive Manufacturing and 3D Printing Technologies"
+      ],
+      "first_pub_year": 2022
+    }
+  ],
+  "Gallox Semiconductors": [
+    {
+      "name": "Jon McCandless",
+      "resolved": true,
+      "display_name": "Jonathan P. McCandless",
+      "institution": "United States Air Force Research Laboratory",
+      "works_count": 44,
+      "cited_by_count": 1889,
+      "h_index": 17,
+      "pre_founding_topics": [
+        "Radar Systems and Signal Processing",
+        "Semiconductor materials and devices",
+        "Mechanical and Optical Resonators",
+        "Ga2O3 and related materials",
+        "Thin-Film Transistor Technologies",
+        "ZnO doping and properties"
+      ],
+      "first_pub_year": 1977
+    }
+  ],
+  "Greenshoot Materials": [
+    {
+      "name": "Monika Bleszynski",
+      "resolved": true,
+      "display_name": "Monika Bleszynski",
+      "institution": "University of Denver",
+      "works_count": 17,
+      "cited_by_count": 229,
+      "h_index": 8,
+      "pre_founding_topics": [
+        "High voltage insulation and dielectric phenomena",
+        "Structural Analysis of Composite Materials",
+        "Advanced Surface Polishing Techniques",
+        "Surface Modification and Superhydrophobicity",
+        "Smart Materials for Construction",
+        "Remote-Sensing Image Classification"
+      ],
+      "first_pub_year": 2015
+    }
+  ],
+  "Hypermelt": [
+    {
+      "name": "Chrissy O'Hersey",
+      "resolved": true,
+      "display_name": "Chrissy O'Hersey",
+      "institution": "Johns Hopkins University",
+      "works_count": 1,
+      "cited_by_count": 1,
+      "h_index": 1,
+      "pre_founding_topics": [
+        "Innovative Microfluidic and Catalytic Techniques Innovation"
+      ],
+      "first_pub_year": 2024
+    }
+  ],
+  "Intero Biosystems": [
+    {
+      "name": "Charlie Childs",
+      "resolved": true,
+      "display_name": "Charlie J. Childs",
+      "institution": "University of Michigan",
+      "works_count": 29,
+      "cited_by_count": 910,
+      "h_index": 14,
+      "pre_founding_topics": [
+        "Immunotherapy and Immune Responses",
+        "Offshore Engineering and Technologies",
+        "Extracellular vesicles in disease",
+        "Cancer Cells and Metastasis",
+        "Helicobacter pylori-related gastroenterology studies",
+        "Cardiac Fibrosis and Remodeling"
+      ],
+      "first_pub_year": 2000
+    }
+  ],
+  "KIRA": [
+    {
+      "name": "Jon Bessette",
+      "resolved": true,
+      "display_name": "Jon Bessette",
+      "institution": null,
+      "works_count": 1,
+      "cited_by_count": 0,
+      "h_index": 0,
+      "pre_founding_topics": [
+        "Membrane-based Ion Separation Techniques"
+      ],
+      "first_pub_year": 2025
+    }
+  ],
+  "Lagomics": [
+    {
+      "name": "Kia Kiaee",
+      "resolved": false
+    },
+    {
+      "name": "Yasamin Jodat",
+      "resolved": true,
+      "display_name": "Yasamin A. Jodat",
+      "institution": "Stevens Institute of Technology",
+      "works_count": 17,
+      "cited_by_count": 746,
+      "h_index": 10,
+      "pre_founding_topics": [
+        "Advanced biosensing and bioanalysis techniques",
+        "3D Printing in Biomedical Research",
+        "Advanced Sensor and Energy Harvesting Materials",
+        "Osteoarthritis Treatment and Mechanisms",
+        "Graphene and Nanomaterials Applications",
+        "Diverse Scientific and Economic Studies"
+      ],
+      "first_pub_year": 2018
+    }
+  ],
+  "LEAP Photonics": [
+    {
+      "name": "Bing Li",
+      "resolved": true,
+      "display_name": "Lin Li",
+      "institution": "Anhui Agricultural University",
+      "works_count": 3011,
+      "cited_by_count": 73830,
+      "h_index": 116,
+      "pre_founding_topics": [
+        "Spacecraft and Cryogenic Technologies",
+        "Photodynamic Therapy Research Studies",
+        "Polyamine Metabolism and Applications",
+        "Biopolymer Synthesis and Applications",
+        "Clinical Nutrition and Gastroenterology",
+        "Advanced Measurement and Detection Methods"
+      ],
+      "first_pub_year": 1982
+    }
+  ],
+  "Lift Biolabs": [
+    {
+      "name": "Eugene Chung",
+      "resolved": true,
+      "display_name": "Eugene S. Chung",
+      "institution": "Northwestern University",
+      "works_count": 89,
+      "cited_by_count": 2922,
+      "h_index": 16,
+      "pre_founding_topics": [
+        "Cardiac Valve Diseases and Treatments",
+        "Hormonal Regulation and Hypertension",
+        "Adipose Tissue and Metabolism",
+        "Cardiac Fibrosis and Remodeling",
+        "Cardiac Ischemia and Reperfusion",
+        "Antibiotics Pharmacokinetics and Efficacy"
+      ],
+      "first_pub_year": 1986
+    }
+  ],
+  "Lightfinder": [
+    {
+      "name": "Diana Mojahed",
+      "resolved": true,
+      "display_name": "Diana Mojahed",
+      "institution": null,
+      "works_count": 18,
+      "cited_by_count": 146,
+      "h_index": 5,
+      "pre_founding_topics": [
+        "Optical Coherence Tomography Applications",
+        "AI in cancer detection"
+      ],
+      "first_pub_year": 2016
+    }
+  ],
+  "MacroBreed": [
+    {
+      "name": "Gary Molano",
+      "resolved": true,
+      "display_name": "Gary Molano",
+      "institution": "University of Southern California",
+      "works_count": 14,
+      "cited_by_count": 99,
+      "h_index": 5,
+      "pre_founding_topics": [
+        "Marine and coastal plant biology",
+        "Plant responses to elevated CO2",
+        "Physiological and biochemical adaptations",
+        "Algal biology and biofuel production"
+      ],
+      "first_pub_year": 2022
+    }
+  ],
+  "Membravo": [
+    {
+      "name": "Milad Yavari",
+      "resolved": true,
+      "display_name": "Milad Yavari",
+      "institution": "BioReliance (United States)",
+      "works_count": 13,
+      "cited_by_count": 445,
+      "h_index": 9,
+      "pre_founding_topics": [
+        "Membrane Separation and Gas Transport",
+        "Carbon Dioxide Capture Technologies",
+        "Transportation and Mobility Innovations"
+      ],
+      "first_pub_year": 2014
+    },
+    {
+      "name": "Joe Sawa",
+      "resolved": true,
+      "display_name": "Joe Sawa",
+      "institution": null,
+      "works_count": 3,
+      "cited_by_count": 0,
+      "h_index": 0,
+      "pre_founding_topics": [
+        "Maritime Ports and Logistics",
+        "Maritime Transport Emissions and Efficiency"
+      ],
+      "first_pub_year": 2023
+    }
+  ],
+  "Netpreme": [
+    {
+      "name": "Zhizhen Zhong",
+      "resolved": true,
+      "display_name": "Zhizhen Zhong",
+      "institution": "Massachusetts Institute of Technology",
+      "works_count": 55,
+      "cited_by_count": 621,
+      "h_index": 13,
+      "pre_founding_topics": [
+        "Quality and Safety in Healthcare",
+        "Digital Media and Visual Art",
+        "Software-Defined Networks and 5G",
+        "Internet Traffic Analysis and Secure E-voting",
+        "Advanced Optical Network Technologies",
+        "Military Technology and Strategies"
+      ],
+      "first_pub_year": 2013
+    },
+    {
+      "name": "Nikita Lazarev",
+      "resolved": true,
+      "display_name": "N.V. Lazarev",
+      "institution": null,
+      "works_count": 67,
+      "cited_by_count": 185,
+      "h_index": 7,
+      "pre_founding_topics": [
+        "Electric Motor Design and Analysis",
+        "Particle accelerators and beam dynamics",
+        "Photonic and Optical Devices",
+        "Particle Accelerators and Free-Electron Lasers",
+        "Gyrotron and Vacuum Electronics Research",
+        "Silicon Carbide Semiconductor Technologies"
+      ],
+      "first_pub_year": 1962
+    }
+  ],
+  "NextSet Materials": [
+    {
+      "name": "Yasmeen Alfaraj",
+      "resolved": true,
+      "display_name": "Yasmeen Al Faraj",
+      "institution": "Massachusetts Institute of Technology",
+      "works_count": 1,
+      "cited_by_count": 0,
+      "h_index": 0,
+      "pre_founding_topics": [],
+      "first_pub_year": 2026
+    }
+  ],
+  "OsmoPure Technologies": [
+    {
+      "name": "Nadia Jorgenson",
+      "resolved": true,
+      "display_name": "Nadia Jorgenson",
+      "institution": null,
+      "works_count": 1,
+      "cited_by_count": 0,
+      "h_index": 0,
+      "pre_founding_topics": [
+        "Membrane Separation Technologies"
+      ],
+      "first_pub_year": 2025
+    }
+  ],
+  "PAGE Technologies": [
+    {
+      "name": "Elliot Strand",
+      "resolved": true,
+      "display_name": "Elliot Strand",
+      "institution": "University of Colorado Boulder",
+      "works_count": 14,
+      "cited_by_count": 186,
+      "h_index": 6,
+      "pre_founding_topics": [
+        "Nuclear Materials and Properties",
+        "Customer Service Quality and Loyalty",
+        "Metallurgical Processes and Thermodynamics",
+        "Conducting polymers and applications",
+        "Metallic Glasses and Amorphous Alloys",
+        "Analytical Chemistry and Sensors"
+      ],
+      "first_pub_year": 2016
+    },
+    {
+      "name": "Payton Goodrich",
+      "resolved": true,
+      "display_name": "P.J. Goodrich",
+      "institution": "University of California, Berkeley",
+      "works_count": 56,
+      "cited_by_count": 643,
+      "h_index": 12,
+      "pre_founding_topics": [
+        "Magnetic confinement fusion research",
+        "Particle accelerators and beam dynamics",
+        "Pulsed Power Technology Applications",
+        "Photorefractive and Nonlinear Optics",
+        "Laser-induced spectroscopy and plasma",
+        "Electron Spin Resonance Studies"
+      ],
+      "first_pub_year": 1985
+    }
+  ],
+  "RETRN": [
+    {
+      "name": "Chris Thomas",
+      "resolved": true,
+      "display_name": "Chris D. Thomas",
+      "institution": "Government Medical College",
+      "works_count": 438,
+      "cited_by_count": 59647,
+      "h_index": 108,
+      "pre_founding_topics": [
+        "Numerical methods in inverse problems",
+        "Radiation Effects in Electronics",
+        "Radioactivity and Radon Measurements",
+        "Veterinary Pharmacology and Anesthesia",
+        "RNA Research and Splicing",
+        "Mental Health and Psychiatry"
+      ],
+      "first_pub_year": 1939
+    }
+  ],
+  "Semion": [
+    {
+      "name": "Victoria Coll Araoz",
+      "resolved": true,
+      "display_name": "María Victoria Coll Aráoz",
+      "institution": null,
+      "works_count": 49,
+      "cited_by_count": 394,
+      "h_index": 13,
+      "pre_founding_topics": [
+        "Mycorrhizal Fungi and Plant Interactions",
+        "Phytochemistry and Biological Activities",
+        "Microbial Metabolites in Food Biotechnology",
+        "Botany, Ecology, and Taxonomy Studies",
+        "Agroforestry and silvopastoral systems",
+        "Plant Pathogens and Fungal Diseases"
+      ],
+      "first_pub_year": 1970
+    }
+  ],
+  "Unspent": [
+    {
+      "name": "Katie Williamson",
+      "resolved": false
+    }
+  ],
+  "VectorWave": [
+    {
+      "name": "Ronald Davis",
+      "resolved": true,
+      "display_name": "Ronald Davis",
+      "institution": "Cambridge Electronics (United States)",
+      "works_count": 61,
+      "cited_by_count": 24675,
+      "h_index": 5,
+      "pre_founding_topics": [
+        "Rheology and Fluid Dynamics Studies",
+        "Geomagnetism and Paleomagnetism Studies",
+        "Photovoltaic Systems and Sustainability",
+        "Microfluidic and Bio-sensing Technologies",
+        "Coagulation and Flocculation Studies",
+        "QR Code Applications and Technologies"
+      ],
+      "first_pub_year": 1974
+    }
+  ],
+  "Vertility Health": [
+    {
+      "name": "Bonnie Maven",
+      "resolved": true,
+      "display_name": "Bonnie E.J. Maven",
+      "institution": "Gladstone Institutes",
+      "works_count": 2,
+      "cited_by_count": 99,
+      "h_index": 2,
+      "pre_founding_topics": [
+        "Congenital heart defects research"
+      ],
+      "first_pub_year": 2022
+    }
+  ],
+  "Wave Lumina": [
+    {
+      "name": "Vernon LaLone",
+      "resolved": true,
+      "display_name": "Vernon LaLone",
+      "institution": "Imperial College London",
+      "works_count": 17,
+      "cited_by_count": 255,
+      "h_index": 8,
+      "pre_founding_topics": [
+        "Immune Cell Function and Interaction",
+        "Crystallization and Solubility Studies",
+        "Crystallography and molecular interactions",
+        "Protein Structure and Dynamics",
+        "Acne and Rosacea Treatments and Effects",
+        "Lipid Membrane Structure and Behavior"
+      ],
+      "first_pub_year": 2013
+    }
+  ],
+  "Andros Innovations": [
+    {
+      "name": "Laron Burrows",
+      "resolved": true,
+      "display_name": "Laron Burrows",
+      "institution": "University of Connecticut",
+      "works_count": 6,
+      "cited_by_count": 106,
+      "h_index": 4,
+      "pre_founding_topics": [
+        "Phytochemicals and Antioxidant Activities",
+        "Catalytic Processes in Materials Science",
+        "Ammonia Synthesis and Nitrogen Reduction"
+      ],
+      "first_pub_year": 2016
+    }
+  ],
+  "Anew Material": [
+    {
+      "name": "Jiye Son",
+      "resolved": true,
+      "display_name": "Jiye Son",
+      "institution": null,
+      "works_count": 21,
+      "cited_by_count": 364,
+      "h_index": 7,
+      "pre_founding_topics": [
+        "Supramolecular Self-Assembly in Materials",
+        "Peptidase Inhibition and Analysis",
+        "Conferences and Exhibitions Management",
+        "Chemistry and Chemical Engineering",
+        "Medical Imaging and Analysis",
+        "Medical Imaging Techniques and Applications"
+      ],
+      "first_pub_year": 2016
+    }
+  ],
+  "Bairitone Health": [
+    {
+      "name": "Meagan Pitcher",
+      "resolved": true,
+      "display_name": "Meagan Pitcher",
+      "institution": null,
+      "works_count": 2,
+      "cited_by_count": 0,
+      "h_index": 0,
+      "pre_founding_topics": [],
+      "first_pub_year": 2025
+    }
+  ],
+  "Calectra": [
+    {
+      "name": "Nate Weger",
+      "resolved": false
+    },
+    {
+      "name": "Pauliina Meskanen",
+      "resolved": true,
+      "display_name": "Pauliina Meskanen",
+      "institution": null,
+      "works_count": 1,
+      "cited_by_count": 0,
+      "h_index": 0,
+      "pre_founding_topics": [
+        "Nanotechnology research and applications"
+      ],
+      "first_pub_year": 2021
+    }
+  ],
+  "Carbion": [
+    {
+      "name": "Yang Zhong",
+      "resolved": true,
+      "display_name": "Ray Y. Zhong",
+      "institution": "University of Hong Kong",
+      "works_count": 326,
+      "cited_by_count": 19001,
+      "h_index": 64,
+      "pre_founding_topics": [
+        "Business Process Modeling and Analysis",
+        "Cloud Computing and Remote Desktop Technologies",
+        "Experimental Learning in Engineering",
+        "Advanced Computational Techniques and Applications",
+        "Advanced Manufacturing and Logistics Optimization",
+        "Service and Product Innovation"
+      ],
+      "first_pub_year": 2009
+    }
+  ],
+  "Carbon Infuse": [
+    {
+      "name": "Diandian Zhao",
+      "resolved": true,
+      "display_name": "Yunpeng Zhao",
+      "institution": "China University of Mining and Technology",
+      "works_count": 275,
+      "cited_by_count": 5068,
+      "h_index": 42,
+      "pre_founding_topics": [
+        "Digital Image Processing Techniques",
+        "Mobile Agent-Based Network Management",
+        "Silicone and Siloxane Chemistry",
+        "Infrared Thermography in Medicine",
+        "Marine Bivalve and Aquaculture Studies",
+        "Fluid Dynamics Simulations and Interactions"
+      ],
+      "first_pub_year": 1992
+    }
+  ],
+  "COBI": [
+    {
+      "name": "Will Moy",
+      "resolved": true,
+      "display_name": "Will Moy",
+      "institution": "Campbell Collaboration",
+      "works_count": 8,
+      "cited_by_count": 10,
+      "h_index": 2,
+      "pre_founding_topics": [
+        "Statistics Education and Methodologies",
+        "Health Policy Implementation Science"
+      ],
+      "first_pub_year": 2016
+    }
+  ],
+  "Coflux Purification": [
+    {
+      "name": "Alec Ajnsztajn",
+      "resolved": true,
+      "display_name": "Alec Ajnsztajn",
+      "institution": "Rice University",
+      "works_count": 8,
+      "cited_by_count": 987,
+      "h_index": 8,
+      "pre_founding_topics": [
+        "Advanced Sensor and Energy Harvesting Materials",
+        "MXene and MAX Phase Materials",
+        "Graphene research and applications",
+        "Advanced Materials and Mechanics",
+        "2D Materials and Applications",
+        "Covalent Organic Framework Applications"
+      ],
+      "first_pub_year": 2018
+    }
+  ],
+  "Daqus Energy": [
+    {
+      "name": "Harish Banda",
+      "resolved": true,
+      "display_name": "Harish Banda",
+      "institution": "The University of Texas at El Paso",
+      "works_count": 32,
+      "cited_by_count": 1100,
+      "h_index": 12,
+      "pre_founding_topics": [
+        "Advancements in Battery Materials",
+        "Advanced Battery Materials and Technologies",
+        "Supercapacitor Materials and Fabrication",
+        "Metal-Organic Frameworks: Synthesis and Applications",
+        "Conducting polymers and applications",
+        "Porphyrin and Phthalocyanine Chemistry"
+      ],
+      "first_pub_year": 2013
+    }
+  ],
+  "Drūl": [
+    {
+      "name": "Brent Ifemembi",
+      "resolved": true,
+      "display_name": "Brent Ifemembi",
+      "institution": "Johns Hopkins University",
+      "works_count": 4,
+      "cited_by_count": 491,
+      "h_index": 3,
+      "pre_founding_topics": [
+        "Glioma Diagnosis and Treatment",
+        "Cellular Mechanics and Interactions",
+        "Cell Adhesion Molecules Research"
+      ],
+      "first_pub_year": 2020
+    },
+    {
+      "name": "Nelson Ndahiro",
+      "resolved": true,
+      "display_name": "Nelson Ndahiro",
+      "institution": "Johns Hopkins University",
+      "works_count": 15,
+      "cited_by_count": 71,
+      "h_index": 5,
+      "pre_founding_topics": [
+        "Water-Energy-Food Nexus Studies",
+        "Tactile and Sensory Interactions",
+        "Edible Oils Quality and Analysis",
+        "SARS-CoV-2 and COVID-19 Research",
+        "Gold and Silver Nanoparticles Synthesis and Applications",
+        "Viral Infectious Diseases and Gene Expression in Insects"
+      ],
+      "first_pub_year": 2015
+    }
+  ],
+  "EELI Technology": [
+    {
+      "name": "Mert Akin",
+      "resolved": true,
+      "display_name": "Mert Akın",
+      "institution": "Northern Illinois University",
+      "works_count": 23,
+      "cited_by_count": 159,
+      "h_index": 7,
+      "pre_founding_topics": [
+        "Additive Manufacturing and 3D Printing Technologies",
+        "Advanced Battery Materials and Technologies",
+        "Supercapacitor Materials and Fabrication",
+        "Perovskite Materials and Applications",
+        "Catalytic Processes in Materials Science",
+        "Earth Systems and Cosmic Evolution"
+      ],
+      "first_pub_year": 2017
+    }
+  ],
+  "Elateq, Inc.": [
+    {
+      "name": "Lily Rajic",
+      "resolved": false
+    }
+  ],
+  "Elysia Creative Biology": [
+    {
+      "name": "Eli Hornstein",
+      "resolved": true,
+      "display_name": "Eli D. Hornstein",
+      "institution": "North Carolina State University",
+      "works_count": 9,
+      "cited_by_count": 48,
+      "h_index": 4,
+      "pre_founding_topics": [
+        "Linguistics and Cultural Studies",
+        "CRISPR and Genetic Engineering",
+        "Plant tissue culture and regeneration",
+        "Genetically Modified Organisms Research",
+        "Lipid metabolism and biosynthesis",
+        "Legume Nitrogen Fixing Symbiosis"
+      ],
+      "first_pub_year": 2019
+    }
+  ],
+  "Elysium Robotics": [
+    {
+      "name": "Rodrigo Alvarez",
+      "resolved": true,
+      "display_name": "Rodrigo Alvarez-Icaza",
+      "institution": "IBM (United States)",
+      "works_count": 16,
+      "cited_by_count": 7722,
+      "h_index": 12,
+      "pre_founding_topics": [
+        "Vestibular and auditory disorders",
+        "Advanced Memory and Neural Computing",
+        "Visual Attention and Saliency Detection"
+      ],
+      "first_pub_year": 2011
+    }
+  ],
+  "Every Electric": [
+    {
+      "name": "Richard May",
+      "resolved": true,
+      "display_name": "Richard May",
+      "institution": "Columbia University",
+      "works_count": 30,
+      "cited_by_count": 982,
+      "h_index": 14,
+      "pre_founding_topics": [
+        "Metal and Thin Film Mechanics",
+        "Chalcogenide Semiconductor Thin Films",
+        "Electrocatalysts for Energy Conversion",
+        "Crystallization and Solubility Studies",
+        "Graphene research and applications",
+        "Advanced Battery Materials and Technologies"
+      ],
+      "first_pub_year": 1972
+    },
+    {
+      "name": "Andrew Wang",
+      "resolved": true,
+      "display_name": "Eli Rotenberg",
+      "institution": "Lawrence Berkeley National Laboratory",
+      "works_count": 655,
+      "cited_by_count": 31700,
+      "h_index": 80,
+      "pre_founding_topics": [
+        "Semiconductor materials and devices",
+        "Chemical and Physical Properties of Materials",
+        "Inorganic Fluorides and Related Compounds",
+        "Ion-surface interactions and analysis",
+        "Semiconductor materials and interfaces",
+        "Electron and X-Ray Spectroscopy Techniques"
+      ],
+      "first_pub_year": 1991
+    }
+  ],
+  "ExciPlex": [
+    {
+      "name": "Daryl Staveness",
+      "resolved": true,
+      "display_name": "Daryl Staveness",
+      "institution": null,
+      "works_count": 28,
+      "cited_by_count": 1047,
+      "h_index": 13,
+      "pre_founding_topics": [
+        "Sulfur Compounds in Biology",
+        "Microbial Natural Products and Biosynthesis",
+        "Biochemical and Molecular Research",
+        "RNA Interference and Gene Delivery",
+        "Advanced MRI Techniques and Applications",
+        "Mosquito-borne diseases and control"
+      ],
+      "first_pub_year": 2009
+    }
+  ],
+  "Expand Power": [
+    {
+      "name": "Carla Pinzon",
+      "resolved": true,
+      "display_name": "Carla Nicole. Pinzón",
+      "institution": null,
+      "works_count": 1,
+      "cited_by_count": 0,
+      "h_index": 0,
+      "pre_founding_topics": [
+        "Underwater Vehicles and Communication Systems"
+      ],
+      "first_pub_year": 2020
+    }
+  ],
+  "Heliotrope Photonics": [
+    {
+      "name": "Minh Tran",
+      "resolved": true,
+      "display_name": "Huu Hao Ngo",
+      "institution": null,
+      "works_count": 941,
+      "cited_by_count": 60546,
+      "h_index": 121,
+      "pre_founding_topics": [
+        "Geochemistry and Elemental Analysis",
+        "Coagulation and Flocculation Studies",
+        "Urban Stormwater Management Solutions",
+        "Extraction and Separation Processes",
+        "Constructed Wetlands for Wastewater Treatment",
+        "Membrane Separation Technologies"
+      ],
+      "first_pub_year": 1985
+    }
+  ],
+  "HiT Nano": [
+    {
+      "name": "Ian McKendry",
+      "resolved": true,
+      "display_name": "Ian G. McKendry",
+      "institution": null,
+      "works_count": 28,
+      "cited_by_count": 968,
+      "h_index": 14,
+      "pre_founding_topics": [
+        "Geochemistry and Elemental Analysis",
+        "Electrocatalysts for Energy Conversion",
+        "Crystallization and Solubility Studies",
+        "Electrochemical Analysis and Applications",
+        "Organometallic Complex Synthesis and Catalysis",
+        "Copper-based nanomaterials and applications"
+      ],
+      "first_pub_year": 2015
+    },
+    {
+      "name": "Chris Abram",
+      "resolved": true,
+      "display_name": "Chris Abram",
+      "institution": null,
+      "works_count": 3,
+      "cited_by_count": 6,
+      "h_index": 2,
+      "pre_founding_topics": [
+        "nanoparticles nucleation surface interactions",
+        "Luminescence Properties of Advanced Materials",
+        "Aerosol Filtration and Electrostatic Precipitation"
+      ],
+      "first_pub_year": 2018
+    }
+  ],
+  "Huminly": [
+    {
+      "name": "Nikita Khlystov",
+      "resolved": true,
+      "display_name": "Nikita A. Khlystov",
+      "institution": "Stanford University",
+      "works_count": 10,
+      "cited_by_count": 227,
+      "h_index": 5,
+      "pre_founding_topics": [
+        "Biocrusts and Microbial Ecology",
+        "biodegradable polymer synthesis and properties",
+        "Enzyme-mediated dye degradation",
+        "Additive Manufacturing and 3D Printing Technologies",
+        "Microplastics and Plastic Pollution",
+        "Biochemical and biochemical processes"
+      ],
+      "first_pub_year": 2015
+    }
+  ],
+  "Hyperion Transport Systems": [
+    {
+      "name": "Theo Mouratidis",
+      "resolved": false
+    }
+  ],
+  "Icarus Quantum": [
+    {
+      "name": "Poolad Imany",
+      "resolved": true,
+      "display_name": "Hsuan‐Hao Lu",
+      "institution": "Oak Ridge National Laboratory",
+      "works_count": 121,
+      "cited_by_count": 1277,
+      "h_index": 17,
+      "pre_founding_topics": [
+        "Laser-Matter Interactions and Applications",
+        "Advanced Fiber Laser Technologies",
+        "Quantum optics and atomic interactions",
+        "Dark Matter and Cosmic Phenomena",
+        "Quantum Information and Cryptography",
+        "Optical Network Technologies"
+      ],
+      "first_pub_year": 2016
+    }
+  ],
+  "Kytyra": [
+    {
+      "name": "Sonia Dagan",
+      "resolved": false
+    }
+  ],
+  "LumiStrain, Inc.": [
+    {
+      "name": "Wei Meng",
+      "resolved": true,
+      "display_name": "Weiwei Meng",
+      "institution": "Xinjiang Technical Institute of Physics & Chemistry",
+      "works_count": 182,
+      "cited_by_count": 11864,
+      "h_index": 46,
+      "pre_founding_topics": [
+        "Legume Nitrogen Fixing Symbiosis",
+        "Electrochemical sensors and biosensors",
+        "Natural product bioactivities and synthesis",
+        "Microfluidic and Capillary Electrophoresis Applications",
+        "Analytical Chemistry and Chromatography",
+        "Antioxidant Activity and Oxidative Stress"
+      ],
+      "first_pub_year": 2006
+    }
+  ],
+  "Manifest Technologies": [
+    {
+      "name": "Camila Uzcategui",
+      "resolved": true,
+      "display_name": "Asais Camila Uzcategui",
+      "institution": "University of Colorado Boulder",
+      "works_count": 12,
+      "cited_by_count": 332,
+      "h_index": 8,
+      "pre_founding_topics": [
+        "3D Printing in Biomedical Research",
+        "Additive Manufacturing and 3D Printing Technologies",
+        "Tissue Engineering and Regenerative Medicine",
+        "Bone fractures and treatments",
+        "Osteoarthritis Treatment and Mechanisms"
+      ],
+      "first_pub_year": 2018
+    },
+    {
+      "name": "Johnny Hergert",
+      "resolved": false
+    }
+  ],
+  "Mithril Technologies": [
+    {
+      "name": "Scarlett Koller",
+      "resolved": true,
+      "display_name": "Scarlett Koller",
+      "institution": "Moscow Institute of Thermal Technology",
+      "works_count": 1,
+      "cited_by_count": 0,
+      "h_index": 0,
+      "pre_founding_topics": [],
+      "first_pub_year": 2026
+    }
+  ],
+  "Motibera": [
+    {
+      "name": "Nathan Petersen",
+      "resolved": true,
+      "display_name": "Nathan Petersen",
+      "institution": "Edwards Lifesciences (Switzerland)",
+      "works_count": 5,
+      "cited_by_count": 562,
+      "h_index": 5,
+      "pre_founding_topics": [
+        "Advanced Cellulose Research Studies",
+        "Cardiac Valve Diseases and Treatments"
+      ],
+      "first_pub_year": 2011
+    }
+  ],
+  "Nanoscale Labs": [
+    {
+      "name": "Gabriel Cossio",
+      "resolved": true,
+      "display_name": "Gabriel Cossio",
+      "institution": "The University of Texas at Austin",
+      "works_count": 15,
+      "cited_by_count": 164,
+      "h_index": 8,
+      "pre_founding_topics": [
+        "Optical Coatings and Gratings",
+        "Plasmonic and Surface Plasmon Research",
+        "2D Materials and Applications",
+        "Photonic Crystals and Applications",
+        "Perovskite Materials and Applications",
+        "solar cell performance optimization"
+      ],
+      "first_pub_year": 2017
+    }
+  ],
+  "Newfound Materials": [
+    {
+      "name": "Matt McDermott",
+      "resolved": true,
+      "display_name": "Mark McDermott",
+      "institution": "Imperial College London",
+      "works_count": 22,
+      "cited_by_count": 549,
+      "h_index": 8,
+      "pre_founding_topics": [
+        "Electromagnetic Simulation and Numerical Methods",
+        "Sensor Technology and Measurement Systems",
+        "Electronic Health Records Systems",
+        "Embedded Systems Design Techniques",
+        "Experimental Learning in Engineering",
+        "Analytical Chemistry and Sensors"
+      ],
+      "first_pub_year": 1970
+    }
+  ],
+  "NextGlass": [
+    {
+      "name": "Ratnesh Tiwari",
+      "resolved": true,
+      "display_name": "Ratnesh Tiwari",
+      "institution": "University of Maryland, College Park",
+      "works_count": 16,
+      "cited_by_count": 565,
+      "h_index": 9,
+      "pre_founding_topics": [
+        "Particle accelerators and beam dynamics",
+        "Injection Molding Process and Properties",
+        "Energy and Environment Impacts",
+        "Heat Transfer and Optimization",
+        "Heat Transfer and Boiling Studies",
+        "Hybrid Renewable Energy Systems"
+      ],
+      "first_pub_year": 2014
+    }
+  ],
+  "Oleo": [
+    {
+      "name": "Gabi Dweck",
+      "resolved": false
+    },
+    {
+      "name": "Kelly Redmond",
+      "resolved": false
+    }
+  ],
+  "One-D Nano": [
+    {
+      "name": "Greg Schwenk",
+      "resolved": false
+    }
+  ],
+  "PHNX Materials": [
+    {
+      "name": "Krish Mehta",
+      "resolved": false
+    }
+  ],
+  "Plumajet Inc": [
+    {
+      "name": "Mike Grzenda",
+      "resolved": false
+    }
+  ],
+  "Praio": [
+    {
+      "name": "Advait Holkar",
+      "resolved": false
+    }
+  ],
+  "Prospect Growth": [
+    {
+      "name": "Wyatt Arnold",
+      "resolved": false
+    }
+  ],
+  "PumpKin": [
+    {
+      "name": "Justin Silpe",
+      "resolved": false
+    }
+  ],
+  "Rapid Radicals": [
+    {
+      "name": "Paige Peters",
+      "resolved": false
+    }
+  ],
+  "Raven Space Systems": [
+    {
+      "name": "Blake Herren",
+      "resolved": false
+    }
+  ],
+  "Reforge Robotics": [
+    {
+      "name": "Nosa Edoimioya",
+      "resolved": false
+    }
+  ],
+  "Resolute Methane": [
+    {
+      "name": "Will Sawyer",
+      "resolved": false
+    }
+  ],
+  "Rhoic": [
+    {
+      "name": "John Slack",
+      "resolved": false
+    }
+  ],
+  "Robotics 88": [
+    {
+      "name": "Erin Linebarger",
+      "resolved": false
+    }
+  ],
+  "rStream": [
+    {
+      "name": "Ethan Walko",
+      "resolved": false
+    },
+    {
+      "name": "Ian Goodine",
+      "resolved": false
+    }
+  ],
+  "SHARP Diagnostics": [
+    {
+      "name": "Momcilo Gavrilov",
+      "resolved": false
+    }
+  ],
+  "Sinkco Labs": [
+    {
+      "name": "Brenna Boehman",
+      "resolved": false
+    }
+  ],
+  "Solidec": [
+    {
+      "name": "Ryan DuChanois",
+      "resolved": false
+    },
+    {
+      "name": "Yang Xia",
+      "resolved": false
+    }
+  ],
+  "Supercarb": [
+    {
+      "name": "Hitesh Manglani",
+      "resolved": false
+    }
+  ],
+  "Tatta Bio": [
+    {
+      "name": "Andre Cornman",
+      "resolved": false
+    },
+    {
+      "name": "Yunha Hwang",
+      "resolved": false
+    }
+  ],
+  "TopoLight": [
+    {
+      "name": "Rushin Contractor",
+      "resolved": false
+    }
+  ],
+  "Allium Engineering": [
+    {
+      "name": "Steve Jepeal",
+      "resolved": false
+    }
+  ],
+  "Alva Energy": [
+    {
+      "name": "Robb Stewart",
+      "resolved": false
+    }
+  ],
+  "Anthology": [
+    {
+      "name": "Jing Zhang",
+      "resolved": false
+    }
+  ],
+  "Arbon": [
+    {
+      "name": "Yang Shi",
+      "resolved": false
+    }
+  ],
+  "Arrakis Materials": [
+    {
+      "name": "Ioana Knopf",
+      "resolved": false
+    }
+  ],
+  "AsimicA": [
+    {
+      "name": "Nik Mushnikov",
+      "resolved": false
+    }
+  ],
+  "Banyu Carbon": [
+    {
+      "name": "Julian Sachs",
+      "resolved": false
+    },
+    {
+      "name": "Alex Gagnon",
+      "resolved": false
+    }
+  ],
+  "Blaze Energy": [
+    {
+      "name": "Rok Sitar",
+      "resolved": false
+    }
+  ],
+  "Boston Atomics": [
+    {
+      "name": "Enrique Velez-Lopez",
+      "resolved": false
+    }
+  ],
+  "Brekland": [
+    {
+      "name": "Eric Bellefroid",
+      "resolved": false
+    }
+  ],
+  "Calion Technologies": [
+    {
+      "name": "Drew Lilley",
+      "resolved": false
+    }
+  ],
+  "Capillary Nanotechnologies": [
+    {
+      "name": "Maya Faaborg",
+      "resolved": false
+    }
+  ],
+  "Cella Mineral Storage": [
+    {
+      "name": "Claire Nelson",
+      "resolved": false
+    }
+  ],
+  "Dottir Labs": [
+    {
+      "name": "Nili Persits",
+      "resolved": false
+    }
+  ],
+  "Eva": [
+    {
+      "name": "Murat Onen",
+      "resolved": false
+    }
+  ],
+  "Feon Energy": [
+    {
+      "name": "Wenxiao Huang",
+      "resolved": false
+    },
+    {
+      "name": "Zhiao Yu",
+      "resolved": false
+    }
+  ],
+  "florrent": [
+    {
+      "name": "Jose LaSalle",
+      "resolved": false
+    }
+  ],
+  "Flux XII": [
+    {
+      "name": "Patrick Sullivan",
+      "resolved": false
+    }
+  ],
+  "Gel Matter": [
+    {
+      "name": "Ilse Nava",
+      "resolved": false
+    }
+  ],
+  "Geolabe": [
+    {
+      "name": "Claudia Hulbert",
+      "resolved": false
+    }
+  ],
+  "HOPO Therapeutics": [
+    {
+      "name": "Julian Rees",
+      "resolved": false
+    }
+  ],
+  "Juno Propulsion": [
+    {
+      "name": "Alexis Harroun",
+      "resolved": false
+    }
+  ],
+  "Lucidean": [
+    {
+      "name": "Hector Andrade",
+      "resolved": false
+    },
+    {
+      "name": "Aaron Maharry",
+      "resolved": false
+    }
+  ],
+  "Morphosis": [
+    {
+      "name": "Will Liberti",
+      "resolved": false
+    }
+  ],
+  "Novel Farms": [
+    {
+      "name": "Michelle Lu",
+      "resolved": false
+    }
+  ],
+  "Opera Bioscience": [
+    {
+      "name": "Julie Ming Liang",
+      "resolved": false
+    }
+  ],
+  "OsRostrum Inc": [
+    {
+      "name": "Catie McVey",
+      "resolved": false
+    }
+  ],
+  "Pascal": [
+    {
+      "name": "Adam Slavney",
+      "resolved": false
+    },
+    {
+      "name": "Jinyoung Seo",
+      "resolved": false
+    }
+  ],
+  "Photonect Interconnect Solutions": [
+    {
+      "name": "Juniyali Nauriyal",
+      "resolved": false
+    }
+  ],
+  "RareTerra": [
+    {
+      "name": "Nate Good",
+      "resolved": false
+    }
+  ],
+  "ReynKo": [
+    {
+      "name": "Justin Beroz",
+      "resolved": false
+    }
+  ],
+  "RockFix": [
+    {
+      "name": "Gus Marquez",
+      "resolved": false
+    }
+  ],
+  "SirenOpt": [
+    {
+      "name": "Jared O'Leary",
+      "resolved": false
+    }
+  ],
+  "SixLine Semiconductor": [
+    {
+      "name": "Katy Jinkins",
+      "resolved": false
+    }
+  ],
+  "Terra Watts": [
+    {
+      "name": "Kaitlyn Suarez",
+      "resolved": false
+    }
+  ],
+  "Varada Agriculture": [
+    {
+      "name": "Jyoti Taneja",
+      "resolved": false
+    }
+  ],
+  "Vellex Computing": [
+    {
+      "name": "Palak Jain",
+      "resolved": false
+    }
+  ],
+  "Vyir": [
+    {
+      "name": "James Scholtz",
+      "resolved": false
+    }
+  ],
+  "Westwood Aerogel": [
+    {
+      "name": "Patricia McNeil",
+      "resolved": false
+    }
+  ],
+  "Aepnus Technology": [
+    {
+      "name": "Lukas Hackl",
+      "resolved": false
+    },
+    {
+      "name": "Bilen Akuzum",
+      "resolved": false
+    }
+  ],
+  "Anvil Diagnostics": [
+    {
+      "name": "Pavan Kota",
+      "resolved": false
+    }
+  ],
+  "BluumBio": [
+    {
+      "name": "Katherine French",
+      "resolved": false
+    }
+  ],
+  "Closed Composites": [
+    {
+      "name": "Carlos Navarro",
+      "resolved": false
+    }
+  ],
+  "Foray Bioscience": [
+    {
+      "name": "Ashley Beckwith",
+      "resolved": false
+    }
+  ],
+  "Found Energy": [
+    {
+      "name": "Peter Godart",
+      "resolved": false
+    }
+  ],
+  "Impact Cooling": [
+    {
+      "name": "David Hobby",
+      "resolved": false
+    },
+    {
+      "name": "Zach Gilvey",
+      "resolved": false
+    }
+  ],
+  "Innate Energy": [
+    {
+      "name": "Rob Mohr",
+      "resolved": false
+    }
+  ],
+  "Ivu Biologics": [
+    {
+      "name": "Auggie Zvinavashe",
+      "resolved": false
+    }
+  ],
+  "Limelight Steel": [
+    {
+      "name": "Andy Zhao",
+      "resolved": false
+    },
+    {
+      "name": "Olivia Dippo",
+      "resolved": false
+    }
+  ],
+  "Lithios": [
+    {
+      "name": "Mo Alkhadra",
+      "resolved": false
+    }
+  ],
+  "Ludwig Computing": [
+    {
+      "name": "Behtash Behin-Aein",
+      "resolved": false
+    }
+  ],
+  "Orien Energy": [
+    {
+      "name": "Yajing Zhao",
+      "resolved": false
+    }
+  ],
+  "PseudolithIC": [
+    {
+      "name": "Florian Herrault",
+      "resolved": false
+    }
+  ],
+  "Pulsenics": [
+    {
+      "name": "Essam Elsahwi",
+      "resolved": false
+    },
+    {
+      "name": "Mariam Awara",
+      "resolved": false
+    }
+  ],
+  "Quorum Bio": [
+    {
+      "name": "Sudharsan Dwaraknath",
+      "resolved": false
+    }
+  ],
+  "REEgen": [
+    {
+      "name": "Alexa Schmitz",
+      "resolved": false
+    }
+  ],
+  "Robigo": [
+    {
+      "name": "Andee Wallace",
+      "resolved": false
+    }
+  ],
+  "Roca Water": [
+    {
+      "name": "Margaret Lumley",
+      "resolved": false
+    }
+  ],
+  "Root Applied Sciences": [
+    {
+      "name": "Sarah Placella",
+      "resolved": false
+    }
+  ],
+  "Soctera": [
+    {
+      "name": "Austin Hickman",
+      "resolved": false
+    }
+  ],
+  "Solopulse": [
+    {
+      "name": "Ally McKinney",
+      "resolved": false
+    }
+  ],
+  "Still Bright": [
+    {
+      "name": "Jon Vardner",
+      "resolved": false
+    }
+  ],
+  "Sunchem": [
+    {
+      "name": "Daniel Sun",
+      "resolved": false
+    }
+  ],
+  "Tensora": [
+    {
+      "name": "Rob Moak",
+      "resolved": false
+    }
+  ],
+  "ThermoBionics": [
+    {
+      "name": "Terence Davidovits",
+      "resolved": false
+    }
+  ],
+  "Turnover Labs": [
+    {
+      "name": "Marissa Beatty",
+      "resolved": false
+    }
+  ],
+  "Tyfast": [
+    {
+      "name": "Haodong Liu",
+      "resolved": false
+    },
+    {
+      "name": "GJ la O'",
+      "resolved": false
+    }
+  ],
+  "VERDE Nanomaterials": [
+    {
+      "name": "Danielle Pascoli",
+      "resolved": false
+    }
+  ],
+  "Vycarb": [
+    {
+      "name": "Garrett Boudinot",
+      "resolved": false
+    }
+  ],
+  "Wild Microbes": [
+    {
+      "name": "Tim Wannier",
+      "resolved": false
+    }
+  ],
+  "Ọsọ Semiconductor": [
+    {
+      "name": "Matthew Anderson",
+      "resolved": false
+    }
+  ],
+  "Anthro": [
+    {
+      "name": "David Mackanic",
+      "resolved": false
+    }
+  ],
+  "Aura Intelligent Systems": [
+    {
+      "name": "Jungah Lee",
+      "resolved": false
+    }
+  ],
+  "Electrified Thermal Solutions": [
+    {
+      "name": "Dan Stack",
+      "resolved": false
+    },
+    {
+      "name": "Joey Kabel",
+      "resolved": false
+    }
+  ],
+  "Enertia Microsystems": [
+    {
+      "name": "Jae Cho",
+      "resolved": false
+    }
+  ],
+  "FLO Materials": [
+    {
+      "name": "Kezi Cheng",
+      "resolved": false
+    }
+  ],
+  "Inlyte Energy": [
+    {
+      "name": "Antonio Baclig",
+      "resolved": false
+    }
+  ],
+  "Intropic Materials": [
+    {
+      "name": "Aaron Hall",
+      "resolved": false
+    }
+  ],
+  "Kano Therapeutics": [
+    {
+      "name": "Floris Engelhardt",
+      "resolved": false
+    }
+  ],
+  "LintrinsIC": [
+    {
+      "name": "Cameron Hill",
+      "resolved": false
+    }
+  ],
+  "Loamist": [
+    {
+      "name": "Pete Christensen",
+      "resolved": false
+    }
+  ],
+  "Metavoxel Technologies": [
+    {
+      "name": "Ben Jenett",
+      "resolved": false
+    }
+  ],
+  "Osmoses": [
+    {
+      "name": "Holden Lai",
+      "resolved": false
+    },
+    {
+      "name": "Francesco Benedetti",
+      "resolved": false
+    }
+  ],
+  "Pheronym": [
+    {
+      "name": "Fatma Kaplan",
+      "resolved": false
+    },
+    {
+      "name": "Cameron Schiller",
+      "resolved": false
+    }
+  ],
+  "Qunnect": [
+    {
+      "name": "Mael Flament",
+      "resolved": false
+    }
+  ],
+  "Revive Labs": [
+    {
+      "name": "Andrew Stern",
+      "resolved": false
+    }
+  ],
+  "Semiotic Labs": [
+    {
+      "name": "Ahmet Ozcan",
+      "resolved": false
+    }
+  ],
+  "Thalo Labs": [
+    {
+      "name": "Brendan Hermalyn",
+      "resolved": false
+    }
+  ],
+  "AeroShield": [
+    {
+      "name": "Elise Strobach",
+      "resolved": false
+    },
+    {
+      "name": "Kyle Wilke",
+      "resolved": false
+    }
+  ],
+  "Concerto Biosciences": [
+    {
+      "name": "Jared Kehe",
+      "resolved": false
+    },
+    {
+      "name": "Cheri Ackerman Araromi",
+      "resolved": false
+    }
+  ],
+  "Elmworks": [
+    {
+      "name": "Sam Calisch",
+      "resolved": false
+    }
+  ],
+  "GigaCrop": [
+    {
+      "name": "Chris Eiben",
+      "resolved": false
+    }
+  ],
+  "Irradiant Technologies": [
+    {
+      "name": "Dan Oran",
+      "resolved": false
+    }
+  ],
+  "METAseismic": [
+    {
+      "name": "Noemi Bonessio",
+      "resolved": false
+    }
+  ],
+  "Nitricity": [
+    {
+      "name": "Josh McEnaney",
+      "resolved": false
+    },
+    {
+      "name": "Jay Schwalbe",
+      "resolved": false
+    }
+  ],
+  "Radical Plastics": [
+    {
+      "name": "Kristin Taylor",
+      "resolved": false
+    }
+  ],
+  "Resonant Link": [
+    {
+      "name": "Grayson Zulauf",
+      "resolved": false
+    }
+  ],
+  "ReSource": [
+    {
+      "name": "Aanindeeta Banerjee",
+      "resolved": false
+    }
+  ],
+  "SiTration": [
+    {
+      "name": "Brendan Smith",
+      "resolved": false
+    }
+  ],
+  "Sublime Systems": [
+    {
+      "name": "Leah Ellis",
+      "resolved": false
+    }
+  ],
+  "Sync Computing": [
+    {
+      "name": "Suraj Bramhavar",
+      "resolved": false
+    },
+    {
+      "name": "Jeff Chou",
+      "resolved": false
+    }
+  ],
+  "Umaro Foods": [
+    {
+      "name": "Amanda Stiles",
+      "resolved": false
+    }
+  ],
+  "Zanskar": [
+    {
+      "name": "Carl Hoiland",
+      "resolved": false
+    },
+    {
+      "name": "Joel Edwards",
+      "resolved": false
+    }
+  ],
+  "ZestBio": [
+    {
+      "name": "Luke Latimer",
+      "resolved": false
+    },
+    {
+      "name": "Ryan Protzko",
+      "resolved": false
+    }
+  ],
+  "Aralez Bio": [
+    {
+      "name": "Tina Boville",
+      "resolved": false
+    }
+  ],
+  "Brimstone": [
+    {
+      "name": "Cody Finke",
+      "resolved": false
+    }
+  ],
+  "Cypris Materials": [
+    {
+      "name": "Ryan Pearson",
+      "resolved": false
+    },
+    {
+      "name": "Matthew Ryan",
+      "resolved": false
+    }
+  ],
+  "InchFab": [
+    {
+      "name": "Mitchell Hsing",
+      "resolved": false
+    },
+    {
+      "name": "Parker Gould",
+      "resolved": false
+    }
+  ],
+  "Perceptra Technologies": [
+    {
+      "name": "Amir Atabaki",
+      "resolved": false
+    }
+  ],
+  "Reveel": [
+    {
+      "name": "Raj Bhakta",
+      "resolved": false
+    }
+  ],
+  "SkyGig": [
+    {
+      "name": "Armin Jam",
+      "resolved": false
+    },
+    {
+      "name": "Avish Kosari",
+      "resolved": false
+    }
+  ],
+  "Synopic": [
+    {
+      "name": "Jesse Adams",
+      "resolved": false
+    }
+  ],
+  "terrafuse": [
+    {
+      "name": "Adrian Albert",
+      "resolved": false
+    }
+  ],
+  "ActiveMEMS": [
+    {
+      "name": "Erkan Aktakka",
+      "resolved": false
+    }
+  ],
+  "Antora Energy": [
+    {
+      "name": "David Bierman",
+      "resolved": false
+    },
+    {
+      "name": "Justin Briggs",
+      "resolved": false
+    },
+    {
+      "name": "Andrew Ponec",
+      "resolved": false
+    }
+  ],
+  "CinderBio": [
+    {
+      "name": "Steve Yannone",
+      "resolved": false
+    }
+  ],
+  "Fervo Energy": [
+    {
+      "name": "Tim Latimer",
+      "resolved": false
+    },
+    {
+      "name": "Jack Norbeck",
+      "resolved": false
+    }
+  ],
+  "Noble Thermodynamic Systems": [
+    {
+      "name": "Miguel Sierra Aznar",
+      "resolved": false
+    }
+  ],
+  "Noon Energy": [
+    {
+      "name": "Chris Graves",
+      "resolved": false
+    }
+  ],
+  "Sonera": [
+    {
+      "name": "Dominic Labanowski",
+      "resolved": false
+    },
+    {
+      "name": "Nishita Deka",
+      "resolved": false
+    }
+  ],
+  "Takachar": [
+    {
+      "name": "Kevin Kung",
+      "resolved": false
+    }
+  ],
+  "Dauntless.io": [
+    {
+      "name": "Adam Vaughan",
+      "resolved": false
+    }
+  ],
+  "Gradient": [
+    {
+      "name": "Vince Romanin",
+      "resolved": false
+    }
+  ],
+  "Nelumbo": [
+    {
+      "name": "David Walther",
+      "resolved": false
+    },
+    {
+      "name": "Lance Brockway",
+      "resolved": false
+    }
+  ],
+  "Photia": [
+    {
+      "name": "Joe Geddes",
+      "resolved": false
+    }
+  ],
+  "Liminal Insights": [
+    {
+      "name": "Andrew Hsieh",
+      "resolved": false
+    }
+  ],
+  "Mallinda Materials": [
+    {
+      "name": "Philip Taynton",
+      "resolved": false
+    }
+  ],
+  "Sepion Technologies": [
+    {
+      "name": "Pete Frischmann",
+      "resolved": false
+    }
+  ],
+  "Tandem PV": [
+    {
+      "name": "Colin Bailie",
+      "resolved": false
+    },
+    {
+      "name": "Chris Eberspacher",
+      "resolved": false
+    }
+  ],
+  "Tierra Biosciences": [
+    {
+      "name": "Zach Sun",
+      "resolved": false
+    }
+  ],
+  "CalWave": [
+    {
+      "name": "Marcus Lehmann",
+      "resolved": false
+    }
+  ],
+  "Mosaic Materials": [
+    {
+      "name": "Thomas McDonald",
+      "resolved": false
+    },
+    {
+      "name": "Steven Kaye",
+      "resolved": false
+    }
+  ],
+  "PolySpectra": [
+    {
+      "name": "Raymond Weitekamp",
+      "resolved": false
+    }
+  ],
+  "Spark Thermionics": [
+    {
+      "name": "Jared Schwede",
+      "resolved": false
+    }
+  ],
+  "Twelve": [
+    {
+      "name": "Etosha Cave",
+      "resolved": false
+    }
+  ],
+  "Visolis": [
+    {
+      "name": "Deepak Dugar",
+      "resolved": false
+    }
+  ]
+}

@@ -7,8 +7,22 @@ Output: web/data/dataset.json
 from __future__ import annotations
 
 import json
+import re
 from collections import Counter, defaultdict
 from pathlib import Path
+
+TEXT_FIELDS = ("name", "tagline", "one_liner", "elevator_pitch", "critical_need",
+               "technology_vision", "potential_impact")
+
+
+def no_em_dash(s: str) -> str:
+    """Replace em/en dashes used as punctuation with a comma (site style: no em dashes)."""
+    if not isinstance(s, str):
+        return s
+    s = re.sub(r"\s*—\s*", ", ", s)        # em dash -> comma
+    s = re.sub(r"(?<=\d)\s*–\s*(?=\d)", "-", s)  # numeric en-dash range -> hyphen
+    s = re.sub(r"\s*–\s*", ", ", s)        # other en dashes -> comma
+    return re.sub(r"\s+", " ", s).strip()
 
 ROOT = Path(__file__).resolve().parent.parent
 P = ROOT / "data" / "processed"
@@ -25,6 +39,16 @@ def main() -> None:
     # on name (verified collision-free).
     outcomes = {o["name"]: o for o in load("outcomes.json")}
     field = load("field_signal.json")
+    try:
+        founders = load("founders.json")
+    except FileNotFoundError:
+        founders = {}
+
+    # Site style: strip em dashes from all displayed text.
+    for c in companies:
+        for f in TEXT_FIELDS:
+            if f in c:
+                c[f] = no_em_dash(c[f])
 
     # Merge outcomes into companies.
     for c in companies:
@@ -33,6 +57,7 @@ def main() -> None:
         c["nsf_count"] = o.get("nsf_count", 0)
         c["edgar_formD"] = o.get("edgar_formD", 0)
         c["nsf_awards"] = o.get("nsf_awards", [])
+        c["founders"] = founders.get(c["name"], [])
 
     dated = [c for c in companies if c["cohort_year"]]
 

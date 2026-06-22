@@ -24,8 +24,39 @@ import time
 import requests
 
 UA = {"User-Agent": "FellowSignal/0.1 (mailto:may.payton@bitsourceky.com)"}
+MAILTO = "may.payton@bitsourceky.com"  # OpenAlex polite pool
 AUTHORS = "https://api.openalex.org/authors"
 WORKS = "https://api.openalex.org/works"
+
+_session = requests.Session()
+_session.headers.update(UA)
+
+
+class RateLimited(Exception):
+    """Raised when OpenAlex keeps throttling — lets callers distinguish a
+    throttle from a genuine no-match (so we don't record real founders as
+    unresolved)."""
+
+
+def _get(url: str, params: dict, *, timeout: int = 25, retries: int = 5) -> dict | None:
+    params = {**params, "mailto": MAILTO}
+    for attempt in range(retries):
+        try:
+            r = _session.get(url, params=params, timeout=timeout)
+        except requests.RequestException:
+            time.sleep(1.5 * (attempt + 1))
+            continue
+        if r.status_code == 200:
+            try:
+                return r.json()
+            except ValueError:
+                return None
+        if r.status_code in (429, 500, 502, 503):
+            wait = float(r.headers.get("Retry-After", 2 * (attempt + 1)))
+            time.sleep(min(wait, 10))
+            continue
+        return None
+    raise RateLimited(url)
 
 STOP = set("the a an and or of to for with from into using that this their our we are "
            "is be as on in by at it its inc llc labs technology technologies company "
@@ -85,12 +116,8 @@ def resolve_fellow(name: str, company: dict, *, min_score: int = 2,
     Returns None when no candidate's research aligns with the company (the
     fellow may be non-academic, or every namesake is the wrong person).
     """
-    try:
-        r = requests.get(AUTHORS, params={"search": name, "per-page": 5},
-                         headers=UA, timeout=timeout)
-        candidates = r.json().get("results", [])
-    except (requests.RequestException, ValueError):
-        return None
+    data = _get(AUTHORS, {"search": name, "per-page": 5}, timeout=timeout)
+    candidates = (data or {}).get("results", [])
 
     bag = company_bag(company)
     # Most Activate ventures are hard tech → a STEM-domain founder is expected.
@@ -130,15 +157,12 @@ def resolve_fellow(name: str, company: dict, *, min_score: int = 2,
 
 def works_timeline(openalex_id: str, *, timeout: int = 25) -> list[dict]:
     """Chronological works: (year, title, primary topic) — for trend analysis."""
-    try:
-        r = requests.get(WORKS, params={
-            "filter": f"author.id:{openalex_id}",
-            "sort": "publication_date:asc", "per-page": 100,
-            "select": "title,publication_year,primary_topic,cited_by_count",
-        }, headers=UA, timeout=timeout)
-        works = r.json().get("results", [])
-    except (requests.RequestException, ValueError):
-        return []
+    data = _get(WORKS, {
+        "filter": f"author.id:{openalex_id}",
+        "sort": "publication_date:asc", "per-page": 100,
+        "select": "title,publication_year,primary_topic,cited_by_count",
+    }, timeout=timeout)
+    works = (data or {}).get("results", [])
     out = []
     for w in works:
         pt = w.get("primary_topic") or {}

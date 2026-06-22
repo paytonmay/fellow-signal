@@ -29,12 +29,6 @@ export default function Page() {
   const verticalNames = data.verticals.map((v) => v.vertical);
   const hubNames = data.hubs.map(([name]) => name).filter((n) => n && !n.includes(","));
 
-  const dirCompanies = data.companies.map((c) => ({
-    id: c.id, name: c.name, one_liner: c.one_liner, verticals: c.verticals,
-    cohort_year: c.cohort_year, hub: c.hub, website: c.website,
-    nsf_total: c.nsf_total, edgar_formD: c.edgar_formD, fellows: c.fellows,
-  })) as unknown as import("@/lib/data").Company[];
-
   const radarSorted = [...data.radar].sort((a, b) => b.field_momentum - a.field_momentum);
   const medMom = [...data.radar].map((r) => r.field_momentum).sort((a, b) => a - b)[Math.floor(data.radar.length / 2)];
   const medPres = [...data.radar].map((r) => r.activate_presence_recent).sort((a, b) => a - b)[Math.floor(data.radar.length / 2)];
@@ -54,7 +48,7 @@ export default function Page() {
             The frontier Activate&apos;s scientists are building.
           </h1>
           <p className="mt-5 text-lg text-zinc-400 max-w-2xl leading-relaxed">
-            An intelligence layer on the Activate fellowship — every venture mapped by
+            An intelligence layer on the Activate fellowship. Every venture mapped by
             science, industry, and impact, then read against where research and funding
             are actually moving.
           </p>
@@ -73,7 +67,7 @@ export default function Page() {
         <section className="py-16 border-b border-[#15181e]">
           <SectionLabel n="01">Frontier Radar</SectionLabel>
           <h2 className="text-2xl md:text-3xl font-semibold text-zinc-100 max-w-3xl">
-            Where the science is accelerating — and whether Activate is there.
+            Where the science is accelerating, and whether Activate is there.
           </h2>
           <p className="mt-3 text-zinc-400 max-w-2xl">
             Each field&apos;s research momentum (its growing share of global publications)
@@ -87,7 +81,7 @@ export default function Page() {
             <span className="text-amber-300 font-medium">Whitespace candidates:</span>{" "}
             {whitespace.map((w) => w.vertical.replace(" / CO2e", "")).join(" · ")}.{" "}
             <span className="text-zinc-500">
-              Low presence can mean off-thesis rather than missed — these are questions to investigate, not directives.
+              Low presence can mean off-thesis rather than missed. These are questions to investigate, not directives.
             </span>
           </div>
         </section>
@@ -99,7 +93,7 @@ export default function Page() {
             Did the focus pay off? {fmtUSD(h.nsf_total, { compact: true })} in non-dilutive funding, traced.
           </h2>
           <p className="mt-3 text-zinc-400 max-w-2xl">
-            Independently matched against public records — {h.nsf_funded} of {h.companies} ventures
+            Independently matched against public records: {h.nsf_funded} of {h.companies} ventures
             won NSF grants and {h.formd} have filed SEC Form D raises. NSF alone is a floor;
             DOE/DOD/NASA via SBIR layer in next.
           </p>
@@ -125,10 +119,17 @@ export default function Page() {
         {/* ===== Directory ===== */}
         <section className="py-16">
           <SectionLabel n="04">Portfolio</SectionLabel>
-          <h2 className="text-2xl md:text-3xl font-semibold text-zinc-100 max-w-3xl mb-8">
-            Every venture, searchable.
+          <h2 className="text-2xl md:text-3xl font-semibold text-zinc-100 max-w-3xl">
+            Not a directory. A dossier on every venture.
           </h2>
-          <Directory companies={dirCompanies} verticals={verticalNames} hubs={hubNames} />
+          <p className="mt-3 text-zinc-400 max-w-2xl mb-8">
+            Activate&apos;s own site lists name, year, hub, and fellows. This adds the
+            intelligence layer: sort by funding or founder citations, watch the filtered
+            set&apos;s totals update live, and open any venture for its funding awards and
+            the founder&apos;s research footprint, including the science they published
+            before founding.
+          </p>
+          <Directory companies={data.companies} verticals={verticalNames} hubs={hubNames} />
         </section>
       </div>
 
@@ -136,12 +137,12 @@ export default function Page() {
       <footer className="border-t border-[#15181e] py-10">
         <div className="max-w-6xl mx-auto px-6 text-[12.5px] text-zinc-500 space-y-2">
           <p>
-            <span className="text-zinc-300">Fellow Signal</span> — a working prototype.
+            <span className="text-zinc-300">Fellow Signal</span>, a working prototype.
             Data: Activate&apos;s public companies directory, NSF Awards API, SEC EDGAR, and OpenAlex.
           </p>
           <p className="text-zinc-600">
-            Built as an independent analysis. Whitespace and momentum figures are directional —
-            field momentum uses keyword-relevance search; trust the ranking over exact magnitudes.
+            Built as an independent analysis. Whitespace and momentum figures are directional:
+            field momentum uses keyword-relevance search, so trust the ranking over exact magnitudes.
           </p>
         </div>
       </footer>
