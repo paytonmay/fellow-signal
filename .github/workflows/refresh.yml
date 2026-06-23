@@ -36,9 +36,17 @@ jobs:
           git add data/processed web/data/dataset.json
           if git diff --cached --quiet; then
             echo "No data changes this run."
-          else
-            git commit -m "Monthly data refresh (automated)
-
-            Co-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>"
-            git push
+            exit 0
           fi
+          git commit -m "Monthly data refresh (automated)
+
+          Co-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>"
+          # Resilient push: if main moved during the long run, rebase (keeping
+          # this run's freshly-generated data on conflict) and retry.
+          for attempt in 1 2 3 4 5; do
+            if git push; then echo "pushed"; exit 0; fi
+            echo "push rejected; rebasing onto latest main (attempt $attempt)"
+            git pull --rebase -X theirs origin main || git rebase --abort
+            sleep $((attempt * 3))
+          done
+          echo "could not push after retries" && exit 1

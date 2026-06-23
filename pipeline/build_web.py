@@ -188,9 +188,19 @@ def main() -> None:
     for c in companies:
         c["fellow_profiles"] = [
             {"name": f["name"], "degree": f.get("degree"), "universities": f.get("universities", []),
-             "linkedin": f.get("linkedin"), "bio": f.get("bio", "")}
+             "field_of_study": f.get("field_of_study"), "linkedin": f.get("linkedin"), "bio": f.get("bio", "")}
             for f in fellows_by_co.get(c["name"].lower(), [])
         ]
+
+    # Discipline -> space: which academic fields feed which verticals (sourcing).
+    disc_by_vert: dict[str, Counter] = defaultdict(Counter)
+    for f in fellows:
+        fos = f.get("field_of_study")
+        if not fos:
+            continue
+        for v in f.get("verticals", []):
+            disc_by_vert[v][fos] += 1
+    discipline_map = {v: c.most_common(5) for v, c in disc_by_vert.items()}
 
     # Enrich radar rows with federal funding momentum (for bubble size).
     fed_mom = {s["vertical"]: s.get("federal_momentum") for s in space_signals.get("spaces", [])}
@@ -210,6 +220,7 @@ def main() -> None:
         "funder_model": funder_model,
         "peer_funders": peer_funders,
         "fellow_background": fellow_background,
+        "discipline_map": discipline_map,
     }, ensure_ascii=False), encoding="utf-8")
     kb = OUT.stat().st_size // 1024
     print(f"Wrote {OUT.relative_to(ROOT)} ({kb} KB)")

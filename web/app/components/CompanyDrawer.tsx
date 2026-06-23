@@ -100,44 +100,51 @@ export default function CompanyDrawer({
             </div>
           )}
 
-          {/* founders: the differentiator */}
-          <div className="mt-6">
-            <div className="text-[11px] uppercase tracking-wider text-zinc-500 mb-2">
-              Founding scientist{c.fellows.length > 1 ? "s" : ""}
-            </div>
-            <div className="space-y-3">
-              {(c.founders?.length ? c.founders : c.fellows.map((n): Founder => ({ name: n, resolved: false }))).map((f, i) => (
-                <div key={i} className="panel p-3.5">
-                  <div className="font-medium text-zinc-100 text-[14px]">{f.name}</div>
-                  {f.resolved ? (
-                    <>
-                      <div className="text-[11.5px] text-zinc-500 mt-0.5">
-                        {f.institution}
-                        {f.cited_by_count != null && <> · {f.cited_by_count.toLocaleString()} citations</>}
-                        {f.h_index != null && <> · h-index {f.h_index}</>}
-                      </div>
-                      {f.pre_founding_topics && f.pre_founding_topics.length > 0 && (
-                        <div className="mt-2.5">
-                          <div className="text-[10.5px] text-zinc-600 mb-1.5">
-                            Research before founding {c.cohort_year ? `(through ${c.cohort_year})` : ""}:
+          {/* founders: authoritative bio (degree/field/university) + research footprint */}
+          {(() => {
+            const norm = (s: string) => s.toLowerCase().replace(/[^a-z]/g, "");
+            const profiles = c.fellow_profiles?.length
+              ? c.fellow_profiles
+              : c.fellows.map((n) => ({ name: n, degree: null, universities: [] as string[], field_of_study: null, linkedin: "", bio: "" }));
+            return (
+              <div className="mt-6">
+                <div className="text-[11px] uppercase tracking-wider text-zinc-500 mb-2">
+                  Founding scientist{profiles.length > 1 ? "s" : ""}
+                </div>
+                <div className="space-y-3">
+                  {profiles.map((fp, i) => {
+                    const r = (c.founders ?? []).find((f) => f.resolved && norm(f.name) === norm(fp.name));
+                    const meta = [fp.degree, fp.field_of_study, fp.universities?.[0]].filter(Boolean).join(" · ");
+                    return (
+                      <div key={i} className="panel p-3.5">
+                        <div className="flex items-baseline justify-between gap-2">
+                          <span className="font-medium text-zinc-100 text-[14px]">{fp.name}</span>
+                          {fp.linkedin && (
+                            <a href={fp.linkedin} target="_blank" rel="noopener noreferrer" className="text-[11px] text-zinc-500 hover:text-teal-300">LinkedIn ↗</a>
+                          )}
+                        </div>
+                        {meta && <div className="text-[11.5px] text-teal-300/80 mt-0.5">{meta}</div>}
+                        {r && (r.cited_by_count != null || r.h_index != null) && (
+                          <div className="text-[11px] text-zinc-500 mt-0.5">
+                            {r.cited_by_count != null && <>{r.cited_by_count.toLocaleString()} citations</>}
+                            {r.h_index != null && <> · h-index {r.h_index}</>}
                           </div>
-                          <div className="flex flex-wrap gap-1.5">
-                            {f.pre_founding_topics.slice(0, 5).map((t) => (
-                              <span key={t} className="text-[10.5px] text-zinc-300 bg-[#14171d] border border-[#1d2128] rounded px-2 py-0.5">
-                                {t}
-                              </span>
+                        )}
+                        {r?.pre_founding_topics && r.pre_founding_topics.length > 0 && (
+                          <div className="mt-2 flex flex-wrap gap-1.5">
+                            {r.pre_founding_topics.slice(0, 4).map((t) => (
+                              <span key={t} className="text-[10.5px] text-zinc-300 bg-[#14171d] border border-[#1d2128] rounded px-2 py-0.5">{t}</span>
                             ))}
                           </div>
-                        </div>
-                      )}
-                    </>
-                  ) : (
-                    <div className="text-[11.5px] text-zinc-600 mt-0.5">No matched research profile</div>
-                  )}
+                        )}
+                        {fp.bio && <p className="text-[12px] text-zinc-400 mt-2 leading-relaxed line-clamp-4">{fp.bio}</p>}
+                      </div>
+                    );
+                  })}
                 </div>
-              ))}
-            </div>
-          </div>
+              </div>
+            );
+          })()}
         </div>
       </aside>
     </div>

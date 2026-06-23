@@ -49,6 +49,46 @@ UNI_RE = re.compile(
 STOP_UNI = re.compile(r"\b(the|and|at|from|in|a|completed|her|his|their)\b", re.I)
 
 
+# Academic disciplines, specific -> general (first match wins). Maps the
+# messy bio phrasing onto a clean field taxonomy.
+DISCIPLINES = [
+    ("Chemical engineering", r"chemical engineer"),
+    ("Mechanical engineering", r"mechanical engineer"),
+    ("Electrical engineering", r"electrical engineer|electrical and computer"),
+    ("Materials science", r"materials? science|materials? engineer"),
+    ("Biomedical engineering", r"biomedical engineer|bioengineer"),
+    ("Aerospace engineering", r"aerospace|aeronautic|astronautic"),
+    ("Environmental engineering", r"environmental engineer"),
+    ("Civil engineering", r"civil engineer"),
+    ("Nuclear engineering", r"nuclear engineer|nuclear physic"),
+    ("Synthetic biology", r"synthetic biology"),
+    ("Molecular biology", r"molecular biolog|biochemis"),
+    ("Microbiology", r"microbiolog"),
+    ("Neuroscience", r"neuroscience"),
+    ("Genetics / genomics", r"genetic|genomic"),
+    ("Chemistry", r"chemistry"),
+    ("Physics", r"\bphysics\b|physicist"),
+    ("Biology", r"\bbiology\b|biologist"),
+    ("Computer science", r"computer science|machine learning|artificial intelligence"),
+    ("Mathematics", r"mathematic|applied math"),
+    ("Earth / environmental science", r"earth science|geolog|geoscience|oceanograph|climate science|environmental science"),
+    ("Engineering (other)", r"engineer"),
+]
+
+
+def field_of_study(bio: str) -> str | None:
+    # prefer the field tied to the doctorate, else the first discipline mentioned
+    m = re.search(r"(Ph\.?\s?D\.?|doctorate|doctoral)[^.]{0,60}?\bin\s+([a-z][a-z /-]{4,40})", bio, re.I)
+    scope = m.group(2) if m else bio
+    for label, pat in DISCIPLINES:
+        if re.search(pat, scope, re.I):
+            return label
+    for label, pat in DISCIPLINES:
+        if re.search(pat, bio, re.I):
+            return label
+    return None
+
+
 def universities(bio: str) -> list[str]:
     found = []
     for m in UNI_RE.findall(bio):
@@ -91,6 +131,7 @@ def main() -> None:
             "bio": bio,
             "degree": highest_degree(bio),
             "universities": universities(bio),
+            "field_of_study": field_of_study(bio),
         })
 
     fellows.sort(key=lambda x: (-(x["cohort_year"] or 0), x["name"]))

@@ -12,7 +12,8 @@
     "degree": "Bachelor's",
     "universities": [
       "UCLA"
-    ]
+    ],
+    "field_of_study": "Electrical engineering"
   },
   {
     "name": "Andre Cruz",
@@ -29,7 +30,8 @@
       "University of Cambridge",
       "University of Ottawa",
       "University of Toronto. His"
-    ]
+    ],
+    "field_of_study": "Chemistry"
   },
   {
     "name": "Becca Segel",
@@ -45,7 +47,8 @@
     "universities": [
       "University of Pittsburgh",
       "Case Western Reserve University"
-    ]
+    ],
+    "field_of_study": "Chemical engineering"
   },
   {
     "name": "Bing Li",
@@ -62,7 +65,8 @@
     "universities": [
       "University of Minnesota",
       "University of Washington"
-    ]
+    ],
+    "field_of_study": "Electrical engineering"
   },
   {
     "name": "Bonnie Maven",
@@ -76,7 +80,8 @@
     "linkedin": "https://www.linkedin.com/in/bejmaven/",
     "bio": "Bonnie EJ Maven is the founder and CEO of Vertility Health, a company advancing genetic selection technology for animal agriculture. Raised on a small farm in Texas, Maven witnessed firsthand how vital reproductive technologies are to farmers. This perspective now fuels a mission to make genetic tools more precise, accessible, and impactful. After earning a Ph.D. in developmental and stem cell biology from UC San Francisco and the Gladstone Institutes, Maven turned to biotech innovation to deliver real-world solutions to agricultural communities worldwide.",
     "degree": "PhD",
-    "universities": []
+    "universities": [],
+    "field_of_study": "Biology"
   },
   {
     "name": "Charlie Childs",
@@ -92,7 +97,8 @@
     "universities": [
       "University of Wisconsin",
       "University of Michigan"
-    ]
+    ],
+    "field_of_study": "Biology"
   },
   {
     "name": "Chris Thomas",
@@ -112,7 +118,8 @@
     "universities": [
       "SUNY College",
       "Beijing Forestry University"
-    ]
+    ],
+    "field_of_study": "Earth / environmental science"
   },
   {
     "name": "Chrissy O'Hersey",
@@ -127,7 +134,8 @@
     "degree": "PhD",
     "universities": [
       "Johns Hopkins University"
-    ]
+    ],
+    "field_of_study": "Biomedical engineering"
   },
   {
     "name": "Diana Mojahed",
@@ -144,7 +152,8 @@
     "universities": [
       "Columbia University",
       "MIT"
-    ]
+    ],
+    "field_of_study": "Biomedical engineering"
   },
   {
     "name": "Elliot Strand",
@@ -164,7 +173,8 @@
     "universities": [
       "University of Wisconsin",
       "University of Colorado Boulder"
-    ]
+    ],
+    "field_of_study": "Materials science"
   },
   {
     "name": "Eugene Chung",
@@ -181,7 +191,8 @@
     "universities": [
       "Arizona State University",
       "Rice University"
-    ]
+    ],
+    "field_of_study": "Biomedical engineering"
   },
   {
     "name": "Gary Molano",
@@ -202,7 +213,8 @@
     "universities": [
       "University of Santa Cruz",
       "University of Southern California. He"
-    ]
+    ],
+    "field_of_study": "Biology"
   },
   {
     "name": "Iria Mostrou",
@@ -217,7 +229,8 @@
     "degree": "PhD",
     "universities": [
       "ETH Zurich"
-    ]
+    ],
+    "field_of_study": "Chemical engineering"
   },
   {
     "name": "Jacob Roberts",
@@ -234,7 +247,8 @@
     "universities": [
       "Cornell University",
       "UC Berkeley"
-    ]
+    ],
+    "field_of_study": "Biomedical engineering"
   },
   {
     "name": "Jason Hoffman-Bice",
@@ -252,7 +266,8 @@
       "Northeastern University",
       "Purdue University",
       "University of Florida. Prior"
-    ]
+    ],
+    "field_of_study": "Mechanical engineering"
   },
   {
     "name": "Jessica Frick",
@@ -270,7 +285,8 @@
       "Stanford University",
       "University of Michigan",
       "Princeton University"
-    ]
+    ],
+    "field_of_study": "Materials science"
   },
   {
     "name": "Jiya Janowitz",
@@ -286,7 +302,8 @@
     "degree": "Master's",
     "universities": [
       "Stanford University"
-    ]
+    ],
+    "field_of_study": "Materials science"
   },
   {
     "name": "Joe Sawa",
@@ -302,7 +319,8 @@
     "universities": [
       "University of Illinois",
       "UC Berkeley"
-    ]
+    ],
+    "field_of_study": "Chemical engineering"
   },
   {
     "name": "Jon Bessette",
@@ -318,7 +336,8 @@
     "universities": [
       "SUNY University",
       "MIT"
-    ]
+    ],
+    "field_of_study": "Mechanical engineering"
   },
   {
     "name": "Jon McCandless",
@@ -336,7 +355,8 @@
     "universities": [
       "Case Western Reserve University",
       "Cornell University"
-    ]
+    ],
+    "field_of_study": null
   },
   {
     "name": "Josh Yang",
@@ -353,7 +373,8 @@
     "universities": [
       "University",
       "Stanford University"
-    ]
+    ],
+    "field_of_study": "Electrical engineering"
   },
   {
     "name": "Juanjuan Zheng",
@@ -370,7 +391,8 @@
     "degree": "PhD",
     "universities": [
       "Harvard University"
-    ]
+    ],
+    "field_of_study": null
   },
   {
     "name": "Junho Lee",
@@ -385,7 +407,8 @@
     "degree": "PhD",
     "universities": [
       "Texas A&M University"
-    ]
+    ],
+    "field_of_study": "Engineering (other)"
   },
   {
     "name": "Katie Williamson",
@@ -403,7 +426,8 @@
     "degree": "PhD",
     "universities": [
       "Ohio State University"
-    ]
+    ],
+    "field_of_study": null
   },
   {
     "name": "Kia Kiaee",
@@ -416,7 +440,8 @@
     "linkedin": "https://www.linkedin.com/in/kiavash-kiaee-70b52787/",
     "bio": "As co-founder and CTO of Lagomics, Kia Kiaee is pioneering multiplexed mapping of biomolecular interactions via DNA barcodes and next-generation sequencing. Kiaee earned a Ph.D. in bioengineering and has over five years of industry experience at Ginkgo Bioworks, GC Therapeutics, and Harvard Genetics (Church Lab), where he advanced genome editing and cell therapy platforms, including scalable iPSC workflows. Kiaee co-led a $9.4M ARPA-H award and designed scalable, cloud-based wet-lab and informatics pipelines to accelerate target discovery.",
     "degree": "PhD",
-    "universities": []
+    "universities": [],
+    "field_of_study": "Biomedical engineering"
   },
   {
     "name": "Larissa Little",
@@ -431,7 +456,8 @@
     "degree": "PhD",
     "universities": [
       "Olin College"
-    ]
+    ],
+    "field_of_study": "Materials science"
   },
   {
     "name": "Luis Estevez",
@@ -448,7 +474,8 @@
     "degree": "PhD",
     "universities": [
       "Cornell University"
-    ]
+    ],
+    "field_of_study": "Materials science"
   },
   {
     "name": "Luis Valencia",
@@ -465,7 +492,8 @@
     "universities": [
       "University of Texas",
       "UC Berkeley"
-    ]
+    ],
+    "field_of_study": "Biomedical engineering"
   },
   {
     "name": "Maeva Coste",
@@ -484,7 +512,8 @@
     "degree": "PhD",
     "universities": [
       "University of Montpellier"
-    ]
+    ],
+    "field_of_study": "Chemistry"
   },
   {
     "name": "Milad Yavari",
@@ -499,7 +528,8 @@
     "degree": "PhD",
     "universities": [
       "SUNY University"
-    ]
+    ],
+    "field_of_study": "Chemical engineering"
   },
   {
     "name": "Monika Bleszynski",
@@ -515,7 +545,8 @@
     "degree": "PhD",
     "universities": [
       "University of Denver"
-    ]
+    ],
+    "field_of_study": "Materials science"
   },
   {
     "name": "Nadia Jorgenson",
@@ -532,7 +563,8 @@
     "degree": "PhD",
     "universities": [
       "University of Colorado Boulder"
-    ]
+    ],
+    "field_of_study": "Environmental engineering"
   },
   {
     "name": "Nikita Lazarev",
@@ -549,7 +581,8 @@
     "universities": [
       "Bauman Moscow State Technical University",
       "MIT"
-    ]
+    ],
+    "field_of_study": "Electrical engineering"
   },
   {
     "name": "Nina Warner",
@@ -565,7 +598,8 @@
     "universities": [
       "Pomona College",
       "University of Cambridge"
-    ]
+    ],
+    "field_of_study": "Chemistry"
   },
   {
     "name": "Pankaj Ghildiyal",
@@ -581,7 +615,8 @@
     "degree": "PhD",
     "universities": [
       "University of Maryland"
-    ]
+    ],
+    "field_of_study": "Chemistry"
   },
   {
     "name": "Payton Goodrich",
@@ -601,7 +636,8 @@
     "universities": [
       "Iowa State University",
       "UC Berkeley"
-    ]
+    ],
+    "field_of_study": "Mechanical engineering"
   },
   {
     "name": "Ronald Davis",
@@ -617,7 +653,8 @@
     "degree": "PhD",
     "universities": [
       "MIT"
-    ]
+    ],
+    "field_of_study": "Electrical engineering"
   },
   {
     "name": "Scott Schiffres",
@@ -637,7 +674,8 @@
       "Cornell University",
       "Carnegie Mellon University",
       "Binghamton University"
-    ]
+    ],
+    "field_of_study": "Materials science"
   },
   {
     "name": "Sumedh Gostu",
@@ -655,7 +693,8 @@
     "degree": "PhD",
     "universities": [
       "Worcester Polytechnic Institute"
-    ]
+    ],
+    "field_of_study": null
   },
   {
     "name": "Vernon LaLone",
@@ -672,7 +711,8 @@
     "degree": null,
     "universities": [
       "Imperial College"
-    ]
+    ],
+    "field_of_study": "Materials science"
   },
   {
     "name": "Victoria Coll Araoz",
@@ -687,7 +727,8 @@
     "degree": "PhD",
     "universities": [
       "National University"
-    ]
+    ],
+    "field_of_study": "Chemistry"
   },
   {
     "name": "Yasamin Jodat",
@@ -700,7 +741,8 @@
     "linkedin": "https://www.linkedin.com/in/yasamin-jodat/",
     "bio": "Yasamin Jodat is a bioengineer specializing in automation, synthetic biology, and high-throughput discovery. Her Ph.D. research at Harvard Medical School explored biosensing, engineered tissues, and 3D-printed biomimetics to unlock new biological models. With five years of industry experience building multi-million-dollar genomic engineering systems at Ginkgo Bioworks, Jodat now focuses on creating tools to decode complex molecular interactions, including the mysteries of the biology of smell.",
     "degree": "PhD",
-    "universities": []
+    "universities": [],
+    "field_of_study": "Biomedical engineering"
   },
   {
     "name": "Yasmeen Alfaraj",
@@ -716,7 +758,8 @@
     "universities": [
       "MIT",
       "UC Berkeley"
-    ]
+    ],
+    "field_of_study": "Chemistry"
   },
   {
     "name": "Zhengrui (Ray) Xu",
@@ -731,7 +774,8 @@
     "linkedin": "https://www.linkedin.com/in/zhengrui-xu/",
     "bio": "Zhengrui (Ray) Xu is the co-founder and CEO of Fermi Energy Inc., which develops low-cost, high-performance cathode materials for next-generation batteries. Xu earned his Ph.D. in chemistry from Virginia Tech in 2021. He co-founded Fermi Energy in 2022 to commercialize his doctoral research on lithium-ion and sodium-ion cathodes. Xu previously interned at Tesla on the Cell Manufacturing Engineering team and later became a Presidential Postdoctoral Fellow at Virginia Tech.",
     "degree": "PhD",
-    "universities": []
+    "universities": [],
+    "field_of_study": "Chemistry"
   },
   {
     "name": "Zhizhen Zhong",
@@ -747,7 +791,8 @@
     "degree": null,
     "universities": [
       "MIT"
-    ]
+    ],
+    "field_of_study": null
   },
   {
     "name": "Advait Holkar",
@@ -764,7 +809,8 @@
     "degree": "PhD",
     "universities": [
       "UCLA"
-    ]
+    ],
+    "field_of_study": "Chemical engineering"
   },
   {
     "name": "Alec Ajnsztajn",
@@ -781,7 +827,8 @@
     "universities": [
       "Duke University",
       "Rice University"
-    ]
+    ],
+    "field_of_study": "Materials science"
   },
   {
     "name": "Andre Cornman",
@@ -794,7 +841,8 @@
     "degree": "Master's",
     "universities": [
       "Stanford University"
-    ]
+    ],
+    "field_of_study": "Electrical engineering"
   },
   {
     "name": "Andrew Wang",
@@ -812,7 +860,8 @@
       "Columbia University",
       "University of Oxford",
       "UC Berkeley"
-    ]
+    ],
+    "field_of_study": null
   },
   {
     "name": "Blake Herren",
@@ -828,7 +877,8 @@
     "degree": "PhD",
     "universities": [
       "University of Oklahoma"
-    ]
+    ],
+    "field_of_study": "Mechanical engineering"
   },
   {
     "name": "Brenna Boehman",
@@ -845,7 +895,8 @@
     "degree": "PhD",
     "universities": [
       "MIT"
-    ]
+    ],
+    "field_of_study": "Earth / environmental science"
   },
   {
     "name": "Brent Ifemembi",
@@ -860,7 +911,8 @@
     "degree": "PhD",
     "universities": [
       "Johns Hopkins University"
-    ]
+    ],
+    "field_of_study": "Engineering (other)"
   },
   {
     "name": "Camila Uzcategui",
@@ -876,7 +928,8 @@
     "universities": [
       "University of Colorado",
       "Florida International University"
-    ]
+    ],
+    "field_of_study": "Materials science"
   },
   {
     "name": "Carla Pinzon",
@@ -894,7 +947,8 @@
     "degree": "PhD",
     "universities": [
       "MIT"
-    ]
+    ],
+    "field_of_study": "Electrical engineering"
   },
   {
     "name": "Chris Abram",
@@ -912,7 +966,8 @@
     "universities": [
       "Bristol University",
       "Imperial College"
-    ]
+    ],
+    "field_of_study": "Mechanical engineering"
   },
   {
     "name": "Daryl Staveness",
@@ -931,7 +986,8 @@
       "University of Wisconsin-Madison",
       "Stanford University",
       "University of Michigan"
-    ]
+    ],
+    "field_of_study": "Chemistry"
   },
   {
     "name": "Diandian Zhao",
@@ -948,7 +1004,8 @@
     "degree": "PhD",
     "universities": [
       "Columbia University"
-    ]
+    ],
+    "field_of_study": "Civil engineering"
   },
   {
     "name": "Eli Hornstein",
@@ -967,7 +1024,8 @@
       "North Carolina State University",
       "Duke University",
       "University of North Carolina"
-    ]
+    ],
+    "field_of_study": "Biology"
   },
   {
     "name": "Erin Linebarger",
@@ -986,7 +1044,8 @@
     "degree": "PhD",
     "universities": [
       "University of Utah"
-    ]
+    ],
+    "field_of_study": "Mathematics"
   },
   {
     "name": "Ethan Walko",
@@ -1004,7 +1063,8 @@
     "degree": "Master's",
     "universities": [
       "University of Massachusetts Amherst. Before"
-    ]
+    ],
+    "field_of_study": "Mechanical engineering"
   },
   {
     "name": "Gabi Dweck",
@@ -1023,7 +1083,8 @@
     "universities": [
       "Stanford University",
       "Georgia Institute of Technology"
-    ]
+    ],
+    "field_of_study": "Biomedical engineering"
   },
   {
     "name": "Gabriel Cossio",
@@ -1039,7 +1100,8 @@
     "degree": "PhD",
     "universities": [
       "University of Texas"
-    ]
+    ],
+    "field_of_study": "Electrical engineering"
   },
   {
     "name": "Greg Schwenk",
@@ -1056,7 +1118,8 @@
     "universities": [
       "University of Scranton",
       "Drexel University"
-    ]
+    ],
+    "field_of_study": "Chemistry"
   },
   {
     "name": "Harish Banda",
@@ -1073,7 +1136,8 @@
     "universities": [
       "University of Grenoble Alpes",
       "MIT"
-    ]
+    ],
+    "field_of_study": null
   },
   {
     "name": "Hitesh Manglani",
@@ -1092,7 +1156,8 @@
     "linkedin": "https://www.linkedin.com/in/hitesh-manglani/",
     "bio": "Hitesh Manglani is co-founder and CEO of Supercarb Inc., a performance textiles company. Previously at a venture-backed food startup, Manglani commercialized the science of novel protein fibers for plant-based meat to the market in record time. Before that, he led R&D at a South Carolina textile mill for three years, managing a technical textile portfolio worth $11M. Manglani is on a mission to replace synthetic fibers from the textile industry through his subject matter expertise.",
     "degree": null,
-    "universities": []
+    "universities": [],
+    "field_of_study": null
   },
   {
     "name": "Ian Goodine",
@@ -1110,7 +1175,8 @@
     "degree": "Master's",
     "universities": [
       "University of Massachusetts Amherst"
-    ]
+    ],
+    "field_of_study": "Mechanical engineering"
   },
   {
     "name": "Ian McKendry",
@@ -1128,7 +1194,8 @@
     "universities": [
       "Temple University",
       "Drexel University"
-    ]
+    ],
+    "field_of_study": "Chemistry"
   },
   {
     "name": "Jiye Son",
@@ -1144,7 +1211,8 @@
     "degree": "PhD",
     "universities": [
       "City University"
-    ]
+    ],
+    "field_of_study": "Chemistry"
   },
   {
     "name": "John Slack",
@@ -1159,7 +1227,8 @@
     "degree": "PhD",
     "universities": [
       "Vanderbilt University"
-    ]
+    ],
+    "field_of_study": "Chemical engineering"
   },
   {
     "name": "Johnny Hergert",
@@ -1174,7 +1243,8 @@
     "degree": "PhD",
     "universities": [
       "University of Colorado Boulder"
-    ]
+    ],
+    "field_of_study": "Chemistry"
   },
   {
     "name": "Justin Silpe",
@@ -1192,7 +1262,8 @@
     "universities": [
       "Princeton University",
       "Harvard University"
-    ]
+    ],
+    "field_of_study": "Molecular biology"
   },
   {
     "name": "Kelly Redmond",
@@ -1210,7 +1281,8 @@
     "degree": "Master's",
     "universities": [
       "Stanford University"
-    ]
+    ],
+    "field_of_study": "Environmental engineering"
   },
   {
     "name": "Krish Mehta",
@@ -1228,7 +1300,8 @@
     "universities": [
       "University of Pennsylvania. Mehta",
       "Stanford University"
-    ]
+    ],
+    "field_of_study": "Engineering (other)"
   },
   {
     "name": "Laron Burrows",
@@ -1246,7 +1319,8 @@
     "universities": [
       "Kettering University",
       "University of Connecticut"
-    ]
+    ],
+    "field_of_study": "Chemical engineering"
   },
   {
     "name": "Lily Rajic",
@@ -1264,7 +1338,8 @@
       "National Institute",
       "Northeastern University",
       "University of Novi Sad"
-    ]
+    ],
+    "field_of_study": "Chemistry"
   },
   {
     "name": "Matt McDermott",
@@ -1282,7 +1357,8 @@
     "universities": [
       "University of Texas",
       "UC Berkeley"
-    ]
+    ],
+    "field_of_study": "Materials science"
   },
   {
     "name": "Meagan Pitcher",
@@ -1300,7 +1376,8 @@
     "universities": [
       "Baylor College",
       "Texas A&M University"
-    ]
+    ],
+    "field_of_study": "Biology"
   },
   {
     "name": "Mert Akin",
@@ -1316,7 +1393,8 @@
     "degree": "PhD",
     "universities": [
       "University of Miami"
-    ]
+    ],
+    "field_of_study": "Materials science"
   },
   {
     "name": "Mike Grzenda",
@@ -1333,7 +1411,8 @@
     "universities": [
       "Rutgers University",
       "University of Delaware. His"
-    ]
+    ],
+    "field_of_study": "Materials science"
   },
   {
     "name": "Minh Tran",
@@ -1349,7 +1428,8 @@
     "degree": "PhD",
     "universities": [
       "New York University"
-    ]
+    ],
+    "field_of_study": null
   },
   {
     "name": "Momcilo Gavrilov",
@@ -1367,7 +1447,8 @@
       "University of Belgrade",
       "Simon Fraser University",
       "Johns Hopkins University"
-    ]
+    ],
+    "field_of_study": "Physics"
   },
   {
     "name": "Nate Weger",
@@ -1385,7 +1466,8 @@
     "universities": [
       "University of Iowa",
       "UC Berkeley"
-    ]
+    ],
+    "field_of_study": "Mechanical engineering"
   },
   {
     "name": "Nathan Petersen",
@@ -1402,7 +1484,8 @@
     "degree": "PhD",
     "universities": [
       "University of Wisconsin-Madison. His"
-    ]
+    ],
+    "field_of_study": "Electrical engineering"
   },
   {
     "name": "Nelson Ndahiro",
@@ -1417,7 +1500,8 @@
     "degree": "PhD",
     "universities": [
       "Johns Hopkins University"
-    ]
+    ],
+    "field_of_study": "Engineering (other)"
   },
   {
     "name": "Nicholas Sarai",
@@ -1435,7 +1519,8 @@
     "degree": "PhD",
     "universities": [
       "Caltech"
-    ]
+    ],
+    "field_of_study": "Engineering (other)"
   },
   {
     "name": "Nikita Khlystov",
@@ -1454,7 +1539,8 @@
     "universities": [
       "Stanford University",
       "MIT"
-    ]
+    ],
+    "field_of_study": "Synthetic biology"
   },
   {
     "name": "Nosa Edoimioya",
@@ -1473,7 +1559,8 @@
     "universities": [
       "Stanford University",
       "University of Michigan"
-    ]
+    ],
+    "field_of_study": "Mechanical engineering"
   },
   {
     "name": "Paige Peters",
@@ -1490,7 +1577,8 @@
     "degree": "PhD",
     "universities": [
       "Marquette University"
-    ]
+    ],
+    "field_of_study": "Civil engineering"
   },
   {
     "name": "Pauliina Meskanen",
@@ -1505,7 +1593,8 @@
     "linkedin": "https://www.linkedin.com/in/pauliinameskanen/",
     "bio": "Pauliina Meskanen is the co-founder and CEO of Calectra, where she is on a mission to electrify high-temperature industrial heat. Before this, she was an entrepreneur-in-residence at a Nordic early-stage venture capital (VC) fund and built the hard-tech climate innovation consultancy and media company, Survivaltech.club. She has worked as an investor/venture partner at three other VC funds and was an early employee at a Nordic VC-backed health-tech startup. She holds an M.Sc. in industrial engineering.",
     "degree": null,
-    "universities": []
+    "universities": [],
+    "field_of_study": "Engineering (other)"
   },
   {
     "name": "Poolad Imany",
@@ -1521,7 +1610,8 @@
     "universities": [
       "Purdue University",
       "National Institute"
-    ]
+    ],
+    "field_of_study": "Electrical engineering"
   },
   {
     "name": "Rakki Chandran",
@@ -1543,7 +1633,8 @@
     "universities": [
       "University of North Carolina",
       "MIT"
-    ]
+    ],
+    "field_of_study": null
   },
   {
     "name": "Ratnesh Tiwari",
@@ -1562,7 +1653,8 @@
       "University of Maryland",
       "Indian Institute of Technology",
       "University of Maryland. He"
-    ]
+    ],
+    "field_of_study": null
   },
   {
     "name": "Richard May",
@@ -1579,7 +1671,8 @@
     "universities": [
       "Columbia University",
       "Caltech"
-    ]
+    ],
+    "field_of_study": "Chemical engineering"
   },
   {
     "name": "Rodrigo Alvarez",
@@ -1595,7 +1688,8 @@
     "degree": "PhD",
     "universities": [
       "Stanford University"
-    ]
+    ],
+    "field_of_study": "Biomedical engineering"
   },
   {
     "name": "Rushin Contractor",
@@ -1616,7 +1710,8 @@
       "Indian Institute of Technology",
       "University of Maryland",
       "UC Berkeley"
-    ]
+    ],
+    "field_of_study": "Electrical engineering"
   },
   {
     "name": "Ryan DuChanois",
@@ -1633,7 +1728,8 @@
       "Cambridge University",
       "Yale University",
       "Rice University"
-    ]
+    ],
+    "field_of_study": "Engineering (other)"
   },
   {
     "name": "Scarlett Koller",
@@ -1652,7 +1748,8 @@
     "degree": "Master's",
     "universities": [
       "MIT"
-    ]
+    ],
+    "field_of_study": "Aerospace engineering"
   },
   {
     "name": "Sonia Dagan",
@@ -1667,7 +1764,8 @@
     "degree": "PhD",
     "universities": [
       "City College"
-    ]
+    ],
+    "field_of_study": "Electrical engineering"
   },
   {
     "name": "Taylor Cottle",
@@ -1683,7 +1781,8 @@
     "degree": "PhD",
     "universities": [
       "University of San Diego"
-    ]
+    ],
+    "field_of_study": "Molecular biology"
   },
   {
     "name": "Theo Mouratidis",
@@ -1699,7 +1798,8 @@
     "degree": "PhD",
     "universities": [
       "MIT"
-    ]
+    ],
+    "field_of_study": null
   },
   {
     "name": "Wei Meng",
@@ -1715,7 +1815,8 @@
     "degree": "PhD",
     "universities": [
       "Rice University"
-    ]
+    ],
+    "field_of_study": "Civil engineering"
   },
   {
     "name": "Will Moy",
@@ -1730,7 +1831,8 @@
     "degree": "PhD",
     "universities": [
       "University of Minnesota. COBI"
-    ]
+    ],
+    "field_of_study": "Physics"
   },
   {
     "name": "Will Sawyer",
@@ -1748,7 +1850,8 @@
       "Wesleyan University",
       "Dartmouth College",
       "MIT"
-    ]
+    ],
+    "field_of_study": "Mechanical engineering"
   },
   {
     "name": "Wyatt Arnold",
@@ -1766,7 +1869,8 @@
     "universities": [
       "University of Chicago",
       "Yale University"
-    ]
+    ],
+    "field_of_study": "Engineering (other)"
   },
   {
     "name": "Yang Xia",
@@ -1782,7 +1886,8 @@
     "universities": [
       "Northwestern University",
       "Rice University"
-    ]
+    ],
+    "field_of_study": "Chemical engineering"
   },
   {
     "name": "Yang Zhong",
@@ -1803,7 +1908,8 @@
       "Purdue University",
       "Shanghai Jiao Tong University",
       "MIT"
-    ]
+    ],
+    "field_of_study": "Mechanical engineering"
   },
   {
     "name": "Yunha Hwang",
@@ -1821,7 +1927,8 @@
     "universities": [
       "Stanford University",
       "Harvard University"
-    ]
+    ],
+    "field_of_study": "Biology"
   },
   {
     "name": "Aaron Maharry",
@@ -1835,7 +1942,8 @@
     "linkedin": "https://www.linkedin.com/in/aaron-maharry-7b59677a/",
     "bio": "Aaron Maharry, the co-founder and CTO of Lucidean, is focused on high-speed silicon photonics, integrated circuit design, and packaging for optical communications. Maharry previously worked in Intel's Silicon Photonics Products Division and received his Ph.D. in electrical engineering at UC Santa Barbara in 2023.",
     "degree": "PhD",
-    "universities": []
+    "universities": [],
+    "field_of_study": "Electrical engineering"
   },
   {
     "name": "Adam Slavney",
@@ -1853,7 +1961,8 @@
     "universities": [
       "Stanford University",
       "Harvard University"
-    ]
+    ],
+    "field_of_study": "Chemistry"
   },
   {
     "name": "Alex Gagnon",
@@ -1872,7 +1981,8 @@
       "University of Washington",
       "Caltech",
       "UC Berkeley"
-    ]
+    ],
+    "field_of_study": "Chemistry"
   },
   {
     "name": "Alexis Harroun",
@@ -1888,7 +1998,8 @@
     "universities": [
       "Purdue University",
       "University of Washington"
-    ]
+    ],
+    "field_of_study": null
   },
   {
     "name": "Catie McVey",
@@ -1902,7 +2013,8 @@
     "linkedin": "https://www.linkedin.com/in/catie-mcvey-73b369104/",
     "bio": "Catie McVey is the founder and CEO of DairyFIT. Growing up in the foothills of North Carolina, she heard old cowboy adages about reading an animal’s face to infer its temperament. She studied this concept for a science fair project and has continued this research through dual bachelor’s and master’s degrees in animal sciences and applied statistics from North Carolina and Colorado State Universities, respectively, and a Ph.D. in animal biology at UC Davis.",
     "degree": "PhD",
-    "universities": []
+    "universities": [],
+    "field_of_study": "Biology"
   },
   {
     "name": "Claire Nelson",
@@ -1920,7 +2032,8 @@
     "universities": [
       "Columbia University",
       "Northwestern University"
-    ]
+    ],
+    "field_of_study": "Earth / environmental science"
   },
   {
     "name": "Claudia Hulbert",
@@ -1936,7 +2049,8 @@
     "linkedin": "https://www.linkedin.com/in/claudia-hulbert-4a5593237/",
     "bio": "Claudia Hulbert is the co-founder and CEO of Geolabe, which is developing data science algorithms to tackle climate change issues. Geolabe has received support from NASA, DOE, and NSF small business innovation research programs. She earned her doctorate in machine learning and geoscience from the École Normale Supérieure in France. Before founding Geolabe, Hulbert worked in economic policy at the Organisation for Economic Co-operation and Development and at the Los Alamos National Laboratory.",
     "degree": "PhD",
-    "universities": []
+    "universities": [],
+    "field_of_study": "Computer science"
   },
   {
     "name": "Drew Lilley",
@@ -1953,7 +2067,8 @@
     "degree": "PhD",
     "universities": [
       "UC Berkeley"
-    ]
+    ],
+    "field_of_study": "Mechanical engineering"
   },
   {
     "name": "Elvis Cao",
@@ -1970,7 +2085,8 @@
     "universities": [
       "Cornell University",
       "MIT"
-    ]
+    ],
+    "field_of_study": "Mechanical engineering"
   },
   {
     "name": "Enrique Velez-Lopez",
@@ -1986,7 +2102,8 @@
     "degree": "Master's",
     "universities": [
       "MIT"
-    ]
+    ],
+    "field_of_study": "Mechanical engineering"
   },
   {
     "name": "Eric Bellefroid",
@@ -2004,7 +2121,8 @@
     "universities": [
       "McGill University",
       "Yale University"
-    ]
+    ],
+    "field_of_study": "Chemistry"
   },
   {
     "name": "Gus Marquez",
@@ -2022,7 +2140,8 @@
     "degree": "Master's",
     "universities": [
       "Stanford University"
-    ]
+    ],
+    "field_of_study": "Engineering (other)"
   },
   {
     "name": "Hector Andrade",
@@ -2036,7 +2155,8 @@
     "linkedin": "https://www.linkedin.com/in/handrade88/",
     "bio": "Hector Andrade is the co-founder and CEO of Lucidean. Andrade obtained his Ph.D. in electrical and computer engineering from UC Santa Barbara. Before this, he was employed at Intel's Silicon Photonics Products Division. Andrade's research centers on creating loss-tolerant fiberoptic interconnects to enable energy-efficient next-generation data centers and artificial intelligence and machine learning networks.",
     "degree": "PhD",
-    "universities": []
+    "universities": [],
+    "field_of_study": "Electrical engineering"
   },
   {
     "name": "Ilse Nava",
@@ -2053,7 +2173,8 @@
     "degree": "PhD",
     "universities": [
       "City University"
-    ]
+    ],
+    "field_of_study": "Materials science"
   },
   {
     "name": "Ioana Knopf",
@@ -2070,7 +2191,8 @@
     "degree": "PhD",
     "universities": [
       "MIT"
-    ]
+    ],
+    "field_of_study": "Chemistry"
   },
   {
     "name": "James Scholtz",
@@ -2088,7 +2210,8 @@
     "universities": [
       "Stony Brook University",
       "City College"
-    ]
+    ],
+    "field_of_study": "Physics"
   },
   {
     "name": "Jared O'Leary",
@@ -2105,7 +2228,8 @@
     "degree": "PhD",
     "universities": [
       "UC Berkeley"
-    ]
+    ],
+    "field_of_study": "Chemical engineering"
   },
   {
     "name": "Jing Zhang",
@@ -2122,7 +2246,8 @@
     "universities": [
       "Boston University",
       "MIT"
-    ]
+    ],
+    "field_of_study": "Synthetic biology"
   },
   {
     "name": "Jinyoung Seo",
@@ -2140,7 +2265,8 @@
     "universities": [
       "Harvard University",
       "Seoul National University"
-    ]
+    ],
+    "field_of_study": "Chemistry"
   },
   {
     "name": "Jose LaSalle",
@@ -2157,7 +2283,8 @@
     "degree": "Bachelor's",
     "universities": [
       "University of Massachusetts Amherst"
-    ]
+    ],
+    "field_of_study": "Electrical engineering"
   },
   {
     "name": "Julian Rees",
@@ -2175,7 +2302,8 @@
       "University of Washington",
       "Max Planck Institute",
       "UC Berkeley"
-    ]
+    ],
+    "field_of_study": null
   },
   {
     "name": "Julian Sachs",
@@ -2193,7 +2321,8 @@
     "universities": [
       "University of Washington",
       "MIT"
-    ]
+    ],
+    "field_of_study": "Earth / environmental science"
   },
   {
     "name": "Julie Ming Liang",
@@ -2209,7 +2338,8 @@
     "degree": "PhD",
     "universities": [
       "Northwestern University"
-    ]
+    ],
+    "field_of_study": "Engineering (other)"
   },
   {
     "name": "Juniyali Nauriyal",
@@ -2226,7 +2356,8 @@
     "degree": "PhD",
     "universities": [
       "University of Rochester"
-    ]
+    ],
+    "field_of_study": null
   },
   {
     "name": "Justin Beroz",
@@ -2244,7 +2375,8 @@
     "degree": "PhD",
     "universities": [
       "MIT"
-    ]
+    ],
+    "field_of_study": "Mechanical engineering"
   },
   {
     "name": "Jyoti Taneja",
@@ -2262,7 +2394,8 @@
       "National Institute",
       "Chaudhary Charan Singh University",
       "UC Berkeley"
-    ]
+    ],
+    "field_of_study": "Biology"
   },
   {
     "name": "Kaitlyn Suarez",
@@ -2280,7 +2413,8 @@
     "universities": [
       "University of Massachusetts Amherst",
       "Union College"
-    ]
+    ],
+    "field_of_study": "Earth / environmental science"
   },
   {
     "name": "Katy Jinkins",
@@ -2298,7 +2432,8 @@
     "universities": [
       "University of Wisconsin-Madison",
       "Northwestern University"
-    ]
+    ],
+    "field_of_study": null
   },
   {
     "name": "Maya Faaborg",
@@ -2313,7 +2448,8 @@
     "linkedin": "https://www.linkedin.com/in/maya-faaborg/",
     "bio": "Maya Faaborg is the founder and CEO of Capillary Nanotechnologies, which leverages manufacturing technology that she and a small group of other inventors developed at Harvard's School of Engineering and Applied Sciences to work on nanoscopic objects—work that cannot be done using other methods. Faaborg believes that the future of the technology is in manufacturing novel materials like nano-braids for next-generation electronics and medical devices.",
     "degree": null,
-    "universities": []
+    "universities": [],
+    "field_of_study": "Engineering (other)"
   },
   {
     "name": "Michelle Lu",
@@ -2330,7 +2466,8 @@
     "universities": [
       "University of Oregon",
       "UC Berkeley"
-    ]
+    ],
+    "field_of_study": "Biology"
   },
   {
     "name": "Murat Onen",
@@ -2346,7 +2483,8 @@
     "degree": "PhD",
     "universities": [
       "MIT"
-    ]
+    ],
+    "field_of_study": "Electrical engineering"
   },
   {
     "name": "Nate Good",
@@ -2363,7 +2501,8 @@
     "universities": [
       "University of Washington. As",
       "UC Berkeley"
-    ]
+    ],
+    "field_of_study": "Microbiology"
   },
   {
     "name": "Nieves Martinez Marshall",
@@ -2381,7 +2520,8 @@
       "Humboldt University",
       "University of Zaragoza",
       "UC Berkeley"
-    ]
+    ],
+    "field_of_study": "Molecular biology"
   },
   {
     "name": "Nik Mushnikov",
@@ -2397,7 +2537,8 @@
     "degree": "PhD",
     "universities": [
       "University of Wyoming"
-    ]
+    ],
+    "field_of_study": "Molecular biology"
   },
   {
     "name": "Nili Persits",
@@ -2414,7 +2555,8 @@
     "universities": [
       "Tel Aviv University",
       "MIT"
-    ]
+    ],
+    "field_of_study": "Electrical engineering"
   },
   {
     "name": "Palak Jain",
@@ -2432,7 +2574,8 @@
     "degree": "PhD",
     "universities": [
       "National University"
-    ]
+    ],
+    "field_of_study": "Electrical engineering"
   },
   {
     "name": "Patricia McNeil",
@@ -2450,7 +2593,8 @@
     "degree": "PhD",
     "universities": [
       "UCLA"
-    ]
+    ],
+    "field_of_study": "Materials science"
   },
   {
     "name": "Patrick Sullivan",
@@ -2467,7 +2611,8 @@
     "degree": "PhD",
     "universities": [
       "University of Wisconsin-Madison"
-    ]
+    ],
+    "field_of_study": "Chemistry"
   },
   {
     "name": "Robb Stewart",
@@ -2480,7 +2625,8 @@
     "degree": "PhD",
     "universities": [
       "MIT"
-    ]
+    ],
+    "field_of_study": "Nuclear engineering"
   },
   {
     "name": "Rok Sitar",
@@ -2495,7 +2641,8 @@
     "linkedin": "https://www.linkedin.com/in/rok-sitar/",
     "bio": "Rok Sitar is co-founder and CEO of Blaze Energy Technologies. His mission is to address the decarbonization of heavy industry and commercial transport by advancing ammonia as a zero-carbon alternative to fossil fuels. Sitar is finishing his Ph.D. in chemical engineering with an M.B.A. minor at the Colorado School of Mines. He is originally from Maribor, Slovenia, and enjoys playing tennis and skiing outside of work.",
     "degree": "PhD",
-    "universities": []
+    "universities": [],
+    "field_of_study": "Chemical engineering"
   },
   {
     "name": "Steve Jepeal",
@@ -2512,7 +2659,8 @@
     "degree": "PhD",
     "universities": [
       "MIT"
-    ]
+    ],
+    "field_of_study": "Engineering (other)"
   },
   {
     "name": "Wenxiao Huang",
@@ -2529,7 +2677,8 @@
     "degree": "PhD",
     "universities": [
       "Stanford University"
-    ]
+    ],
+    "field_of_study": "Chemistry"
   },
   {
     "name": "Will Liberti",
@@ -2547,7 +2696,8 @@
     "universities": [
       "Boston University",
       "UC Berkeley"
-    ]
+    ],
+    "field_of_study": "Neuroscience"
   },
   {
     "name": "Yang Shi",
@@ -2563,7 +2713,8 @@
     "degree": "PhD",
     "universities": [
       "Columbia University"
-    ]
+    ],
+    "field_of_study": null
   },
   {
     "name": "Zhiao Yu",
@@ -2581,7 +2732,8 @@
     "universities": [
       "Peking University",
       "Stanford University"
-    ]
+    ],
+    "field_of_study": "Chemistry"
   },
   {
     "name": "Alexa Schmitz",
@@ -2599,7 +2751,8 @@
     "universities": [
       "Cornell University",
       "Cornell Energy Systems Institute"
-    ]
+    ],
+    "field_of_study": "Biology"
   },
   {
     "name": "Ally McKinney",
@@ -2616,7 +2769,8 @@
     "degree": "PhD",
     "universities": [
       "Georgia Institute of Technology"
-    ]
+    ],
+    "field_of_study": null
   },
   {
     "name": "Andee Wallace",
@@ -2632,7 +2786,8 @@
     "degree": "PhD",
     "universities": [
       "MIT"
-    ]
+    ],
+    "field_of_study": "Biomedical engineering"
   },
   {
     "name": "Andy Zhao",
@@ -2650,7 +2805,8 @@
     "degree": "PhD",
     "universities": [
       "UC San Diego"
-    ]
+    ],
+    "field_of_study": "Materials science"
   },
   {
     "name": "Ashley Beckwith",
@@ -2666,7 +2822,8 @@
     "degree": "PhD",
     "universities": [
       "MIT"
-    ]
+    ],
+    "field_of_study": "Mechanical engineering"
   },
   {
     "name": "Auggie Zvinavashe",
@@ -2682,7 +2839,8 @@
     "degree": "PhD",
     "universities": [
       "MIT"
-    ]
+    ],
+    "field_of_study": "Engineering (other)"
   },
   {
     "name": "Austin Hickman",
@@ -2698,7 +2856,8 @@
     "universities": [
       "Cornell University",
       "University of Notre Dame. Hickman"
-    ]
+    ],
+    "field_of_study": "Electrical engineering"
   },
   {
     "name": "Behtash Behin-Aein",
@@ -2713,7 +2872,8 @@
     "degree": "PhD",
     "universities": [
       "Purdue University"
-    ]
+    ],
+    "field_of_study": "Electrical engineering"
   },
   {
     "name": "Bilen Akuzum",
@@ -2731,7 +2891,8 @@
     "universities": [
       "Drexel University",
       "UC Berkeley"
-    ]
+    ],
+    "field_of_study": "Mechanical engineering"
   },
   {
     "name": "Carlos Navarro",
@@ -2747,7 +2908,8 @@
     "degree": "PhD",
     "universities": [
       "University of Southern California"
-    ]
+    ],
+    "field_of_study": null
   },
   {
     "name": "Dan Green",
@@ -2764,7 +2926,8 @@
     "degree": "PhD",
     "universities": [
       "University of California"
-    ]
+    ],
+    "field_of_study": null
   },
   {
     "name": "Daniel Sun",
@@ -2781,7 +2944,8 @@
     "universities": [
       "Loyola Marymount University",
       "Swiss Federal Institute of Technology"
-    ]
+    ],
+    "field_of_study": "Chemical engineering"
   },
   {
     "name": "Danielle Pascoli",
@@ -2797,7 +2961,8 @@
     "degree": "PhD",
     "universities": [
       "University of Washington"
-    ]
+    ],
+    "field_of_study": "Chemical engineering"
   },
   {
     "name": "David Hobby",
@@ -2814,7 +2979,8 @@
     "degree": "PhD",
     "universities": [
       "Colorado State University"
-    ]
+    ],
+    "field_of_study": "Mechanical engineering"
   },
   {
     "name": "Essam Elsahwi",
@@ -2831,7 +2997,8 @@
     "degree": "PhD",
     "universities": [
       "University of Toronto"
-    ]
+    ],
+    "field_of_study": "Engineering (other)"
   },
   {
     "name": "Florian Herrault",
@@ -2848,7 +3015,8 @@
     "degree": null,
     "universities": [
       "Georgia Institute of Technology"
-    ]
+    ],
+    "field_of_study": null
   },
   {
     "name": "GJ la O'",
@@ -2865,7 +3033,8 @@
     "universities": [
       "MIT",
       "UC Berkeley"
-    ]
+    ],
+    "field_of_study": null
   },
   {
     "name": "Garrett Boudinot",
@@ -2883,7 +3052,8 @@
     "universities": [
       "University of Colorado",
       "Cornell University"
-    ]
+    ],
+    "field_of_study": "Chemistry"
   },
   {
     "name": "Haodong Liu",
@@ -2899,7 +3069,8 @@
     "degree": "PhD",
     "universities": [
       "UC San Diego"
-    ]
+    ],
+    "field_of_study": "Materials science"
   },
   {
     "name": "Jan Kaiser",
@@ -2914,7 +3085,8 @@
     "degree": "PhD",
     "universities": [
       "Purdue University"
-    ]
+    ],
+    "field_of_study": "Electrical engineering"
   },
   {
     "name": "Jon Vardner",
@@ -2931,7 +3103,8 @@
     "degree": "PhD",
     "universities": [
       "Columbia University"
-    ]
+    ],
+    "field_of_study": "Chemical engineering"
   },
   {
     "name": "Katherine French",
@@ -2950,7 +3123,8 @@
       "University of Oxford",
       "Joint Bioenergy Institute",
       "UC Berkeley"
-    ]
+    ],
+    "field_of_study": "Synthetic biology"
   },
   {
     "name": "Lukas Hackl",
@@ -2968,7 +3142,8 @@
     "universities": [
       "UC Berkeley",
       "ETH Zurich"
-    ]
+    ],
+    "field_of_study": "Mechanical engineering"
   },
   {
     "name": "Margaret Lumley",
@@ -2984,7 +3159,8 @@
     "degree": "PhD",
     "universities": [
       "University of Wisconsin-Madison"
-    ]
+    ],
+    "field_of_study": "Chemistry"
   },
   {
     "name": "Mariam Awara",
@@ -3001,7 +3177,8 @@
     "degree": null,
     "universities": [
       "University of Calgary"
-    ]
+    ],
+    "field_of_study": "Electrical engineering"
   },
   {
     "name": "Marissa Beatty",
@@ -3018,7 +3195,8 @@
     "degree": "PhD",
     "universities": [
       "Columbia University"
-    ]
+    ],
+    "field_of_study": "Chemical engineering"
   },
   {
     "name": "Matthew Anderson",
@@ -3033,7 +3211,8 @@
     "degree": "PhD",
     "universities": [
       "University of California"
-    ]
+    ],
+    "field_of_study": "Electrical engineering"
   },
   {
     "name": "Mo Alkhadra",
@@ -3049,7 +3228,8 @@
     "degree": "PhD",
     "universities": [
       "Massachusetts Institute of Technology"
-    ]
+    ],
+    "field_of_study": "Chemical engineering"
   },
   {
     "name": "Olivia Dippo",
@@ -3067,7 +3247,8 @@
     "degree": "PhD",
     "universities": [
       "UC San Diego"
-    ]
+    ],
+    "field_of_study": "Materials science"
   },
   {
     "name": "Pavan Kota",
@@ -3084,7 +3265,8 @@
     "universities": [
       "Rice University",
       "Case Western Reserve University"
-    ]
+    ],
+    "field_of_study": "Biomedical engineering"
   },
   {
     "name": "Peter Godart",
@@ -3101,7 +3283,8 @@
     "degree": "PhD",
     "universities": [
       "MIT"
-    ]
+    ],
+    "field_of_study": null
   },
   {
     "name": "Rob Moak",
@@ -3118,7 +3301,8 @@
     "degree": null,
     "universities": [
       "Clemson University"
-    ]
+    ],
+    "field_of_study": "Environmental engineering"
   },
   {
     "name": "Rob Mohr",
@@ -3134,7 +3318,8 @@
     "degree": "PhD",
     "universities": [
       "Columbia University"
-    ]
+    ],
+    "field_of_study": "Chemical engineering"
   },
   {
     "name": "Sarah Placella",
@@ -3152,7 +3337,8 @@
     "universities": [
       "Johns Hopkins University",
       "UC Berkeley"
-    ]
+    ],
+    "field_of_study": null
   },
   {
     "name": "Sudharsan Dwaraknath",
@@ -3168,7 +3354,8 @@
     "degree": "PhD",
     "universities": [
       "University of Illinois"
-    ]
+    ],
+    "field_of_study": "Chemistry"
   },
   {
     "name": "Terence Davidovits",
@@ -3185,7 +3372,8 @@
     "degree": "Master's",
     "universities": [
       "Cornell University"
-    ]
+    ],
+    "field_of_study": "Chemical engineering"
   },
   {
     "name": "Tim Wannier",
@@ -3201,7 +3389,8 @@
     "degree": "PhD",
     "universities": [
       "California Institute of Technology"
-    ]
+    ],
+    "field_of_study": "Engineering (other)"
   },
   {
     "name": "Yajing Zhao",
@@ -3219,7 +3408,8 @@
     "universities": [
       "Massachusetts Institute of Technology",
       "MIT"
-    ]
+    ],
+    "field_of_study": "Mechanical engineering"
   },
   {
     "name": "Zach Gilvey",
@@ -3236,7 +3426,8 @@
     "degree": "Master's",
     "universities": [
       "Colorado State University"
-    ]
+    ],
+    "field_of_study": "Mechanical engineering"
   },
   {
     "name": "Aaron Hall",
@@ -3252,7 +3443,8 @@
     "degree": "PhD",
     "universities": [
       "UC Berkeley"
-    ]
+    ],
+    "field_of_study": "Materials science"
   },
   {
     "name": "Ahmet Ozcan",
@@ -3267,7 +3459,8 @@
     "degree": "PhD",
     "universities": [
       "Boston University"
-    ]
+    ],
+    "field_of_study": "Physics"
   },
   {
     "name": "Andrew Stern",
@@ -3283,7 +3476,8 @@
     "universities": [
       "Florida Institute",
       "University of Florida. There"
-    ]
+    ],
+    "field_of_study": null
   },
   {
     "name": "Antonio Baclig",
@@ -3297,7 +3491,8 @@
     "linkedin": "https://www.linkedin.com/in/antonio-baclig-5b670013/",
     "bio": "Antonio Baclig studied batteries as a Ph.D. and then postdoc in Stanford’s materials science and engineering department, where he spearheaded the research of novel high-energy density electrolytes for flow batteries. Prior to that, he was one of the first employees at a venture-backed clean energy start-up (C12 Energy), working on a wide range of technical and business tasks. Baclig received his bachelor's degree from Harvard in chemistry and physics.",
     "degree": "PhD",
-    "universities": []
+    "universities": [],
+    "field_of_study": "Materials science"
   },
   {
     "name": "Ben Jenett",
@@ -3314,7 +3509,8 @@
     "universities": [
       "MIT",
       "UC Berkeley"
-    ]
+    ],
+    "field_of_study": "Aerospace engineering"
   },
   {
     "name": "Brendan Hermalyn",
@@ -3332,7 +3528,8 @@
     "universities": [
       "Brown University",
       "University of Hawaii"
-    ]
+    ],
+    "field_of_study": "Engineering (other)"
   },
   {
     "name": "Cameron Hill",
@@ -3349,7 +3546,8 @@
     "universities": [
       "University of California",
       "Stevens Institute of Technology"
-    ]
+    ],
+    "field_of_study": "Electrical engineering"
   },
   {
     "name": "Cameron Schiller",
@@ -3366,7 +3564,8 @@
     "universities": [
       "University of Florida",
       "University of Alabama"
-    ]
+    ],
+    "field_of_study": null
   },
   {
     "name": "Dan Stack",
@@ -3382,7 +3581,8 @@
     "degree": "PhD",
     "universities": [
       "MIT"
-    ]
+    ],
+    "field_of_study": "Engineering (other)"
   },
   {
     "name": "David Mackanic",
@@ -3397,7 +3597,8 @@
     "degree": "PhD",
     "universities": [
       "Stanford University"
-    ]
+    ],
+    "field_of_study": "Chemical engineering"
   },
   {
     "name": "Fatma Kaplan",
@@ -3411,7 +3612,8 @@
     "linkedin": "https://www.linkedin.com/in/dr-fatma-kaplan-8937037/",
     "bio": "Fatma Kaplan is the CEO and chief science officer of Pheronym. While earning a Ph.D. in plant molecular and cellular biology, she identified the role of beta-amylase and maltose during cold and heat shock. She discovered the first Caenorhabditis elegans sex pheromone and found that pheromones regulate other behaviors in both parasitic and beneficial nematodes. She conducted the first agricultural biocontrol experiment in space at the International Space Station in 2020.",
     "degree": "PhD",
-    "universities": []
+    "universities": [],
+    "field_of_study": "Biology"
   },
   {
     "name": "Floris Engelhardt",
@@ -3429,7 +3631,8 @@
       "Technical University",
       "Friedrich-Schiller University",
       "MIT"
-    ]
+    ],
+    "field_of_study": "Molecular biology"
   },
   {
     "name": "Francesco Benedetti",
@@ -3447,7 +3650,8 @@
     "universities": [
       "University of Bologna",
       "MIT"
-    ]
+    ],
+    "field_of_study": "Chemical engineering"
   },
   {
     "name": "Holden Lai",
@@ -3465,7 +3669,8 @@
     "universities": [
       "Oberlin College",
       "Stanford University"
-    ]
+    ],
+    "field_of_study": "Chemistry"
   },
   {
     "name": "Jae Cho",
@@ -3482,7 +3687,8 @@
     "degree": "PhD",
     "universities": [
       "University of Michigan"
-    ]
+    ],
+    "field_of_study": "Electrical engineering"
   },
   {
     "name": "Joey Kabel",
@@ -3498,7 +3704,8 @@
     "degree": "PhD",
     "universities": [
       "UC Berkeley"
-    ]
+    ],
+    "field_of_study": "Nuclear engineering"
   },
   {
     "name": "Josue Lopez",
@@ -3512,7 +3719,8 @@
     "universities": [
       "Rice University",
       "MIT"
-    ]
+    ],
+    "field_of_study": "Electrical engineering"
   },
   {
     "name": "Jungah Lee",
@@ -3530,7 +3738,8 @@
     "universities": [
       "Seoul National University",
       "University of Illinois"
-    ]
+    ],
+    "field_of_study": "Electrical engineering"
   },
   {
     "name": "Kezi Cheng",
@@ -3545,7 +3754,8 @@
     "degree": "PhD",
     "universities": [
       "MIT"
-    ]
+    ],
+    "field_of_study": "Materials science"
   },
   {
     "name": "Mael Flament",
@@ -3562,7 +3772,8 @@
     "degree": null,
     "universities": [
       "Stony Brook University"
-    ]
+    ],
+    "field_of_study": null
   },
   {
     "name": "Marika Ziesack",
@@ -3576,7 +3787,8 @@
     "universities": [
       "Harvard University",
       "University of Heidelberg"
-    ]
+    ],
+    "field_of_study": "Biology"
   },
   {
     "name": "Pete Christensen",
@@ -3589,7 +3801,8 @@
     "degree": "PhD",
     "universities": [
       "University of British Columbia. Christensen"
-    ]
+    ],
+    "field_of_study": "Chemistry"
   },
   {
     "name": "Sam Green",
@@ -3602,7 +3815,8 @@
     "linkedin": "https://www.linkedin.com/in/xsamgreen/",
     "bio": "Sam Green, former co-founder of Semiotic, has a strong foundation in applied math and embedded electronics. Leveraging these skills, he began his career in cryptographic hardware analysis, gaining expertise in statistics and machine learning. This experience paved the way for Green to pursue a Ph.D. at UC Santa Barbara, where he focused on developing AI agents for efficient reinforcement learning and decision-making under uncertainty.",
     "degree": "PhD",
-    "universities": []
+    "universities": [],
+    "field_of_study": "Computer science"
   },
   {
     "name": "Shannon Nangle",
@@ -3616,7 +3830,8 @@
     "universities": [
       "Wyss Institute",
       "University of Washington"
-    ]
+    ],
+    "field_of_study": "Biology"
   },
   {
     "name": "Aanindeeta Banerjee",
@@ -3633,7 +3848,8 @@
     "degree": "PhD",
     "universities": [
       "Stanford University"
-    ]
+    ],
+    "field_of_study": "Chemistry"
   },
   {
     "name": "Amanda Stiles",
@@ -3647,7 +3863,8 @@
     "linkedin": "https://www.linkedin.com/in/stilesamanda/",
     "bio": "Amanda Stiles is a plant biochemist with a mission to transform our food production towards plant-based protein and away from factory-farmed animals. Prior to UMARO Foods, she led the research team at Ripple Foods, where she developed and patented the process for making Ripptein, a highly purified pea protein. Stiles has a Ph.D. in plant molecular biology from Virginia Tech, where she also earned her B.S. in biology.",
     "degree": "PhD",
-    "universities": []
+    "universities": [],
+    "field_of_study": "Molecular biology"
   },
   {
     "name": "Brendan Smith",
@@ -3665,7 +3882,8 @@
     "universities": [
       "University of Waterloo",
       "MIT"
-    ]
+    ],
+    "field_of_study": "Materials science"
   },
   {
     "name": "Carl Hoiland",
@@ -3683,7 +3901,8 @@
     "degree": "PhD",
     "universities": [
       "Stanford University"
-    ]
+    ],
+    "field_of_study": "Earth / environmental science"
   },
   {
     "name": "Cheri Ackerman Araromi",
@@ -3702,7 +3921,8 @@
       "Calvin University",
       "MIT",
       "UC Berkeley"
-    ]
+    ],
+    "field_of_study": "Chemistry"
   },
   {
     "name": "Chris Eiben",
@@ -3718,7 +3938,8 @@
     "degree": "PhD",
     "universities": [
       "UC Berkeley"
-    ]
+    ],
+    "field_of_study": "Engineering (other)"
   },
   {
     "name": "Dan Oran",
@@ -3735,7 +3956,8 @@
     "universities": [
       "Hampshire College",
       "MIT"
-    ]
+    ],
+    "field_of_study": "Chemistry"
   },
   {
     "name": "Elise Strobach",
@@ -3752,7 +3974,8 @@
     "degree": "PhD",
     "universities": [
       "MIT"
-    ]
+    ],
+    "field_of_study": "Mechanical engineering"
   },
   {
     "name": "Grayson Zulauf",
@@ -3771,7 +3994,8 @@
     "universities": [
       "Stanford University",
       "Dartmouth College"
-    ]
+    ],
+    "field_of_study": "Electrical engineering"
   },
   {
     "name": "Jared Kehe",
@@ -3789,7 +4013,8 @@
       "Broad Institute",
       "MIT",
       "UC San Diego"
-    ]
+    ],
+    "field_of_study": "Engineering (other)"
   },
   {
     "name": "Jay Schwalbe",
@@ -3805,7 +4030,8 @@
     "degree": "PhD",
     "universities": [
       "Cornell University"
-    ]
+    ],
+    "field_of_study": "Chemical engineering"
   },
   {
     "name": "Jeff Chou",
@@ -3821,7 +4047,8 @@
     "universities": [
       "MIT",
       "UC Berkeley"
-    ]
+    ],
+    "field_of_study": "Electrical engineering"
   },
   {
     "name": "Joel Edwards",
@@ -3839,7 +4066,8 @@
     "degree": "PhD",
     "universities": [
       "University of Nevada"
-    ]
+    ],
+    "field_of_study": "Earth / environmental science"
   },
   {
     "name": "Josh McEnaney",
@@ -3855,7 +4083,8 @@
     "degree": "PhD",
     "universities": [
       "Pennsylvania State University"
-    ]
+    ],
+    "field_of_study": "Chemistry"
   },
   {
     "name": "Kristin Taylor",
@@ -3868,7 +4097,8 @@
     "linkedin": "https://www.linkedin.com/in/kristinltaylor/",
     "bio": "Kristin Taylor has a Master's degree in Plastics Engineering and over 25 years of plastics industry experience, serving in technical, sales, business development and management roles in several multinational organizations including ExxonMobil Chemical, Metabolix, Sabic and Huntsman Corporation. Taylor was CEO of Radical Plastics, 2018-2022, and is now a Director at Closed Loop Partners, a New York based investment firm focused on accelerating the transition to a Circular Economy.",
     "degree": "Master's",
-    "universities": []
+    "universities": [],
+    "field_of_study": "Engineering (other)"
   },
   {
     "name": "Kyle Wilke",
@@ -3885,7 +4115,8 @@
     "degree": "PhD",
     "universities": [
       "MIT"
-    ]
+    ],
+    "field_of_study": "Mechanical engineering"
   },
   {
     "name": "Leah Ellis",
@@ -3903,7 +4134,8 @@
     "universities": [
       "Dalhousie University",
       "MIT"
-    ]
+    ],
+    "field_of_study": "Chemistry"
   },
   {
     "name": "Luke Latimer",
@@ -3920,7 +4152,8 @@
     "degree": "PhD",
     "universities": [
       "UC Berkeley"
-    ]
+    ],
+    "field_of_study": "Chemistry"
   },
   {
     "name": "Matt Alpert",
@@ -3933,7 +4166,8 @@
     "degree": "PhD",
     "universities": [
       "University of Virginia"
-    ]
+    ],
+    "field_of_study": "Chemical engineering"
   },
   {
     "name": "Noemi Bonessio",
@@ -3951,7 +4185,8 @@
     "universities": [
       "Sapienza University",
       "UC San Diego"
-    ]
+    ],
+    "field_of_study": "Engineering (other)"
   },
   {
     "name": "Ryan Protzko",
@@ -3968,7 +4203,8 @@
     "degree": "PhD",
     "universities": [
       "UC Berkeley"
-    ]
+    ],
+    "field_of_study": "Biology"
   },
   {
     "name": "Sam Calisch",
@@ -3985,7 +4221,8 @@
     "degree": "PhD",
     "universities": [
       "MIT"
-    ]
+    ],
+    "field_of_study": "Engineering (other)"
   },
   {
     "name": "Suraj Bramhavar",
@@ -4001,7 +4238,8 @@
     "universities": [
       "Boston University",
       "MIT"
-    ]
+    ],
+    "field_of_study": "Electrical engineering"
   },
   {
     "name": "Tom Mahony",
@@ -4015,7 +4253,8 @@
     "universities": [
       "University of New Mexico",
       "MIT"
-    ]
+    ],
+    "field_of_study": "Electrical engineering"
   },
   {
     "name": "Adrian Albert",
@@ -4029,7 +4268,8 @@
     "linkedin": "",
     "bio": "Adrian Albert, who died tragically on June 5, 2020, founded Terrafuse in 2018 to improve climate and weather risk prediction infrastructure. Before that, he was a machine learning research scientist at Lawrence Berkeley National Laboratory, designing machine learning algorithms incorporating physical knowledge for scientific applications. Albert earned his Ph.D. in electrical engineering at Stanford. At startup C3.ai, he worked on AI methods for energy and industrial systems.",
     "degree": "PhD",
-    "universities": []
+    "universities": [],
+    "field_of_study": "Electrical engineering"
   },
   {
     "name": "Amir Atabaki",
@@ -4049,7 +4289,8 @@
       "Sharif University",
       "MIT",
       "Georgia Tech"
-    ]
+    ],
+    "field_of_study": "Electrical engineering"
   },
   {
     "name": "Armin Jam",
@@ -4064,7 +4305,8 @@
     "degree": "PhD",
     "universities": [
       "University of Michigan"
-    ]
+    ],
+    "field_of_study": "Electrical engineering"
   },
   {
     "name": "Avish Kosari",
@@ -4079,7 +4321,8 @@
     "degree": "PhD",
     "universities": [
       "University of Michigan"
-    ]
+    ],
+    "field_of_study": "Electrical engineering"
   },
   {
     "name": "Cara Beasley",
@@ -4093,7 +4336,8 @@
     "universities": [
       "Stanford University",
       "University of California"
-    ]
+    ],
+    "field_of_study": "Chemistry"
   },
   {
     "name": "Cody Finke",
@@ -4110,7 +4354,8 @@
     "degree": "PhD",
     "universities": [
       "Caltech"
-    ]
+    ],
+    "field_of_study": "Earth / environmental science"
   },
   {
     "name": "J Provine",
@@ -4125,7 +4370,8 @@
       "Stanford University",
       "Cornell University",
       "Rice University"
-    ]
+    ],
+    "field_of_study": null
   },
   {
     "name": "Jesse Adams",
@@ -4141,7 +4387,8 @@
     "degree": "PhD",
     "universities": [
       "Rice University"
-    ]
+    ],
+    "field_of_study": "Physics"
   },
   {
     "name": "Matthew Ryan",
@@ -4158,7 +4405,8 @@
     "degree": "PhD",
     "universities": [
       "Colorado State University"
-    ]
+    ],
+    "field_of_study": "Chemistry"
   },
   {
     "name": "Mitchell Hsing",
@@ -4174,7 +4422,8 @@
     "degree": "PhD",
     "universities": [
       "MIT"
-    ]
+    ],
+    "field_of_study": "Electrical engineering"
   },
   {
     "name": "Parker Gould",
@@ -4192,7 +4441,8 @@
       "University of Cambridge",
       "Vanderbilt University",
       "MIT"
-    ]
+    ],
+    "field_of_study": "Electrical engineering"
   },
   {
     "name": "Raj Bhakta",
@@ -4209,7 +4459,8 @@
       "North Carolina State University",
       "Wilson College",
       "University of Texas-Austin"
-    ]
+    ],
+    "field_of_study": "Physics"
   },
   {
     "name": "Ryan Pearson",
@@ -4227,7 +4478,8 @@
     "universities": [
       "Colorado State University",
       "Penn State University"
-    ]
+    ],
+    "field_of_study": "Chemistry"
   },
   {
     "name": "Tina Boville",
@@ -4246,7 +4498,8 @@
       "University of Colorado. After",
       "University of Colorado",
       "Caltech"
-    ]
+    ],
+    "field_of_study": "Molecular biology"
   },
   {
     "name": "Alexei Marchenkov",
@@ -4262,7 +4515,8 @@
       "Moscow Institute",
       "Kapitza Institute",
       "Leiden University"
-    ]
+    ],
+    "field_of_study": "Physics"
   },
   {
     "name": "Andrew Ponec",
@@ -4276,7 +4530,8 @@
     "linkedin": "https://www.linkedin.com/in/andrew-ponec-86b67046/",
     "bio": "Antora Energy CEO Andrew Ponec received his B.S. in energy systems engineering from Stanford. Between his sophomore and junior year, Ponec took a leave to found a solar energy company called Dragonfly Systems. SunPower acquired Dragonfly in 2014. Ponec led his team through concept generation, prototyping, validation testing, and manufacturing, and eventually oversaw the installation of over 10 MW of solar power plants that used the technology.",
     "degree": "Bachelor's",
-    "universities": []
+    "universities": [],
+    "field_of_study": "Engineering (other)"
   },
   {
     "name": "Chris Graves",
@@ -4292,7 +4547,8 @@
     "universities": [
       "Columbia University",
       "Technical University"
-    ]
+    ],
+    "field_of_study": "Chemistry"
   },
   {
     "name": "Dominic Labanowski",
@@ -4310,7 +4566,8 @@
     "universities": [
       "Ohio State University",
       "UC Berkeley"
-    ]
+    ],
+    "field_of_study": "Electrical engineering"
   },
   {
     "name": "Erkan Aktakka",
@@ -4327,7 +4584,8 @@
     "universities": [
       "University of Michigan",
       "University of Michigan Distinguished Achievement Award"
-    ]
+    ],
+    "field_of_study": null
   },
   {
     "name": "Jack Norbeck",
@@ -4346,7 +4604,8 @@
       "Geothermal Institute",
       "University of Auckland. Norbeck",
       "Stanford University"
-    ]
+    ],
+    "field_of_study": "Engineering (other)"
   },
   {
     "name": "Jill Fuss",
@@ -4364,7 +4623,8 @@
     "universities": [
       "Wesleyan University",
       "UC Berkeley"
-    ]
+    ],
+    "field_of_study": "Biology"
   },
   {
     "name": "Justin Briggs",
@@ -4381,7 +4641,8 @@
     "universities": [
       "Stanford University",
       "UC Berkeley"
-    ]
+    ],
+    "field_of_study": "Physics"
   },
   {
     "name": "Kevin Kung",
@@ -4400,7 +4661,8 @@
       "Princeton University",
       "University of Cambridge",
       "MIT"
-    ]
+    ],
+    "field_of_study": "Physics"
   },
   {
     "name": "Miguel Sierra Aznar",
@@ -4419,7 +4681,8 @@
       "Technical University",
       "Hanze University",
       "Polytechnic University"
-    ]
+    ],
+    "field_of_study": "Engineering (other)"
   },
   {
     "name": "Nishita Deka",
@@ -4437,7 +4700,8 @@
     "universities": [
       "University of Southern California. She",
       "UC Berkeley"
-    ]
+    ],
+    "field_of_study": "Electrical engineering"
   },
   {
     "name": "Steve Yannone",
@@ -4452,7 +4716,8 @@
     "linkedin": "https://www.linkedin.com/in/steveyannone/",
     "bio": "Steve Yannone earned a B.S. in biochemistry from UC Riverside and a Ph.D. in molecular biology and biochemistry from UC Irvine followed by a two-year postdoctoral fellowship at Los Alamos National Laboratory and seventeen years leading his group at Berkeley lab as a principal investigator. He and Activate Fellow Jill Fuss co-founded CinderBio in 2012 based on research conducted in his group at Berkeley Lab.",
     "degree": "PhD",
-    "universities": []
+    "universities": [],
+    "field_of_study": "Molecular biology"
   },
   {
     "name": "Tim Latimer",
@@ -4470,7 +4735,8 @@
     "universities": [
       "Stanford University",
       "University of Tulsa"
-    ]
+    ],
+    "field_of_study": "Mechanical engineering"
   },
   {
     "name": "Adam Vaughan",
@@ -4483,7 +4749,8 @@
     "linkedin": "https://dauntless.io/l/adam",
     "bio": "Adam is focused on patented Artificial Intelligence (AI) solutions which are deployed to the Fortune 500.",
     "degree": null,
-    "universities": []
+    "universities": [],
+    "field_of_study": "Computer science"
   },
   {
     "name": "David Bierman",
@@ -4499,7 +4766,8 @@
     "degree": "PhD",
     "universities": [
       "MIT"
-    ]
+    ],
+    "field_of_study": "Mechanical engineering"
   },
   {
     "name": "David Walther",
@@ -4515,7 +4783,8 @@
     "degree": "PhD",
     "universities": [
       "UC Berkeley"
-    ]
+    ],
+    "field_of_study": "Mechanical engineering"
   },
   {
     "name": "Joe Geddes",
@@ -4529,7 +4798,8 @@
     "linkedin": "https://www.linkedin.com/in/jbgeddes3/",
     "bio": "Joe Geddes founded Photia to enable rapid manufacturing of advanced materials for energy applications using holographic lithography. Prior to Photia, Geddes was an engineer at the company Rolith, where he made key contributions to the development of Rolling Mask Lithography, a method for making two-dimensional nanostructured coatings. He earned his Ph.D. in engineering science and mechanics from Penn State.",
     "degree": "PhD",
-    "universities": []
+    "universities": [],
+    "field_of_study": "Engineering (other)"
   },
   {
     "name": "Joy Morrison",
@@ -4543,7 +4813,8 @@
     "universities": [
       "Boston University",
       "University of Cincinnati. She"
-    ]
+    ],
+    "field_of_study": "Physics"
   },
   {
     "name": "Lance Brockway",
@@ -4561,7 +4832,8 @@
       "Texas A&M University",
       "National University",
       "UC Berkeley"
-    ]
+    ],
+    "field_of_study": "Chemical engineering"
   },
   {
     "name": "Vince Romanin",
@@ -4578,7 +4850,8 @@
     "degree": "PhD",
     "universities": [
       "UC Berkeley"
-    ]
+    ],
+    "field_of_study": "Mechanical engineering"
   },
   {
     "name": "Andrew Hsieh",
@@ -4597,7 +4870,8 @@
     "universities": [
       "Princeton University",
       "UCLA"
-    ]
+    ],
+    "field_of_study": "Materials science"
   },
   {
     "name": "Barry Van Tassell",
@@ -4615,7 +4889,8 @@
     "degree": "PhD",
     "universities": [
       "City College"
-    ]
+    ],
+    "field_of_study": "Chemical engineering"
   },
   {
     "name": "Chris Eberspacher",
@@ -4633,7 +4908,8 @@
     "universities": [
       "Stanford University",
       "University of Texas"
-    ]
+    ],
+    "field_of_study": "Physics"
   },
   {
     "name": "Chris Kaffer",
@@ -4646,7 +4922,8 @@
     "linkedin": "https://www.linkedin.com/in/chriskaffer/",
     "bio": "Chris Kaffer co-founded Mallinda in 2014 and served as its CEO until 2022. He led the company's funding and commercialization strategies scaling production volumes to the metric ton for delivery to OEMs and tier-1s. He is currently the Program Director for Innovyz USA; founding deep tech companies and providing a full capital solution to build organically sustainable businesses.",
     "degree": null,
-    "universities": []
+    "universities": [],
+    "field_of_study": null
   },
   {
     "name": "Colin Bailie",
@@ -4664,7 +4941,8 @@
     "universities": [
       "Texas A&M University",
       "Stanford University"
-    ]
+    ],
+    "field_of_study": "Materials science"
   },
   {
     "name": "Mauro Pasta",
@@ -4678,7 +4956,8 @@
     "universities": [
       "Oxford University",
       "University of Milan"
-    ]
+    ],
+    "field_of_study": "Materials science"
   },
   {
     "name": "Pete Frischmann",
@@ -4696,7 +4975,8 @@
     "universities": [
       "University of British Columbia",
       "Idaho State University"
-    ]
+    ],
+    "field_of_study": "Chemistry"
   },
   {
     "name": "Philip Taynton",
@@ -4711,7 +4991,8 @@
     "degree": "PhD",
     "universities": [
       "University of Colorado"
-    ]
+    ],
+    "field_of_study": "Chemistry"
   },
   {
     "name": "Richard Wang",
@@ -4722,7 +5003,8 @@
     "linkedin": "https://www.linkedin.com/in/ricang/",
     "bio": "Richard Wang graduated with his Ph.D. in materials science and engineering from Stanford and is passionate about building the future of clean energy through electromobility. He co-founded Cuberg to develop affordable, innovative battery technology and led the startup to a successful acquisition by Northvolt in 2021 five years after spinning out the company from Stanford.",
     "degree": "PhD",
-    "universities": []
+    "universities": [],
+    "field_of_study": "Materials science"
   },
   {
     "name": "Zach Sun",
@@ -4738,7 +5020,8 @@
     "degree": "PhD",
     "universities": [
       "Caltech"
-    ]
+    ],
+    "field_of_study": "Biology"
   },
   {
     "name": "Dan Riley",
@@ -4754,7 +5037,8 @@
     "degree": "PhD",
     "universities": [
       "Stanford University"
-    ]
+    ],
+    "field_of_study": "Engineering (other)"
   },
   {
     "name": "Deepak Dugar",
@@ -4772,7 +5056,8 @@
     "degree": "PhD",
     "universities": [
       "MIT"
-    ]
+    ],
+    "field_of_study": "Chemical engineering"
   },
   {
     "name": "Etosha Cave",
@@ -4787,7 +5072,8 @@
     "linkedin": "https://www.linkedin.com/in/etoshac/",
     "bio": "Etosha Cave is co-founder and Chief Scientific Officer of Twelve (formerly Opus 12) and an expert in the electrochemical conversion of carbon dioxide into fuels and high-value chemicals. She holds a Ph.D. in mechanical engineering from Stanford and has been an Accel Innovation Scholar, an Echoing Green Fellow, and a Smithsonian Institution Innovators to Watch. In 2018, Vanity Fair named Cave one of 26 Women of Color Diversifying Entrepreneurship in Silicon Valley, Media, and Beyond.",
     "degree": "PhD",
-    "universities": []
+    "universities": [],
+    "field_of_study": "Mechanical engineering"
   },
   {
     "name": "Jared Schwede",
@@ -4804,7 +5090,8 @@
     "universities": [
       "Stanford University",
       "Yale University"
-    ]
+    ],
+    "field_of_study": "Physics"
   },
   {
     "name": "Kendra Kuhl",
@@ -4823,7 +5110,8 @@
       "Stanford University",
       "University of Montana",
       "MIT"
-    ]
+    ],
+    "field_of_study": "Chemistry"
   },
   {
     "name": "Marcus Lehmann",
@@ -4841,7 +5129,8 @@
     "universities": [
       "Hamburg University",
       "UC Berkeley"
-    ]
+    ],
+    "field_of_study": "Mechanical engineering"
   },
   {
     "name": "Raymond Weitekamp",
@@ -4858,7 +5147,8 @@
     "universities": [
       "Princeton University",
       "Caltech"
-    ]
+    ],
+    "field_of_study": "Chemistry"
   },
   {
     "name": "Steven Kaye",
@@ -4874,7 +5164,8 @@
     "degree": "PhD",
     "universities": [
       "UC Berkeley"
-    ]
+    ],
+    "field_of_study": "Chemistry"
   },
   {
     "name": "Thomas McDonald",
@@ -4891,6 +5182,7 @@
     "universities": [
       "Northwestern University",
       "UC Berkeley"
-    ]
+    ],
+    "field_of_study": "Chemistry"
   }
 ]

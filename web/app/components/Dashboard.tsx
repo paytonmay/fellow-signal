@@ -16,6 +16,7 @@ import PeerFunders from "./PeerFunders";
 import Insights from "./Insights";
 import FounderDiscovery from "./FounderDiscovery";
 import FellowBackground from "./FellowBackground";
+import DisciplineMap from "./DisciplineMap";
 
 function Panel({ title, sub, span = "", children }: { title: string; sub?: string; span?: string; children: React.ReactNode }) {
   return (
@@ -141,6 +142,10 @@ export default function Dashboard({ data }: { data: Dataset }) {
 
           <Panel title="Fellow background" sub="Who Activate funds, from their own bios: degree level + where they trained (292 fellows)" span="lg:col-span-3">
             <FellowBackground bg={data.fellow_background} />
+          </Panel>
+
+          <Panel title="Discipline → space" sub="What academic fields founders of each space came from · click to filter" span="lg:col-span-3">
+            <DisciplineMap map={data.discipline_map} onSelect={toggleVert} activeVertical={f.vertical} />
           </Panel>
 
           <Panel title="Non-dilutive funding won" sub="Federal $ captured, by space · click to filter">

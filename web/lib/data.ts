@@ -41,7 +41,7 @@ export type Company = {
   federal_total: number;
   federal_count: number;
   federal_agencies: { name: string; amount: number }[];
-  fellow_profiles: { name: string; degree: string | null; universities: string[]; linkedin: string; bio: string }[];
+  fellow_profiles: { name: string; degree: string | null; universities: string[]; field_of_study: string | null; linkedin: string; bio: string }[];
 };
 
 export type FellowBackground = {
@@ -151,6 +151,7 @@ export type Dataset = {
   funder_model: FunderModel | null;
   peer_funders: { funders: PeerFunder[] };
   fellow_background: FellowBackground;
+  discipline_map: Record<string, [string, number][]>;
 };
 
 // Short agency labels for dense displays.
