@@ -26,10 +26,10 @@ export default function FunderLandscape({
     Math.max(1, ...verticalsOrder.flatMap((v) => agencies.map((a) => cell(v, a))))
   );
 
-  function bg(amt: number): string {
-    if (amt <= 0) return "rgba(120,128,140,0.05)";
-    const a = 0.08 + 0.9 * (Math.log10(amt) / maxLog);
-    return `rgba(94,234,212,${a.toFixed(3)})`;
+  // intensity (0-1) on a log scale; drives both fill and whether label text
+  // should be dark (on bright cells) or light (on dim cells).
+  function intensity(amt: number): number {
+    return amt > 0 ? 0.08 + 0.9 * (Math.log10(amt) / maxLog) : 0;
   }
 
   return (
@@ -55,12 +55,17 @@ export default function FunderLandscape({
               </button>
               {agencies.map((a) => {
                 const amt = cell(v, a);
-                const strong = amt >= 1e9;
+                const t = intensity(amt);
                 return (
                   <div key={a} className="m-[2px] rounded flex items-center justify-center"
-                    style={{ background: bg(amt), minHeight: 28 }}
+                    style={{ background: amt > 0 ? `rgba(94,234,212,${t.toFixed(3)})` : "rgba(120,128,140,0.05)", minHeight: 28 }}
                     title={`${shortAgency(a)} · ${v}: ${fmtUSD(amt, { compact: true })}`}>
-                    {strong && <span className="text-[10px] font-semibold text-[#04201b]">{fmtUSD(amt, { compact: true })}</span>}
+                    {amt > 0 && (
+                      <span className="text-[9.5px] font-medium tabular-nums"
+                        style={{ color: t >= 0.5 ? "#04201b" : "#86b8af" }}>
+                        {fmtUSD(amt, { compact: true })}
+                      </span>
+                    )}
                   </div>
                 );
               })}
