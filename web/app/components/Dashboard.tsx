@@ -135,13 +135,13 @@ export default function Dashboard({ data }: { data: Dataset }) {
           <Panel title="Space Forecast" sub="Research + federal funding trajectory per space · who's funding it · are we early?" span="lg:col-span-2">
             <SpaceForecast spaces={data.space_signals.spaces} activeVertical={f.vertical} onSelect={toggleVert} />
           </Panel>
-          <Panel title="Funder Landscape" sub="Federal funding by agency × space · who's putting money where" span="lg:col-span-2">
+          <Panel title="Funder Landscape" sub="Federal funding by agency × space · who's putting money where" span="lg:col-span-3">
             <FunderLandscape data={data.space_signals}
               verticalsOrder={[...data.space_signals.spaces].sort((a, b) => b.federal_total - a.federal_total).map((s) => s.vertical)}
               activeVertical={f.vertical} onSelect={toggleVert} />
           </Panel>
           {data.peer_funders.funders[0] && (
-            <Panel title="Peer funders" sub="Where another deep-tech funder concentrates vs Activate" span="lg:col-span-1">
+            <Panel title="Peer funders" sub="Where another deep-tech funder concentrates vs Activate · click a space to filter" span="lg:col-span-3">
               <PeerFunders peer={data.peer_funders.funders[0]} activateVerticals={data.verticals}
                 activateTotal={data.headline.companies} activeVertical={f.vertical} onSelect={toggleVert} />
             </Panel>

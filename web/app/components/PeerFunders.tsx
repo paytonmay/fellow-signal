@@ -41,7 +41,7 @@ export default function PeerFunders({
         <span className="text-zinc-600">share of each funder&apos;s portfolio by space</span>
       </div>
 
-      <div className="space-y-2.5">
+      <div className="grid lg:grid-cols-2 gap-x-8 gap-y-2.5">
         {rows.map((r) => (
           <button key={r.v} onClick={() => onSelect?.(r.v)}
             className={`w-full grid items-center gap-3 px-2 py-1.5 rounded-lg text-left transition ${activeVertical === r.v ? "bg-teal-400/10" : "hover:bg-white/[0.02]"}`}
