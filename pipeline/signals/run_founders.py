@@ -35,6 +35,17 @@ OUT = ROOT / "data" / "processed" / "founders.json"
 
 def main() -> None:
     companies = json.loads(COMPANIES.read_text(encoding="utf-8"))
+
+    # Resume: reuse any fellow already RESOLVED in a prior run; only (re)try the
+    # unresolved ones. Makes re-runs gentle + progressive against the rate limit.
+    cache: dict = {}
+    if OUT.exists():
+        prior = json.loads(OUT.read_text(encoding="utf-8"))
+        for co_name, founders in prior.items():
+            for f in founders:
+                if f.get("resolved"):
+                    cache[(co_name, f["name"])] = f
+
     result = {}
     resolved = 0
     total_fellows = 0
@@ -42,6 +53,11 @@ def main() -> None:
         founders = []
         for fellow in c["fellows"]:
             total_fellows += 1
+            cached = cache.get((c["name"], fellow))
+            if cached:
+                founders.append(cached)
+                resolved += 1
+                continue
             a = resolve_with_retry(fellow, c)
             time.sleep(0.5)
             if not a:
@@ -70,7 +86,9 @@ def main() -> None:
             })
             resolved += 1
         result[c["name"]] = founders
-        if i % 25 == 0 or i == len(companies):
+        if i % 20 == 0 or i == len(companies):
+            # Persist progress so a kill/throttle never loses resolved work.
+            OUT.write_text(json.dumps(result, indent=2, ensure_ascii=False), encoding="utf-8")
             print(f"[{i}/{len(companies)}] fellows resolved: {resolved}/{total_fellows}", flush=True)
 
     OUT.write_text(json.dumps(result, indent=2, ensure_ascii=False), encoding="utf-8")
