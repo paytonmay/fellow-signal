@@ -107,11 +107,17 @@ export default function FrontierRadar({ rows }: { rows: RadarRow[] }) {
         </text>
 
         {/* quadrant captions */}
-        <text x={PAD.l + innerW - 8} y={PAD.t + 18} textAnchor="end" fill="#5eead4" fontSize="11.5" fontWeight={600} opacity={0.85}>
-          VALIDATED · hot, present
+        <text x={PAD.l + innerW - 8} y={PAD.t + 16} textAnchor="end" fill="#5eead4" fontSize="11.5" fontWeight={600} opacity={0.9}>
+          VALIDATED
         </text>
-        <text x={PAD.l + innerW - 8} y={PAD.t + innerH - 8} textAnchor="end" fill="#fbbf24" fontSize="11.5" fontWeight={600} opacity={0.9}>
-          WHITESPACE · hot, Activate light
+        <text x={PAD.l + innerW - 8} y={PAD.t + 30} textAnchor="end" fill="#5eead4" fontSize="10" opacity={0.6}>
+          research hot · Activate already in it
+        </text>
+        <text x={PAD.l + innerW - 8} y={PAD.t + innerH - 20} textAnchor="end" fill="#fbbf24" fontSize="11.5" fontWeight={600} opacity={0.92}>
+          WHITESPACE
+        </text>
+        <text x={PAD.l + innerW - 8} y={PAD.t + innerH - 7} textAnchor="end" fill="#fbbf24" fontSize="10" opacity={0.65}>
+          research hot · Activate barely here
         </text>
 
         {/* leader lines + points + labels */}
@@ -153,6 +159,17 @@ export default function FrontierRadar({ rows }: { rows: RadarRow[] }) {
           </div>
         );
       })()}
+
+      <p className="mt-2 text-[11px] text-zinc-600 leading-relaxed">
+        <span className="text-amber-300/80">Whitespace</span> (bottom-right) = fields whose research is
+        accelerating but where Activate has few ventures yet, an opportunity gap worth investigating.
+        <br />
+        <span className="text-zinc-400">Real data:</span> research momentum from{" "}
+        <a href="https://openalex.org" target="_blank" rel="noopener noreferrer" className="text-zinc-400 underline decoration-zinc-700 hover:text-zinc-200">OpenAlex</a>{" "}
+        (an open index of ~250M scholarly works), as each field&apos;s growing share of publications;
+        bubble size is federal funding momentum from USAspending.gov; presence is Activate&apos;s portfolio.
+        Fields are keyword-defined and point-in-time, so trust the ranking over exact magnitudes.
+      </p>
     </div>
   );
 }
