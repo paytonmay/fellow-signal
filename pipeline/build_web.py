@@ -51,6 +51,10 @@ def main() -> None:
         funder_model = load("funder_model.json")
     except FileNotFoundError:
         funder_model = None
+    try:
+        peer_funders = load("peer_funders.json")
+    except FileNotFoundError:
+        peer_funders = {"funders": []}
 
     # Site style: strip em dashes from all displayed text.
     for c in companies:
@@ -163,6 +167,7 @@ def main() -> None:
         "convergence": convergence,
         "space_signals": space_signals,
         "funder_model": funder_model,
+        "peer_funders": peer_funders,
     }, ensure_ascii=False), encoding="utf-8")
     kb = OUT.stat().st_size // 1024
     print(f"Wrote {OUT.relative_to(ROOT)} ({kb} KB)")

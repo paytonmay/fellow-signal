@@ -1,0 +1,424 @@
+[
+  {
+    "name": "Addis Energy",
+    "industries": [
+      "advanced-materials",
+      "fuels-chemicals"
+    ]
+  },
+  {
+    "name": "Anthology",
+    "industries": [
+      "advanced-engineering",
+      "ai-physical-systems",
+      "biotech-life-sciences-2"
+    ]
+  },
+  {
+    "name": "Amide",
+    "industries": [
+      "advanced-engineering",
+      "biotech-life-sciences-2"
+    ]
+  },
+  {
+    "name": "Atlantic Quantum",
+    "industries": [
+      "advanced-computing"
+    ]
+  },
+  {
+    "name": "AtmosZero",
+    "industries": [
+      "advanced-engineering",
+      "energy",
+      "infrastructure-mobility-built-environment"
+    ]
+  },
+  {
+    "name": "Axiomatic AI",
+    "industries": [
+      "advanced-computing",
+      "advanced-engineering",
+      "ai-deep-software"
+    ]
+  },
+  {
+    "name": "Axoft",
+    "industries": [
+      "advanced-engineering",
+      "advanced-materials",
+      "biotech-life-sciences-2"
+    ]
+  },
+  {
+    "name": "Bexorg",
+    "industries": [
+      "advanced-engineering",
+      "ai-physical-systems",
+      "biotech-life-sciences-2"
+    ]
+  },
+  {
+    "name": "Biobot Analytics",
+    "industries": [
+      "ai-physical-systems",
+      "infrastructure-mobility-built-environment",
+      "biotech-life-sciences-2"
+    ]
+  },
+  {
+    "name": "Blue Energy",
+    "industries": [
+      "advanced-engineering",
+      "energy",
+      "infrastructure-mobility-built-environment"
+    ]
+  },
+  {
+    "name": "Boston Metal",
+    "industries": [
+      "advanced-engineering",
+      "advanced-materials"
+    ]
+  },
+  {
+    "name": "Celestial AI",
+    "industries": [
+      "advanced-computing",
+      "advanced-engineering",
+      "semiconductors-photonics-hardware"
+    ]
+  },
+  {
+    "name": "Cellino",
+    "industries": [
+      "advanced-engineering",
+      "ai-physical-systems",
+      "biotech-life-sciences-2"
+    ]
+  },
+  {
+    "name": "Commonwealth Fusion Systems",
+    "industries": [
+      "advanced-engineering",
+      "energy"
+    ]
+  },
+  {
+    "name": "Copernic Catalysts",
+    "industries": [
+      "advanced-engineering",
+      "fuels-chemicals"
+    ]
+  },
+  {
+    "name": "DBOS",
+    "industries": [
+      "advanced-computing",
+      "infrastructure-mobility-built-environment",
+      "ai-deep-software"
+    ]
+  },
+  {
+    "name": "DG Matrix",
+    "industries": [
+      "energy"
+    ]
+  },
+  {
+    "name": "Droplet Biosciences",
+    "industries": [
+      "biotech-life-sciences-2"
+    ]
+  },
+  {
+    "name": "Emvolon",
+    "industries": [
+      "advanced-engineering",
+      "advanced-materials",
+      "fuels-chemicals"
+    ]
+  },
+  {
+    "name": "EVOLOH",
+    "industries": [
+      "advanced-engineering",
+      "advanced-materials",
+      "fuels-chemicals"
+    ]
+  },
+  {
+    "name": "Finwave",
+    "industries": [
+      "advanced-engineering",
+      "advanced-materials",
+      "semiconductors-photonics-hardware"
+    ]
+  },
+  {
+    "name": "Foray Bioscience",
+    "industries": [
+      "advanced-engineering",
+      "advanced-materials",
+      "biotech-life-sciences-2"
+    ]
+  },
+  {
+    "name": "Form Energy",
+    "industries": [
+      "advanced-engineering",
+      "advanced-materials",
+      "energy"
+    ]
+  },
+  {
+    "name": "Foundation Alloy",
+    "industries": [
+      "advanced-engineering",
+      "advanced-materials",
+      "energy"
+    ]
+  },
+  {
+    "name": "Genomines",
+    "industries": [
+      "advanced-materials"
+    ]
+  },
+  {
+    "name": "Hyfé",
+    "industries": [
+      "advanced-engineering",
+      "advanced-materials",
+      "biotech-life-sciences-2"
+    ]
+  },
+  {
+    "name": "HyperLight",
+    "industries": [
+      "advanced-engineering",
+      "semiconductors-photonics-hardware"
+    ]
+  },
+  {
+    "name": "ISEE",
+    "industries": [
+      "ai-physical-systems",
+      "infrastructure-mobility-built-environment",
+      "robotics"
+    ]
+  },
+  {
+    "name": "Kano",
+    "industries": [
+      "advanced-engineering",
+      "biotech-life-sciences-2"
+    ]
+  },
+  {
+    "name": "Kytopen",
+    "industries": [
+      "advanced-engineering",
+      "biotech-life-sciences-2"
+    ]
+  },
+  {
+    "name": "Lilac Solutions",
+    "industries": [
+      "advanced-engineering",
+      "advanced-materials"
+    ]
+  },
+  {
+    "name": "Mantel",
+    "industries": [
+      "advanced-materials",
+      "energy"
+    ]
+  },
+  {
+    "name": "Matrisome Bio",
+    "industries": [
+      "biotech-life-sciences-2"
+    ]
+  },
+  {
+    "name": "Mori",
+    "industries": [
+      "advanced-materials",
+      "biotech-life-sciences-2"
+    ]
+  },
+  {
+    "name": "Osmoses",
+    "industries": [
+      "advanced-engineering",
+      "advanced-materials",
+      "fuels-chemicals"
+    ]
+  },
+  {
+    "name": "OSO Semiconductor",
+    "industries": [
+      "advanced-computing",
+      "advanced-engineering",
+      "semiconductors-photonics-hardware",
+      "space"
+    ]
+  },
+  {
+    "name": "Overview Energy",
+    "industries": [
+      "energy",
+      "space"
+    ]
+  },
+  {
+    "name": "Pascal",
+    "industries": [
+      "advanced-materials",
+      "energy",
+      "infrastructure-mobility-built-environment"
+    ]
+  },
+  {
+    "name": "Predicta",
+    "industries": [
+      "ai-physical-systems",
+      "biotech-life-sciences-2"
+    ]
+  },
+  {
+    "name": "Quaise",
+    "industries": [
+      "advanced-engineering",
+      "advanced-materials",
+      "energy"
+    ]
+  },
+  {
+    "name": "Trener Robotics",
+    "industries": [
+      "advanced-engineering",
+      "ai-physical-systems",
+      "robotics",
+      "ai-deep-software"
+    ]
+  },
+  {
+    "name": "Resonant Link",
+    "industries": [
+      "infrastructure-mobility-built-environment",
+      "biotech-life-sciences-2"
+    ]
+  },
+  {
+    "name": "ReynKo",
+    "industries": [
+      "advanced-engineering",
+      "infrastructure-mobility-built-environment"
+    ]
+  },
+  {
+    "name": "RISE Robotics",
+    "industries": [
+      "advanced-engineering",
+      "robotics"
+    ]
+  },
+  {
+    "name": "Seaspire Skincare",
+    "industries": [
+      "biotech-life-sciences-2"
+    ]
+  },
+  {
+    "name": "Sora Fuel",
+    "industries": [
+      "advanced-engineering",
+      "fuels-chemicals"
+    ]
+  },
+  {
+    "name": "Sublime Systems",
+    "industries": [
+      "advanced-engineering",
+      "advanced-materials",
+      "infrastructure-mobility-built-environment"
+    ]
+  },
+  {
+    "name": "Superlight",
+    "industries": [
+      "advanced-engineering",
+      "infrastructure-mobility-built-environment"
+    ]
+  },
+  {
+    "name": "Sync Computing",
+    "industries": [
+      "advanced-computing"
+    ]
+  },
+  {
+    "name": "Syzygy Plasmonics",
+    "industries": [
+      "advanced-engineering",
+      "advanced-materials",
+      "fuels-chemicals"
+    ]
+  },
+  {
+    "name": "Teradar",
+    "industries": [
+      "advanced-engineering",
+      "ai-physical-systems",
+      "infrastructure-mobility-built-environment"
+    ]
+  },
+  {
+    "name": "Terragia",
+    "industries": [
+      "biotech-life-sciences-2",
+      "fuels-chemicals"
+    ]
+  },
+  {
+    "name": "The Routing Company",
+    "industries": [
+      "ai-physical-systems",
+      "infrastructure-mobility-built-environment",
+      "ai-deep-software"
+    ]
+  },
+  {
+    "name": "Terrestrial Bio",
+    "industries": [
+      "advanced-engineering",
+      "biotech-life-sciences-2"
+    ]
+  },
+  {
+    "name": "VEIR",
+    "industries": [
+      "advanced-engineering",
+      "energy",
+      "infrastructure-mobility-built-environment"
+    ]
+  },
+  {
+    "name": "Via Separations",
+    "industries": [
+      "advanced-engineering",
+      "fuels-chemicals"
+    ]
+  },
+  {
+    "name": "WoHo",
+    "industries": [
+      "advanced-engineering",
+      "infrastructure-mobility-built-environment"
+    ]
+  }
+]

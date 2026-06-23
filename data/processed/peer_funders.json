@@ -1,0 +1,36 @@
+{
+  "funders": [
+    {
+      "name": "The Engine",
+      "total": 57,
+      "vertical_count": {
+        "Carbon Management / CO2e": 9,
+        "Chemistry & Materials": 23,
+        "Industrial Biotechnology": 18,
+        "Computing": 15,
+        "Life Science": 18,
+        "Advanced Manufacturing & Robotics": 42,
+        "Built Environment": 14,
+        "Energy Generation & Delivery": 11,
+        "Energy Storage & Batteries": 11,
+        "Transportation & Mobility": 14,
+        "Electronics & Connectivity": 4,
+        "Space & Aeronautics": 2
+      },
+      "vertical_share": {
+        "Carbon Management / CO2e": 0.1579,
+        "Chemistry & Materials": 0.4035,
+        "Industrial Biotechnology": 0.3158,
+        "Computing": 0.2632,
+        "Life Science": 0.3158,
+        "Advanced Manufacturing & Robotics": 0.7368,
+        "Built Environment": 0.2456,
+        "Energy Generation & Delivery": 0.193,
+        "Energy Storage & Batteries": 0.193,
+        "Transportation & Mobility": 0.2456,
+        "Electronics & Connectivity": 0.0702,
+        "Space & Aeronautics": 0.0351
+      }
+    }
+  ]
+}

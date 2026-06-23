@@ -109,6 +109,13 @@ export type SpaceSignals = {
   agency_matrix: Record<string, Record<string, number>>;
 };
 
+export type PeerFunder = {
+  name: string;
+  total: number;
+  vertical_count: Record<string, number>;
+  vertical_share: Record<string, number>;
+};
+
 export type Dataset = {
   headline: Headline;
   companies: Company[];
@@ -120,6 +127,7 @@ export type Dataset = {
   convergence: Convergence;
   space_signals: SpaceSignals;
   funder_model: FunderModel | null;
+  peer_funders: { funders: PeerFunder[] };
 };
 
 // Short agency labels for dense displays.

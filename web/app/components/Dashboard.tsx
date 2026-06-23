@@ -12,6 +12,7 @@ import PortfolioPanel from "./PortfolioPanel";
 import SpaceForecast from "./SpaceForecast";
 import FunderLandscape from "./FunderLandscape";
 import FunderModel from "./FunderModel";
+import PeerFunders from "./PeerFunders";
 
 function Panel({ title, sub, span = "", children }: { title: string; sub?: string; span?: string; children: React.ReactNode }) {
   return (
@@ -134,11 +135,17 @@ export default function Dashboard({ data }: { data: Dataset }) {
           <Panel title="Space Forecast" sub="Research + federal funding trajectory per space · who's funding it · are we early?" span="lg:col-span-3">
             <SpaceForecast spaces={data.space_signals.spaces} activeVertical={f.vertical} onSelect={toggleVert} />
           </Panel>
-          <Panel title="Funder Landscape" sub="Federal funding by agency × space · who's putting money where" span="lg:col-span-3">
+          <Panel title="Funder Landscape" sub="Federal funding by agency × space · who's putting money where" span="lg:col-span-2">
             <FunderLandscape data={data.space_signals}
               verticalsOrder={[...data.space_signals.spaces].sort((a, b) => b.federal_total - a.federal_total).map((s) => s.vertical)}
               activeVertical={f.vertical} onSelect={toggleVert} />
           </Panel>
+          {data.peer_funders.funders[0] && (
+            <Panel title="Peer funders" sub="Where another deep-tech funder concentrates vs Activate" span="lg:col-span-1">
+              <PeerFunders peer={data.peer_funders.funders[0]} activateVerticals={data.verticals}
+                activateTotal={data.headline.companies} activeVertical={f.vertical} onSelect={toggleVert} />
+            </Panel>
+          )}
           {data.funder_model && (
             <Panel title="Funder & Model" sub="Activate's own finances (IRS 990) · money in vs. impact out" span="lg:col-span-3">
               <FunderModel model={data.funder_model} portfolioNsf={data.headline.nsf_total} />
