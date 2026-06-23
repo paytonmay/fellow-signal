@@ -1,5 +1,8 @@
 import { Vertical, fmtUSD, verticalColor } from "@/lib/data";
 
+// Number-forward funding leaderboard: the dollar figure is the hero, ranking +
+// a subtle background fill convey magnitude (so small values still read cleanly
+// instead of becoming tiny broken bars).
 export default function OutcomesBars({
   verticals,
   onSelect,
@@ -11,29 +14,29 @@ export default function OutcomesBars({
   const max = Math.max(...rows.map((r) => r.nsf_total), 1);
 
   return (
-    <div className="space-y-2.5">
-      {rows.map((r) => (
-        <div key={r.vertical} className={`flex items-center gap-3 ${onSelect ? "cursor-pointer group" : ""}`}
-          onClick={() => onSelect?.(r.vertical)}>
-          <div className={`w-44 shrink-0 text-[12.5px] text-right ${onSelect ? "text-zinc-400 group-hover:text-teal-200" : "text-zinc-400"}`}>
-            {r.vertical.replace(" / CO2e", "")}
-          </div>
-          <div className="flex-1 h-6 bg-[#0e1014] rounded-md overflow-hidden">
-            <div
-              className="h-full rounded-md flex items-center justify-end pr-2"
-              style={{
-                width: `${Math.max((r.nsf_total / max) * 100, 4)}%`,
-                background: `linear-gradient(90deg, ${verticalColor(r.vertical)}22, ${verticalColor(r.vertical)}cc)`,
-              }}
-            >
-              <span className="text-[11px] font-medium text-zinc-100/90">
-                {fmtUSD(r.nsf_total, { compact: true })}
+    <div className="space-y-1">
+      {rows.map((r, i) => {
+        const color = verticalColor(r.vertical);
+        return (
+          <button key={r.vertical} onClick={() => onSelect?.(r.vertical)}
+            className="relative w-full flex items-center justify-between gap-3 px-2.5 py-2 rounded-lg overflow-hidden group hover:bg-white/[0.02] transition">
+            {/* magnitude as a soft background fill, not a bar */}
+            <div className="absolute inset-y-0 left-0 rounded-lg pointer-events-none"
+              style={{ width: `${Math.max((r.nsf_total / max) * 100, 2)}%`, background: `${color}1c` }} />
+            <span className="relative flex items-center gap-2.5 min-w-0">
+              <span className="text-[10.5px] tabular-nums text-zinc-600 w-3.5 text-right">{i + 1}</span>
+              <span className="w-2 h-2 rounded-full shrink-0" style={{ background: color }} />
+              <span className="text-[12.5px] text-zinc-300 truncate group-hover:text-teal-200 transition">
+                {r.vertical.replace(" / CO2e", "")}
               </span>
-            </div>
-          </div>
-          <div className="w-16 shrink-0 text-[11px] text-zinc-600">{r.nsf_cos} cos</div>
-        </div>
-      ))}
+            </span>
+            <span className="relative flex items-baseline gap-2 shrink-0">
+              <span className="text-[14.5px] font-semibold text-zinc-50 tabular-nums">{fmtUSD(r.nsf_total, { compact: true })}</span>
+              <span className="text-[10.5px] text-zinc-600 w-11 text-right">{r.nsf_cos} cos</span>
+            </span>
+          </button>
+        );
+      })}
     </div>
   );
 }

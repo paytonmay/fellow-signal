@@ -120,10 +120,10 @@ export default function Dashboard({ data }: { data: Dataset }) {
 
         {/* ===== Bento grid ===== */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-3">
-          <Panel title="Frontier Radar" sub="Research momentum × Activate presence · bottom-right = whitespace" span="lg:col-span-2">
+          <Panel title="Frontier Radar" sub="Research momentum × Activate presence × federal funding (bubble) · the opportunity map" span="lg:col-span-3">
             <FrontierRadar rows={radar} />
           </Panel>
-          <Panel title="Non-dilutive funding" sub="NSF $ by vertical · click to filter">
+          <Panel title="Non-dilutive funding won" sub="NSF $ captured, by space · click to filter">
             <OutcomesBars verticals={verts} onSelect={toggleVert} />
           </Panel>
           <Panel title="Hub Atlas" sub="Specialization by community · click a hub to scope" span="lg:col-span-2">
@@ -132,7 +132,7 @@ export default function Dashboard({ data }: { data: Dataset }) {
           <Panel title="Convergence" sub="Where verticals combine · click a node to filter">
             <ConvergenceMap data={conv} onSelect={toggleVert} />
           </Panel>
-          <Panel title="Space Forecast" sub="Research + federal funding trajectory per space · who's funding it · are we early?" span="lg:col-span-3">
+          <Panel title="Space Forecast" sub="Research + federal funding trajectory per space · who's funding it · are we early?" span="lg:col-span-2">
             <SpaceForecast spaces={data.space_signals.spaces} activeVertical={f.vertical} onSelect={toggleVert} />
           </Panel>
           <Panel title="Funder Landscape" sub="Federal funding by agency × space · who's putting money where" span="lg:col-span-2">
