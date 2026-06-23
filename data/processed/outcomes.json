@@ -345,8 +345,8 @@
     "nsf_awards": [],
     "nsf_total": 0,
     "nsf_count": 0,
-    "edgar_formD": 0,
-    "has_outcome": false
+    "edgar_formD": 1,
+    "has_outcome": true
   },
   {
     "slug": "kira",
@@ -595,8 +595,8 @@
     "nsf_awards": [],
     "nsf_total": 0,
     "nsf_count": 0,
-    "edgar_formD": 0,
-    "has_outcome": false
+    "edgar_formD": 2,
+    "has_outcome": true
   },
   {
     "slug": "vectorwave",
@@ -798,8 +798,8 @@
     "nsf_awards": [],
     "nsf_total": 0,
     "nsf_count": 0,
-    "edgar_formD": 0,
-    "has_outcome": false
+    "edgar_formD": 1,
+    "has_outcome": true
   },
   {
     "slug": "drul",
@@ -873,8 +873,8 @@
     "nsf_awards": [],
     "nsf_total": 0,
     "nsf_count": 0,
-    "edgar_formD": 0,
-    "has_outcome": false
+    "edgar_formD": 1,
+    "has_outcome": true
   },
   {
     "slug": "elysium-robotics",
@@ -1838,8 +1838,8 @@
     "nsf_awards": [],
     "nsf_total": 0,
     "nsf_count": 0,
-    "edgar_formD": 3,
-    "has_outcome": true
+    "edgar_formD": 0,
+    "has_outcome": false
   },
   {
     "slug": "",
@@ -1947,8 +1947,8 @@
     "nsf_awards": [],
     "nsf_total": 0,
     "nsf_count": 0,
-    "edgar_formD": 0,
-    "has_outcome": false
+    "edgar_formD": 2,
+    "has_outcome": true
   },
   {
     "slug": "",
@@ -3289,7 +3289,7 @@
     ],
     "nsf_total": 1755999,
     "nsf_count": 2,
-    "edgar_formD": 0,
+    "edgar_formD": 4,
     "has_outcome": true
   },
   {
@@ -3412,7 +3412,7 @@
     ],
     "nsf_total": 256000,
     "nsf_count": 1,
-    "edgar_formD": 0,
+    "edgar_formD": 8,
     "has_outcome": true
   },
   {
@@ -3426,8 +3426,8 @@
     "nsf_awards": [],
     "nsf_total": 0,
     "nsf_count": 0,
-    "edgar_formD": 0,
-    "has_outcome": false
+    "edgar_formD": 4,
+    "has_outcome": true
   },
   {
     "slug": "",
@@ -3467,8 +3467,8 @@
     "nsf_awards": [],
     "nsf_total": 0,
     "nsf_count": 0,
-    "edgar_formD": 0,
-    "has_outcome": false
+    "edgar_formD": 1883,
+    "has_outcome": true
   },
   {
     "slug": "",
@@ -3521,8 +3521,8 @@
     "nsf_awards": [],
     "nsf_total": 0,
     "nsf_count": 0,
-    "edgar_formD": 0,
-    "has_outcome": false
+    "edgar_formD": 1,
+    "has_outcome": true
   },
   {
     "slug": "",
@@ -3536,8 +3536,8 @@
     "nsf_awards": [],
     "nsf_total": 0,
     "nsf_count": 0,
-    "edgar_formD": 0,
-    "has_outcome": false
+    "edgar_formD": 1,
+    "has_outcome": true
   },
   {
     "slug": "",
@@ -3553,8 +3553,8 @@
     "nsf_awards": [],
     "nsf_total": 0,
     "nsf_count": 0,
-    "edgar_formD": 0,
-    "has_outcome": false
+    "edgar_formD": 1,
+    "has_outcome": true
   },
   {
     "slug": "",
@@ -3624,7 +3624,7 @@
     ],
     "nsf_total": 256000,
     "nsf_count": 1,
-    "edgar_formD": 6,
+    "edgar_formD": 0,
     "has_outcome": true
   },
   {
@@ -3873,7 +3873,7 @@
     ],
     "nsf_total": 1459779,
     "nsf_count": 2,
-    "edgar_formD": 0,
+    "edgar_formD": 1,
     "has_outcome": true
   },
   {
@@ -4020,7 +4020,7 @@
     "nsf_awards": [],
     "nsf_total": 0,
     "nsf_count": 0,
-    "edgar_formD": 34,
+    "edgar_formD": 35,
     "has_outcome": true
   },
   {
