@@ -188,7 +188,8 @@ def main() -> None:
     for c in companies:
         c["fellow_profiles"] = [
             {"name": f["name"], "degree": f.get("degree"), "universities": f.get("universities", []),
-             "field_of_study": f.get("field_of_study"), "linkedin": f.get("linkedin"), "bio": f.get("bio", "")}
+             "field_of_study": f.get("field_of_study"), "linkedin": f.get("linkedin"),
+             "bio": no_em_dash(f.get("bio", ""))}
             for f in fellows_by_co.get(c["name"].lower(), [])
         ]
 

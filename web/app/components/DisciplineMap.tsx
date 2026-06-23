@@ -2,7 +2,7 @@
 
 import { verticalColor } from "@/lib/data";
 
-// Which academic disciplines the founders of each space came from — "to source
+// Which academic disciplines the founders of each space came from, "to source
 // in space X, look for scientists trained in Y". From the fellow bios.
 export default function DisciplineMap({
   map,
@@ -21,7 +21,7 @@ export default function DisciplineMap({
   return (
     <div>
       <div className="text-[11px] text-zinc-600 mb-4">
-        The academic backgrounds the founders of each space actually came from — a sourcing key: to find candidates for a space, look for these disciplines.
+        The academic backgrounds the founders of each space actually came from, a sourcing key: to find candidates for a space, look for these disciplines.
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-8 gap-y-3">
         {rows.map((r) => (

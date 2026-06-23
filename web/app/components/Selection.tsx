@@ -4,7 +4,7 @@ import { useMemo } from "react";
 import { Dataset, fmtUSD, verticalColor } from "@/lib/data";
 
 // The selection / talent-engine pillar: operationalize the signals into a
-// per-space screening profile, and close the loop — show that the screening
+// per-space screening profile, and close the loop, show that the screening
 // signal (research depth) actually tracks outcomes. Descriptive, not predictive.
 export default function Selection({
   data,
@@ -32,7 +32,7 @@ export default function Selection({
     const rank = ranked.indexOf(space) + 1;
     const r = data.radar.find((x) => x.vertical === space);
     const presence = r?.activate_presence_recent ?? 0;
-    const priority = presence < 0.12 ? "Whitespace — prioritize" : rank <= 8 ? "Active" : "Established";
+    const priority = presence < 0.12 ? "Whitespace, prioritize" : rank <= 8 ? "Active" : "Established";
 
     // Loop closure: do companies with a stronger founder research footprint win
     // more non-dilutive funding? (split at the founder-citation median)
@@ -87,13 +87,13 @@ export default function Selection({
             research ×{model.research.toFixed(1)} · federal $ ×{model.fed >= 99 ? "99+" : Math.round(model.fed)} · Activate {Math.round(model.presence * 100)}% present
           </Row>
           <Row label="Look for disciplines">
-            {model.disciplines.length ? model.disciplines.slice(0, 3).map(([d]) => d).join(" · ") : "—"}
+            {model.disciplines.length ? model.disciplines.slice(0, 3).map(([d]) => d).join(" · ") : "n/a"}
           </Row>
           <Row label="Research depth">
             in the band of resolved founders (median ~{model.loop.med.toLocaleString()} citations); deep, cited work that precedes the venture
           </Row>
           <Row label="Training">
-            {Math.round(model.phd_pct * 100)}% of fellows hold a PhD — a baseline, not a gate
+            {Math.round(model.phd_pct * 100)}% of fellows hold a PhD, a baseline, not a gate
           </Row>
         </div>
         <p className="mt-3 text-[11px] text-zinc-600">
@@ -101,29 +101,30 @@ export default function Selection({
         </p>
       </div>
 
-      {/* Loop closure */}
+      {/* Loop closure — reported honestly (the funded RATE is the robust metric) */}
       <div>
-        <div className="text-[12.5px] font-medium text-zinc-200 mb-1">Does the signal track outcomes?</div>
+        <div className="text-[12.5px] font-medium text-zinc-200 mb-1">Does the signal track outcomes? (honest answer: not yet)</div>
         <div className="text-[11px] text-zinc-600 mb-4">
-          Closing the loop: companies split at the median founder-citation count ({model.loop.n} with a research profile), compared on the outcome we can measure independently — federal non-dilutive funding.
+          Closing the loop: {model.loop.n} companies with a founder research profile, split at the median citation count, on the rate of winning federal non-dilutive funding.
         </div>
         <div className="grid grid-cols-2 gap-3">
           {[
-            { t: "Above-median research depth", avg: model.loop.hiAvg, rate: model.loop.hiRate, hot: true },
-            { t: "Below-median", avg: model.loop.loAvg, rate: model.loop.loRate, hot: false },
+            { t: "Above-median research depth", rate: model.loop.hiRate, avg: model.loop.hiAvg },
+            { t: "Below-median", rate: model.loop.loRate, avg: model.loop.loAvg },
           ].map((s) => (
             <div key={s.t} className="panel p-4">
-              <div className={`text-2xl font-semibold ${s.hot ? "text-teal-300" : "text-zinc-300"}`}>{fmtUSD(s.avg, { compact: true })}</div>
-              <div className="text-[10.5px] text-zinc-500 mt-0.5">avg federal $ / company</div>
-              <div className="text-[11.5px] text-zinc-400 mt-2">{Math.round(s.rate * 100)}% won funding</div>
+              <div className="text-2xl font-semibold text-zinc-200">{Math.round(s.rate * 100)}%</div>
+              <div className="text-[10.5px] text-zinc-500 mt-0.5">won federal funding</div>
               <div className="text-[10.5px] text-zinc-600 mt-1">{s.t}</div>
             </div>
           ))}
         </div>
         <p className="mt-4 text-[11.5px] text-zinc-500 leading-relaxed">
-          The relationship is real but <span className="text-zinc-400">directional</span>: ~{model.loop.n} data points,
-          uncontrolled for cohort age and vertical, and research depth is only one input. It&apos;s a hypothesis the talent
-          engine should keep testing every cohort — the value is the loop, not a single coefficient.
+          At this sample, founder research depth <span className="text-zinc-300">does not</span> predict federal funding,
+          the funded rates are within a couple of points. The average dollars differ
+          ({fmtUSD(model.loop.hiAvg, { compact: true })} vs {fmtUSD(model.loop.loAvg, { compact: true })}), but that gap
+          is driven by a few outsized DOE awards, not a broad effect. The honest read: the loop is the right instrument,
+          the predictive signal isn&apos;t there yet at this N, and that is worth knowing rather than dressing up.
         </p>
       </div>
     </div>

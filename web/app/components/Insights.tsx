@@ -4,7 +4,7 @@ import { useMemo } from "react";
 import { Dataset, fmtUSD } from "@/lib/data";
 
 // The synthesis layer: findings DERIVED from the data, each with evidence and a
-// "so what". This is the point of the whole thing — discovery & insight, not a
+// "so what". This is the point of the whole thing, discovery & insight, not a
 // pile of charts.
 export default function Insights({ data }: { data: Dataset }) {
   const ins = useMemo(() => {
@@ -63,9 +63,10 @@ export default function Insights({ data }: { data: Dataset }) {
               {r.v.replace(" / CO2e", "")} <span className="text-teal-300">{pct(r.a)} → {pct(r.b)}</span> of the cohort
             </span>
           ))}
+          <span className="block text-[11px] text-zinc-600 mt-1">cohorts of {ins.n24} and {ins.n25}, so directional</span>
         </>
       ),
-      so: "Where Activate sources is moving year to year — discovery should track these accelerations, not last cohort's mix.",
+      so: "Where Activate sources is moving year to year, discovery should track these accelerations, not last cohort's mix.",
     },
     {
       tag: "Whitespace",
@@ -95,7 +96,7 @@ export default function Insights({ data }: { data: Dataset }) {
           ))}
         </>
       ),
-      so: "Hubs aren't interchangeable — each is a distinct bet, so sourcing and partner cultivation should be hub-specific.",
+      so: "Hubs aren't interchangeable, each is a distinct bet, so sourcing and partner cultivation should be hub-specific.",
     },
     {
       tag: "Outcomes",
@@ -106,7 +107,7 @@ export default function Insights({ data }: { data: Dataset }) {
           funding across <span className="text-zinc-100">{pct(ins.funded / data.headline.companies)}</span> of ventures
         </span>
       ),
-      so: "An independent, public validation that pick-quality converts to real traction — before any equity round.",
+      so: "An independent, public validation that pick-quality converts to real traction, before any equity round.",
     },
     {
       tag: "Model",
@@ -117,18 +118,18 @@ export default function Insights({ data }: { data: Dataset }) {
           funded by philanthropy + government, not VC
         </span>
       ) : null,
-      so: "A scalable, founder-first alternative to the accelerator model — and the growth shows it's resonating with funders.",
+      so: "A scalable, founder-first alternative to the accelerator model, and the growth shows it's resonating with funders.",
     },
     {
       tag: "Discovery signal",
       head: "The science predicts the venture, years early",
       body: (
         <span>
-          Founders&apos; pre-founding publications map onto their companies — e.g. Ryan DuChanois&apos;s membrane / ion-separation
+          Founders&apos; pre-founding publications map onto their companies, e.g. Ryan DuChanois&apos;s membrane / ion-separation
           research → Solidec&apos;s electrochemical reactors.
         </span>
       ),
-      so: "Research footprints are a leading indicator for founder discovery — surfacing scientists before they've incorporated.",
+      so: "Research footprints are a leading indicator for founder discovery, surfacing scientists before they've incorporated.",
     },
   ];
 

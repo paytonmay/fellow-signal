@@ -93,9 +93,12 @@ def universities(bio: str) -> list[str]:
     found = []
     for m in UNI_RE.findall(bio):
         u = m.strip().strip(",")
-        # trim leading lowercase connectors the greedy match may grab
-        u = re.sub(r"^(the|and|at|from|in)\s+", "", u, flags=re.I)
-        if 3 < len(u) < 60 and not STOP_UNI.match(u):
+        # cut at a sentence/clause boundary the greedy match ran past
+        u = re.split(r"[.;,]\s+[A-Z]", u)[0]
+        # drop trailing pronoun/connector words ("... Toronto His", "... MIT where")
+        u = re.sub(r"\s+(His|Her|Their|He|She|Where|Who|After|Before|During|While)\b.*$", "", u)
+        u = re.sub(r"^(the|and|at|from|in)\s+", "", u, flags=re.I).strip(" .")
+        if 3 < len(u) < 50 and not STOP_UNI.match(u):
             found.append(u)
     for k, v in KNOWN.items():
         if re.search(rf"\b{re.escape(k)}\b", bio):

@@ -2,7 +2,7 @@ import Link from "next/link";
 import { data, fmtUSD } from "@/lib/data";
 
 export const metadata = {
-  title: "Fellow Signal — Point of View",
+  title: "Fellow Signal, Point of View",
   description: "A data-backed read on Activate's frontier, and how I'd run the talent engine.",
 };
 
@@ -49,7 +49,7 @@ export default function Brief() {
           swung hard toward <span className="text-zinc-100">climate (2% → 32% of the cohort)</span> and
           <span className="text-zinc-100"> electronics &amp; connectivity (8% → 24%)</span>. Zoom out and the
           decade tells a clearer story: chemistry and materials remain the backbone, but the action is at the
-          <span className="text-zinc-100"> intersections</span> — chemistry × climate, carbon × climate,
+          <span className="text-zinc-100"> intersections</span>, chemistry × climate, carbon × climate,
           computing × electronics. New fields are forming between disciplines, not inside them. A talent engine
           that reads last cohort&apos;s mix is already a year behind; the job is to read the acceleration.
         </p>
@@ -62,14 +62,14 @@ export default function Brief() {
           storage</span> and <span className="text-zinc-100">transportation &amp; mobility</span> are both
           research-hot and funding-hot, yet sit in the single digits of recent cohorts. Some of that is
           deliberate (thesis fit), but it&apos;s exactly the list a discovery function should be interrogating
-          every quarter — not as a target, but as a question: <em>are we early, or are we missing it?</em>
+          every quarter, not as a target, but as a question: <em>are we early, or are we missing it?</em>
         </p>
 
         <H n="03">The selection edge is real, and it&apos;s measurable</H>
         <p>
           Activate&apos;s picks win money on their own. Matched against federal records, the portfolio has
           captured <span className="text-teal-300">{fmtUSD(h.federal_total, { compact: true })} in non-dilutive
-          funding</span> across {Math.round((h.federal_funded / h.companies) * 100)}% of ventures — DOE-led,
+          funding</span> across {Math.round((h.federal_funded / h.companies) * 100)}% of ventures, DOE-led,
           before a dollar of equity. That is an independent, public validation of pick quality, and it&apos;s
           the kind of outcome signal a selection system should be tracking on every cohort, not discovering
           years later in a press release.
@@ -77,16 +77,16 @@ export default function Brief() {
         <p className="mt-3">
           The founders themselves have a clear shape: <span className="text-zinc-100">{Math.round(bg.phd_pct * 100)}%
           hold PhDs</span>, concentrated at MIT, Berkeley, and Stanford, with deep, cited research that visibly
-          precedes the venture — and the discipline maps onto the space (electronics ← electrical engineering,
+          precedes the venture, and the discipline maps onto the space (electronics ← electrical engineering,
           energy storage ← chemistry and materials). That&apos;s not a pedigree filter to enforce; it&apos;s a
-          baseline that tells you what a strong candidate <em>looks like</em>, and — more usefully — helps spot
+          baseline that tells you what a strong candidate <em>looks like</em>, and, more usefully, helps spot
           the exceptional scientist who doesn&apos;t fit the usual mold.
         </p>
 
         <H n="04">A different model, and the moat it implies</H>
         <p>
           Activate is an equity-free nonprofit that has grown revenue from {fmtUSD(y19?.revenue ?? 0, { compact: true })}
-          to {fmtUSD(last?.revenue ?? 0, { compact: true })} since 2019 — roughly {mult}× — funded by philanthropy
+          to {fmtUSD(last?.revenue ?? 0, { compact: true })} since 2019, roughly {mult}×, funded by philanthropy
           and government, not venture capital. The model only works if the science selection is exceptional, because
           there&apos;s no portfolio markup to hide behind. That makes founder discovery and selection the literal
           engine of the institution, and it makes a continuously-improving, data-driven version of it a genuine moat.
@@ -96,9 +96,9 @@ export default function Brief() {
         <ol className="mt-2 space-y-3 list-none">
           {[
             ["Instrument the engine", "Stand up exactly this pipeline as the internal source of truth: every applicant and fellow with their research footprint, and every cohort tracked against real outcomes (non-dilutive funding, raises, exits). Make the loop visible."],
-            ["Source the whitespace", "Run the frontier radar quarterly and pair it with the discipline → space key, so sourcing is pointed at accelerating fields and the scientist profiles that succeed there — with hubs treated as the distinct theses they already are."],
-            ["Close the selection loop", "Correlate selection-time signals with outcomes to learn what actually predicts a strong fellow, then feed that back into reviewer rubrics — carefully, with the bias guardrails the mission demands. The goal is a system that gets better every cohort, not a fixed scorecard."],
-            ["Productize the intelligence", "Package the frontier read as an offering — internal decision support for selection and sponsor cultivation, and an external Frontier Report that makes Activate the authority on where hard tech is heading."],
+            ["Source the whitespace", "Run the frontier radar quarterly and pair it with the discipline → space key, so sourcing is pointed at accelerating fields and the scientist profiles that succeed there, with hubs treated as the distinct theses they already are."],
+            ["Close the selection loop", "Correlate selection-time signals with outcomes to learn what actually predicts a strong fellow, then feed that back into reviewer rubrics, carefully, with the bias guardrails the mission demands. The goal is a system that gets better every cohort, not a fixed scorecard."],
+            ["Productize the intelligence", "Package the frontier read as an offering, internal decision support for selection and sponsor cultivation, and an external Frontier Report that makes Activate the authority on where hard tech is heading."],
           ].map(([t, d], i) => (
             <li key={i} className="panel p-4">
               <div className="text-[13px] font-semibold text-teal-300">{i + 1}. {t}</div>
@@ -107,11 +107,11 @@ export default function Brief() {
           ))}
         </ol>
 
-        <H n="—">The honest part</H>
+        <H n="n/a">The honest part</H>
         <p>
           None of this is a black box. The momentum figures use keyword-relevance search, so trust the ranking
           over the exact multiple; the founder sample is ~150 and the data is descriptive, not a predictive model;
-          and I&apos;ve deliberately avoided inferring identity demographics — the right signal is scientific and
+          and I&apos;ve deliberately avoided inferring identity demographics, the right signal is scientific and
           career depth, used to <em>widen</em> discovery, not to gate it. The credibility is in the sourcing and
           the caveats, not in pretending the data is cleaner than it is.
         </p>

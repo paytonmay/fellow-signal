@@ -67,7 +67,7 @@ export default function SpaceForecast({
                 <span className="text-[12.5px] text-zinc-200 truncate">{s.vertical.replace(" / CO2e", "")}</span>
               </div>
               <span className="text-[12.5px] text-zinc-300">
-                {s.research_momentum ? `×${s.research_momentum.toFixed(1)}` : "—"}
+                {s.research_momentum ? `×${s.research_momentum.toFixed(1)}` : "n/a"}
               </span>
               <div className="flex items-center gap-2">
                 <Spark data={s.federal_by_year} />
@@ -77,10 +77,10 @@ export default function SpaceForecast({
                 ×{s.federal_momentum >= 99 ? "99+" : s.federal_momentum.toFixed(0)}
               </span>
               <span className="text-[11px] text-zinc-400 truncate">
-                {s.top_agencies.slice(0, 2).map((a) => shortAgency(a.name)).join(" · ") || "—"}
+                {s.top_agencies.slice(0, 2).map((a) => shortAgency(a.name)).join(" · ") || "n/a"}
               </span>
               <span className="text-[12px] text-zinc-300">
-                {s.activate_presence != null ? `${Math.round(s.activate_presence * 100)}%` : "—"}
+                {s.activate_presence != null ? `${Math.round(s.activate_presence * 100)}%` : "n/a"}
               </span>
             </div>
           );

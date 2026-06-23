@@ -29,7 +29,7 @@
     "universities": [
       "University of Cambridge",
       "University of Ottawa",
-      "University of Toronto. His"
+      "University of Toronto"
     ],
     "field_of_study": "Chemistry"
   },
@@ -212,7 +212,7 @@
     "degree": "PhD",
     "universities": [
       "University of Santa Cruz",
-      "University of Southern California. He"
+      "University of Southern California"
     ],
     "field_of_study": "Biology"
   },
@@ -265,7 +265,7 @@
     "universities": [
       "Northeastern University",
       "Purdue University",
-      "University of Florida. Prior"
+      "University of Florida"
     ],
     "field_of_study": "Mechanical engineering"
   },
@@ -1062,7 +1062,7 @@
     "bio": "Ethan Walko is the co-founder and CTO of rStream, a robotics company focused on the upstream challenges of waste and materials recovery. With a lifelong passion for building, his projects have spanned from automotive transplants to plastics manufacturing devices. Walko holds a B.S. and M.S. in mechanical engineering from the University of Massachusetts Amherst. Before starting rStream, he worked in materials and polymer engineering research labs at UMass and for a metrology company as a field engineer.",
     "degree": "Master's",
     "universities": [
-      "University of Massachusetts Amherst. Before"
+      "University of Massachusetts Amherst"
     ],
     "field_of_study": "Mechanical engineering"
   },
@@ -1298,7 +1298,7 @@
     "bio": "Krish Mehta is founder and CEO of PHNX Materials, a company that decarbonizes concrete using industrial waste. Growing up in Mumbai, India, Mehta witnessed the devastating impact of climate change on vulnerable communities. He earned dual degrees in business and engineering from the University of Pennsylvania. Mehta worked as an engagement manager at McKinsey's sustainability practice and later managed part of the Model 3 business at Tesla. A Knight-Hennessy Scholar, Mehta earned an MBA and Master’s in sustainability from Stanford University.",
     "degree": "Master's",
     "universities": [
-      "University of Pennsylvania. Mehta",
+      "University of Pennsylvania",
       "Stanford University"
     ],
     "field_of_study": "Engineering (other)"
@@ -1410,7 +1410,7 @@
     "degree": "PhD",
     "universities": [
       "Rutgers University",
-      "University of Delaware. His"
+      "University of Delaware"
     ],
     "field_of_study": "Materials science"
   },
@@ -1483,7 +1483,7 @@
     "bio": "Nathan Petersen is co-founder of Motibera, Inc., an electric motor company that enables cost-effective, oil-free machinery solutions for a sustainable future. Petersen earned a B.S. in computer science and M.S./Ph.D. in electrical and computer engineering from the University of Wisconsin-Madison. His research focused on unlocking motors' hidden capabilities to produce electromagnetic forces via advanced methods. Petersen aims to scale force-capable motors into next-generation industrial machinery to save energy and reduce oil reliance.",
     "degree": "PhD",
     "universities": [
-      "University of Wisconsin-Madison. His"
+      "University of Wisconsin-Madison"
     ],
     "field_of_study": "Electrical engineering"
   },
@@ -1651,8 +1651,7 @@
     "degree": "PhD",
     "universities": [
       "University of Maryland",
-      "Indian Institute of Technology",
-      "University of Maryland. He"
+      "Indian Institute of Technology"
     ],
     "field_of_study": null
   },
@@ -1830,7 +1829,7 @@
     "bio": "William Moy is the co-founder and CTO of COBI, a spinout of his doctoral research in physics-inspired computing at the University of Minnesota. COBI seeks to deliver quantum computing performance using today’s semiconductor technologies. During his Ph.D., Moy worked to develop coupled oscillator circuits that simultaneously modeled harmonic interactions, which are used in solving optimization problems. Moy has previously worked at Texas Instruments on automotive system-on-chips.",
     "degree": "PhD",
     "universities": [
-      "University of Minnesota. COBI"
+      "University of Minnesota"
     ],
     "field_of_study": "Physics"
   },
@@ -2499,7 +2498,7 @@
     "bio": "Nathan Good is the CTO of RareTerra, which he co-founded with N. Cecilia Martinez-Gomez, an assistant professor at UC Berkeley. Good is a microbial physiologist with a Ph.D. in microbiology from the University of Washington. As a project scientist and Bakar Innovation Fellow in the Martinez-Gomez lab at UC Berkeley, he developed a bio-platform for rare-earth element (REE) recovery and separation with support from ARPA-E. He ultimately aims to circularize the U.S. REE economy.",
     "degree": "PhD",
     "universities": [
-      "University of Washington. As",
+      "University of Washington",
       "UC Berkeley"
     ],
     "field_of_study": "Microbiology"
@@ -2855,7 +2854,7 @@
     "degree": "PhD",
     "universities": [
       "Cornell University",
-      "University of Notre Dame. Hickman"
+      "University of Notre Dame"
     ],
     "field_of_study": "Electrical engineering"
   },
@@ -3475,7 +3474,7 @@
     "degree": "PhD",
     "universities": [
       "Florida Institute",
-      "University of Florida. There"
+      "University of Florida"
     ],
     "field_of_study": null
   },
@@ -3800,7 +3799,7 @@
     "bio": "Peter Christensen is the co-founder of FLO Materials. While he was a postdoctoral researcher at Lawrence Berkeley National Laboratory, Christensen invented the infinitely recyclable polymers known as polydiketoenamines (PDKs) that FLO is commercializing. He holds a Ph.D. in chemistry from the University of British Columbia. Christensen lives in San Diego with his wife and daughter and is currently exploring new projects.",
     "degree": "PhD",
     "universities": [
-      "University of British Columbia. Christensen"
+      "University of British Columbia"
     ],
     "field_of_study": "Chemistry"
   },
@@ -4495,7 +4494,6 @@
     "bio": "Christina Boville received her bachelor's degree in molecular biology from the University of Colorado. After working at Amgen for two years, Boville returned to the University of Colorado and earned her Ph.D. in biochemistry in Hubert Yin's group. She then joined Nobel laureate Frances Arnold's lab at Caltech as a Resnick Prize Postdoctoral Fellow. Her current research focuses on using directed evolution to train enzymes that make useful products in a sustainable way.",
     "degree": "PhD",
     "universities": [
-      "University of Colorado. After",
       "University of Colorado",
       "Caltech"
     ],
@@ -4582,8 +4580,7 @@
     "bio": "Erkan Aktakka founded ActiveMEMS to commercialize his decade-long research on micro-electro-mechanical systems (MEMS) at the University of Michigan, Ann Arbor, where he received his Ph.D. Aktakka received the University of Michigan Distinguished Achievement Award and DTE Clean Energy Prize and has served as a Technical Program Committee member at the international conferences of PowerMEMS and IEEE Sensors.",
     "degree": "PhD",
     "universities": [
-      "University of Michigan",
-      "University of Michigan Distinguished Achievement Award"
+      "University of Michigan"
     ],
     "field_of_study": null
   },
@@ -4602,7 +4599,7 @@
     "degree": "PhD",
     "universities": [
       "Geothermal Institute",
-      "University of Auckland. Norbeck",
+      "University of Auckland",
       "Stanford University"
     ],
     "field_of_study": "Engineering (other)"
@@ -4698,7 +4695,7 @@
     "bio": "Nishita Deka holds a Ph.D. in electrical engineering from UC Berkeley and a B.S. in electrical engineering from the University of Southern California. She co-founded Sonera to commercialize a novel magnetic sensing technology for high-performance, non-invasive neural interfaces with the goal of enabling the next generation of computing, in which humans and technology are more intimately connected.",
     "degree": "PhD",
     "universities": [
-      "University of Southern California. She",
+      "University of Southern California",
       "UC Berkeley"
     ],
     "field_of_study": "Electrical engineering"
@@ -4812,7 +4809,7 @@
     "degree": "PhD",
     "universities": [
       "Boston University",
-      "University of Cincinnati. She"
+      "University of Cincinnati"
     ],
     "field_of_study": "Physics"
   },

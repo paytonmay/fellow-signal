@@ -3,7 +3,7 @@
 import { useMemo } from "react";
 import { Dataset, verticalColor } from "@/lib/data";
 
-// The on-thesis view: turn the signals into a sourcing recommendation —
+// The on-thesis view: turn the signals into a sourcing recommendation ,
 // WHERE to look (emerging spaces Activate is light in) and WHAT profile to look
 // for (the founder research footprint that precedes a venture).
 export default function FounderDiscovery({ data }: { data: Dataset }) {
@@ -41,7 +41,7 @@ export default function FounderDiscovery({ data }: { data: Dataset }) {
     const profiled = data.companies.filter((c) => (c.founders ?? []).some((f) => f.resolved)).length;
 
     // Typical-founder profile: descriptive baselines from the resolved founders'
-    // own outputs — a screening FILTER, not a target to hit.
+    // own outputs, a screening FILTER, not a target to hit.
     const resolved = data.companies.flatMap((c) =>
       (c.founders ?? []).filter((f) => f.resolved).map((f) => ({
         ...f,
@@ -95,7 +95,7 @@ export default function FounderDiscovery({ data }: { data: Dataset }) {
           ))}
         </div>
         <div className="mt-3 text-[11px] text-zinc-600">
-          <span className="text-amber-300">Amber</span> = Activate under 12% present — the sharpest gaps. Lead funder shown in the Space Forecast.
+          <span className="text-amber-300">Amber</span> = Activate under 12% present, the sharpest gaps. Lead funder shown in the Space Forecast.
         </div>
       </div>
 
@@ -103,7 +103,7 @@ export default function FounderDiscovery({ data }: { data: Dataset }) {
       <div>
         <div className="text-[12.5px] font-medium text-zinc-200 mb-1">The typical founder, as a filter</div>
         <div className="text-[11px] text-zinc-600 mb-3">
-          Descriptive baselines from {model.typical.n} resolved founders&apos; own research output — a starting screen for candidates, not a bar to clear.
+          Descriptive baselines from {model.typical.n} resolved founders&apos; own research output, a starting screen for candidates, not a bar to clear.
         </div>
         <div className="grid grid-cols-3 gap-2 mb-4">
           {[
@@ -138,7 +138,7 @@ export default function FounderDiscovery({ data }: { data: Dataset }) {
         </div>
         <div className="mt-3 text-[11px] text-zinc-600 leading-relaxed">
           Sourcing implication: in the target spaces above, look for scientists with deep, highly-cited work in the underlying
-          discipline 2-4 years before they incorporate — the research footprint is the earliest discovery signal, ahead of any company.
+          discipline 2-4 years before they incorporate, the research footprint is the earliest discovery signal, ahead of any company.
         </div>
       </div>
     </div>

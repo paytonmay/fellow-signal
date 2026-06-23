@@ -111,7 +111,8 @@ export default function Dashboard({ data }: { data: Dataset }) {
           <Kpi value={String(kpi.count)} label={`ventures${D.isActive(f) ? " in view" : ", 2015-2025"}`} />
           <Kpi value={fmtUSD(kpi.federal, { compact: true })} label="federal non-dilutive" accent="text-teal-300" />
           <Kpi value={`${kpi.count ? Math.round((kpi.funded / kpi.count) * 100) : 0}%`} label="won funding" />
-          <Kpi value={String(kpi.fellows)} label="scientist-founders" />
+          <Kpi value={String(D.isActive(f) ? kpi.fellows : data.fellow_background.total)}
+            label={D.isActive(f) ? "founders in view" : "scientist-fellows"} />
           <Kpi value={String(kpi.profiled)} label="research-profiled" />
         </div>
 
