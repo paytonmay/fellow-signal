@@ -17,6 +17,7 @@ import Insights from "./Insights";
 import FounderDiscovery from "./FounderDiscovery";
 import FellowBackground from "./FellowBackground";
 import DisciplineMap from "./DisciplineMap";
+import Selection from "./Selection";
 
 function Panel({ title, sub, span = "", children }: { title: string; sub?: string; span?: string; children: React.ReactNode }) {
   return (
@@ -71,7 +72,9 @@ export default function Dashboard({ data }: { data: Dataset }) {
             <div className="flex items-center gap-2 mr-1">
               <span className="w-1.5 h-1.5 rounded-full bg-teal-400" />
               <span className="text-[13px] font-semibold tracking-tight text-zinc-100">Fellow Signal</span>
-              <span className="hidden md:inline text-[11px] text-zinc-600">· Activate fellowship intelligence</span>
+              <a href="/brief" className="ml-2 text-[11.5px] text-teal-300/90 hover:text-teal-200 border border-teal-500/30 rounded-full px-2.5 py-0.5">
+                Point of View →
+              </a>
             </div>
             <div className="flex items-center gap-2 flex-wrap ml-auto">
               <input value={f.q} onChange={(e) => set({ q: e.target.value })}
@@ -138,6 +141,10 @@ export default function Dashboard({ data }: { data: Dataset }) {
 
           <Panel title="Founder Discovery" sub="The role's core function: where to source next, and the founder research profile to look for" span="lg:col-span-3">
             <FounderDiscovery data={data} />
+          </Panel>
+
+          <Panel title="Selection scorecard" sub="The talent-engine pillar: a per-space candidate screen, and whether the signal tracks outcomes" span="lg:col-span-3">
+            <Selection data={data} activeVertical={f.vertical} onSelect={(v) => set({ vertical: v })} />
           </Panel>
 
           <Panel title="Fellow background" sub="Who Activate funds, from their own bios: degree level + where they trained (292 fellows)" span="lg:col-span-3">
