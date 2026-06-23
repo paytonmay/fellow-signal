@@ -15,6 +15,7 @@ import FunderModel from "./FunderModel";
 import PeerFunders from "./PeerFunders";
 import Insights from "./Insights";
 import FounderDiscovery from "./FounderDiscovery";
+import FellowBackground from "./FellowBackground";
 
 function Panel({ title, sub, span = "", children }: { title: string; sub?: string; span?: string; children: React.ReactNode }) {
   return (
@@ -136,6 +137,10 @@ export default function Dashboard({ data }: { data: Dataset }) {
 
           <Panel title="Founder Discovery" sub="The role's core function: where to source next, and the founder research profile to look for" span="lg:col-span-3">
             <FounderDiscovery data={data} />
+          </Panel>
+
+          <Panel title="Fellow background" sub="Who Activate funds, from their own bios: degree level + where they trained (292 fellows)" span="lg:col-span-3">
+            <FellowBackground bg={data.fellow_background} />
           </Panel>
 
           <Panel title="Non-dilutive funding won" sub="Federal $ captured, by space · click to filter">

@@ -59,6 +59,10 @@ def main() -> None:
         federal = load("federal_outcomes.json")  # all-agency, keyed by name
     except FileNotFoundError:
         federal = {}
+    try:
+        fellows = load("fellows.json")  # authoritative Fellows table (292)
+    except FileNotFoundError:
+        fellows = []
 
     # Site style: strip em dashes from all displayed text.
     for c in companies:
@@ -164,6 +168,30 @@ def main() -> None:
         "fellows": len({f for c in companies for f in c["fellows"]}),
     }
 
+    # --- Fellow background (authoritative bios): degrees + universities ---
+    deg = Counter(f.get("degree") for f in fellows)
+    unis = Counter(u for f in fellows for u in f.get("universities", []))
+    fellow_background = {
+        "total": len(fellows),
+        "degree_mix": {k: deg.get(k, 0) for k in ["PhD", "Master's", "Bachelor's"]},
+        "degree_unknown": deg.get(None, 0),
+        "phd_pct": round(deg.get("PhD", 0) / len(fellows), 3) if fellows else 0,
+        "top_universities": unis.most_common(16),
+        "with_university": sum(1 for f in fellows if f.get("universities")),
+        "with_linkedin": sum(1 for f in fellows if f.get("linkedin")),
+    }
+    # Attach degree/universities to companies via the Fellows table (by company).
+    fellows_by_co: dict[str, list] = defaultdict(list)
+    for f in fellows:
+        if f.get("company"):
+            fellows_by_co[f["company"].lower()].append(f)
+    for c in companies:
+        c["fellow_profiles"] = [
+            {"name": f["name"], "degree": f.get("degree"), "universities": f.get("universities", []),
+             "linkedin": f.get("linkedin"), "bio": f.get("bio", "")}
+            for f in fellows_by_co.get(c["name"].lower(), [])
+        ]
+
     # Enrich radar rows with federal funding momentum (for bubble size).
     fed_mom = {s["vertical"]: s.get("federal_momentum") for s in space_signals.get("spaces", [])}
     radar = [{**r, "federal_momentum": fed_mom.get(r["vertical"])} for r in field["fields"]]
@@ -181,6 +209,7 @@ def main() -> None:
         "space_signals": space_signals,
         "funder_model": funder_model,
         "peer_funders": peer_funders,
+        "fellow_background": fellow_background,
     }, ensure_ascii=False), encoding="utf-8")
     kb = OUT.stat().st_size // 1024
     print(f"Wrote {OUT.relative_to(ROOT)} ({kb} KB)")

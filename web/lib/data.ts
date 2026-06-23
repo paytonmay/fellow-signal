@@ -41,6 +41,17 @@ export type Company = {
   federal_total: number;
   federal_count: number;
   federal_agencies: { name: string; amount: number }[];
+  fellow_profiles: { name: string; degree: string | null; universities: string[]; linkedin: string; bio: string }[];
+};
+
+export type FellowBackground = {
+  total: number;
+  degree_mix: Record<string, number>;
+  degree_unknown: number;
+  phd_pct: number;
+  top_universities: [string, number][];
+  with_university: number;
+  with_linkedin: number;
 };
 
 export function topCitations(c: Company): number {
@@ -139,6 +150,7 @@ export type Dataset = {
   space_signals: SpaceSignals;
   funder_model: FunderModel | null;
   peer_funders: { funders: PeerFunder[] };
+  fellow_background: FellowBackground;
 };
 
 // Short agency labels for dense displays.
