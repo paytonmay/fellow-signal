@@ -171,6 +171,11 @@ def resolve_fellow(name: str, company: dict, *, min_score: int = 2,
 
     inst = best.get("last_known_institutions") or []
     stats = best.get("summary_stats") or {}
+    # Precision guard: a recent-cohort startup founder is early/mid-career. An
+    # h-index in the 60s+ or 150+ works means we matched a prolific senior
+    # namesake (common with names like "Bing Li") — reject rather than pollute.
+    if (stats.get("h_index") or 0) > 60 or (best.get("works_count") or 0) > 150:
+        return None
     affils = _affiliations(best)
     return {
         "name": name,

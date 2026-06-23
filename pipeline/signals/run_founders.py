@@ -44,7 +44,9 @@ def main() -> None:
         prior = json.loads(OUT.read_text(encoding="utf-8"))
         for co_name, founders in prior.items():
             for f in founders:
-                if f.get("resolved"):
+                # Only reuse plausible matches; drop implausibly-senior namesake
+                # false positives so they get re-resolved (and now rejected).
+                if f.get("resolved") and (f.get("h_index") or 0) <= 60 and (f.get("works_count") or 0) <= 150:
                     cache[(co_name, f["name"])] = f
 
     # Wall-clock budget: OpenAlex throttles hard after a few hundred requests,

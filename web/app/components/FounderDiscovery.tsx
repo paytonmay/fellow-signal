@@ -39,10 +39,29 @@ export default function FounderDiscovery({ data }: { data: Dataset }) {
       .slice(0, 4);
 
     const profiled = data.companies.filter((c) => (c.founders ?? []).some((f) => f.resolved)).length;
-    const cites = data.companies.flatMap((c) => (c.founders ?? []).filter((f) => f.resolved).map((f) => f.cited_by_count ?? 0)).sort((a, b) => a - b);
-    const medCites = cites.length ? cites[Math.floor(cites.length / 2)] : 0;
 
-    return { spaces, exemplars, profiled, medCites };
+    // Typical-founder profile: descriptive baselines from the resolved founders'
+    // own outputs — a screening FILTER, not a target to hit.
+    const resolved = data.companies.flatMap((c) =>
+      (c.founders ?? []).filter((f) => f.resolved).map((f) => ({
+        ...f,
+        latency: f.years_to_founding ?? (f.first_pub_year && c.cohort_year ? c.cohort_year - f.first_pub_year : null),
+      })));
+    const pctile = (vals: number[], p: number) => {
+      const s = vals.filter((v) => v != null && !Number.isNaN(v)).sort((a, b) => a - b);
+      return s.length ? s[Math.max(0, Math.round(p * (s.length - 1)))] : 0;
+    };
+    const cv = resolved.map((f) => f.cited_by_count ?? 0);
+    const hv = resolved.map((f) => f.h_index ?? 0);
+    const lv = resolved.map((f) => f.latency).filter((x): x is number => x != null && x >= 0 && x < 30);
+    const typical = {
+      n: resolved.length,
+      citesMed: pctile(cv, 0.5), citesLo: pctile(cv, 0.25), citesHi: pctile(cv, 0.75),
+      hMed: pctile(hv, 0.5), hLo: pctile(hv, 0.25), hHi: pctile(hv, 0.75),
+      latMed: pctile(lv, 0.5), latLo: pctile(lv, 0.25), latHi: pctile(lv, 0.75),
+    };
+
+    return { spaces, exemplars, profiled, typical };
   }, [data]);
 
   const maxOpp = model.spaces[0]?.opportunity || 1;
@@ -82,11 +101,24 @@ export default function FounderDiscovery({ data }: { data: Dataset }) {
 
       {/* WHAT profile to look for */}
       <div>
-        <div className="text-[12.5px] font-medium text-zinc-200 mb-1">What the strongest founders look like</div>
+        <div className="text-[12.5px] font-medium text-zinc-200 mb-1">The typical founder, as a filter</div>
         <div className="text-[11px] text-zinc-600 mb-3">
-          {model.profiled} ventures have a matched founder research profile; median {model.medCites.toLocaleString()} citations.
-          The signal: deep, cited science that visibly precedes the venture.
+          Descriptive baselines from {model.typical.n} resolved founders&apos; own research output — a starting screen for candidates, not a bar to clear.
         </div>
+        <div className="grid grid-cols-3 gap-2 mb-4">
+          {[
+            { label: "citations", med: model.typical.citesMed.toLocaleString(), range: `${model.typical.citesLo.toLocaleString()}–${model.typical.citesHi.toLocaleString()}` },
+            { label: "h-index", med: String(model.typical.hMed), range: `${model.typical.hLo}–${model.typical.hHi}` },
+            { label: "yrs paper→found", med: String(model.typical.latMed), range: `${model.typical.latLo}–${model.typical.latHi}` },
+          ].map((s) => (
+            <div key={s.label} className="panel p-2.5 text-center">
+              <div className="text-lg font-semibold text-teal-300 tabular-nums">{s.med}</div>
+              <div className="text-[10px] text-zinc-500">{s.label}</div>
+              <div className="text-[9.5px] text-zinc-600 mt-0.5">mid 50%: {s.range}</div>
+            </div>
+          ))}
+        </div>
+        <div className="text-[11px] text-zinc-500 mb-2">Exemplars (highest-cited resolved profiles):</div>
         <div className="space-y-2">
           {model.exemplars.map((f, i) => (
             <div key={i} className="panel p-3">

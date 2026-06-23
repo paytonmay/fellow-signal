@@ -7,11 +7,15 @@ export type Founder = {
   resolved: boolean;
   display_name?: string;
   institution?: string | null;
+  training_institution?: string | null;
+  affiliations?: { name: string; type: string; country: string; since: number | null }[];
+  field?: string | null;
   works_count?: number;
   cited_by_count?: number;
   h_index?: number;
   pre_founding_topics?: string[];
   first_pub_year?: number | null;
+  years_to_founding?: number | null;
 };
 
 export type Company = {
