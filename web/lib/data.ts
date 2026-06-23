@@ -83,6 +83,21 @@ export type Convergence = {
   links: { a: string; b: string; count: number }[];
 };
 
+export type SpaceSignal = {
+  vertical: string;
+  federal_total: number;
+  federal_by_year: Record<string, number>;
+  federal_momentum: number;
+  top_agencies: { name: string; amount: number }[];
+  research_momentum: number | null;
+  activate_presence: number | null;
+};
+
+export type SpaceSignals = {
+  spaces: SpaceSignal[];
+  agency_matrix: Record<string, Record<string, number>>;
+};
+
 export type Dataset = {
   headline: Headline;
   companies: Company[];
@@ -92,7 +107,28 @@ export type Dataset = {
   radar: RadarRow[];
   hub_atlas: HubAtlas;
   convergence: Convergence;
+  space_signals: SpaceSignals;
 };
+
+// Short agency labels for dense displays.
+export function shortAgency(name: string): string {
+  const map: Record<string, string> = {
+    "Department of Energy": "DOE",
+    "Department of Defense": "DOD",
+    "Department of Health and Human Services": "HHS",
+    "National Science Foundation": "NSF",
+    "National Aeronautics and Space Administration": "NASA",
+    "Department of Agriculture": "USDA",
+    "Environmental Protection Agency": "EPA",
+    "Department of Homeland Security": "DHS",
+    "Department of Commerce": "DOC",
+    "Department of Housing and Urban Development": "HUD",
+    "Department of Transportation": "DOT",
+    "Department of the Interior": "DOI",
+    "National Institutes of Health": "NIH",
+  };
+  return map[name] ?? name.replace("Department of ", "");
+}
 
 export const data = dataset as unknown as Dataset;
 

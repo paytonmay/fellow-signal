@@ -43,6 +43,10 @@ def main() -> None:
         founders = load("founders.json")
     except FileNotFoundError:
         founders = {}
+    try:
+        space_signals = load("space_signals.json")
+    except FileNotFoundError:
+        space_signals = {"spaces": [], "agency_matrix": {}}
 
     # Site style: strip em dashes from all displayed text.
     for c in companies:
@@ -149,6 +153,7 @@ def main() -> None:
         "radar": field["fields"],
         "hub_atlas": hub_atlas,
         "convergence": convergence,
+        "space_signals": space_signals,
     }, ensure_ascii=False), encoding="utf-8")
     kb = OUT.stat().st_size // 1024
     print(f"Wrote {OUT.relative_to(ROOT)} ({kb} KB)")

@@ -9,6 +9,8 @@ import HubAtlas from "./HubAtlas";
 import ConvergenceMap from "./ConvergenceMap";
 import CohortDrift from "./CohortDrift";
 import PortfolioPanel from "./PortfolioPanel";
+import SpaceForecast from "./SpaceForecast";
+import FunderLandscape from "./FunderLandscape";
 
 function Panel({ title, sub, span = "", children }: { title: string; sub?: string; span?: string; children: React.ReactNode }) {
   return (
@@ -127,6 +129,14 @@ export default function Dashboard({ data }: { data: Dataset }) {
           </Panel>
           <Panel title="Convergence" sub="Where verticals combine · click a node to filter">
             <ConvergenceMap data={conv} onSelect={toggleVert} />
+          </Panel>
+          <Panel title="Space Forecast" sub="Research + federal funding trajectory per space · who's funding it · are we early?" span="lg:col-span-3">
+            <SpaceForecast spaces={data.space_signals.spaces} activeVertical={f.vertical} onSelect={toggleVert} />
+          </Panel>
+          <Panel title="Funder Landscape" sub="Federal funding by agency × space · who's putting money where" span="lg:col-span-3">
+            <FunderLandscape data={data.space_signals}
+              verticalsOrder={[...data.space_signals.spaces].sort((a, b) => b.federal_total - a.federal_total).map((s) => s.vertical)}
+              activeVertical={f.vertical} onSelect={toggleVert} />
           </Panel>
           <Panel title="Cohort drift" sub="Vertical mix by cohort year" span="lg:col-span-3">
             <CohortDrift years={yrs} topVerticals={verts.map((v) => v.vertical)} />
