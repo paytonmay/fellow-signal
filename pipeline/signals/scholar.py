@@ -109,6 +109,37 @@ def _author_domain(author: dict) -> str | None:
     return None
 
 
+def _affiliations(author: dict) -> list[dict]:
+    """Institutions the author has been affiliated with, earliest first."""
+    out = []
+    for af in (author.get("affiliations") or []):
+        inst = af.get("institution") or {}
+        yrs = af.get("years") or []
+        out.append({
+            "name": inst.get("display_name"),
+            "type": inst.get("type"),          # education / funder / facility / company ...
+            "country": inst.get("country_code"),
+            "since": min(yrs) if yrs else None,
+        })
+    return sorted(out, key=lambda a: (a["since"] is None, a["since"] or 9999))
+
+
+def _training_institution(affils: list[dict]) -> str | None:
+    """Earliest education-type affiliation ~ where they trained (PhD)."""
+    for a in affils:
+        if a["type"] == "education":
+            return a["name"]
+    return affils[0]["name"] if affils else None
+
+
+def _field(author: dict) -> str | None:
+    for t in (author.get("topics") or []):
+        f = (t.get("field") or {}).get("display_name")
+        if f:
+            return f
+    return None
+
+
 def resolve_fellow(name: str, company: dict, *, min_score: int = 2,
                    timeout: int = 25) -> dict | None:
     """Best-matching OpenAlex author for `name` given the company's field.
@@ -140,6 +171,7 @@ def resolve_fellow(name: str, company: dict, *, min_score: int = 2,
 
     inst = best.get("last_known_institutions") or []
     stats = best.get("summary_stats") or {}
+    affils = _affiliations(best)
     return {
         "name": name,
         "openalex_id": best["id"].split("/")[-1],
@@ -151,6 +183,9 @@ def resolve_fellow(name: str, company: dict, *, min_score: int = 2,
         "i10_index": stats.get("i10_index"),
         "two_yr_mean_citedness": stats.get("2yr_mean_citedness"),
         "institution": inst[0].get("display_name") if inst else None,
+        "training_institution": _training_institution(affils),
+        "affiliations": affils[:6],
+        "field": _field(best),
         "topics": _author_topics(best)[:6],
     }
 

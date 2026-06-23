@@ -89,16 +89,22 @@ def main() -> None:
                     tl = []
             time.sleep(0.5)
             pre = pre_founding_topics(tl, c["cohort_year"])
+            first_pub = min((w["year"] for w in tl if w["year"]), default=None)
             founders.append({
                 "name": fellow,
                 "resolved": True,
                 "display_name": a["display_name"],
                 "institution": a["institution"],
+                "training_institution": a.get("training_institution"),
+                "affiliations": a.get("affiliations", []),
+                "field": a.get("field"),
                 "works_count": a["works_count"],
                 "cited_by_count": a["cited_by_count"],
                 "h_index": a["h_index"],
                 "pre_founding_topics": pre[:6],
-                "first_pub_year": min((w["year"] for w in tl if w["year"]), default=None),
+                "first_pub_year": first_pub,
+                # career stage at founding (research-to-venture latency)
+                "years_to_founding": (c["cohort_year"] - first_pub) if (first_pub and c["cohort_year"]) else None,
             })
             resolved += 1
         result[c["name"]] = founders
