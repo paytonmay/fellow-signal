@@ -14,6 +14,7 @@ import FunderLandscape from "./FunderLandscape";
 import FunderModel from "./FunderModel";
 import PeerFunders from "./PeerFunders";
 import Insights from "./Insights";
+import FounderDiscovery from "./FounderDiscovery";
 
 function Panel({ title, sub, span = "", children }: { title: string; sub?: string; span?: string; children: React.ReactNode }) {
   return (
@@ -132,6 +133,10 @@ export default function Dashboard({ data }: { data: Dataset }) {
             </div>
             <Insights data={data} />
           </div>
+
+          <Panel title="Founder Discovery" sub="The role's core function: where to source next, and the founder research profile to look for" span="lg:col-span-3">
+            <FounderDiscovery data={data} />
+          </Panel>
 
           <Panel title="Non-dilutive funding won" sub="Federal $ captured, by space · click to filter">
             <OutcomesBars verticals={verts} onSelect={toggleVert} />
