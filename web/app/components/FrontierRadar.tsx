@@ -105,7 +105,7 @@ export default function FrontierRadar({ rows }: { rows: RadarRow[] }) {
         </text>
         <text x={20} y={PAD.t + innerH / 2} textAnchor="middle" fill="#8b919e" fontSize="13"
           transform={`rotate(-90 20 ${PAD.t + innerH / 2})`}>
-          Activate presence  →  (% of recent cohorts)
+          Activate presence  →  (% of ventures in view)
         </text>
 
         {/* quadrant captions */}

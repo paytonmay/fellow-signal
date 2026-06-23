@@ -193,8 +193,11 @@ export default function Dashboard({ data }: { data: Dataset }) {
         </div>
 
         <footer className="mt-6 pt-6 border-t border-[#15181e] text-[11.5px] text-zinc-600">
-          Data: Activate&apos;s public companies directory, USAspending, NSF, SEC EDGAR, OpenAlex, IRS 990.
-          Momentum figures are directional (keyword-relevance search); trust the ranking over exact magnitudes.
+          Data: Activate&apos;s public companies + fellows directories, USAspending, OpenAlex, SEC EDGAR, IRS 990.
+          Momentum figures are directional (keyword-relevance search); trust the ranking over exact magnitudes.{" "}
+          <a href="/methods" className="text-zinc-400 hover:text-teal-300 underline decoration-zinc-700">Data, methods &amp; sources →</a>
+          {" · "}
+          <a href="/brief" className="text-zinc-400 hover:text-teal-300 underline decoration-zinc-700">Point of View →</a>
         </footer>
       </div>
     </div>

@@ -15,6 +15,9 @@ export default function OutcomesBars({
 
   return (
     <div className="space-y-1">
+      <div className="text-[10.5px] text-zinc-600 mb-2">
+        A venture counts toward each of its verticals, so these exceed the portfolio total.
+      </div>
       {rows.map((r, i) => {
         const color = verticalColor(r.vertical);
         return (

@@ -116,7 +116,8 @@ export default function Brief() {
           the caveats, not in pretending the data is cleaner than it is.
         </p>
         <p className="mt-6 text-zinc-500 text-[13px]">
-          Explore the live data behind every claim in the <Link href="/" className="text-teal-300 hover:text-teal-200">dashboard</Link>.
+          Explore the live data behind every claim in the <Link href="/" className="text-teal-300 hover:text-teal-200">dashboard</Link>,
+          or see exactly how each figure is computed in <Link href="/methods" className="text-teal-300 hover:text-teal-200">Data, methods &amp; sources</Link>.
         </p>
       </article>
     </main>
