@@ -132,7 +132,10 @@ export default function Dashboard({ data }: { data: Dataset }) {
           <Panel title="Convergence" sub="Where verticals combine · click a node to filter">
             <ConvergenceMap data={conv} onSelect={toggleVert} />
           </Panel>
-          <Panel title="Space Forecast" sub="Research + federal funding trajectory per space · who's funding it · are we early?" span="lg:col-span-2">
+          <Panel title="Cohort drift" sub="Vertical mix by cohort year" span="lg:col-span-2">
+            <CohortDrift years={yrs} topVerticals={verts.map((v) => v.vertical)} />
+          </Panel>
+          <Panel title="Space Forecast" sub="Per space: is the science accelerating, who's funding it, is Activate early? Growth multiples vs a decade-ago baseline." span="lg:col-span-3">
             <SpaceForecast spaces={data.space_signals.spaces} activeVertical={f.vertical} onSelect={toggleVert} />
           </Panel>
           <Panel title="Funder Landscape" sub="Federal funding by agency × space · who's putting money where" span="lg:col-span-3">
@@ -151,9 +154,6 @@ export default function Dashboard({ data }: { data: Dataset }) {
               <FunderModel model={data.funder_model} portfolioNsf={data.headline.nsf_total} />
             </Panel>
           )}
-          <Panel title="Cohort drift" sub="Vertical mix by cohort year" span="lg:col-span-3">
-            <CohortDrift years={yrs} topVerticals={verts.map((v) => v.vertical)} />
-          </Panel>
           <Panel title="Portfolio" sub="Click any venture for its funding, narrative, and founder research footprint" span="lg:col-span-3">
             <PortfolioPanel companies={filtered} />
           </Panel>

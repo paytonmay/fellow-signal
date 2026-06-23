@@ -47,11 +47,11 @@ export default function SpaceForecast({
     <div className="overflow-x-auto scroll-thin">
       <div className="min-w-[640px]">
         <div className="grid items-center gap-3 px-2 pb-2 text-[10.5px] uppercase tracking-wider"
-          style={{ gridTemplateColumns: "1.6fr 0.8fr 1.2fr 0.7fr 1fr 0.7fr" }}>
+          style={{ gridTemplateColumns: "1.5fr 1fr 1.1fr 0.95fr 0.95fr 0.65fr" }}>
           <span className="text-zinc-500">Space</span>
-          <Head k="research_momentum" label="Research" />
+          <Head k="research_momentum" label="Research growth" />
           <span className="text-zinc-500">Federal funding (FY15-25)</span>
-          <Head k="federal_momentum" label="Fed mom" />
+          <Head k="federal_momentum" label="Federal $ growth" />
           <span className="text-zinc-500">Lead agencies</span>
           <Head k="activate_presence" label="Activate" />
         </div>
@@ -60,8 +60,8 @@ export default function SpaceForecast({
           return (
             <div key={s.vertical}
               onClick={() => onSelect?.(s.vertical)}
-              className={`grid items-center gap-3 px-2 py-2 rounded-lg cursor-pointer border-t border-[#15181e] transition ${active ? "bg-teal-400/10" : "hover:bg-white/[0.02]"}`}
-              style={{ gridTemplateColumns: "1.6fr 0.8fr 1.2fr 0.7fr 1fr 0.7fr" }}>
+              className={`grid items-center gap-3 px-2 py-1.5 rounded-lg cursor-pointer border-t border-[#15181e] transition ${active ? "bg-teal-400/10" : "hover:bg-white/[0.02]"}`}
+              style={{ gridTemplateColumns: "1.5fr 1fr 1.1fr 0.95fr 0.95fr 0.65fr" }}>
               <div className="flex items-center gap-2 min-w-0">
                 <span className="w-2 h-2 rounded-full shrink-0" style={{ background: verticalColor(s.vertical) }} />
                 <span className="text-[12.5px] text-zinc-200 truncate">{s.vertical.replace(" / CO2e", "")}</span>
@@ -85,8 +85,11 @@ export default function SpaceForecast({
             </div>
           );
         })}
-        <div className="mt-3 px-2 text-[11px] text-zinc-600">
-          Federal funding from USAspending (keyword-matched, directional). Research momentum from OpenAlex publication share. Click a space to scope the board.
+        <div className="mt-3 px-2 text-[11px] text-zinc-600 leading-relaxed">
+          <span className="text-zinc-400">Growth = a multiple, not year-over-year.</span> Research growth is the field&apos;s
+          share of global publications in 2021-24 vs its 2013-16 baseline (×14.7 ≈ 15× its decade-ago level);
+          Federal $ growth compares FY22-25 funding to FY16-19. Research from OpenAlex, funding from USAspending
+          (keyword-matched, directional). Click a space to scope the board.
         </div>
       </div>
     </div>
