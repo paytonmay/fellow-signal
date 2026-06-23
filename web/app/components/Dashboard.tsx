@@ -11,6 +11,7 @@ import CohortDrift from "./CohortDrift";
 import PortfolioPanel from "./PortfolioPanel";
 import SpaceForecast from "./SpaceForecast";
 import FunderLandscape from "./FunderLandscape";
+import FunderModel from "./FunderModel";
 
 function Panel({ title, sub, span = "", children }: { title: string; sub?: string; span?: string; children: React.ReactNode }) {
   return (
@@ -138,6 +139,11 @@ export default function Dashboard({ data }: { data: Dataset }) {
               verticalsOrder={[...data.space_signals.spaces].sort((a, b) => b.federal_total - a.federal_total).map((s) => s.vertical)}
               activeVertical={f.vertical} onSelect={toggleVert} />
           </Panel>
+          {data.funder_model && (
+            <Panel title="Funder & Model" sub="Activate's own finances (IRS 990) · money in vs. impact out" span="lg:col-span-3">
+              <FunderModel model={data.funder_model} portfolioNsf={data.headline.nsf_total} />
+            </Panel>
+          )}
           <Panel title="Cohort drift" sub="Vertical mix by cohort year" span="lg:col-span-3">
             <CohortDrift years={yrs} topVerticals={verts.map((v) => v.vertical)} />
           </Panel>

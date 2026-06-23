@@ -47,6 +47,10 @@ def main() -> None:
         space_signals = load("space_signals.json")
     except FileNotFoundError:
         space_signals = {"spaces": [], "agency_matrix": {}}
+    try:
+        funder_model = load("funder_model.json")
+    except FileNotFoundError:
+        funder_model = None
 
     # Site style: strip em dashes from all displayed text.
     for c in companies:
@@ -143,6 +147,10 @@ def main() -> None:
         "fellows": len({f for c in companies for f in c["fellows"]}),
     }
 
+    # Enrich radar rows with federal funding momentum (for bubble size).
+    fed_mom = {s["vertical"]: s.get("federal_momentum") for s in space_signals.get("spaces", [])}
+    radar = [{**r, "federal_momentum": fed_mom.get(r["vertical"])} for r in field["fields"]]
+
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps({
         "headline": headline,
@@ -150,10 +158,11 @@ def main() -> None:
         "years": years,
         "verticals": verticals,
         "hubs": hubs.most_common(),
-        "radar": field["fields"],
+        "radar": radar,
         "hub_atlas": hub_atlas,
         "convergence": convergence,
         "space_signals": space_signals,
+        "funder_model": funder_model,
     }, ensure_ascii=False), encoding="utf-8")
     kb = OUT.stat().st_size // 1024
     print(f"Wrote {OUT.relative_to(ROOT)} ({kb} KB)")

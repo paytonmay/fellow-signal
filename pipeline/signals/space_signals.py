@@ -27,21 +27,23 @@ TP = [{"start_date": "2015-10-01", "end_date": "2025-09-30"}]
 
 # Vertical -> federal-award keyword(s) (OR-matched against award text).
 KW = {
-    "Chemistry & Materials": ["advanced materials"],
+    "Chemistry & Materials": ["advanced materials research", "materials science"],
     "Climate": ["climate resilience", "climate adaptation"],
-    "Advanced Manufacturing & Robotics": ["advanced manufacturing", "robotics"],
+    "Advanced Manufacturing & Robotics": ["advanced manufacturing", "industrial robotics"],
     "Industrial Biotechnology": ["synthetic biology", "industrial biotechnology"],
     "Electronics & Connectivity": ["semiconductor", "microelectronics"],
     "Computing": ["quantum computing", "high performance computing"],
     "Food & Agriculture": ["agricultural technology", "sustainable agriculture"],
     "Carbon Management / CO2e": ["carbon capture", "direct air capture"],
     "Life Science": ["biomedical diagnostics", "therapeutics"],
-    "Energy Storage & Batteries": ["battery storage", "energy storage"],
-    "Built Environment": ["building efficiency", "sustainable construction"],
-    "Energy Generation & Delivery": ["renewable energy", "grid modernization"],
+    # narrowed to innovation language (generic "battery storage" caught EPA cleanup)
+    "Energy Storage & Batteries": ["lithium ion battery", "grid scale energy storage"],
+    "Built Environment": ["building decarbonization", "energy efficient buildings"],
+    # generic "renewable energy" caught HUD housing programs
+    "Energy Generation & Delivery": ["solar energy", "wind energy", "grid modernization"],
     "Earth Resources": ["critical minerals", "rare earth elements"],
     "Water": ["water treatment", "desalination"],
-    "Transportation & Mobility": ["electric vehicle", "zero emission vehicle"],
+    "Transportation & Mobility": ["vehicle electrification", "clean transportation"],
     "Space & Aeronautics": ["spacecraft", "space propulsion"],
 }
 

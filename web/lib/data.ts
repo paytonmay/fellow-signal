@@ -57,6 +57,17 @@ export type RadarRow = {
   field_momentum: number;
   activate_presence_recent: number;
   activate_trajectory: number | null;
+  federal_momentum?: number | null;
+};
+
+export type FunderModel = {
+  ein: string;
+  name: string;
+  financials: { year: number; revenue: number; expenses: number; net_assets: number }[];
+  revenue_latest: number;
+  revenue_cagr: number;
+  years: string;
+  source: string;
 };
 
 export type Headline = {
@@ -108,6 +119,7 @@ export type Dataset = {
   hub_atlas: HubAtlas;
   convergence: Convergence;
   space_signals: SpaceSignals;
+  funder_model: FunderModel | null;
 };
 
 // Short agency labels for dense displays.

@@ -45,6 +45,12 @@ export default function FrontierRadar({ rows }: { rows: RadarRow[] }) {
   const fx = (m: number) => PAD.l + ((Math.log10(m) - xMin) / (xMax - xMin)) * innerW;
   const fy = (p: number) => PAD.t + innerH - (p / yMax) * innerH;
 
+  // Bubble size = federal funding momentum (capped so 99+ outliers don't dominate).
+  const bubbleR = (r: RadarRow): number => {
+    const f = Math.min(r.federal_momentum ?? 0, 40);
+    return 4.5 + 8 * Math.sqrt(f / 40);
+  };
+
   const medMom = median(rows.map((r) => r.field_momentum));
   const medPres = median(rows.map((r) => r.activate_presence_recent));
   const cx = fx(medMom);
@@ -121,8 +127,8 @@ export default function FrontierRadar({ rows }: { rows: RadarRow[] }) {
               style={{ cursor: "pointer" }}>
               <line x1={p.px} y1={p.py} x2={labelX} y2={p.ly} stroke={color}
                 strokeWidth={1} opacity={active ? 0.7 : 0.28} />
-              <circle cx={p.px} cy={p.py} r={active ? 9 : 6} fill={color}
-                fillOpacity={active ? 1 : 0.9} stroke="#08090b" strokeWidth={2} />
+              <circle cx={p.px} cy={p.py} r={active ? bubbleR(p) + 3 : bubbleR(p)} fill={color}
+                fillOpacity={active ? 0.95 : 0.78} stroke="#08090b" strokeWidth={2} />
               <text x={labelX + (p.side === "R" ? 2 : -2)} y={p.ly + 3.5} textAnchor={anchor}
                 fill={active ? "#f3f4f6" : "#9aa0ab"} fontSize="11.5" fontWeight={active ? 600 : 400}>
                 {p.label}
@@ -138,8 +144,11 @@ export default function FrontierRadar({ rows }: { rows: RadarRow[] }) {
           <div className="absolute top-3 left-3 panel px-4 py-3 text-sm max-w-xs pointer-events-none">
             <div className="font-semibold text-zinc-100">{r.vertical}</div>
             <div className="mt-1 text-zinc-400">
-              Field momentum <span className="text-teal-300 font-medium">×{r.field_momentum.toFixed(2)}</span>
-              {" · "}Activate <span className="text-zinc-200 font-medium">{Math.round(r.activate_presence_recent * 100)}%</span> of recent cohorts
+              Research <span className="text-teal-300 font-medium">×{r.field_momentum.toFixed(2)}</span>
+              {" · "}Activate <span className="text-zinc-200 font-medium">{Math.round(r.activate_presence_recent * 100)}%</span>
+              {r.federal_momentum != null && (
+                <> · Federal $ <span className="text-amber-300 font-medium">×{r.federal_momentum >= 99 ? "99+" : r.federal_momentum.toFixed(0)}</span> (bubble size)</>
+              )}
             </div>
           </div>
         );

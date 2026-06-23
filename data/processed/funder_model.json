@@ -1,0 +1,58 @@
+{
+  "ein": "475502184",
+  "name": "Activate Global Inc",
+  "financials": [
+    {
+      "year": 2016,
+      "revenue": 5280,
+      "expenses": 151248,
+      "net_assets": 0
+    },
+    {
+      "year": 2017,
+      "revenue": 1418470,
+      "expenses": 1254078,
+      "net_assets": 93424
+    },
+    {
+      "year": 2018,
+      "revenue": 3407608,
+      "expenses": 1315149,
+      "net_assets": 2185883
+    },
+    {
+      "year": 2019,
+      "revenue": 3732131,
+      "expenses": 2821571,
+      "net_assets": 3096443
+    },
+    {
+      "year": 2020,
+      "revenue": 8612508,
+      "expenses": 5668930,
+      "net_assets": 6040021
+    },
+    {
+      "year": 2021,
+      "revenue": 13059575,
+      "expenses": 8160385,
+      "net_assets": 10939211
+    },
+    {
+      "year": 2022,
+      "revenue": 18338872,
+      "expenses": 12818117,
+      "net_assets": 16459994
+    },
+    {
+      "year": 2023,
+      "revenue": 26734894,
+      "expenses": 19015079,
+      "net_assets": 24179809
+    }
+  ],
+  "revenue_latest": 26734894,
+  "revenue_cagr": 2.382,
+  "years": "2016-2023",
+  "source": "IRS Form 990 via ProPublica Nonprofit Explorer"
+}

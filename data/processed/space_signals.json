@@ -2,36 +2,36 @@
   "spaces": [
     {
       "vertical": "Chemistry & Materials",
-      "federal_total": 1534107968,
+      "federal_total": 2184762708,
       "federal_by_year": {
-        "2016": 47819426,
-        "2017": 71729427,
-        "2018": 53813460,
-        "2019": 42736085,
-        "2020": 656785169,
-        "2021": 61214911,
-        "2022": 114325067,
-        "2023": 188097096,
-        "2024": 141528260,
-        "2025": 156059068
+        "2016": 84629339,
+        "2017": 54584270,
+        "2018": 56405496,
+        "2019": 40535435,
+        "2020": 65063030,
+        "2021": 67735988,
+        "2022": 383596158,
+        "2023": 488296274,
+        "2024": 440410825,
+        "2025": 503505895
       },
-      "federal_momentum": 2.78,
+      "federal_momentum": 7.69,
       "top_agencies": [
         {
-          "name": "Department of Homeland Security",
-          "amount": 543496425.02
-        },
-        {
-          "name": "Department of Defense",
-          "amount": 396539843.0
-        },
-        {
           "name": "National Science Foundation",
-          "amount": 280050904.0
+          "amount": 1423788837.0
+        },
+        {
+          "name": "National Aeronautics and Space Administration",
+          "amount": 202616068.78
+        },
+        {
+          "name": "Department of Health and Human Services",
+          "amount": 159281944.02
         },
         {
           "name": "Department of Commerce",
-          "amount": 96188539.65
+          "amount": 157622127.93
         }
       ],
       "research_momentum": 3.6,
@@ -76,36 +76,36 @@
     },
     {
       "vertical": "Advanced Manufacturing & Robotics",
-      "federal_total": 11491440975,
+      "federal_total": 2864276384,
       "federal_by_year": {
-        "2016": 728826614,
-        "2017": 655602679,
-        "2018": 730851853,
-        "2019": 859581613,
-        "2020": 1536844564,
-        "2021": 971274232,
-        "2022": 1600595794,
-        "2023": 1435211507,
-        "2024": 1346887383,
-        "2025": 1625764736
+        "2016": 19343037,
+        "2017": 43993077,
+        "2018": 73623793,
+        "2019": 94059892,
+        "2020": 635658732,
+        "2021": 122846614,
+        "2022": 561199845,
+        "2023": 391282843,
+        "2024": 256717192,
+        "2025": 665551359
       },
-      "federal_momentum": 2.02,
+      "federal_momentum": 8.12,
       "top_agencies": [
         {
-          "name": "National Aeronautics and Space Administration",
-          "amount": 3248258776.61
+          "name": "Department of Energy",
+          "amount": 591052012.99
         },
         {
-          "name": "Department of Defense",
-          "amount": 2608728649.0
-        },
-        {
-          "name": "National Science Foundation",
-          "amount": 1781774169.48
+          "name": "Department of Commerce",
+          "amount": 544112339.95
         },
         {
           "name": "Department of Health and Human Services",
-          "amount": 1261324356.52
+          "amount": 489176291.35
+        },
+        {
+          "name": "National Science Foundation",
+          "amount": 457867436.16
         }
       ],
       "research_momentum": 7.28,
@@ -335,36 +335,36 @@
     },
     {
       "vertical": "Energy Storage & Batteries",
-      "federal_total": 14996081099,
+      "federal_total": 1514191072,
       "federal_by_year": {
-        "2016": 132425246,
-        "2017": 204075922,
-        "2018": 203049857,
-        "2019": 231138259,
-        "2020": 193488189,
-        "2021": 279799543,
-        "2022": 481420311,
-        "2023": 773166626,
-        "2024": 10476294773,
-        "2025": 2021222371
+        "2016": 21772148,
+        "2017": 7733358,
+        "2018": 42206930,
+        "2019": 18269649,
+        "2020": 23337838,
+        "2021": 20963753,
+        "2022": 20857614,
+        "2023": 623415751,
+        "2024": 50329882,
+        "2025": 685304147
       },
-      "federal_momentum": 17.84,
+      "federal_momentum": 15.34,
       "top_agencies": [
         {
-          "name": "Environmental Protection Agency",
-          "amount": 8803807492.04
-        },
-        {
           "name": "Department of Energy",
-          "amount": 3190214254.67
-        },
-        {
-          "name": "Department of Defense",
-          "amount": 1679932406.96
+          "amount": 1305216906.05
         },
         {
           "name": "National Science Foundation",
-          "amount": 453414678.0
+          "amount": 94448994.0
+        },
+        {
+          "name": "Department of Defense",
+          "amount": 77672180.24
+        },
+        {
+          "name": "Department of Transportation",
+          "amount": 13925391.29
         }
       ],
       "research_momentum": 4.51,
@@ -372,36 +372,34 @@
     },
     {
       "vertical": "Built Environment",
-      "federal_total": 201772275,
+      "federal_total": 1179125906,
       "federal_by_year": {
-        "2016": 1534536,
-        "2017": 4115000,
-        "2018": 760112,
-        "2019": 1053574,
-        "2020": 424841,
-        "2021": 1073714,
-        "2022": 3115982,
-        "2023": 3586491,
-        "2024": 18350947,
-        "2025": 167757078
+        "2016": 3234384,
+        "2018": -4985,
+        "2019": -3025,
+        "2021": 255400,
+        "2022": 4813242,
+        "2023": 12015304,
+        "2024": 2882581,
+        "2025": 1155933005
       },
-      "federal_momentum": 25.83,
+      "federal_momentum": 364.39,
       "top_agencies": [
         {
           "name": "Environmental Protection Agency",
-          "amount": 163010199.0
-        },
-        {
-          "name": "National Science Foundation",
-          "amount": 14766587.0
+          "amount": 811941502.0
         },
         {
           "name": "Department of Energy",
-          "amount": 11114535.31
+          "amount": 352591675.01
+        },
+        {
+          "name": "National Science Foundation",
+          "amount": 10099984.0
         },
         {
           "name": "Department of Transportation",
-          "amount": 3476110.0
+          "amount": 2740000.0
         }
       ],
       "research_momentum": 2.96,
@@ -409,36 +407,36 @@
     },
     {
       "vertical": "Energy Generation & Delivery",
-      "federal_total": 14082351157,
+      "federal_total": 9315731236,
       "federal_by_year": {
-        "2016": 530234793,
-        "2017": 526351345,
-        "2018": 575743103,
-        "2019": 446402831,
-        "2020": 297031951,
-        "2021": 183382302,
-        "2022": 275758264,
-        "2023": 2817438628,
-        "2024": 3284426813,
-        "2025": 5145581125
+        "2016": 2143115,
+        "2017": 30492864,
+        "2018": 29458871,
+        "2019": 31215478,
+        "2020": 56186386,
+        "2021": 89903596,
+        "2022": 130972778,
+        "2023": 155246320,
+        "2024": 7737848667,
+        "2025": 1052263161
       },
-      "federal_momentum": 5.54,
+      "federal_momentum": 97.27,
       "top_agencies": [
         {
-          "name": "Department of Housing and Urban Development",
-          "amount": 4706062924.79
+          "name": "Environmental Protection Agency",
+          "amount": 7361693493.0
         },
         {
           "name": "Department of Energy",
-          "amount": 4170910162.67
+          "amount": 1448013933.49
         },
         {
-          "name": "Environmental Protection Agency",
-          "amount": 2317811872.64
+          "name": "National Science Foundation",
+          "amount": 223334641.0
         },
         {
-          "name": "Department of Agriculture",
-          "amount": 1344993176.13
+          "name": "Department of Transportation",
+          "amount": 114959222.59
         }
       ],
       "research_momentum": 3.62,
@@ -520,36 +518,36 @@
     },
     {
       "vertical": "Transportation & Mobility",
-      "federal_total": 15389108955,
+      "federal_total": 1341502415,
       "federal_by_year": {
-        "2016": 92492839,
-        "2017": 96693892,
-        "2018": 87051503,
-        "2019": 120419987,
-        "2020": 132279251,
-        "2021": 254443242,
-        "2022": 408641080,
-        "2023": 1278783116,
-        "2024": 6853303089,
-        "2025": 6065000957
+        "2016": 915000,
+        "2017": 3127483,
+        "2018": 8301164,
+        "2019": 590740,
+        "2020": 1841235,
+        "2021": 490000,
+        "2022": 17237351,
+        "2023": 26444282,
+        "2024": 501750376,
+        "2025": 780804783
       },
-      "federal_momentum": 36.82,
+      "federal_momentum": 102.54,
       "top_agencies": [
         {
           "name": "Environmental Protection Agency",
-          "amount": 8514720380.99
-        },
-        {
-          "name": "Department of Energy",
-          "amount": 2853838508.44
+          "amount": 1236999220.3
         },
         {
           "name": "Department of Transportation",
-          "amount": 2708871327.46
+          "amount": 64675222.92
         },
         {
-          "name": "General Services Administration",
-          "amount": 750644559.38
+          "name": "Department of Energy",
+          "amount": 20028198.9
+        },
+        {
+          "name": "National Science Foundation",
+          "amount": 15321112.0
         }
       ],
       "research_momentum": 5.23,
@@ -594,91 +592,93 @@
     }
   ],
   "agency_matrix": {
-    "Department of Homeland Security": {
-      "Chemistry & Materials": 543496425.02
-    },
-    "Department of Defense": {
-      "Chemistry & Materials": 396539843.0,
-      "Advanced Manufacturing & Robotics": 2608728649.0,
-      "Industrial Biotechnology": 49439575.36,
-      "Electronics & Connectivity": 6677203411.49,
-      "Computing": 1842677236.38,
-      "Carbon Management / CO2e": 18538853.0,
-      "Life Science": 7435038208.18,
-      "Energy Storage & Batteries": 1679932406.96,
-      "Built Environment": 2669474.99,
-      "Earth Resources": 65473836.4,
-      "Water": 1041395464.55,
-      "Transportation & Mobility": 136707541.63,
-      "Space & Aeronautics": 741279635.95
-    },
     "National Science Foundation": {
-      "Chemistry & Materials": 280050904.0,
+      "Chemistry & Materials": 1423788837.0,
       "Climate": 260338601.0,
-      "Advanced Manufacturing & Robotics": 1781774169.48,
+      "Advanced Manufacturing & Robotics": 457867436.16,
       "Industrial Biotechnology": 390282195.0,
       "Electronics & Connectivity": 1221941623.0,
       "Computing": 1653680610.0,
       "Food & Agriculture": 124510709.0,
       "Carbon Management / CO2e": 105223528.0,
       "Life Science": 482136332.0,
-      "Energy Storage & Batteries": 453414678.0,
-      "Built Environment": 14766587.0,
-      "Energy Generation & Delivery": 510691705.18,
+      "Energy Storage & Batteries": 94448994.0,
+      "Built Environment": 10099984.0,
+      "Energy Generation & Delivery": 223334641.0,
       "Earth Resources": 162326052.0,
       "Water": 198694141.0,
-      "Transportation & Mobility": 246403533.52,
+      "Transportation & Mobility": 15321112.0,
       "Space & Aeronautics": 140666674.0
     },
-    "Department of Commerce": {
-      "Chemistry & Materials": 96188539.65,
-      "Climate": 873530017.58,
-      "Advanced Manufacturing & Robotics": 740332456.44,
-      "Electronics & Connectivity": 341207377.37,
-      "Food & Agriculture": 44283259.91,
-      "Life Science": 146100610.38,
-      "Energy Generation & Delivery": 188081239.37,
-      "Earth Resources": 47790313.33,
-      "Space & Aeronautics": 7948017.22
-    },
-    "Department of Energy": {
-      "Chemistry & Materials": 87604205.48,
-      "Advanced Manufacturing & Robotics": 672662811.85,
-      "Electronics & Connectivity": 467395116.96,
-      "Carbon Management / CO2e": 2401524883.93,
-      "Energy Storage & Batteries": 3190214254.67,
-      "Built Environment": 11114535.31,
-      "Energy Generation & Delivery": 4170910162.67,
-      "Earth Resources": 856330150.95,
-      "Transportation & Mobility": 2853838508.44
+    "National Aeronautics and Space Administration": {
+      "Chemistry & Materials": 202616068.78,
+      "Industrial Biotechnology": 21654797.4,
+      "Electronics & Connectivity": 161161665.89,
+      "Energy Storage & Batteries": 8985164.76,
+      "Water": 178843784.02,
+      "Space & Aeronautics": 20436319093.37
     },
     "Department of Health and Human Services": {
-      "Chemistry & Materials": 82786058.39,
-      "Advanced Manufacturing & Robotics": 1261324356.52,
+      "Chemistry & Materials": 159281944.02,
+      "Advanced Manufacturing & Robotics": 489176291.35,
       "Industrial Biotechnology": 448904385.3,
       "Electronics & Connectivity": 74124086.57,
       "Computing": 1381787067.29,
       "Life Science": 53687479708.91
     },
+    "Department of Commerce": {
+      "Chemistry & Materials": 157622127.93,
+      "Climate": 873530017.58,
+      "Advanced Manufacturing & Robotics": 544112339.95,
+      "Electronics & Connectivity": 341207377.37,
+      "Food & Agriculture": 44283259.91,
+      "Life Science": 146100610.38,
+      "Energy Generation & Delivery": 40739008.21,
+      "Earth Resources": 47790313.33,
+      "Transportation & Mobility": 4175000.0,
+      "Space & Aeronautics": 7948017.22
+    },
+    "Department of Defense": {
+      "Chemistry & Materials": 153562345.53,
+      "Advanced Manufacturing & Robotics": 425817111.22,
+      "Industrial Biotechnology": 49439575.36,
+      "Electronics & Connectivity": 6677203411.49,
+      "Computing": 1842677236.38,
+      "Carbon Management / CO2e": 18538853.0,
+      "Life Science": 7435038208.18,
+      "Energy Storage & Batteries": 77672180.24,
+      "Earth Resources": 65473836.4,
+      "Water": 1041395464.55,
+      "Space & Aeronautics": 741279635.95
+    },
+    "Department of Energy": {
+      "Chemistry & Materials": 61427215.04,
+      "Advanced Manufacturing & Robotics": 591052012.99,
+      "Electronics & Connectivity": 467395116.96,
+      "Carbon Management / CO2e": 2401524883.93,
+      "Energy Storage & Batteries": 1305216906.05,
+      "Built Environment": 352591675.01,
+      "Energy Generation & Delivery": 1448013933.49,
+      "Earth Resources": 856330150.95,
+      "Transportation & Mobility": 20028198.9
+    },
     "Environmental Protection Agency": {
       "Climate": 779166998.17,
       "Food & Agriculture": 451830001.0,
       "Carbon Management / CO2e": 396192829.94,
-      "Energy Storage & Batteries": 8803807492.04,
-      "Built Environment": 163010199.0,
-      "Energy Generation & Delivery": 2317811872.64,
+      "Built Environment": 811941502.0,
+      "Energy Generation & Delivery": 7361693493.0,
       "Water": 7725547587.2,
-      "Transportation & Mobility": 8514720380.99
+      "Transportation & Mobility": 1236999220.3
     },
     "Department of Housing and Urban Development": {
-      "Climate": 398546554.3,
-      "Energy Storage & Batteries": 398189342.0,
-      "Energy Generation & Delivery": 4706062924.79
+      "Climate": 398546554.3
     },
     "Department of the Interior": {
       "Climate": 314300858.22,
       "Industrial Biotechnology": 20521928.34,
       "Computing": 496743016.41,
+      "Built Environment": 323000.0,
       "Earth Resources": 94073021.66,
       "Water": 1230932220.62,
       "Space & Aeronautics": 4599839.08
@@ -689,22 +689,15 @@
       "Food & Agriculture": 933769583.71,
       "Carbon Management / CO2e": 7931366.36,
       "Life Science": 142963078.51,
-      "Energy Generation & Delivery": 1344993176.13
+      "Energy Storage & Batteries": 2925262.33
     },
-    "National Aeronautics and Space Administration": {
-      "Advanced Manufacturing & Robotics": 3248258776.61,
-      "Industrial Biotechnology": 21654797.4,
-      "Electronics & Connectivity": 161161665.89,
-      "Water": 178843784.02,
-      "Space & Aeronautics": 20436319093.37
+    "General Services Administration": {
+      "Advanced Manufacturing & Robotics": 138803755.01,
+      "Computing": 413506712.3
     },
     "Department of Veterans Affairs": {
       "Computing": 479781685.64,
       "Life Science": 151551769.33
-    },
-    "General Services Administration": {
-      "Computing": 413506712.3,
-      "Transportation & Mobility": 750644559.38
     },
     "Agency for International Development": {
       "Food & Agriculture": 128462320.19
@@ -718,14 +711,17 @@
       "Water": 182850000.0
     },
     "Department of Transportation": {
-      "Energy Storage & Batteries": 178119364.98,
-      "Built Environment": 3476110.0,
-      "Transportation & Mobility": 2708871327.46
+      "Energy Storage & Batteries": 13925391.29,
+      "Built Environment": 2740000.0,
+      "Energy Generation & Delivery": 114959222.59,
+      "Transportation & Mobility": 64675222.92
     },
     "Department of Labor": {
-      "Built Environment": 2187695.0
+      "Built Environment": 1380000.0
     },
     "Small Business Administration": {
+      "Energy Generation & Delivery": 28972139.92,
+      "Transportation & Mobility": 216053.28,
       "Space & Aeronautics": 1370630.04
     }
   }
