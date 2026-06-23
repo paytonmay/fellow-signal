@@ -3,9 +3,11 @@
 import { useMemo, useState } from "react";
 import { RadarRow, verticalColor } from "@/lib/data";
 
-const W = 960;
-const H = 600;
-const PAD = { t: 44, r: 150, b: 66, l: 70 };
+// Wide, short aspect so the full-width hero fills the row without towering past
+// the fold (the SVG scales by width, so a tall viewBox = a tall render).
+const W = 1280;
+const H = 470;
+const PAD = { t: 34, r: 178, b: 50, l: 66 };
 
 function median(xs: number[]): number {
   const s = [...xs].sort((a, b) => a - b);
