@@ -10,6 +10,7 @@ Output: data/processed/founders.json  (keyed by company name)
 from __future__ import annotations
 
 import json
+import os
 import sys
 import time
 from pathlib import Path
@@ -46,10 +47,25 @@ def main() -> None:
                 if f.get("resolved"):
                     cache[(co_name, f["name"])] = f
 
+    # Wall-clock budget: OpenAlex throttles hard after a few hundred requests,
+    # and the backoff then crawls. Stop cleanly before that eats the whole job
+    # so progress gets saved + committed; the resumable cache lets the next run
+    # pick up where this one left off. Override with FOUNDER_BUDGET_SECS.
+    budget = int(os.environ.get("FOUNDER_BUDGET_SECS", "1500"))
+    start = time.time()
+
     result = {}
     resolved = 0
     total_fellows = 0
     for i, c in enumerate(companies, 1):
+        if time.time() - start > budget:
+            # carry remaining companies' fellows through unchanged from cache
+            for rest in companies[i - 1:]:
+                result[rest["name"]] = [cache.get((rest["name"], fn)) or {"name": fn, "resolved": False}
+                                        for fn in rest["fellows"]]
+                resolved += sum(1 for fn in rest["fellows"] if cache.get((rest["name"], fn)))
+            print(f"[budget] stopped at company {i} after {budget}s; saving progress", flush=True)
+            break
         founders = []
         for fellow in c["fellows"]:
             total_fellows += 1
