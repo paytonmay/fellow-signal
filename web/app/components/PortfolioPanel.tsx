@@ -12,8 +12,8 @@ export default function PortfolioPanel({ companies }: { companies: Company[] }) 
 
   const rows = useMemo(() => {
     const s: Record<Sort, (a: Company, b: Company) => number> = {
-      cohort: (a, b) => (b.cohort_year ?? 0) - (a.cohort_year ?? 0) || b.nsf_total - a.nsf_total,
-      nsf: (a, b) => b.nsf_total - a.nsf_total,
+      cohort: (a, b) => (b.cohort_year ?? 0) - (a.cohort_year ?? 0) || b.federal_total - a.federal_total,
+      nsf: (a, b) => b.federal_total - a.federal_total,
       citations: (a, b) => topCitations(b) - topCitations(a),
       name: (a, b) => a.name.localeCompare(b.name),
     };
@@ -27,7 +27,7 @@ export default function PortfolioPanel({ companies }: { companies: Company[] }) 
         <select value={sort} onChange={(e) => setSort(e.target.value as Sort)}
           className="bg-[#0e1014] border border-[#1d2128] rounded-lg px-2.5 py-1.5 text-[12px] text-zinc-300 focus:outline-none focus:border-teal-500/60">
           <option value="cohort">Newest</option>
-          <option value="nsf">NSF funding</option>
+          <option value="nsf">Federal funding</option>
           <option value="citations">Founder citations</option>
           <option value="name">A-Z</option>
         </select>
@@ -54,7 +54,7 @@ export default function PortfolioPanel({ companies }: { companies: Company[] }) 
               </div>
               <div className="flex items-center gap-2 mt-2.5 pt-2.5 border-t border-[#1a1d23] text-[10.5px]">
                 {c.hub && <span className="text-zinc-500">{c.hub}</span>}
-                {c.nsf_total > 0 && <span className="text-teal-300 font-medium">{fmtUSD(c.nsf_total, { compact: true })}</span>}
+                {c.federal_total > 0 && <span className="text-teal-300 font-medium">{fmtUSD(c.federal_total, { compact: true })}</span>}
                 {cites > 0 && <span className="text-zinc-500">{cites.toLocaleString()} cites</span>}
                 <span className="ml-auto text-zinc-600 group-hover:text-teal-300 transition">view →</span>
               </div>

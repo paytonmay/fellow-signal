@@ -71,7 +71,7 @@ export default function FunderModel({ model, portfolioNsf }: { model: FM; portfo
       <p className="mt-4 text-[12.5px] text-zinc-400 max-w-3xl leading-relaxed">
         A different model: an equity-free nonprofit, scaled by philanthropy and government rather than venture capital.
         That {fmtUSD(last.revenue, { compact: true })} of annual money-in backs the fellows whose ventures have, in turn,
-        pulled in {fmtUSD(portfolioNsf, { compact: true })}+ of NSF non-dilutive funding alone, before private capital.
+        pulled in {fmtUSD(portfolioNsf, { compact: true })}+ of federal non-dilutive funding, before private capital.
       </p>
       <div className="mt-2 text-[10.5px] text-zinc-600">{model.source} · EIN {model.ein}</div>
     </div>

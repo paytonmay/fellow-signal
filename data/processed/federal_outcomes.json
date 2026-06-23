@@ -1,0 +1,1764 @@
+{
+  "4th State Energies": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "AIMM": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "AlkaLi Labs": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Astral Materials, Inc.": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Biosimo": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "BioWraptor": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Brightlight Photonics": {
+    "federal_total": 275000,
+    "federal_count": 1,
+    "agencies": [
+      {
+        "name": "National Science Foundation",
+        "amount": 275000
+      }
+    ]
+  },
+  "Carbide Radio": {
+    "federal_total": 275000,
+    "federal_count": 1,
+    "agencies": [
+      {
+        "name": "National Science Foundation",
+        "amount": 275000
+      }
+    ]
+  },
+  "Cellsius, Inc.": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "ChipAdd": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Deep Anchor Solutions Inc.": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Edulis Labs": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Epitactic": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "FAST Metals": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Fermi Energy": {
+    "federal_total": 481500,
+    "federal_count": 2,
+    "agencies": [
+      {
+        "name": "National Science Foundation",
+        "amount": 275000
+      },
+      {
+        "name": "Department of Energy",
+        "amount": 206500
+      }
+    ]
+  },
+  "FlowCellutions": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Fourier": {
+    "federal_total": 295000,
+    "federal_count": 1,
+    "agencies": [
+      {
+        "name": "National Science Foundation",
+        "amount": 295000
+      }
+    ]
+  },
+  "Gallox Semiconductors": {
+    "federal_total": 305000,
+    "federal_count": 1,
+    "agencies": [
+      {
+        "name": "National Science Foundation",
+        "amount": 305000
+      }
+    ]
+  },
+  "Greenshoot Materials": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Hypermelt": {
+    "federal_total": 275721,
+    "federal_count": 1,
+    "agencies": [
+      {
+        "name": "Department of Health and Human Services",
+        "amount": 275721
+      }
+    ]
+  },
+  "Intero Biosystems": {
+    "federal_total": 349952,
+    "federal_count": 1,
+    "agencies": [
+      {
+        "name": "Department of Health and Human Services",
+        "amount": 349952
+      }
+    ]
+  },
+  "KIRA": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Lagomics": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "LEAP Photonics": {
+    "federal_total": 305000,
+    "federal_count": 1,
+    "agencies": [
+      {
+        "name": "National Science Foundation",
+        "amount": 305000
+      }
+    ]
+  },
+  "Lift Biolabs": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Lightfinder": {
+    "federal_total": 275000,
+    "federal_count": 1,
+    "agencies": [
+      {
+        "name": "National Science Foundation",
+        "amount": 275000
+      }
+    ]
+  },
+  "MacroBreed": {
+    "federal_total": 323223,
+    "federal_count": 2,
+    "agencies": [
+      {
+        "name": "Department of Agriculture",
+        "amount": 323223
+      }
+    ]
+  },
+  "Membravo": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Netpreme": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "NextSet Materials": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "OsmoPure Technologies": {
+    "federal_total": 1525915,
+    "federal_count": 1,
+    "agencies": [
+      {
+        "name": "National Science Foundation",
+        "amount": 1525915
+      }
+    ]
+  },
+  "PAGE Technologies": {
+    "federal_total": 175000,
+    "federal_count": 1,
+    "agencies": [
+      {
+        "name": "Department of Agriculture",
+        "amount": 175000
+      }
+    ]
+  },
+  "RETRN": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Semion": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Unspent": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "VectorWave": {
+    "federal_total": 304638,
+    "federal_count": 1,
+    "agencies": [
+      {
+        "name": "National Science Foundation",
+        "amount": 304638
+      }
+    ]
+  },
+  "Vertility Health": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Wave Lumina": {
+    "federal_total": 305000,
+    "federal_count": 1,
+    "agencies": [
+      {
+        "name": "National Science Foundation",
+        "amount": 305000
+      }
+    ]
+  },
+  "Andros Innovations": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Anew Material": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Bairitone Health": {
+    "federal_total": 299850,
+    "federal_count": 1,
+    "agencies": [
+      {
+        "name": "Department of Health and Human Services",
+        "amount": 299850
+      }
+    ]
+  },
+  "Calectra": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Carbion": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Carbon Infuse": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "COBI": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Coflux Purification": {
+    "federal_total": 175000,
+    "federal_count": 1,
+    "agencies": [
+      {
+        "name": "Department of Agriculture",
+        "amount": 175000
+      }
+    ]
+  },
+  "Daqus Energy": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Drūl": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "EELI Technology": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Elateq, Inc.": {
+    "federal_total": 1236248,
+    "federal_count": 2,
+    "agencies": [
+      {
+        "name": "National Science Foundation",
+        "amount": 1236248
+      }
+    ]
+  },
+  "Elysia Creative Biology": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Elysium Robotics": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Every Electric": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "ExciPlex": {
+    "federal_total": 256000,
+    "federal_count": 1,
+    "agencies": [
+      {
+        "name": "National Science Foundation",
+        "amount": 256000
+      }
+    ]
+  },
+  "Expand Power": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Heliotrope Photonics": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "HiT Nano": {
+    "federal_total": 4674255,
+    "federal_count": 4,
+    "agencies": [
+      {
+        "name": "Department of Energy",
+        "amount": 4674255
+      }
+    ]
+  },
+  "Huminly": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Hyperion Transport Systems": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Icarus Quantum": {
+    "federal_total": 805000,
+    "federal_count": 3,
+    "agencies": [
+      {
+        "name": "Department of Commerce",
+        "amount": 500000
+      },
+      {
+        "name": "National Science Foundation",
+        "amount": 305000
+      }
+    ]
+  },
+  "Kytyra": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "LumiStrain, Inc.": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Manifest Technologies": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Mithril Technologies": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Motibera": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Nanoscale Labs": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Newfound Materials": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "NextGlass": {
+    "federal_total": 256000,
+    "federal_count": 1,
+    "agencies": [
+      {
+        "name": "National Science Foundation",
+        "amount": 256000
+      }
+    ]
+  },
+  "Oleo": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "One-D Nano": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "PHNX Materials": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Plumajet Inc": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Praio": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Prospect Growth": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "PumpKin": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Rapid Radicals": {
+    "federal_total": 1579781,
+    "federal_count": 3,
+    "agencies": [
+      {
+        "name": "National Science Foundation",
+        "amount": 1405245
+      },
+      {
+        "name": "Department of Commerce",
+        "amount": 174536
+      }
+    ]
+  },
+  "Raven Space Systems": {
+    "federal_total": 300000,
+    "federal_count": 2,
+    "agencies": [
+      {
+        "name": "National Science Foundation",
+        "amount": 275000
+      },
+      {
+        "name": "National Aeronautics and Space Administration",
+        "amount": 25000
+      }
+    ]
+  },
+  "Reforge Robotics": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Resolute Methane": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Rhoic": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Robotics 88": {
+    "federal_total": 1074565,
+    "federal_count": 3,
+    "agencies": [
+      {
+        "name": "Department of Commerce",
+        "amount": 799636
+      },
+      {
+        "name": "National Science Foundation",
+        "amount": 274929
+      }
+    ]
+  },
+  "rStream": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "SHARP Diagnostics": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Sinkco Labs": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Solidec": {
+    "federal_total": 1755000,
+    "federal_count": 2,
+    "agencies": [
+      {
+        "name": "National Science Foundation",
+        "amount": 1555000
+      },
+      {
+        "name": "Department of Energy",
+        "amount": 200000
+      }
+    ]
+  },
+  "Supercarb": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Tatta Bio": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "TopoLight": {
+    "federal_total": 305000,
+    "federal_count": 1,
+    "agencies": [
+      {
+        "name": "National Science Foundation",
+        "amount": 305000
+      }
+    ]
+  },
+  "Allium Engineering": {
+    "federal_total": 294993,
+    "federal_count": 1,
+    "agencies": [
+      {
+        "name": "National Science Foundation",
+        "amount": 294993
+      }
+    ]
+  },
+  "Alva Energy": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Anthology": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Arbon": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Arrakis Materials": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "AsimicA": {
+    "federal_total": 498682,
+    "federal_count": 2,
+    "agencies": [
+      {
+        "name": "National Science Foundation",
+        "amount": 274100
+      },
+      {
+        "name": "Department of Health and Human Services",
+        "amount": 224582
+      }
+    ]
+  },
+  "Banyu Carbon": {
+    "federal_total": 274094,
+    "federal_count": 1,
+    "agencies": [
+      {
+        "name": "National Science Foundation",
+        "amount": 274094
+      }
+    ]
+  },
+  "Blaze Energy": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Boston Atomics": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Brekland": {
+    "federal_total": 181493,
+    "federal_count": 1,
+    "agencies": [
+      {
+        "name": "Department of Agriculture",
+        "amount": 181493
+      }
+    ]
+  },
+  "Calion Technologies": {
+    "federal_total": 500000,
+    "federal_count": 1,
+    "agencies": [
+      {
+        "name": "Department of Energy",
+        "amount": 500000
+      }
+    ]
+  },
+  "Capillary Nanotechnologies": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Cella Mineral Storage": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Dottir Labs": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Eva": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Feon Energy": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "florrent": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Flux XII": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Gel Matter": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Geolabe": {
+    "federal_total": 1077030,
+    "federal_count": 3,
+    "agencies": [
+      {
+        "name": "National Aeronautics and Space Administration",
+        "amount": 622713
+      },
+      {
+        "name": "National Science Foundation",
+        "amount": 254707
+      },
+      {
+        "name": "Department of Energy",
+        "amount": 199610
+      }
+    ]
+  },
+  "HOPO Therapeutics": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Juno Propulsion": {
+    "federal_total": 274969,
+    "federal_count": 1,
+    "agencies": [
+      {
+        "name": "National Science Foundation",
+        "amount": 274969
+      }
+    ]
+  },
+  "Lucidean": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Morphosis": {
+    "federal_total": 275000,
+    "federal_count": 1,
+    "agencies": [
+      {
+        "name": "National Science Foundation",
+        "amount": 275000
+      }
+    ]
+  },
+  "Novel Farms": {
+    "federal_total": 1838910,
+    "federal_count": 2,
+    "agencies": [
+      {
+        "name": "National Science Foundation",
+        "amount": 1838910
+      }
+    ]
+  },
+  "Opera Bioscience": {
+    "federal_total": 1847638,
+    "federal_count": 3,
+    "agencies": [
+      {
+        "name": "National Science Foundation",
+        "amount": 1523994
+      },
+      {
+        "name": "Department of Health and Human Services",
+        "amount": 323644
+      }
+    ]
+  },
+  "OsRostrum Inc": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Pascal": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Photonect Interconnect Solutions": {
+    "federal_total": 1774867,
+    "federal_count": 2,
+    "agencies": [
+      {
+        "name": "National Science Foundation",
+        "amount": 1774867
+      }
+    ]
+  },
+  "RareTerra": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "ReynKo": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "RockFix": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "SirenOpt": {
+    "federal_total": 274770,
+    "federal_count": 1,
+    "agencies": [
+      {
+        "name": "National Science Foundation",
+        "amount": 274770
+      }
+    ]
+  },
+  "SixLine Semiconductor": {
+    "federal_total": 274503,
+    "federal_count": 1,
+    "agencies": [
+      {
+        "name": "National Science Foundation",
+        "amount": 274503
+      }
+    ]
+  },
+  "Terra Watts": {
+    "federal_total": 305000,
+    "federal_count": 1,
+    "agencies": [
+      {
+        "name": "National Science Foundation",
+        "amount": 305000
+      }
+    ]
+  },
+  "Varada Agriculture": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Vellex Computing": {
+    "federal_total": 305000,
+    "federal_count": 1,
+    "agencies": [
+      {
+        "name": "National Science Foundation",
+        "amount": 305000
+      }
+    ]
+  },
+  "Vyir": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Westwood Aerogel": {
+    "federal_total": 274855,
+    "federal_count": 1,
+    "agencies": [
+      {
+        "name": "National Science Foundation",
+        "amount": 274855
+      }
+    ]
+  },
+  "Aepnus Technology": {
+    "federal_total": 274986,
+    "federal_count": 1,
+    "agencies": [
+      {
+        "name": "National Science Foundation",
+        "amount": 274986
+      }
+    ]
+  },
+  "Anvil Diagnostics": {
+    "federal_total": 298646,
+    "federal_count": 1,
+    "agencies": [
+      {
+        "name": "National Science Foundation",
+        "amount": 298646
+      }
+    ]
+  },
+  "BluumBio": {
+    "federal_total": 188466,
+    "federal_count": 1,
+    "agencies": [
+      {
+        "name": "Department of Health and Human Services",
+        "amount": 188466
+      }
+    ]
+  },
+  "Closed Composites": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Foray Bioscience": {
+    "federal_total": 179965,
+    "federal_count": 1,
+    "agencies": [
+      {
+        "name": "Department of Agriculture",
+        "amount": 179965
+      }
+    ]
+  },
+  "Found Energy": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Impact Cooling": {
+    "federal_total": 500000,
+    "federal_count": 1,
+    "agencies": [
+      {
+        "name": "Department of Energy",
+        "amount": 500000
+      }
+    ]
+  },
+  "Innate Energy": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Ivu Biologics": {
+    "federal_total": 256000,
+    "federal_count": 1,
+    "agencies": [
+      {
+        "name": "National Science Foundation",
+        "amount": 256000
+      }
+    ]
+  },
+  "Limelight Steel": {
+    "federal_total": 3185346,
+    "federal_count": 2,
+    "agencies": [
+      {
+        "name": "Department of Energy",
+        "amount": 2910346
+      },
+      {
+        "name": "National Science Foundation",
+        "amount": 275000
+      }
+    ]
+  },
+  "Lithios": {
+    "federal_total": 499320,
+    "federal_count": 1,
+    "agencies": [
+      {
+        "name": "Department of Energy",
+        "amount": 499320
+      }
+    ]
+  },
+  "Ludwig Computing": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Orien Energy": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "PseudolithIC": {
+    "federal_total": 3096398,
+    "federal_count": 3,
+    "agencies": [
+      {
+        "name": "National Science Foundation",
+        "amount": 1747260
+      },
+      {
+        "name": "Department of Energy",
+        "amount": 1349138
+      }
+    ]
+  },
+  "Pulsenics": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Quorum Bio": {
+    "federal_total": 174976,
+    "federal_count": 1,
+    "agencies": [
+      {
+        "name": "Department of Agriculture",
+        "amount": 174976
+      }
+    ]
+  },
+  "REEgen": {
+    "federal_total": 1387040,
+    "federal_count": 2,
+    "agencies": [
+      {
+        "name": "National Science Foundation",
+        "amount": 1387040
+      }
+    ]
+  },
+  "Robigo": {
+    "federal_total": 1522237,
+    "federal_count": 2,
+    "agencies": [
+      {
+        "name": "National Science Foundation",
+        "amount": 1522237
+      }
+    ]
+  },
+  "Roca Water": {
+    "federal_total": 1340000,
+    "federal_count": 2,
+    "agencies": [
+      {
+        "name": "National Science Foundation",
+        "amount": 1165000
+      },
+      {
+        "name": "Department of Agriculture",
+        "amount": 175000
+      }
+    ]
+  },
+  "Root Applied Sciences": {
+    "federal_total": 824631,
+    "federal_count": 2,
+    "agencies": [
+      {
+        "name": "Department of Agriculture",
+        "amount": 824631
+      }
+    ]
+  },
+  "Soctera": {
+    "federal_total": 1455999,
+    "federal_count": 2,
+    "agencies": [
+      {
+        "name": "National Science Foundation",
+        "amount": 1455999
+      }
+    ]
+  },
+  "Solopulse": {
+    "federal_total": 274059,
+    "federal_count": 1,
+    "agencies": [
+      {
+        "name": "National Science Foundation",
+        "amount": 274059
+      }
+    ]
+  },
+  "Still Bright": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Sunchem": {
+    "federal_total": 256000,
+    "federal_count": 1,
+    "agencies": [
+      {
+        "name": "National Science Foundation",
+        "amount": 256000
+      }
+    ]
+  },
+  "Tensora": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "ThermoBionics": {
+    "federal_total": 225000,
+    "federal_count": 1,
+    "agencies": [
+      {
+        "name": "National Science Foundation",
+        "amount": 225000
+      }
+    ]
+  },
+  "Turnover Labs": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Tyfast": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "VERDE Nanomaterials": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Vycarb": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Wild Microbes": {
+    "federal_total": 295000,
+    "federal_count": 1,
+    "agencies": [
+      {
+        "name": "National Science Foundation",
+        "amount": 295000
+      }
+    ]
+  },
+  "Ọsọ Semiconductor": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Anthro": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Aura Intelligent Systems": {
+    "federal_total": 256000,
+    "federal_count": 1,
+    "agencies": [
+      {
+        "name": "National Science Foundation",
+        "amount": 256000
+      }
+    ]
+  },
+  "Electrified Thermal Solutions": {
+    "federal_total": 5850000,
+    "federal_count": 2,
+    "agencies": [
+      {
+        "name": "Department of Energy",
+        "amount": 5850000
+      }
+    ]
+  },
+  "Enertia Microsystems": {
+    "federal_total": 224903,
+    "federal_count": 1,
+    "agencies": [
+      {
+        "name": "National Science Foundation",
+        "amount": 224903
+      }
+    ]
+  },
+  "FLO Materials": {
+    "federal_total": 275000,
+    "federal_count": 1,
+    "agencies": [
+      {
+        "name": "National Science Foundation",
+        "amount": 275000
+      }
+    ]
+  },
+  "Inlyte Energy": {
+    "federal_total": 500000,
+    "federal_count": 1,
+    "agencies": [
+      {
+        "name": "Department of Energy",
+        "amount": 500000
+      }
+    ]
+  },
+  "Intropic Materials": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Kano Therapeutics": {
+    "federal_total": 349952,
+    "federal_count": 1,
+    "agencies": [
+      {
+        "name": "Department of Health and Human Services",
+        "amount": 349952
+      }
+    ]
+  },
+  "LintrinsIC": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Loamist": {
+    "federal_total": 4171925,
+    "federal_count": 2,
+    "agencies": [
+      {
+        "name": "Department of Agriculture",
+        "amount": 4171925
+      }
+    ]
+  },
+  "Metavoxel Technologies": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Osmoses": {
+    "federal_total": 7203586,
+    "federal_count": 4,
+    "agencies": [
+      {
+        "name": "Department of Energy",
+        "amount": 6949771
+      },
+      {
+        "name": "National Science Foundation",
+        "amount": 253815
+      }
+    ]
+  },
+  "Pheronym": {
+    "federal_total": 1942529,
+    "federal_count": 3,
+    "agencies": [
+      {
+        "name": "National Science Foundation",
+        "amount": 1842529
+      },
+      {
+        "name": "Department of Agriculture",
+        "amount": 100000
+      }
+    ]
+  },
+  "Qunnect": {
+    "federal_total": 4014546,
+    "federal_count": 4,
+    "agencies": [
+      {
+        "name": "Department of Energy",
+        "amount": 3758990
+      },
+      {
+        "name": "National Science Foundation",
+        "amount": 255556
+      }
+    ]
+  },
+  "Revive Labs": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Semiotic Labs": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Thalo Labs": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "AeroShield": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Concerto Biosciences": {
+    "federal_total": 299907,
+    "federal_count": 1,
+    "agencies": [
+      {
+        "name": "Department of Health and Human Services",
+        "amount": 299907
+      }
+    ]
+  },
+  "Elmworks": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "GigaCrop": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Irradiant Technologies": {
+    "federal_total": 953147,
+    "federal_count": 4,
+    "agencies": [
+      {
+        "name": "Department of Commerce",
+        "amount": 499934
+      },
+      {
+        "name": "National Science Foundation",
+        "amount": 255687
+      },
+      {
+        "name": "Department of Energy",
+        "amount": 197526
+      }
+    ]
+  },
+  "METAseismic": {
+    "federal_total": 1141940,
+    "federal_count": 2,
+    "agencies": [
+      {
+        "name": "National Science Foundation",
+        "amount": 1141940
+      }
+    ]
+  },
+  "Nitricity": {
+    "federal_total": 5694537,
+    "federal_count": 5,
+    "agencies": [
+      {
+        "name": "Department of Agriculture",
+        "amount": 4749537
+      },
+      {
+        "name": "Department of Energy",
+        "amount": 689000
+      },
+      {
+        "name": "National Science Foundation",
+        "amount": 256000
+      }
+    ]
+  },
+  "Radical Plastics": {
+    "federal_total": 702878,
+    "federal_count": 2,
+    "agencies": [
+      {
+        "name": "Department of Agriculture",
+        "amount": 702878
+      }
+    ]
+  },
+  "Resonant Link": {
+    "federal_total": 424964,
+    "federal_count": 2,
+    "agencies": [
+      {
+        "name": "National Science Foundation",
+        "amount": 224997
+      },
+      {
+        "name": "Department of Energy",
+        "amount": 199967
+      }
+    ]
+  },
+  "ReSource": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "SiTration": {
+    "federal_total": 575996,
+    "federal_count": 2,
+    "agencies": [
+      {
+        "name": "Department of Energy",
+        "amount": 320000
+      },
+      {
+        "name": "National Science Foundation",
+        "amount": 255996
+      }
+    ]
+  },
+  "Sublime Systems": {
+    "federal_total": 10782812,
+    "federal_count": 3,
+    "agencies": [
+      {
+        "name": "Department of Energy",
+        "amount": 10782812
+      }
+    ]
+  },
+  "Sync Computing": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Umaro Foods": {
+    "federal_total": 7739371,
+    "federal_count": 2,
+    "agencies": [
+      {
+        "name": "Department of Energy",
+        "amount": 7739371
+      }
+    ]
+  },
+  "Zanskar": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "ZestBio": {
+    "federal_total": 2124505,
+    "federal_count": 4,
+    "agencies": [
+      {
+        "name": "National Science Foundation",
+        "amount": 1368005
+      },
+      {
+        "name": "Department of Agriculture",
+        "amount": 756500
+      }
+    ]
+  },
+  "Aralez Bio": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Brimstone": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Cypris Materials": {
+    "federal_total": 1924644,
+    "federal_count": 2,
+    "agencies": [
+      {
+        "name": "National Science Foundation",
+        "amount": 1924644
+      }
+    ]
+  },
+  "InchFab": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Perceptra Technologies": {
+    "federal_total": 275000,
+    "federal_count": 1,
+    "agencies": [
+      {
+        "name": "National Science Foundation",
+        "amount": 275000
+      }
+    ]
+  },
+  "Reveel": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "SkyGig": {
+    "federal_total": 2849998,
+    "federal_count": 4,
+    "agencies": [
+      {
+        "name": "National Science Foundation",
+        "amount": 2849998
+      }
+    ]
+  },
+  "Synopic": {
+    "federal_total": 1424994,
+    "federal_count": 2,
+    "agencies": [
+      {
+        "name": "National Science Foundation",
+        "amount": 1424994
+      }
+    ]
+  },
+  "terrafuse": {
+    "federal_total": 1542000,
+    "federal_count": 2,
+    "agencies": [
+      {
+        "name": "National Science Foundation",
+        "amount": 1542000
+      }
+    ]
+  },
+  "ActiveMEMS": {
+    "federal_total": 224941,
+    "federal_count": 1,
+    "agencies": [
+      {
+        "name": "National Science Foundation",
+        "amount": 224941
+      }
+    ]
+  },
+  "Antora Energy": {
+    "federal_total": 25763032,
+    "federal_count": 5,
+    "agencies": [
+      {
+        "name": "Department of Energy",
+        "amount": 24316077
+      },
+      {
+        "name": "National Science Foundation",
+        "amount": 1234779
+      },
+      {
+        "name": "Department of Defense",
+        "amount": 212176
+      }
+    ]
+  },
+  "CinderBio": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Fervo Energy": {
+    "federal_total": 31322994,
+    "federal_count": 6,
+    "agencies": [
+      {
+        "name": "Department of Energy",
+        "amount": 31322994
+      }
+    ]
+  },
+  "Noble Thermodynamic Systems": {
+    "federal_total": 8092959,
+    "federal_count": 2,
+    "agencies": [
+      {
+        "name": "Department of Energy",
+        "amount": 8092959
+      }
+    ]
+  },
+  "Noon Energy": {
+    "federal_total": 1725000,
+    "federal_count": 3,
+    "agencies": [
+      {
+        "name": "National Science Foundation",
+        "amount": 1225000
+      },
+      {
+        "name": "Department of Energy",
+        "amount": 500000
+      }
+    ]
+  },
+  "Sonera": {
+    "federal_total": 224996,
+    "federal_count": 1,
+    "agencies": [
+      {
+        "name": "National Science Foundation",
+        "amount": 224996
+      }
+    ]
+  },
+  "Takachar": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Dauntless.io": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Gradient": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Nelumbo": {
+    "federal_total": 357443,
+    "federal_count": 1,
+    "agencies": [
+      {
+        "name": "Department of Energy",
+        "amount": 357443
+      }
+    ]
+  },
+  "Photia": {
+    "federal_total": 216077,
+    "federal_count": 2,
+    "agencies": [
+      {
+        "name": "Department of Energy",
+        "amount": 124253
+      },
+      {
+        "name": "Department of Agriculture",
+        "amount": 91824
+      }
+    ]
+  },
+  "Liminal Insights": {
+    "federal_total": 4029743,
+    "federal_count": 4,
+    "agencies": [
+      {
+        "name": "Department of Energy",
+        "amount": 2354756
+      },
+      {
+        "name": "National Science Foundation",
+        "amount": 1674987
+      }
+    ]
+  },
+  "Mallinda Materials": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Sepion Technologies": {
+    "federal_total": 1131636,
+    "federal_count": 1,
+    "agencies": [
+      {
+        "name": "Department of Energy",
+        "amount": 1131636
+      }
+    ]
+  },
+  "Tandem PV": {
+    "federal_total": 7873685,
+    "federal_count": 4,
+    "agencies": [
+      {
+        "name": "Department of Energy",
+        "amount": 7648783
+      },
+      {
+        "name": "National Science Foundation",
+        "amount": 224902
+      }
+    ]
+  },
+  "Tierra Biosciences": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "CalWave": {
+    "federal_total": 21554006,
+    "federal_count": 8,
+    "agencies": [
+      {
+        "name": "Department of Energy",
+        "amount": 21329006
+      },
+      {
+        "name": "National Science Foundation",
+        "amount": 225000
+      }
+    ]
+  },
+  "Mosaic Materials": {
+    "federal_total": 2790538,
+    "federal_count": 4,
+    "agencies": [
+      {
+        "name": "Department of Energy",
+        "amount": 2790538
+      }
+    ]
+  },
+  "PolySpectra": {
+    "federal_total": 4390837,
+    "federal_count": 3,
+    "agencies": [
+      {
+        "name": "Department of Energy",
+        "amount": 2750000
+      },
+      {
+        "name": "National Science Foundation",
+        "amount": 1640837
+      }
+    ]
+  },
+  "Spark Thermionics": {
+    "federal_total": 1156009,
+    "federal_count": 1,
+    "agencies": [
+      {
+        "name": "Department of Energy",
+        "amount": 1156009
+      }
+    ]
+  },
+  "Twelve": {
+    "federal_total": 0,
+    "federal_count": 0,
+    "agencies": []
+  },
+  "Visolis": {
+    "federal_total": 8445953,
+    "federal_count": 10,
+    "agencies": [
+      {
+        "name": "Department of Energy",
+        "amount": 6317443
+      },
+      {
+        "name": "National Science Foundation",
+        "amount": 1428510
+      },
+      {
+        "name": "Department of Agriculture",
+        "amount": 700000
+      }
+    ]
+  }
+}

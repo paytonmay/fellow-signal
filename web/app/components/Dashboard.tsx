@@ -13,6 +13,7 @@ import SpaceForecast from "./SpaceForecast";
 import FunderLandscape from "./FunderLandscape";
 import FunderModel from "./FunderModel";
 import PeerFunders from "./PeerFunders";
+import Insights from "./Insights";
 
 function Panel({ title, sub, span = "", children }: { title: string; sub?: string; span?: string; children: React.ReactNode }) {
   return (
@@ -102,7 +103,7 @@ export default function Dashboard({ data }: { data: Dataset }) {
         {/* ===== KPI row ===== */}
         <div className="grid grid-cols-2 md:grid-cols-5 gap-3 mb-4">
           <Kpi value={String(kpi.count)} label={`ventures${D.isActive(f) ? " in view" : ", 2015-2025"}`} />
-          <Kpi value={fmtUSD(kpi.nsf, { compact: true })} label="NSF non-dilutive" accent="text-teal-300" />
+          <Kpi value={fmtUSD(kpi.federal, { compact: true })} label="federal non-dilutive" accent="text-teal-300" />
           <Kpi value={`${kpi.count ? Math.round((kpi.funded / kpi.count) * 100) : 0}%`} label="won funding" />
           <Kpi value={String(kpi.fellows)} label="scientist-founders" />
           <Kpi value={String(kpi.profiled)} label="research-profiled" />
@@ -123,7 +124,16 @@ export default function Dashboard({ data }: { data: Dataset }) {
           <Panel title="Frontier Radar" sub="Research momentum × Activate presence × federal funding (bubble) · the opportunity map" span="lg:col-span-3">
             <FrontierRadar rows={radar} />
           </Panel>
-          <Panel title="Non-dilutive funding won" sub="NSF $ captured, by space · click to filter">
+
+          <div className="lg:col-span-3 mt-2">
+            <div className="flex items-center gap-3 mb-3">
+              <span className="text-[11px] font-mono text-teal-400/80">Insights</span>
+              <span className="text-[11px] uppercase tracking-[0.2em] text-zinc-500">what the data says, and the so-what</span>
+            </div>
+            <Insights data={data} />
+          </div>
+
+          <Panel title="Non-dilutive funding won" sub="Federal $ captured, by space · click to filter">
             <OutcomesBars verticals={verts} onSelect={toggleVert} />
           </Panel>
           <Panel title="Hub Atlas" sub="Specialization by community · click a hub to scope" span="lg:col-span-2">
@@ -151,7 +161,7 @@ export default function Dashboard({ data }: { data: Dataset }) {
           )}
           {data.funder_model && (
             <Panel title="Funder & Model" sub="Activate's own finances (IRS 990) · money in vs. impact out" span="lg:col-span-3">
-              <FunderModel model={data.funder_model} portfolioNsf={data.headline.nsf_total} />
+              <FunderModel model={data.funder_model} portfolioNsf={data.headline.federal_total} />
             </Panel>
           )}
           <Panel title="Portfolio" sub="Click any venture for its funding, narrative, and founder research footprint" span="lg:col-span-3">
@@ -160,7 +170,7 @@ export default function Dashboard({ data }: { data: Dataset }) {
         </div>
 
         <footer className="mt-6 pt-6 border-t border-[#15181e] text-[11.5px] text-zinc-600">
-          Data: Activate&apos;s public companies directory, NSF Awards API, SEC EDGAR, OpenAlex.
+          Data: Activate&apos;s public companies directory, USAspending, NSF, SEC EDGAR, OpenAlex, IRS 990.
           Momentum figures are directional (keyword-relevance search); trust the ranking over exact magnitudes.
         </footer>
       </div>

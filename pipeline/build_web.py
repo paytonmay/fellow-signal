@@ -55,6 +55,10 @@ def main() -> None:
         peer_funders = load("peer_funders.json")
     except FileNotFoundError:
         peer_funders = {"funders": []}
+    try:
+        federal = load("federal_outcomes.json")  # all-agency, keyed by name
+    except FileNotFoundError:
+        federal = {}
 
     # Site style: strip em dashes from all displayed text.
     for c in companies:
@@ -70,6 +74,10 @@ def main() -> None:
         c["edgar_formD"] = o.get("edgar_formD", 0)
         c["nsf_awards"] = o.get("nsf_awards", [])
         c["founders"] = founders.get(c["name"], [])
+        fed = federal.get(c["name"], {})
+        c["federal_total"] = fed.get("federal_total", 0)
+        c["federal_count"] = fed.get("federal_count", 0)
+        c["federal_agencies"] = fed.get("agencies", [])
 
     dated = [c for c in companies if c["cohort_year"]]
 
@@ -85,6 +93,7 @@ def main() -> None:
 
     # By-vertical: counts + outcomes + hub mix.
     by_vert = defaultdict(lambda: {"count": 0, "nsf_total": 0, "nsf_cos": 0,
+                                   "federal_total": 0, "federal_cos": 0,
                                    "formd_cos": 0, "hubs": Counter()})
     for c in companies:
         for v in c["verticals"]:
@@ -92,6 +101,8 @@ def main() -> None:
             d["count"] += 1
             d["nsf_total"] += c["nsf_total"]
             d["nsf_cos"] += 1 if c["nsf_total"] else 0
+            d["federal_total"] += c["federal_total"]
+            d["federal_cos"] += 1 if c["federal_total"] else 0
             d["formd_cos"] += 1 if c["edgar_formD"] else 0
             if c["hub"]:
                 d["hubs"][c["hub"]] += 1
@@ -145,6 +156,8 @@ def main() -> None:
         "cohorts": f"{min(c['cohort_year'] for c in dated)}–{max(c['cohort_year'] for c in dated)}",
         "nsf_total": sum(c["nsf_total"] for c in companies),
         "nsf_funded": sum(1 for c in companies if c["nsf_total"]),
+        "federal_total": sum(c["federal_total"] for c in companies),
+        "federal_funded": sum(1 for c in companies if c["federal_total"]),
         "formd": sum(1 for c in companies if c["edgar_formD"]),
         "verticals": len(by_vert),
         "hubs": len(hubs),

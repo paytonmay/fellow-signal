@@ -58,11 +58,11 @@ export default function CompanyDrawer({
           {/* outcomes */}
           <div className="grid grid-cols-3 gap-3 mt-6">
             <div className="panel p-3">
-              <div className="text-lg font-semibold text-teal-300">{fmtUSD(c.nsf_total, { compact: true })}</div>
-              <div className="text-[10.5px] text-zinc-500 mt-0.5">NSF non-dilutive</div>
+              <div className="text-lg font-semibold text-teal-300">{fmtUSD(c.federal_total, { compact: true })}</div>
+              <div className="text-[10.5px] text-zinc-500 mt-0.5">federal non-dilutive</div>
             </div>
             <div className="panel p-3">
-              <div className="text-lg font-semibold text-zinc-100">{c.nsf_count}</div>
+              <div className="text-lg font-semibold text-zinc-100">{c.federal_count}</div>
               <div className="text-[10.5px] text-zinc-500 mt-0.5">federal awards</div>
             </div>
             <div className="panel p-3">
@@ -85,14 +85,14 @@ export default function CompanyDrawer({
               </div>
             ))}
 
-          {/* funding detail */}
-          {c.nsf_awards?.length > 0 && (
+          {/* funding detail: by agency */}
+          {c.federal_agencies?.length > 0 && (
             <div className="mt-6">
-              <div className="text-[11px] uppercase tracking-wider text-zinc-500 mb-2">Federal awards</div>
+              <div className="text-[11px] uppercase tracking-wider text-zinc-500 mb-2">Federal funding by agency</div>
               <div className="space-y-2">
-                {c.nsf_awards.map((a, i) => (
-                  <div key={i} className="panel p-3 flex items-start justify-between gap-3">
-                    <span className="text-[12.5px] text-zinc-300 leading-snug">{a.title || a.source}</span>
+                {c.federal_agencies.map((a, i) => (
+                  <div key={i} className="panel p-3 flex items-center justify-between gap-3">
+                    <span className="text-[12.5px] text-zinc-300">{a.name}</span>
                     <span className="text-[12px] text-teal-300 font-medium whitespace-nowrap">{fmtUSD(a.amount, { compact: true })}</span>
                   </div>
                 ))}

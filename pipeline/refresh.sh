@@ -16,6 +16,7 @@ run python pipeline/signals/field_velocity.py   # OpenAlex research momentum
 run python pipeline/signals/space_signals.py    # USAspending federal funding by space
 run python pipeline/signals/funder_model.py     # Activate IRS 990 financials
 run python pipeline/signals/run_outcomes.py     # NSF + SEC EDGAR outcomes ledger
+run python pipeline/signals/federal_outcomes.py # all-agency federal non-dilutive (USAspending)
 run python pipeline/signals/run_founders.py     # OpenAlex founder footprints (resumable)
 run python pipeline/build_web.py                 # -> web/data/dataset.json
 

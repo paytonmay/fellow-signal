@@ -34,6 +34,9 @@ export type Company = {
   edgar_formD: number;
   nsf_awards: NsfAward[];
   founders: Founder[];
+  federal_total: number;
+  federal_count: number;
+  federal_agencies: { name: string; amount: number }[];
 };
 
 export function topCitations(c: Company): number {
@@ -45,6 +48,8 @@ export type Vertical = {
   count: number;
   nsf_total: number;
   nsf_cos: number;
+  federal_total: number;
+  federal_cos: number;
   formd_cos: number;
   hubs: Record<string, number>;
 };
@@ -75,6 +80,8 @@ export type Headline = {
   cohorts: string;
   nsf_total: number;
   nsf_funded: number;
+  federal_total: number;
+  federal_funded: number;
   formd: number;
   verticals: number;
   hubs: number;

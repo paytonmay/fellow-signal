@@ -23,7 +23,7 @@ export function applyFilters(cos: Company[], f: Filters, opts: { ignoreHub?: boo
       (f.vertical ? c.verticals.includes(f.vertical) : true) &&
       (opts.ignoreHub || !f.hub ? true : c.hub === f.hub) &&
       (f.year ? String(c.cohort_year) === f.year : true) &&
-      (f.funded ? c.nsf_total > 0 || c.edgar_formD > 0 : true) &&
+      (f.funded ? c.federal_total > 0 || c.edgar_formD > 0 : true) &&
       (q
         ? c.name.toLowerCase().includes(q) ||
           c.one_liner.toLowerCase().includes(q) ||
@@ -35,8 +35,8 @@ export function applyFilters(cos: Company[], f: Filters, opts: { ignoreHub?: boo
 export function kpis(cos: Company[]) {
   return {
     count: cos.length,
-    nsf: cos.reduce((s, c) => s + c.nsf_total, 0),
-    funded: cos.filter((c) => c.nsf_total > 0 || c.edgar_formD > 0).length,
+    federal: cos.reduce((s, c) => s + c.federal_total, 0),
+    funded: cos.filter((c) => c.federal_total > 0 || c.edgar_formD > 0).length,
     fellows: new Set(cos.flatMap((c) => c.fellows)).size,
     profiled: cos.filter((c) => (c.founders ?? []).some((x) => x.resolved)).length,
   };
@@ -46,10 +46,12 @@ export function verticalsAgg(cos: Company[]): Vertical[] {
   const m = new Map<string, Vertical>();
   for (const c of cos)
     for (const v of c.verticals) {
-      const d = m.get(v) ?? { vertical: v, count: 0, nsf_total: 0, nsf_cos: 0, formd_cos: 0, hubs: {} };
+      const d = m.get(v) ?? { vertical: v, count: 0, nsf_total: 0, nsf_cos: 0, federal_total: 0, federal_cos: 0, formd_cos: 0, hubs: {} };
       d.count++;
       d.nsf_total += c.nsf_total;
       if (c.nsf_total) d.nsf_cos++;
+      d.federal_total += c.federal_total;
+      if (c.federal_total) d.federal_cos++;
       if (c.edgar_formD) d.formd_cos++;
       m.set(v, d);
     }
