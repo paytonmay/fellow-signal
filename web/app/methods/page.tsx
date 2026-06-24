@@ -51,7 +51,7 @@ export default function Methods() {
           <Row a="OpenAlex" b="Founder research footprints (works, citations, h-index, pre-founding topics, affiliations) and field publication velocity." c="Public API (~250M works). Name disambiguation is field/domain-aware; ~100/224 companies resolved." />
           <Row a="SEC EDGAR" b="Form D filings as a private-capital-raised signal." c="Full-text search API. Presence/absence only." />
           <Row a="IRS Form 990 (ProPublica)" b="Activate's own revenue, expenses, and net assets by year." c="Public nonprofit filings. EIN 47-5502184." />
-          <Row a="The Engine (engine.xyz)" b="Peer deep-tech funder portfolio for comparison." c="Harvested; their taxonomy is coarser, so the comparison is directional." />
+          <Row a="The Engine (engine.xyz)" b="MIT's 'Tough Tech' venture firm (founded 2016, invests for equity). Its 57 public portfolio companies, mapped onto Activate's verticals for a model-vs-model comparison." c="Harvested via headless browser; their taxonomy is coarser, so the comparison is directional positioning." />
         </div>
 
         <H>How each figure is computed</H>

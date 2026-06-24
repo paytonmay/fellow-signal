@@ -187,7 +187,7 @@ export default function Dashboard({ data }: { data: Dataset }) {
               activeVertical={f.vertical} onSelect={toggleVert} />
           </Panel>
           {data.peer_funders.funders[0] && (
-            <Panel title="Peer funders" sub="Where another deep-tech funder concentrates vs Activate · click a space to filter" span="lg:col-span-3" info="The Engine's portfolio mapped onto Activate's verticals; their taxonomy is coarser, so directional.">
+            <Panel title="Peer funders" sub="Where The Engine (MIT's deep-tech VC) concentrates vs Activate · click a space to filter" span="lg:col-span-3" info="The Engine is MIT's 'Tough Tech' venture firm (equity investor); its 57 portfolio companies mapped onto Activate's verticals. Coarser taxonomy, so directional.">
               <PeerFunders peer={data.peer_funders.funders[0]} activateVerticals={data.verticals}
                 activateTotal={data.headline.companies} activeVertical={f.vertical} onSelect={toggleVert} />
             </Panel>

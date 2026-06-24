@@ -35,10 +35,15 @@ export default function PeerFunders({
 
   return (
     <div>
-      <div className="flex items-center gap-5 mb-4 text-[11.5px]">
-        <span className="inline-flex items-center gap-1.5"><span className="w-2.5 h-2.5 rounded-sm bg-[#5eead4]" />Activate ({activateTotal})</span>
-        <span className="inline-flex items-center gap-1.5"><span className="w-2.5 h-2.5 rounded-sm" style={{ background: PEER_COLOR }} />{peer.name} ({peer.total})</span>
-        <span className="text-zinc-600">share of each funder&apos;s portfolio by space</span>
+      <div className="flex items-center gap-5 mb-2 text-[11.5px]">
+        <span className="inline-flex items-center gap-1.5"><span className="w-2.5 h-2.5 rounded-sm bg-[#5eead4]" />Activate ({activateTotal} ventures)</span>
+        <span className="inline-flex items-center gap-1.5"><span className="w-2.5 h-2.5 rounded-sm" style={{ background: PEER_COLOR }} />{peer.name} ({peer.total} companies)</span>
+        <span className="text-zinc-600">share of each portfolio by space</span>
+      </div>
+      <div className="text-[11px] text-zinc-600 mb-4 max-w-3xl">
+        {peer.name} is MIT&apos;s &quot;Tough Tech&quot; venture firm (founded 2016) and invests for equity; Activate is an
+        equity-free nonprofit fellowship. So this compares where two <span className="text-zinc-400">different models</span>{" "}
+        concentrate, not their stage or structure. {peer.total} portfolio companies from their public listing.
       </div>
 
       <div className="grid lg:grid-cols-2 gap-x-8 gap-y-2.5">
@@ -58,9 +63,9 @@ export default function PeerFunders({
         ))}
       </div>
       <p className="mt-4 text-[11px] text-zinc-600 max-w-3xl">
-        Two leading equity-light deep-tech funders, side by side. {peer.name}&apos;s taxonomy is coarser
-        (its catch-all &quot;advanced engineering&quot; tag inflates Manufacturing &amp; Robotics), so read this as
-        directional positioning, not a precise overlap. Source: {peer.name} portfolio page.
+        {peer.name}&apos;s taxonomy is coarser than Activate&apos;s (its catch-all &quot;advanced engineering&quot; tag
+        inflates Manufacturing &amp; Robotics), so read this as directional positioning, not a precise overlap.
+        Source: {peer.name}&apos;s public portfolio page, mapped onto Activate&apos;s 16 verticals.
       </p>
     </div>
   );
