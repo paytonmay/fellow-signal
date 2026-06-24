@@ -5,7 +5,7 @@ import { Dataset } from "@/lib/data";
 // Bottom-up frontier detection: the fastest-rising OpenAlex research topics (not
 // our 16 pre-defined verticals), flagged by whether any Activate fellow already
 // publishes in them. The whitespace rows are emerging science with no Activate
-// founder yet — the earliest watch list.
+// founder yet, the earliest watch list.
 export default function EmergingScience({ data }: { data: Dataset }) {
   const topics = data.emerging_science?.topics ?? [];
   const whitespace = topics.filter((t) => !t.activate_present).length;
