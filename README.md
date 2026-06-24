@@ -4,7 +4,7 @@ An intelligence layer on [Activate Global](https://activate.org)'s fellowship â€
 **224 hard-tech ventures (2015â€“2025)** mapped by science, industry, and impact,
 then read against where research and funding are actually moving.
 
-**Live:** https://web-three-beryl-78.vercel.app
+**Live:** https://fellowsignal.xyz
 
 Built as an independent analysis / working prototype for the *Head of Scientific
 Founder Discovery & Insights* role.
