@@ -19,6 +19,7 @@ import FellowBackground from "./FellowBackground";
 import DisciplineMap from "./DisciplineMap";
 import Selection from "./Selection";
 import EmergingScience from "./EmergingScience";
+import Lede from "./Lede";
 
 function Panel({ title, sub, span = "", info, children }: { title: string; sub?: string; span?: string; info?: string; children: React.ReactNode }) {
   return (
@@ -113,6 +114,9 @@ export default function Dashboard({ data }: { data: Dataset }) {
       </header>
 
       <div className="max-w-[1400px] mx-auto px-4 md:px-6 py-5">
+        {/* ===== Executive summary lede ===== */}
+        {!D.isActive(f) && <Lede data={data} />}
+
         {/* ===== KPI row ===== */}
         <div className="grid grid-cols-2 md:grid-cols-5 gap-3 mb-4">
           <Kpi value={String(kpi.count)} label={`ventures${D.isActive(f) ? " in view" : ", 2015-2025"}`} />
