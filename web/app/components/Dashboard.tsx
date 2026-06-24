@@ -178,7 +178,7 @@ export default function Dashboard({ data }: { data: Dataset }) {
           <Panel title="Space Forecast" sub="Per space: is the science accelerating, who's funding it, is Activate early? Growth multiples vs a decade-ago baseline." span="lg:col-span-3" info="Research from OpenAlex publication share; federal $ from USAspending; both keyword-matched and directional (trust the ranking).">
             <SpaceForecast spaces={data.space_signals.spaces} activeVertical={f.vertical} onSelect={toggleVert} />
           </Panel>
-          <Panel title="Emerging Science" sub="Bottom-up: the fastest-rising research topics (not our verticals), and where Activate has no fellow yet" span="lg:col-span-3" info="Growth in each topic's share of publications (OpenAlex, incl. arXiv/bioRxiv preprints), 2016-17 vs 2023-24. Crossed against Activate fellows' own research topics. Candidate surface, not a ranking.">
+          <Panel title="Emerging Science" sub="Bottom-up: fastest-rising research topics × federal funding momentum, ranked so the hottest unclaimed areas self-rank" span="lg:col-span-3" info="Topic publication-share growth (OpenAlex, incl. arXiv/bioRxiv) crossed with USAspending federal funding momentum (curated keywords, ≥$20M to count), and against Activate fellows' topics. Opportunity = research × funding. Candidate surface, not a ranking.">
             <EmergingScience data={data} />
           </Panel>
           <Panel title="Funder Landscape" sub="Federal funding by agency × space · who's putting money where" span="lg:col-span-3" info="USAspending federal obligations by agency and space keyword, FY15-25, log scale. Directional.">

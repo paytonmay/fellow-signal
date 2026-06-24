@@ -1,214 +1,340 @@
 {
   "topics": [
     {
-      "topic": "Topic Modeling",
-      "field": "Computer Science",
-      "growth": 4.64,
-      "recent_works": 31932,
-      "activate_present": false
-    },
-    {
-      "topic": "Genomics and Phylogenetic Studies",
-      "field": "Biochemistry, Genetics and Molecular Biology",
-      "growth": 4.46,
-      "recent_works": 46447,
-      "activate_present": true
-    },
-    {
-      "topic": "Perovskite Materials and Applications",
-      "field": "Engineering",
-      "growth": 3.13,
-      "recent_works": 25114,
-      "activate_present": true
-    },
-    {
       "topic": "Advanced Battery Technologies Research",
       "field": "Engineering",
-      "growth": 3.03,
+      "growth": 3.02,
       "recent_works": 22280,
-      "activate_present": true
-    },
-    {
-      "topic": "Advanced Sensor and Energy Harvesting Materials",
-      "field": "Engineering",
-      "growth": 3.0,
-      "recent_works": 22085,
-      "activate_present": true
-    },
-    {
-      "topic": "Gut microbiota and health",
-      "field": "Biochemistry, Genetics and Molecular Biology",
-      "growth": 2.87,
-      "recent_works": 22400,
-      "activate_present": false
-    },
-    {
-      "topic": "Network Security and Intrusion Detection",
-      "field": "Computer Science",
-      "growth": 2.86,
-      "recent_works": 22307,
-      "activate_present": false
-    },
-    {
-      "topic": "Advanced Photocatalysis Techniques",
-      "field": "Energy",
-      "growth": 2.63,
-      "recent_works": 32132,
-      "activate_present": false
-    },
-    {
-      "topic": "Ionosphere and magnetosphere dynamics",
-      "field": "Physics and Astronomy",
-      "growth": 2.57,
-      "recent_works": 17820,
-      "activate_present": false
-    },
-    {
-      "topic": "Electrocatalysts for Energy Conversion",
-      "field": "Energy",
-      "growth": 2.56,
-      "recent_works": 25957,
-      "activate_present": true
-    },
-    {
-      "topic": "Educational Reforms and Innovations",
-      "field": "Environmental Science",
-      "growth": 2.56,
-      "recent_works": 19512,
-      "activate_present": false
-    },
-    {
-      "topic": "Computational Drug Discovery Methods",
-      "field": "Computer Science",
-      "growth": 2.44,
-      "recent_works": 21000,
-      "activate_present": false
-    },
-    {
-      "topic": "IoT and Edge/Fog Computing",
-      "field": "Computer Science",
-      "growth": 2.37,
-      "recent_works": 17167,
-      "activate_present": false
-    },
-    {
-      "topic": "Additive Manufacturing and 3D Printing Technologies",
-      "field": "Engineering",
-      "growth": 2.34,
-      "recent_works": 19677,
-      "activate_present": true
+      "activate_present": true,
+      "federal_recent": 690622884,
+      "federal_momentum": 20,
+      "federal_new": false,
+      "federal_matched": true,
+      "opportunity": 0.689
     },
     {
       "topic": "Concrete and Cement Materials Research",
       "field": "Engineering",
       "growth": 2.31,
       "recent_works": 16967,
-      "activate_present": false
-    },
-    {
-      "topic": "Online Learning and Analytics",
-      "field": "Computer Science",
-      "growth": 2.31,
-      "recent_works": 16505,
-      "activate_present": false
-    },
-    {
-      "topic": "Cancer Genomics and Diagnostics",
-      "field": "Biochemistry, Genetics and Molecular Biology",
-      "growth": 2.25,
-      "recent_works": 16941,
-      "activate_present": false
-    },
-    {
-      "topic": "Methane Hydrates and Related Phenomena",
-      "field": "Environmental Science",
-      "growth": 2.24,
-      "recent_works": 18957,
-      "activate_present": false
-    },
-    {
-      "topic": "Land Use and Ecosystem Services",
-      "field": "Environmental Science",
-      "growth": 2.23,
-      "recent_works": 15590,
-      "activate_present": false
-    },
-    {
-      "topic": "Neural Networks and Applications",
-      "field": "Computer Science",
-      "growth": 2.07,
-      "recent_works": 20120,
-      "activate_present": false
-    },
-    {
-      "topic": "Cancer-related molecular mechanisms research",
-      "field": "Biochemistry, Genetics and Molecular Biology",
-      "growth": 1.87,
-      "recent_works": 16892,
-      "activate_present": false
-    },
-    {
-      "topic": "Cancer, Hypoxia, and Metabolism",
-      "field": "Biochemistry, Genetics and Molecular Biology",
-      "growth": 1.84,
-      "recent_works": 14370,
-      "activate_present": false
-    },
-    {
-      "topic": "Supercapacitor Materials and Fabrication",
-      "field": "Materials Science",
-      "growth": 1.82,
-      "recent_works": 16947,
-      "activate_present": true
-    },
-    {
-      "topic": "EEG and Brain-Computer Interfaces",
-      "field": "Neuroscience",
-      "growth": 1.81,
-      "recent_works": 18249,
-      "activate_present": false
-    },
-    {
-      "topic": "CRISPR and Genetic Engineering",
-      "field": "Biochemistry, Genetics and Molecular Biology",
-      "growth": 1.75,
-      "recent_works": 13966,
-      "activate_present": true
+      "activate_present": false,
+      "federal_recent": 176005900,
+      "federal_momentum": 20.0,
+      "federal_new": true,
+      "federal_matched": true,
+      "opportunity": 0.644
     },
     {
       "topic": "Advancements in Battery Materials",
       "field": "Engineering",
       "growth": 1.74,
       "recent_works": 28138,
-      "activate_present": true
+      "activate_present": true,
+      "federal_recent": 690622884,
+      "federal_momentum": 20,
+      "federal_new": false,
+      "federal_matched": true,
+      "opportunity": 0.609
+    },
+    {
+      "topic": "Genomics and Phylogenetic Studies",
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "growth": 4.46,
+      "recent_works": 46447,
+      "activate_present": true,
+      "federal_recent": 1928129668,
+      "federal_momentum": 10.9,
+      "federal_new": false,
+      "federal_matched": true,
+      "opportunity": 0.551
+    },
+    {
+      "topic": "Cancer Genomics and Diagnostics",
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "growth": 2.25,
+      "recent_works": 16941,
+      "activate_present": false,
+      "federal_recent": 1928129668,
+      "federal_momentum": 10.9,
+      "federal_new": false,
+      "federal_matched": true,
+      "opportunity": 0.413
+    },
+    {
+      "topic": "Advanced Photocatalysis Techniques",
+      "field": "Energy",
+      "growth": 2.63,
+      "recent_works": 32132,
+      "activate_present": false,
+      "federal_recent": 61160431,
+      "federal_momentum": 9.0,
+      "federal_new": false,
+      "federal_matched": true,
+      "opportunity": 0.389
+    },
+    {
+      "topic": "Electrocatalysts for Energy Conversion",
+      "field": "Energy",
+      "growth": 2.56,
+      "recent_works": 25957,
+      "activate_present": true,
+      "federal_recent": 90462519,
+      "federal_momentum": 8.7,
+      "federal_new": false,
+      "federal_matched": true,
+      "opportunity": 0.377
+    },
+    {
+      "topic": "Topic Modeling",
+      "field": "Computer Science",
+      "growth": 4.64,
+      "recent_works": 31932,
+      "activate_present": false,
+      "federal_recent": 0,
+      "federal_momentum": 0.0,
+      "federal_new": false,
+      "federal_matched": false,
+      "opportunity": 0.29
+    },
+    {
+      "topic": "Gut microbiota and health",
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "growth": 2.87,
+      "recent_works": 22412,
+      "activate_present": false,
+      "federal_recent": 3684328414,
+      "federal_momentum": 4.4,
+      "federal_new": false,
+      "federal_matched": true,
+      "opportunity": 0.289
+    },
+    {
+      "topic": "Advanced Sensor and Energy Harvesting Materials",
+      "field": "Engineering",
+      "growth": 3.0,
+      "recent_works": 22085,
+      "activate_present": true,
+      "federal_recent": 180801240,
+      "federal_momentum": 4.0,
+      "federal_new": false,
+      "federal_matched": true,
+      "opportunity": 0.287
+    },
+    {
+      "topic": "Additive Manufacturing and 3D Printing Technologies",
+      "field": "Engineering",
+      "growth": 2.34,
+      "recent_works": 19677,
+      "activate_present": true,
+      "federal_recent": 1268621812,
+      "federal_momentum": 3.1,
+      "federal_new": false,
+      "federal_matched": true,
+      "opportunity": 0.224
+    },
+    {
+      "topic": "Perovskite Materials and Applications",
+      "field": "Engineering",
+      "growth": 3.13,
+      "recent_works": 25114,
+      "activate_present": true,
+      "federal_recent": 17423686,
+      "federal_momentum": 0.0,
+      "federal_new": false,
+      "federal_matched": true,
+      "opportunity": 0.196
+    },
+    {
+      "topic": "Network Security and Intrusion Detection",
+      "field": "Computer Science",
+      "growth": 2.86,
+      "recent_works": 22307,
+      "activate_present": false,
+      "federal_recent": 0,
+      "federal_momentum": 0.0,
+      "federal_new": false,
+      "federal_matched": false,
+      "opportunity": 0.179
+    },
+    {
+      "topic": "Ionosphere and magnetosphere dynamics",
+      "field": "Physics and Astronomy",
+      "growth": 2.57,
+      "recent_works": 17820,
+      "activate_present": false,
+      "federal_recent": 0,
+      "federal_momentum": 0.0,
+      "federal_new": false,
+      "federal_matched": false,
+      "opportunity": 0.161
+    },
+    {
+      "topic": "Educational Reforms and Innovations",
+      "field": "Environmental Science",
+      "growth": 2.56,
+      "recent_works": 19513,
+      "activate_present": false,
+      "federal_recent": 0,
+      "federal_momentum": 0.0,
+      "federal_new": false,
+      "federal_matched": false,
+      "opportunity": 0.16
+    },
+    {
+      "topic": "Computational Drug Discovery Methods",
+      "field": "Computer Science",
+      "growth": 2.44,
+      "recent_works": 21001,
+      "activate_present": false,
+      "federal_recent": 13676190,
+      "federal_momentum": 0.0,
+      "federal_new": false,
+      "federal_matched": true,
+      "opportunity": 0.152
+    },
+    {
+      "topic": "IoT and Edge/Fog Computing",
+      "field": "Computer Science",
+      "growth": 2.37,
+      "recent_works": 17167,
+      "activate_present": false,
+      "federal_recent": 0,
+      "federal_momentum": 0.0,
+      "federal_new": false,
+      "federal_matched": false,
+      "opportunity": 0.148
+    },
+    {
+      "topic": "Online Learning and Analytics",
+      "field": "Computer Science",
+      "growth": 2.31,
+      "recent_works": 16505,
+      "activate_present": false,
+      "federal_recent": 0,
+      "federal_momentum": 0.0,
+      "federal_new": false,
+      "federal_matched": false,
+      "opportunity": 0.144
+    },
+    {
+      "topic": "Methane Hydrates and Related Phenomena",
+      "field": "Environmental Science",
+      "growth": 2.24,
+      "recent_works": 18957,
+      "activate_present": false,
+      "federal_recent": 0,
+      "federal_momentum": 0.0,
+      "federal_new": false,
+      "federal_matched": false,
+      "opportunity": 0.14
+    },
+    {
+      "topic": "Land Use and Ecosystem Services",
+      "field": "Environmental Science",
+      "growth": 2.23,
+      "recent_works": 15597,
+      "activate_present": false,
+      "federal_recent": 0,
+      "federal_momentum": 0.0,
+      "federal_new": false,
+      "federal_matched": false,
+      "opportunity": 0.139
+    },
+    {
+      "topic": "Neural Networks and Applications",
+      "field": "Computer Science",
+      "growth": 2.07,
+      "recent_works": 20118,
+      "activate_present": false,
+      "federal_recent": 0,
+      "federal_momentum": 0.0,
+      "federal_new": false,
+      "federal_matched": false,
+      "opportunity": 0.129
+    },
+    {
+      "topic": "Cancer-related molecular mechanisms research",
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "growth": 1.87,
+      "recent_works": 16894,
+      "activate_present": false,
+      "federal_recent": 0,
+      "federal_momentum": 0.0,
+      "federal_new": false,
+      "federal_matched": false,
+      "opportunity": 0.117
+    },
+    {
+      "topic": "Cancer, Hypoxia, and Metabolism",
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "growth": 1.84,
+      "recent_works": 14370,
+      "activate_present": false,
+      "federal_recent": 0,
+      "federal_momentum": 0.0,
+      "federal_new": false,
+      "federal_matched": false,
+      "opportunity": 0.115
+    },
+    {
+      "topic": "Supercapacitor Materials and Fabrication",
+      "field": "Materials Science",
+      "growth": 1.82,
+      "recent_works": 16947,
+      "activate_present": true,
+      "federal_recent": 0,
+      "federal_momentum": 0.0,
+      "federal_new": false,
+      "federal_matched": false,
+      "opportunity": 0.114
+    },
+    {
+      "topic": "EEG and Brain-Computer Interfaces",
+      "field": "Neuroscience",
+      "growth": 1.81,
+      "recent_works": 18249,
+      "activate_present": false,
+      "federal_recent": 0,
+      "federal_momentum": 0.0,
+      "federal_new": false,
+      "federal_matched": false,
+      "opportunity": 0.113
+    },
+    {
+      "topic": "CRISPR and Genetic Engineering",
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "growth": 1.75,
+      "recent_works": 13966,
+      "activate_present": true,
+      "federal_recent": 0,
+      "federal_momentum": 0.0,
+      "federal_new": false,
+      "federal_matched": false,
+      "opportunity": 0.109
     },
     {
       "topic": "Gas Sensing Nanomaterials and Sensors",
       "field": "Engineering",
       "growth": 1.73,
       "recent_works": 12487,
-      "activate_present": true
+      "activate_present": true,
+      "federal_recent": 0,
+      "federal_momentum": 0.0,
+      "federal_new": false,
+      "federal_matched": false,
+      "opportunity": 0.108
     },
     {
       "topic": "Adsorption and biosorption for pollutant removal",
       "field": "Environmental Science",
       "growth": 1.72,
       "recent_works": 13443,
-      "activate_present": false
-    },
-    {
-      "topic": "Nanoparticles: synthesis and applications",
-      "field": "Materials Science",
-      "growth": 1.7,
-      "recent_works": 13696,
-      "activate_present": false
-    },
-    {
-      "topic": "Fault Detection and Control Systems",
-      "field": "Engineering",
-      "growth": 1.68,
-      "recent_works": 14242,
-      "activate_present": true
+      "activate_present": false,
+      "federal_recent": 0,
+      "federal_momentum": 0.0,
+      "federal_new": false,
+      "federal_matched": false,
+      "opportunity": 0.107
     }
   ],
   "activate_topic_count": 387

@@ -153,7 +153,11 @@ export type Dataset = {
   fellow_background: FellowBackground;
   discipline_map: Record<string, [string, number][]>;
   emerging_science: {
-    topics: { topic: string; field: string; growth: number; recent_works: number; activate_present: boolean }[];
+    topics: {
+      topic: string; field: string; growth: number; recent_works: number; activate_present: boolean;
+      federal_recent: number; federal_momentum: number; federal_new: boolean; federal_matched: boolean;
+      opportunity: number;
+    }[];
     activate_topic_count?: number;
   };
 };

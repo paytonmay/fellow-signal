@@ -101,7 +101,7 @@ export default function Selection({
         </p>
       </div>
 
-      {/* Loop closure — reported honestly (the funded RATE is the robust metric) */}
+      {/* Loop closure, reported honestly (the funded RATE is the robust metric) */}
       <div>
         <div className="text-[12.5px] font-medium text-zinc-200 mb-1">Does the signal track outcomes? (honest answer: not yet)</div>
         <div className="text-[11px] text-zinc-600 mb-4">

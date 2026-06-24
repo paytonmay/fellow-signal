@@ -14,9 +14,70 @@ Output: data/processed/emerging_science.json
 from __future__ import annotations
 
 import json
+import re
+import time
 from pathlib import Path
 
 import requests
+
+USASPEND = "https://api.usaspending.gov/api/v2/search/spending_over_time/"
+
+
+# Curated USAspending keywords for recurring deep-tech topics. OpenAlex topic
+# names don't match federal award text well, so a clean domain keyword is far
+# more reliable than auto-cleaning the academic phrasing.
+CURATED = {
+    "perovskite": "perovskite solar", "battery": "battery materials",
+    "photocatalysis": "photocatalysis", "electrocatalyst": "electrocatalysis",
+    "concrete": "low carbon cement", "cement": "low carbon cement",
+    "energy harvesting": "energy harvesting", "additive manufacturing": "additive manufacturing",
+    "drug discovery": "computational drug discovery", "genomic": "genome sequencing",
+    "carbon capture": "carbon capture", "direct air": "direct air capture",
+    "hydrogen": "clean hydrogen", "quantum": "quantum information",
+    "semiconductor": "semiconductor", "solar cell": "solar photovoltaic",
+    "microbiota": "microbiome", "fuel cell": "fuel cell", "catalyst": "catalysis",
+}
+FEDERAL_MIN = 20_000_000  # below this, momentum off a tiny base is just noise
+
+
+def fed_keyword(topic: str) -> str | None:
+    """Best USAspending keyword for a topic, or None if no reliable match."""
+    tl = topic.lower()
+    for k, v in CURATED.items():
+        if k in tl:
+            return v
+    return None
+
+
+def federal_window(kw: str, start: str, end: str) -> float | None:
+    try:
+        r = requests.post(USASPEND, headers={"User-Agent": "FellowSignal/0.1 (research)",
+                          "Content-Type": "application/json"},
+                          json={"group": "fiscal_year", "filters": {"keywords": [kw],
+                                "time_period": [{"start_date": start, "end_date": end}]}}, timeout=40)
+        if r.status_code != 200:
+            return None
+        return sum((x.get("aggregated_amount") or 0) for x in r.json().get("results", []))
+    except requests.RequestException:
+        return None
+
+
+def federal_signal(topic: str) -> dict:
+    kw = fed_keyword(topic)
+    if not kw:
+        return {"federal_recent": 0, "federal_momentum": 0.0, "federal_new": False, "federal_matched": False}
+    recent = federal_window(kw, "2021-10-01", "2025-09-30") or 0
+    prior = federal_window(kw, "2016-10-01", "2020-09-30") or 0
+    new = prior < 1_000_000 and recent >= FEDERAL_MIN  # money appeared from ~nothing
+    # only trust momentum when current funding is material (tiny bases give absurd ratios)
+    if recent < FEDERAL_MIN:
+        mom = 0.0
+    elif new:
+        mom = 20.0
+    else:
+        mom = recent / prior
+    return {"federal_recent": round(recent), "federal_momentum": round(min(mom, 20), 1),
+            "federal_new": new, "federal_matched": True}
 
 ROOT = Path(__file__).resolve().parent.parent.parent
 OUT = ROOT / "data" / "processed" / "emerging_science.json"
@@ -97,15 +158,26 @@ def main() -> None:
             continue
         out.append({"topic": r["topic"], "field": fld, "growth": r["growth"],
                     "recent_works": r["recent_works"], "activate_present": r["topic"].lower() in act})
-        if len(out) >= 30:
+        if len(out) >= 28:
             break
+
+    # Cross with federal funding momentum, then let opportunity = research x money.
+    print("crossing with federal funding momentum...")
+    for r in out:
+        r.update(federal_signal(r["topic"]))
+        time.sleep(0.25)
+        rn = min(r["growth"], 8) / 8
+        fn = min(r["federal_momentum"], 20) / 20
+        r["opportunity"] = round(0.5 * rn + 0.5 * fn, 3)
+    out.sort(key=lambda r: -r["opportunity"])
 
     OUT.write_text(json.dumps({"topics": out, "activate_topic_count": len(act)}, indent=2), encoding="utf-8")
     present = sum(1 for r in out if r["activate_present"])
-    print(f"\nWrote {OUT.relative_to(ROOT)} — {len(out)} relevant rising topics, {present} where Activate is present")
+    print(f"\nWrote {OUT.relative_to(ROOT)} — {len(out)} topics, {present} Activate-present. Ranked by opportunity:")
     for r in out[:16]:
-        flag = "Activate IN" if r["activate_present"] else "whitespace "
-        print(f"  x{r['growth']:5.1f}  [{flag}]  {r['topic'][:46]:<46} [{r['field']}]")
+        flag = "IN " if r["activate_present"] else "OPEN"
+        fm = "new" if r["federal_new"] else f"x{r['federal_momentum']:.0f}"
+        print(f"  opp {r['opportunity']:.2f} [{flag}] res x{r['growth']:4.1f} fed {fm:>4} ${r['federal_recent']/1e6:>5.0f}M  {r['topic'][:38]}")
 
 
 if __name__ == "__main__":
