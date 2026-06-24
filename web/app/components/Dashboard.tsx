@@ -208,6 +208,8 @@ export default function Dashboard({ data }: { data: Dataset }) {
           <a href="/methods" className="text-zinc-400 hover:text-teal-300 underline decoration-zinc-700">Data, methods &amp; sources →</a>
           {" · "}
           <a href="/brief" className="text-zinc-400 hover:text-teal-300 underline decoration-zinc-700">Point of View →</a>
+          {" · "}
+          <a href="/findings" className="text-zinc-400 hover:text-teal-300 underline decoration-zinc-700">Findings →</a>
         </footer>
       </div>
     </div>
