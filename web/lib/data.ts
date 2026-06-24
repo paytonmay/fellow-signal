@@ -152,6 +152,10 @@ export type Dataset = {
   peer_funders: { funders: PeerFunder[] };
   fellow_background: FellowBackground;
   discipline_map: Record<string, [string, number][]>;
+  emerging_science: {
+    topics: { topic: string; field: string; growth: number; recent_works: number; activate_present: boolean }[];
+    activate_topic_count?: number;
+  };
 };
 
 // Short agency labels for dense displays.

@@ -63,6 +63,10 @@ def main() -> None:
         fellows = load("fellows.json")  # authoritative Fellows table (292)
     except FileNotFoundError:
         fellows = []
+    try:
+        emerging = load("emerging_science.json")
+    except FileNotFoundError:
+        emerging = {"topics": []}
 
     # Site style: strip em dashes from all displayed text.
     for c in companies:
@@ -222,6 +226,7 @@ def main() -> None:
         "peer_funders": peer_funders,
         "fellow_background": fellow_background,
         "discipline_map": discipline_map,
+        "emerging_science": emerging,
     }, ensure_ascii=False), encoding="utf-8")
     kb = OUT.stat().st_size // 1024
     print(f"Wrote {OUT.relative_to(ROOT)} ({kb} KB)")

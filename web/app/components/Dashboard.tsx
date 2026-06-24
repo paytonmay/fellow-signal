@@ -18,6 +18,7 @@ import FounderDiscovery from "./FounderDiscovery";
 import FellowBackground from "./FellowBackground";
 import DisciplineMap from "./DisciplineMap";
 import Selection from "./Selection";
+import EmergingScience from "./EmergingScience";
 
 function Panel({ title, sub, span = "", info, children }: { title: string; sub?: string; span?: string; info?: string; children: React.ReactNode }) {
   return (
@@ -176,6 +177,9 @@ export default function Dashboard({ data }: { data: Dataset }) {
           </Panel>
           <Panel title="Space Forecast" sub="Per space: is the science accelerating, who's funding it, is Activate early? Growth multiples vs a decade-ago baseline." span="lg:col-span-3" info="Research from OpenAlex publication share; federal $ from USAspending; both keyword-matched and directional (trust the ranking).">
             <SpaceForecast spaces={data.space_signals.spaces} activeVertical={f.vertical} onSelect={toggleVert} />
+          </Panel>
+          <Panel title="Emerging Science" sub="Bottom-up: the fastest-rising research topics (not our verticals), and where Activate has no fellow yet" span="lg:col-span-3" info="Growth in each topic's share of publications (OpenAlex, incl. arXiv/bioRxiv preprints), 2016-17 vs 2023-24. Crossed against Activate fellows' own research topics. Candidate surface, not a ranking.">
+            <EmergingScience data={data} />
           </Panel>
           <Panel title="Funder Landscape" sub="Federal funding by agency × space · who's putting money where" span="lg:col-span-3" info="USAspending federal obligations by agency and space keyword, FY15-25, log scale. Directional.">
             <FunderLandscape data={data.space_signals}

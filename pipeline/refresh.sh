@@ -18,6 +18,7 @@ run python pipeline/signals/funder_model.py     # Activate IRS 990 financials
 run python pipeline/signals/run_outcomes.py     # NSF + SEC EDGAR outcomes ledger
 run python pipeline/signals/federal_outcomes.py # all-agency federal non-dilutive (USAspending)
 run python pipeline/signals/run_founders.py     # OpenAlex founder footprints (resumable)
+run python pipeline/signals/emerging_science.py # bottom-up emerging research topics
 run python pipeline/build_web.py                 # -> web/data/dataset.json
 
 echo "== refresh complete =="
