@@ -19,6 +19,7 @@ import FellowBackground from "./FellowBackground";
 import DisciplineMap from "./DisciplineMap";
 import Selection from "./Selection";
 import EmergingScience from "./EmergingScience";
+import SectorSpread from "./SectorSpread";
 import Lede from "./Lede";
 
 function Panel({ title, sub, span = "", info, children }: { title: string; sub?: string; span?: string; info?: string; children: React.ReactNode }) {
@@ -170,6 +171,9 @@ export default function Dashboard({ data }: { data: Dataset }) {
             <DisciplineMap map={data.discipline_map} onSelect={toggleVert} activeVertical={f.vertical} />
           </Panel>
 
+          <Panel title="Sector spread" sub={`Ventures per space · ${chartCos.length} in view${f.year ? `, cohort ${f.year}` : ", 2015-2025"}${f.hub ? ` · ${f.hub}` : ""} · click to filter`} span="lg:col-span-3" info="Count of in-view ventures in each vertical. Cross-filters with the year and hub selectors. A venture counts toward each of its verticals, so shares can exceed 100%.">
+            <SectorSpread verts={verts} total={chartCos.length} activeVertical={f.vertical} onSelect={toggleVert} />
+          </Panel>
           <Panel title="Non-dilutive funding won" sub="Federal $ captured, by space · click to filter" info="USAspending federal assistance awards, exact recipient match + $25M/award cap. A venture counts toward each of its verticals.">
             <OutcomesBars verticals={verts} onSelect={toggleVert} />
           </Panel>
