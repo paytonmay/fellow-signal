@@ -182,7 +182,9 @@ export default function SelectionSimulator({ data }: { data: Dataset }) {
   const cvRef = useRef<HTMLCanvasElement>(null);
   const [cw, setCw] = useState(720);
   useLayoutEffect(() => {
-    const measure = () => setCw(wrapRef.current?.clientWidth || 720);
+    // measure the CANVAS element (style width:100%), not the padded wrapper, so the
+    // hit-detection coordinates match where dots actually render
+    const measure = () => setCw(cvRef.current?.clientWidth || wrapRef.current?.clientWidth || 720);
     measure(); window.addEventListener("resize", measure); return () => window.removeEventListener("resize", measure);
   }, []);
   useEffect(() => {
@@ -210,7 +212,7 @@ export default function SelectionSimulator({ data }: { data: Dataset }) {
     const cv = cvRef.current; if (!cv) return;
     const rect = cv.getBoundingClientRect();
     const mx = e.clientX - rect.left, my = e.clientY - rect.top;
-    let best: Cand | null = null, bestD = 81;
+    let best: Cand | null = null, bestD = 196; // ~14px catch radius
     for (const c of field.cand) { const dx = c.x * cw - mx, dy = c.y * 440 - my, d = dx * dx + dy * dy; if (d < bestD) { bestD = d; best = c; } }
     if (best?.i !== hovered?.i) setHovered(best);
   };
@@ -273,20 +275,37 @@ export default function SelectionSimulator({ data }: { data: Dataset }) {
               {comp.n} selected ({Math.round((comp.n / N) * 100)}%)
             </span>
           </div>
-          <div ref={wrapRef} className="panel p-2">
+          <div ref={wrapRef} className="panel p-2 relative">
             <canvas ref={cvRef} onMouseMove={onMove} onMouseLeave={() => setHovered(null)} style={{ width: "100%", height: 440, display: "block", cursor: "crosshair" }} />
-          </div>
-          {/* dot detail / swap delta strip */}
-          <div className="mt-2 panel p-2.5 min-h-[58px]">
-            {hovered ? (
-              <div className="flex items-center gap-3 flex-wrap text-[11px]">
-                <span className="flex items-center gap-1.5"><span className="w-2 h-2 rounded-full" style={{ background: verticalColor(hovered.sector) }} /><span className="text-zinc-200">{hovered.sector.replace(" / CO2e", "")}</span></span>
-                <span className="text-zinc-500">{hovered.hub}</span>
-                <span className="text-zinc-600">research {Math.round(hovered.researchN * 100)} · funding {Math.round(hovered.fundingN * 100)} · whitespace {Math.round(hovered.whitespaceN * 100)} · depth {Math.round(hovered.depthPct * 100)}</span>
-                <span className="text-zinc-300">score {Math.round(hovered.score * 100)}</span>
-                <span className={statusOf(hovered) === "selected" ? "text-teal-300" : statusOf(hovered) === "just missed" ? "text-amber-300" : "text-zinc-600"}>{statusOf(hovered)}</span>
+            {hovered && (
+              <div className="absolute z-20 pointer-events-none"
+                style={{ left: Math.min(cw - 168, hovered.x * cw + 14), top: Math.min(372, hovered.y * 440 + 4) }}>
+                <div className="rounded-lg border border-teal-500/40 bg-[#1a1f27] shadow-2xl ring-1 ring-black/40 px-2.5 py-2 w-[170px]">
+                  <div className="flex items-center gap-1.5 text-[11px]">
+                    <span className="w-2 h-2 rounded-full shrink-0" style={{ background: verticalColor(hovered.sector) }} />
+                    <span className="text-zinc-100 truncate">{hovered.sector.replace(" / CO2e", "")}</span>
+                  </div>
+                  <div className="text-[10px] text-zinc-500 mb-1.5">{hovered.hub}</div>
+                  <div className="space-y-0.5 text-[10px]">
+                    {([["research", hovered.researchN], ["funding", hovered.fundingN], ["whitespace", hovered.whitespaceN], ["depth", hovered.depthPct]] as [string, number][]).map(([k, v]) => (
+                      <div key={k} className="flex items-center gap-1.5">
+                        <span className="text-zinc-500 w-16">{k}</span>
+                        <span className="flex-1 h-1 rounded bg-[#15181e] overflow-hidden"><span className="block h-full bg-teal-400/70 rounded" style={{ width: `${Math.round(v * 100)}%` }} /></span>
+                        <span className="text-zinc-500 tabular-nums w-5 text-right">{Math.round(v * 100)}</span>
+                      </div>
+                    ))}
+                  </div>
+                  <div className="mt-1.5 pt-1.5 border-t border-[#1a1d23] flex items-center justify-between text-[10.5px]">
+                    <span className="text-zinc-300">score {Math.round(hovered.score * 100)}</span>
+                    <span className={statusOf(hovered) === "selected" ? "text-teal-300" : statusOf(hovered) === "just missed" ? "text-amber-300" : "text-zinc-600"}>{statusOf(hovered)}</span>
+                  </div>
+                </div>
               </div>
-            ) : (diff.up.length || diff.down.length) ? (
+            )}
+          </div>
+          {/* swap delta strip */}
+          <div className="mt-2 panel p-2.5 min-h-[40px]">
+            {(diff.up.length || diff.down.length) ? (
               <div className="text-[11px]">
                 <span className="text-zinc-500">Last change: </span>
                 {diff.up.length > 0 && <span className="text-teal-300">{swap(diff.up, "+")}</span>}
@@ -295,7 +314,7 @@ export default function SelectionSimulator({ data }: { data: Dataset }) {
                 <span className="text-zinc-600"> ({diff.inN} in / {diff.outN} out)</span>
               </div>
             ) : (
-              <div className="text-[11px] text-zinc-600">Hover a dot for its sector, hub, signal percentiles, score, and whether it made the cut. Drag a lever to see the swap here.</div>
+              <div className="text-[11px] text-zinc-600">Hover any dot for its sector, hub, signal percentiles, score, and whether it made the cut. Drag a lever to see the sector swap here.</div>
             )}
           </div>
         </div>
