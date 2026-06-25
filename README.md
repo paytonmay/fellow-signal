@@ -3,8 +3,8 @@
 An intelligence layer on [Activate Global](https://activate.org)'s fellowship —
 **224 hard-tech ventures** from Activate's public directory (2015–2025) mapped by
 science, industry, and impact, then read against where research and funding are
-actually moving. (A directory snapshot at harvest time; Activate's current
-published portfolio is larger, ~235.)
+actually moving. (The complete public directory, 224; Activate's marketing pages
+cite ~235 total, counted on a broader basis.)
 
 **Live:** https://fellowsignal.xyz
 

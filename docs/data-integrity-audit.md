@@ -18,8 +18,10 @@ Scope: `data/processed/*.json`, `web/data/dataset.json`, the pipeline scripts th
 - #14 "Verified exactly" — federal total reclassified as an entity-matched public-record estimate; "verified to the number" reserved for internal recomputes.
 - Added `pipeline/validate.py` (parse, dup-name/id, federal reconciliation, nsf>federal, empty-vertical, fellow-join checks).
 
-**Deferred (need a re-harvest or external data not yet machine-readable):**
-- #1 / #3 Re-harvest the directories to current counts (~235 companies / ~294 fellows). Framed honestly as a snapshot in the meantime.
+**Resolved by re-harvest (2026-06-24):**
+- #1 / #3 Re-harvested both directories. Both are **unchanged**: the public Softr/Airtable directories return exactly **224 companies and 292 fellows**. Activate's ~235 / ~294 marketing figures count on a broader basis (ventures not listed in the public directory). Copy now states the 224 / 292 is the *complete public directory*, not a stale subset.
+
+**Deferred (external data not yet machine-readable):**
 - #7 FY2024 financials — ProPublica's *structured* API (`filings_with_data`) still stops at FY2023, so the pipeline correctly returns 7.2× (FY2019→2023); FY2024 will flow in once ProPublica extracts it.
 - #9 Alva Energy / Loamist missing verticals, #10 hybrid "New York, Boston" hubs — flagged by `validate.py`; both await the re-harvest / a normalization decision.
 
