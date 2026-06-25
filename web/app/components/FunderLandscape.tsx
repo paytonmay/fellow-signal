@@ -72,7 +72,15 @@ export default function FunderLandscape({
             </div>
           );
         })}
-        <div className="mt-3 text-[11px] text-zinc-600">
+        <div className="mt-3 flex flex-wrap gap-x-3 gap-y-1 text-[10.5px] text-zinc-600">
+          <span className="text-zinc-500 font-medium">Agencies:</span>
+          {agencies.map((a) => (
+            <span key={a}>
+              <span className="text-zinc-400 font-medium">{shortAgency(a)}</span> = {a}
+            </span>
+          ))}
+        </div>
+        <div className="mt-2 text-[11px] text-zinc-600">
           Federal obligations by agency × space (USAspending, FY15-25, log scale). Brighter = more money. Click a space to scope the dashboard.
         </div>
       </div>
