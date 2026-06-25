@@ -128,7 +128,7 @@ def main() -> None:
             "name": name,
             "cohort_year": year,
             "hub": clean(f.get("Community")),
-            "company": clean(f.get("Fellow Company")),
+            "company": clean(f.get("Fellow Company")).strip('"').strip(),
             "verticals": [v.strip() for v in str(f.get("Company Verticals") or "").split(",") if v.strip()],
             "linkedin": clean(f.get("LinkedIn")),
             "bio": bio,

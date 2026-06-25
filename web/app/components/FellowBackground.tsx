@@ -55,7 +55,7 @@ export default function FellowBackground({ bg }: { bg: FB }) {
           ))}
         </div>
         <div className="mt-3 text-[11px] text-zinc-600">
-          Top three (MIT, Berkeley, Stanford) account for roughly half of all university mentions, a concentrated training pipeline.
+          Top three (MIT, Berkeley, Stanford) account for nearly a third of all university mentions, a concentrated training pipeline.
         </div>
       </div>
     </div>

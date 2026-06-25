@@ -110,7 +110,7 @@ export default function Brief() {
         <H n="n/a">The honest part</H>
         <p>
           None of this is a black box. The momentum figures use keyword-relevance search, so trust the ranking
-          over the exact multiple; the founder sample is ~90 resolved profiles and the data is descriptive, not a predictive model;
+          over the exact multiple; the founder sample is 112 resolved profiles across 100 companies and the data is descriptive, not a predictive model;
           and I&apos;ve deliberately avoided inferring identity demographics, the right signal is scientific and
           career depth, used to <em>widen</em> discovery, not to gate it. The credibility is in the sourcing and
           the caveats, not in pretending the data is cleaner than it is.

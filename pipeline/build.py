@@ -1,9 +1,10 @@
 """
 Stage 2 (authoritative) — Build the canonical company dataset.
 
-Parses the harvested Airtable records into clean company objects and merges in
-the company website / LinkedIn links recovered by the page scraper (the
-Airtable "Link" field points at the activate.org profile, not the company site).
+Parses the harvested Airtable records into clean company objects. The Airtable
+"Link" field holds EITHER the activate.org profile OR the company's own website
+(per row); both are captured. LinkedIn and any remaining websites are merged in
+from the page scraper.
 
 Input:  data/processed/00_airtable_raw.json   (224 harvested records)
         data/processed/02_companies.json       (scraped; for website/linkedin)
@@ -40,12 +41,20 @@ def split_people(v) -> list[str]:
     return [p.strip() for p in parts if p.strip()]
 
 
-def parse_link(v) -> tuple[str, str]:
-    """'[Name](https://activate.org/slug)' -> (slug, url)."""
-    m = re.search(r"\((https?://activate\.org/([^)]+))\)", str(v or ""))
-    if m:
-        return m.group(2).strip("/"), m.group(1)
-    return "", ""
+def parse_link(v) -> tuple[str, str, str]:
+    """'[Name](url)' -> (slug, activate_url, website).
+
+    The "Link" field holds EITHER the activate.org profile OR the company's own
+    website, depending on the row. Classify by host so external company sites are
+    captured rather than discarded."""
+    m = re.search(r"\((https?://[^)]+)\)", str(v or ""))
+    if not m:
+        return "", "", ""
+    url = m.group(1).strip()
+    am = re.search(r"activate\.org/([^)/?#]+)", url)
+    if am:
+        return am.group(1).strip("/"), url, ""
+    return "", "", url  # external = company website
 
 
 def clean_text(v) -> str:
@@ -62,8 +71,10 @@ def main() -> None:
         name = clean_text(f.get("Name"))
         if not name:
             continue
-        slug, activate_url = parse_link(f.get("Link"))
+        slug, activate_url, link_website = parse_link(f.get("Link"))
         s = scraped.get(slug, {})
+        if not slug:  # website-link rows have no activate slug; keep slugs unique
+            slug = re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
         try:
             year = int(str(f.get("Cohort Year")).strip()[:4])
         except (ValueError, TypeError):
@@ -85,7 +96,7 @@ def main() -> None:
             "verticals": verticals,
             "fellows": split_people(f.get("Fellow(s) at Company") or f.get("Fellow(s)")),
             "activate_url": activate_url,
-            "website": s.get("website", ""),
+            "website": link_website or s.get("website", ""),
             "linkedin": s.get("linkedin", ""),
         })
 

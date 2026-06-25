@@ -20,5 +20,6 @@ run python pipeline/signals/federal_outcomes.py # all-agency federal non-dilutiv
 run python pipeline/signals/run_founders.py     # OpenAlex founder footprints (resumable)
 run python pipeline/signals/emerging_science.py # bottom-up emerging research topics
 run python pipeline/build_web.py                 # -> web/data/dataset.json
+run python pipeline/validate.py                  # data-integrity checks (non-blocking)
 
 echo "== refresh complete =="

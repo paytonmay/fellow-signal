@@ -56,7 +56,7 @@ website / LinkedIn links it recovered.)
 - [~] **Stage 7 — Signal layers** (`pipeline/signals/`).
   - [x] **Outcomes ledger** (`funding.py`, `run_outcomes.py`) → `outcomes.json`.
         NSF + EDGAR across all 224. **$58.8M NSF non-dilutive, 74/224 (33%)
-        funded; 48 with Form D raises.** SBIR all-agency = next (backoff).
+        funded; 59 with SEC Form D mentions.** SBIR all-agency = next (backoff).
   - [x] **Founder footprint** (`scholar.py`). OpenAlex, field/domain-aware
         disambiguation. Resolves fellow → works, citations, h-index, and
         **pre-founding research topics** (leading frontier signal). Generic

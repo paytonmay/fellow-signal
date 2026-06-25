@@ -45,10 +45,10 @@ export default function Methods() {
           <div className="grid grid-cols-12 gap-3 pb-1 text-[10.5px] uppercase tracking-wider text-zinc-600">
             <div className="col-span-3">Source</div><div className="col-span-5">What it provides</div><div className="col-span-4">Access &amp; caveats</div>
           </div>
-          <Row a="Activate companies directory" b="224 ventures: name, cohort year, hub, verticals, fellows, and the human-written Critical Need / Technology Vision / Potential Impact." c="Softr app over an Airtable base; harvested via headless browser (JS-rendered). Public." />
-          <Row a="Activate fellows directory" b="292 fellows: biography, cohort, hub, company, LinkedIn. The bios state degree + university for ~92%." c="Separate Softr/Airtable table, same harvest. Authoritative for fellow background." />
+          <Row a="Activate companies directory" b="224 ventures from this harvest: name, cohort year, hub, verticals, fellows, websites, and the human-written Critical Need / Technology Vision / Potential Impact." c="Softr app over an Airtable base; harvested via headless browser (JS-rendered). The public directory at harvest time; Activate's current published portfolio is larger (~235), so read this as a directory snapshot, not the full roster." />
+          <Row a="Activate fellows directory" b="292 fellows from this harvest: biography, cohort, hub, company, LinkedIn. The bios state degree + university for ~92%." c="Separate Softr/Airtable table, same harvest. A snapshot; Activate currently lists ~294." />
           <Row a="USAspending.gov" b="Federal awards, per-company non-dilutive outcomes, per-space ecosystem funding, and agency breakdowns." c="Public API. Recipient exact-match + $25M/award cap to exclude institutional name collisions." />
-          <Row a="OpenAlex" b="Founder research footprints (works, citations, h-index, pre-founding topics, affiliations) and field publication velocity." c="Public API (~250M works). Name disambiguation is field/domain-aware; ~100/224 companies resolved." />
+          <Row a="OpenAlex" b="Founder research footprints (works, citations, h-index, pre-founding topics, affiliations) and field publication velocity." c="Public API (large open scholarly index). Name disambiguation is field/domain-aware; 100 of 224 companies resolved, 112 founders." />
           <Row a="SEC EDGAR" b="Form D filings as a private-capital-raised signal." c="Full-text search API. Presence/absence only." />
           <Row a="IRS Form 990 (ProPublica)" b="Activate's own revenue, expenses, and net assets by year." c="Public nonprofit filings. EIN 47-5502184." />
           <Row a="The Engine (engine.xyz)" b="MIT's 'Tough Tech' venture firm (founded 2016, invests for equity). Its 57 public portfolio companies, mapped onto Activate's verticals for a model-vs-model comparison." c="Harvested via headless browser; their taxonomy is coarser, so the comparison is directional positioning." />
@@ -63,8 +63,8 @@ export default function Methods() {
             ["Activate presence (radar y-axis)", "Share of the in-view ventures in each vertical (cross-filters with the dashboard)."],
             ["Whitespace / sourcing opportunity", "Research momentum × federal-funding momentum, discounted by Activate's existing presence. A prompt to investigate, not a directive."],
             ["Founder research profile", "OpenAlex author match with field/domain-aware disambiguation and a senior-namesake guard (reject h-index > 60, no recent founder is a 100-h-index professor). Unresolved founders are non-academic or genuinely absent from OpenAlex."],
-            ["Typical-founder profile", "Median + interquartile range of resolved founders' citations, h-index, and years from first paper to founding. Descriptive baseline (~89 founders), not a model."],
-            ["Selection loop closure", "Companies with a founder research profile split at the median citation count, compared on the rate of winning federal funding. At current N the rates are within a couple of points, reported as the honest null it is."],
+            ["Typical-founder profile", "Median + interquartile range of citations, h-index, and years from first paper to founding across the 112 resolved founders. Descriptive baseline, not a model."],
+            ["Selection loop closure", "The 89 companies with a cited founder, split at the median citation count, compared on the rate of winning federal funding. At this N the rates are within a couple of points, reported as the honest null it is."],
             ["Fellow background", "Degree level and universities parsed from the bios with regex heuristics (88% PhD; 92% name a university). The top-school ranking is robust; individual parses can miss."],
             ["Discipline → space", "Field of study parsed from each bio, mapped to the fellow's company verticals."],
             ["Emerging Science (bottom-up topics)", "Growth in each OpenAlex topic's share of publications (2016–17 vs 2023–24) across the deep-tech domains, crossed with federal funding momentum (USAspending, curated keywords, only counted when current funding ≥$20M so tiny-base ratios can't dominate) and against the topics Activate fellows publish in. Ranked by opportunity = research × funding. Share-normalized; growth above ~8x dropped as a coverage artifact; some tagging noise remains, so it is a candidate surface, not a ranking."],
@@ -80,10 +80,17 @@ export default function Methods() {
 
         <H>Verified exactly vs. directional</H>
         <p>
-          <span className="text-teal-300">Verified to the number</span> (recomputed from raw data): company and fellow
-          counts, the {fmtUSD(h.federal_total, { compact: true })} federal total and its top recipients (all confirmed
-          real Activate companies with real DOE grants), 88% PhD, the 7.2× revenue growth, the convergence pair counts,
-          and the hub over-index figures.
+          <span className="text-teal-300">Verified to the number</span> (recomputed from the source records): company
+          and fellow counts, 88% PhD, the 7.2× revenue growth from the 990s, the cohort-shift percentages, the
+          convergence pair counts, and the hub over-index figures.
+        </p>
+        <p className="mt-3">
+          <span className="text-sky-300">Entity-matched public-record estimate</span>: the {fmtUSD(h.federal_total, { compact: true })}{" "}
+          federal total is summed from USAspending assistance awards matched to each company by exact recipient name, with
+          a $25M/award cap to drop institutional collisions. The top recipients are confirmed real Activate companies with
+          real DOE grants, but exact-name matching is conservative, it can miss awards (11 companies show NSF-API awards not
+          captured in the all-agency total, and DOD SBIR contracts are excluded). Treat it as a careful lower-bound estimate,
+          not an exact figure.
         </p>
         <p className="mt-3">
           <span className="text-amber-300">Directional</span> (trust the ranking, not the magnitude): all keyword-based
@@ -101,7 +108,7 @@ export default function Methods() {
           <li>Fields are defined by keyword queries, not clean discipline boundaries, magnitudes are approximate.</li>
           <li>Name-matching (founders to OpenAlex, companies to federal recipients) has finite precision; guards reduce but don&apos;t eliminate error.</li>
           <li>Bio parsing is heuristic; aggregate distributions are reliable, individual rows can be wrong.</li>
-          <li>Founder-level analyses run on ~90–100 data points, descriptive and hypothesis-generating, not predictive.</li>
+          <li>Founder-level analyses run on 112 resolved founders across 100 companies (89 in the citation-depth split), descriptive and hypothesis-generating, not predictive.</li>
           <li>Identity demographics (gender, race, age) are deliberately not inferred, the signal here is scientific and career depth, used to widen discovery, not to gate it.</li>
           <li>It is a point-in-time snapshot, refreshed monthly; not a live feed.</li>
         </ul>

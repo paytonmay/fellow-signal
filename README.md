@@ -1,8 +1,10 @@
 # Fellow Signal
 
 An intelligence layer on [Activate Global](https://activate.org)'s fellowship —
-**224 hard-tech ventures (2015–2025)** mapped by science, industry, and impact,
-then read against where research and funding are actually moving.
+**224 hard-tech ventures** from Activate's public directory (2015–2025) mapped by
+science, industry, and impact, then read against where research and funding are
+actually moving. (A directory snapshot at harvest time; Activate's current
+published portfolio is larger, ~235.)
 
 **Live:** https://fellowsignal.xyz
 
@@ -14,8 +16,9 @@ Founder Discovery & Insights* role.
 - **Frontier Radar** — each field's research momentum (its growing share of
   global publications) × Activate's presence in recent cohorts → whitespace.
 - **Outcomes ledger** — every venture matched to public funding records:
-  **$58.8M** in NSF non-dilutive funding, 33% of the portfolio federally funded,
-  plus SEC Form D raises.
+  **$227.2M** all-agency federal non-dilutive funding (46% of ventures, USAspending,
+  DOE-led) and **$58.8M** via NSF (33%, NSF Awards API; matched independently, so the
+  two don't fully reconcile), plus 59 SEC Form D mentions.
 - **Founder footprint** — fellows resolved to their actual body of work
   (OpenAlex), surfacing the pre-founding research that foreshadows the venture.
 - **Cohort drift + searchable portfolio** of all 224 ventures.

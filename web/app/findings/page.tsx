@@ -131,7 +131,7 @@ export default function Findings() {
         <H n="06">What I&apos;m not claiming</H>
         <p>
           The momentum figures are keyword-based, so the rankings are sound but the exact multiples aren&apos;t; the
-          founder analyses run on ~90 resolved profiles and are descriptive, not predictive; the emerging-topic list is a
+          founder analyses run on 112 resolved profiles across 100 companies and are descriptive, not predictive; the emerging-topic list is a
           candidate surface with real tagging noise, not a ranking to act on blindly; and I&apos;ve deliberately not
           inferred any identity demographics, the signal here is scientific and career depth, used to widen discovery
           rather than narrow it. The credibility is in stating that plainly.
