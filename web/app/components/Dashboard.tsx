@@ -83,6 +83,9 @@ export default function Dashboard({ data }: { data: Dataset }) {
               <a href="/brief" className="ml-2 text-[11.5px] text-teal-300/90 hover:text-teal-200 border border-teal-500/30 rounded-full px-2.5 py-0.5">
                 Point of View →
               </a>
+              <a href="/simulator" className="text-[11.5px] text-teal-300/90 hover:text-teal-200 border border-teal-500/30 rounded-full px-2.5 py-0.5">
+                Simulator →
+              </a>
             </div>
             <div className="flex items-center gap-2 flex-wrap ml-auto">
               <input value={f.q} onChange={(e) => set({ q: e.target.value })}
