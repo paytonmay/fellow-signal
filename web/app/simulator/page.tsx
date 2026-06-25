@@ -21,8 +21,8 @@ export default function SimulatorPage() {
         <p className="mt-3 text-[14px] text-zinc-400 max-w-3xl leading-relaxed">
           Activate draws roughly a thousand applications per cohort and accepts about fifty (~5%). This is the core of
           the role, and the one thing a dataset of accepted fellows can&apos;t show you. So here is an illustrative
-          model of the decision: a thousand candidates, four levers, one cohort. Drag the levers and watch the portfolio
-          you&apos;d be building change.
+          model of the decision: a synthetic field of ~1,000 candidate-like profiles, a few levers, one cohort. Drag the
+          levers and watch the portfolio you&apos;d be building change.
         </p>
         <div className="mt-7">
           <SelectionSimulator data={data} />
