@@ -40,19 +40,20 @@ function hexA(hex: string, a: number) {
 const COLS = 4, ROWS = 4;
 const shortLabel = (v: string) => v.replace(" / CO2e", "").split(/ & | \/ /)[0];
 
-type Config = { w: Weights; size: number; leanSector: string; leanStrength: number; cap: number };
-const BASE: Config = { w: { research: 60, funding: 45, depth: 50, whitespace: 30 }, size: 50, leanSector: "", leanStrength: 60, cap: 100 };
+type Config = { w: Weights; size: number; leanSector: string; leanStrength: number; cap: number; breadth: number };
+const BASE: Config = { w: { research: 60, funding: 45, depth: 50, whitespace: 30 }, size: 50, leanSector: "", leanStrength: 60, cap: 100, breadth: 0 };
 const PRESETS: Record<string, Config> = {
-  "Balanced": { w: { research: 50, funding: 50, depth: 50, whitespace: 40 }, size: 50, leanSector: "", leanStrength: 60, cap: 100 },
-  "Climate-forward": { w: { research: 55, funding: 60, depth: 40, whitespace: 35 }, size: 50, leanSector: "Climate", leanStrength: 75, cap: 100 },
-  "Frontier bets": { w: { research: 70, funding: 55, depth: 25, whitespace: 90 }, size: 50, leanSector: "", leanStrength: 60, cap: 100 },
-  "Research depth": { w: { research: 40, funding: 30, depth: 95, whitespace: 20 }, size: 50, leanSector: "", leanStrength: 60, cap: 100 },
-  "Broad & diverse": { w: { research: 50, funding: 50, depth: 50, whitespace: 45 }, size: 50, leanSector: "", leanStrength: 60, cap: 16 },
+  "Balanced": { w: { research: 50, funding: 50, depth: 50, whitespace: 40 }, size: 50, leanSector: "", leanStrength: 60, cap: 100, breadth: 0 },
+  "Climate-forward": { w: { research: 55, funding: 60, depth: 40, whitespace: 35 }, size: 50, leanSector: "Climate", leanStrength: 75, cap: 100, breadth: 1 },
+  "Frontier bets": { w: { research: 70, funding: 55, depth: 25, whitespace: 90 }, size: 50, leanSector: "", leanStrength: 60, cap: 100, breadth: 0 },
+  "Research depth": { w: { research: 40, funding: 30, depth: 95, whitespace: 20 }, size: 50, leanSector: "", leanStrength: 60, cap: 100, breadth: 0 },
+  "Comprehensive": { w: { research: 55, funding: 50, depth: 55, whitespace: 35 }, size: 50, leanSector: "", leanStrength: 60, cap: 22, breadth: 2 },
+  "Broad & diverse": { w: { research: 50, funding: 50, depth: 50, whitespace: 45 }, size: 50, leanSector: "", leanStrength: 60, cap: 16, breadth: 1 },
 };
 
 export default function SelectionSimulator({ data }: { data: Dataset }) {
   const [cfg, setCfg] = useState<Config>(BASE);
-  const { w, size, leanSector, leanStrength, cap } = cfg;
+  const { w, size, leanSector, leanStrength, cap, breadth } = cfg;
   const set = (patch: Partial<Config>) => setCfg((p) => ({ ...p, ...patch }));
   const sectorNames = data.verticals.map((v) => v.vertical);
 
@@ -114,14 +115,24 @@ export default function SelectionSimulator({ data }: { data: Dataset }) {
     const capN = cap >= 100 ? Infinity : Math.max(1, Math.ceil((cap / 100) * size));
     const per: Record<string, number> = {};
     const sel = new Set<number>();
+    // Phase 1, breadth floor: reserve the top `breadth` candidates of every sector
+    // (the best from each field), so the cohort spans the frontier like a real one.
+    if (breadth > 0) {
+      const got: Record<string, number> = {};
+      for (const c of sorted) {
+        if (sel.size >= size) break;
+        if ((got[c.sector] || 0) >= breadth || (per[c.sector] || 0) >= capN) continue;
+        got[c.sector] = (got[c.sector] || 0) + 1; per[c.sector] = (per[c.sector] || 0) + 1; sel.add(c.i);
+      }
+    }
+    // Phase 2: fill the rest by score, respecting the cap
     for (const c of sorted) {
       if (sel.size >= size) break;
-      if ((per[c.sector] || 0) >= capN) continue;
-      per[c.sector] = (per[c.sector] || 0) + 1;
-      sel.add(c.i);
+      if (sel.has(c.i) || (per[c.sector] || 0) >= capN) continue;
+      per[c.sector] = (per[c.sector] || 0) + 1; sel.add(c.i);
     }
     return sel;
-  }, [w, size, leanSector, leanStrength, cap, field]);
+  }, [w, size, leanSector, leanStrength, cap, breadth, field]);
 
   // ---- who changed since the last adjustment ----
   const prev = useRef<Set<number>>(new Set());
@@ -274,7 +285,12 @@ export default function SelectionSimulator({ data }: { data: Dataset }) {
               <div>
                 <div className="flex justify-between text-[11.5px]"><span className="text-zinc-300">Diversity cap</span><span className="text-teal-300 tabular-nums">{cap >= 100 ? "off" : `${cap}%`}</span></div>
                 <input type="range" min={10} max={100} step={2} value={cap} onChange={(e) => set({ cap: +e.target.value })} className="w-full accent-teal-400" />
-                <div className="text-[10px] text-zinc-600 -mt-0.5">max share any one sector can take</div>
+                <div className="text-[10px] text-zinc-600 -mt-0.5">ceiling, max share any one sector can take</div>
+              </div>
+              <div>
+                <div className="flex justify-between text-[11.5px]"><span className="text-zinc-300">Breadth floor</span><span className="text-teal-300 tabular-nums">{breadth === 0 ? "off" : `${breadth}/sector`}</span></div>
+                <input type="range" min={0} max={3} step={1} value={breadth} onChange={(e) => set({ breadth: +e.target.value })} className="w-full accent-teal-400" />
+                <div className="text-[10px] text-zinc-600 -mt-0.5">floor, every sector gets at least its best N (real cohorts span the frontier)</div>
               </div>
             </div>
           </div>
@@ -320,8 +336,10 @@ export default function SelectionSimulator({ data }: { data: Dataset }) {
         <div className="text-[13px] text-zinc-200">There is no objective best 50, only a strategy made explicit.</div>
         <div className="text-[11.5px] text-zinc-500 mt-1 leading-relaxed">
           Lean on funding momentum and you build an energy and climate cohort; lean on research depth and you build a
-          publication-heavy one; cap any one sector and you force breadth. Same candidates, different cohort. The job
-          isn&apos;t optimizing a score, it&apos;s choosing which portfolio you want and being able to say why.
+          publication-heavy one. And notice: pure scoring leaves whole sectors dark, because real selection isn&apos;t
+          pure optimization. Activate&apos;s actual cohorts span every sector, so set a <span className="text-zinc-300">breadth
+          floor</span> and watch the frontier fill in. The job isn&apos;t optimizing a score, it&apos;s choosing which
+          portfolio you want, breadth and all, and being able to say why.
         </div>
       </div>
     </div>
