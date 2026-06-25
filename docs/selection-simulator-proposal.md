@@ -1,8 +1,17 @@
 # Proposal: The Selection Simulator ("Picking 50 from 1,000")
 
-Status: draft for review
+Status: v2, revised after review
 Author: Payton May
 Context: Fellow Signal (fellowsignal.xyz), for the deep-tech founder discovery role at Activate.
+
+### Revisions from review (v2)
+
+- **Honesty:** the field is drawn from *selected-fellow and field-signal priors*, **not applicant distributions**. Stated plainly throughout; the page does **not** estimate applicant quality or real selection probability. (See §3.)
+- **Spine:** reframed from score-ranking to **portfolio construction under strategy**. The cohort *composition* (sector floors/caps, hub balance, concentration, whitespace share, marginal swaps) is the centerpiece, even in MVP, not a ranked "truth."
+- **Founder signals percentile-ranked**, not raw, so citation outliers can't dominate.
+- **Phase 1 is lean:** the 1,000-dot field + **3-4 weights only** (research momentum, funding momentum, founder research depth, whitespace/frontier) + cohort composition + a "who changed" diff. Built to land one line: *there is no objective best 50, only a strategy made explicit.*
+- **Deferred until reviewer input:** the **risk dial** (the meaning of "risk" is unresolved), **stakeholder voting** (until we know how Activate's committee actually runs), and per-applicant **manual overrides** (kept, but reframed as an *audit-trail* feature: reason + author + timestamp + cohort impact).
+- **Backtest stays future-facing** with its honest limit: without real rejected applicants it can only test whether a weighting re-selects a past *accepted* cohort from a synthetic field.
 
 ---
 
@@ -18,16 +27,18 @@ It extends the "close the selection loop" pillar from a static scorecard into a 
 
 ## 3. The integrity principle (non-negotiable)
 
-The whole project's credibility is "real public data, honest about its limits." A page of invented applicants must not read as a claim about real people. Two rules:
+The whole project's credibility is "real public data, honest about its limits." A page of invented candidates must not read as a model of Activate's real funnel. The rules:
 
-1. **Synthetic applicants, real signal structure.** Each dot is a realistic draw, not arbitrary:
-   - **Sector** sampled from the real cohort/sector mix.
-   - **Field signals inherited from real data** — an "Energy Storage" applicant carries energy storage's actual research momentum (×4.5), federal funding momentum (×15), and lead agency (DOE), straight from our radar + space_signals layers.
-   - **Founder signals** (citations, h-index, years paper→founding) sampled from the **real distribution of our 112 resolved founders**.
-   - **Hub** sampled from the real geographic mix.
-2. **Labeled prominently:** "Illustrative model. Synthetic applicants drawn from real signal distributions to show how a weighted selection function behaves. Not real applicant data."
+1. **It is a synthetic candidate field drawn from selected-fellow and field-signal priors, not applicant data.** Every distribution we sample from describes *accepted* fellows and *field-level* public signals, because that is the only real data we have. We do **not** have the applicant pool, so the field cannot represent applicant supply or applicant quality.
+   - **Sector** sampled from the real *selected-cohort* sector mix (a proxy, not applicant supply).
+   - **Field signals inherited from real data** — an "Energy Storage" candidate carries energy storage's actual research momentum (×4.5), federal funding momentum (×15), and lead agency (DOE), from our radar + space_signals layers.
+   - **Founder signals** (citations, h-index, years paper→founding) sampled from the **real distribution of our 112 resolved founders**, and **percentile-ranked** so raw-citation outliers can't dominate the score.
+   - **Hub** sampled from the real *selected-cohort* geographic mix.
+2. **Two prominent labels, always on screen:**
+   - "Illustrative model. A synthetic candidate field drawn from selected-fellow and field-signal priors, to show how a selection strategy shapes a cohort. Not real applicant data."
+   - "This does not estimate applicant quality or real selection probability."
 
-This reframes "made-up data" as "a working demonstration of the methodology," which is a strength, not a liability.
+This reframes "made-up data" as "a working demonstration of the methodology, honest about what it is and isn't," which is a strength, not a liability.
 
 ## 4. Signals each synthetic applicant carries
 
@@ -113,9 +124,9 @@ The point of circulating this:
 
 ## 11. Suggested phasing
 
-- **Phase 1 (MVP):** the 1,000-node field + Tier A signal weights + live composition readout + the "no objective best 50" framing. Proves the concept.
-- **Phase 2:** Tier B strategy dials + scenario save/compare.
-- **Phase 3:** Tier C manual override + Tier D stakeholder voting.
-- **Phase 4 (optional):** counterfactual backtest against a real cohort.
+- **Phase 1 (MVP, building now):** the 1,000-node field + **3-4 signal weights only** (research momentum, funding momentum, founder research depth, whitespace/frontier) + a rich **cohort-composition readout** framed as portfolio construction (sector mix vs floors/caps, hub balance, concentration, whitespace share) + a "who changed" diff. Built to land *"no objective best 50, only a strategy made explicit."* Everything else serves that line.
+- **Phase 2:** Tier B strategy dials (excluding the risk dial until "risk" is defined) + scenario save/compare.
+- **Phase 3:** Tier C manual override **as an audit-trail feature** (reason, author, timestamp, cohort impact) + Tier D stakeholder voting, **only after** we learn how Activate's committee actually decides.
+- **Phase 4 (optional, future):** counterfactual backtest, with its stated limit (re-selecting a past *accepted* cohort from a synthetic field).
 
 Ship Phase 1 first, gather reaction, then layer up. Each phase is independently valuable.

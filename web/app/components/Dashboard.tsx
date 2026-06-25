@@ -213,6 +213,8 @@ export default function Dashboard({ data }: { data: Dataset }) {
           {" · "}
           <a href="/brief" className="text-zinc-400 hover:text-teal-300 underline decoration-zinc-700">Point of View →</a>
           {" · "}
+          <a href="/simulator" className="text-zinc-400 hover:text-teal-300 underline decoration-zinc-700">Selection Simulator →</a>
+          {" · "}
           <a href="/findings" className="text-zinc-400 hover:text-teal-300 underline decoration-zinc-700">Findings →</a>
         </footer>
       </div>
