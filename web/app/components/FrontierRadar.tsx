@@ -168,7 +168,7 @@ export default function FrontierRadar({ rows }: { rows: RadarRow[] }) {
         <br />
         <span className="text-zinc-400">Real data:</span> research momentum from{" "}
         <a href="https://openalex.org" target="_blank" rel="noopener noreferrer" className="text-zinc-400 underline decoration-zinc-700 hover:text-zinc-200">OpenAlex</a>{" "}
-        (an open index of ~250M scholarly works), as each field&apos;s growing share of publications;
+        (a large open scholarly index), as each field&apos;s growing share of publications;
         bubble size is federal funding momentum from USAspending.gov; presence is Activate&apos;s portfolio.
         Fields are keyword-defined and point-in-time, so trust the ranking over exact magnitudes.
       </p>

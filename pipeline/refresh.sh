@@ -20,6 +20,11 @@ run python pipeline/signals/federal_outcomes.py # all-agency federal non-dilutiv
 run python pipeline/signals/run_founders.py     # OpenAlex founder footprints (resumable)
 run python pipeline/signals/emerging_science.py # bottom-up emerging research topics
 run python pipeline/build_web.py                 # -> web/data/dataset.json
-run python pipeline/validate.py                  # data-integrity checks (non-blocking)
+
+# Blocking gate: hard data-integrity failures (parse errors, dup names/ids,
+# federal mismatch, unjoined fellows) abort the refresh so corrupt data is never
+# published. Soft warnings (nsf>federal, missing verticals) exit 0 and pass.
+echo "== validate (blocking) =="
+python pipeline/validate.py || { echo "!! data-integrity check failed, not publishing"; exit 1; }
 
 echo "== refresh complete =="

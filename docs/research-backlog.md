@@ -25,9 +25,11 @@ fellowship, non-traditional (philanthropic + government) funding rather than VC.
   National Lab (DOE) — DOE/national-lab ties are foundational to the model.
 
 ## 3. Activate's own success metrics
-- Impact/annual reports cite: 197 companies since 2015, $4B follow-on funding,
-  2,800+ US jobs, new market categories. Capture their published methodology and
-  track it over time; cross-check against our independent outcomes ledger
+- Activate's 2025 impact reporting cites ~235 companies since 2015, $5.5B
+  follow-on funding, ~3,000 US jobs, new market categories (their published
+  marketing figures; the public directory we harvest lists 224). The older posting
+  in notes.txt cited 197 / $4B / 2,800. Capture their methodology and track it
+  over time; cross-check against our independent outcomes ledger
   ($58.8M NSF non-dilutive, Form D raises) for a credibility/triangulation view.
 
 ## 4. The model angle (analysis, not just data)

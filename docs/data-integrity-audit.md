@@ -16,7 +16,7 @@ Scope: `data/processed/*.json`, `web/data/dataset.json`, the pipeline scripts th
 - #12 University concentration — `FellowBackground.tsx` corrected from "roughly half" to "nearly a third".
 - #13 Mutable OpenAlex size — "~250M works" replaced with "large open scholarly index".
 - #14 "Verified exactly" — federal total reclassified as an entity-matched public-record estimate; "verified to the number" reserved for internal recomputes.
-- Added `pipeline/validate.py` (parse, dup-name/id, federal reconciliation, nsf>federal, empty-vertical, fellow-join checks).
+- Added `pipeline/validate.py` (parse, dup-name/id, federal reconciliation, nsf>federal, empty-vertical, fellow-join checks); runs as a **blocking gate** in `refresh.sh` so hard failures abort the publish, while documented soft warnings pass.
 
 **Resolved by re-harvest (2026-06-24):**
 - #1 / #3 Re-harvested both directories. Both are **unchanged**: the public Softr/Airtable directories return exactly **224 companies and 292 fellows**. Activate's ~235 / ~294 marketing figures count on a broader basis (ventures not listed in the public directory). Copy now states the 224 / 292 is the *complete public directory*, not a stale subset.

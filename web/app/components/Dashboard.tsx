@@ -151,7 +151,7 @@ export default function Dashboard({ data }: { data: Dataset }) {
             <Insights data={data} />
           </div>
 
-          <Panel title="Founder Discovery" sub="The role's core function: where to source next, and the founder research profile to look for" span="lg:col-span-3" info="Opportunity = research x federal-funding momentum discounted by presence. Founder profiles from OpenAlex (~100/224 resolved).">
+          <Panel title="Founder Discovery" sub="The role's core function: where to source next, and the founder research profile to look for" span="lg:col-span-3" info="Opportunity = research x federal-funding momentum discounted by presence. Founder profiles from OpenAlex (100 of 224 companies, 112 founders resolved).">
             <FounderDiscovery data={data} />
           </Panel>
 

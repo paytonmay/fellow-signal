@@ -72,9 +72,10 @@ website / LinkedIn links it recovered.)
 - Person/staff pages are JS-rendered shells — not reliably scrapable. Founders
   will be linked via the directory API or LinkedIn in a later pass.
 - Cohort year + hub are not on company detail pages; need a secondary source.
-- Sitemap exposed ~120 detail slugs; Activate cites 197 companies since 2015,
-  so the public sitemap is a recent subset. A fuller roster may need the
-  directory's backing API (HubDB).
+- The public Softr/Airtable directory returns 224 companies (re-harvested
+  2026-06-24, unchanged). Activate's 2025 marketing cites ~235 total on a broader
+  basis (ventures not in the public directory), so 224 is the complete directory,
+  not the full marketing roster.
 
 ## Run
 
