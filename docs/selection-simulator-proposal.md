@@ -40,6 +40,10 @@ The whole project's credibility is "real public data, honest about its limits." 
 
 This reframes "made-up data" as "a working demonstration of the methodology, honest about what it is and isn't," which is a strength, not a liability.
 
+### 3a. What the model deliberately can't see (the deepest caveat)
+
+Stated on the page, not just here: field signals and research footprint can triage a thousand profiles to a shortlist, but they cannot measure what most often decides a fellow, the originality of the idea, the founder's vision and grit, the magnitude of potential impact. Those surface in interviews, references, and diligence, never in a dataset like this. The cohort is therefore a triage that earns a candidate a closer look, never a verdict. The mechanism for injecting that human judgment is the Tier C manual override (per-candidate conviction with an audit trail), which is exactly why it must be auditable: it is where the irreducibly human part of selection enters, and where unaccountable bias could too.
+
 ## 4. Signals each synthetic applicant carries
 
 | Signal | Source (real distribution) | Per-applicant draw |

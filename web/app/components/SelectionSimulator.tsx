@@ -421,6 +421,19 @@ export default function SelectionSimulator({ data }: { data: Dataset }) {
           portfolio you want, breadth and all, and being able to say why.
         </div>
       </div>
+
+      <div className="mt-4 panel p-4 border-l-2 border-l-amber-500/50">
+        <div className="text-[13px] text-zinc-200">What the numbers can&apos;t see</div>
+        <div className="text-[11.5px] text-zinc-500 mt-1 leading-relaxed">
+          This triages a thousand profiles to a shortlist on field signals and research footprint. It cannot measure
+          what most often decides a fellow: the <span className="text-zinc-300">originality of the idea</span>, the
+          founder&apos;s vision and grit, the <span className="text-zinc-300">magnitude of potential impact</span>. Those
+          surface in interviews, references, and diligence, never in a dataset like this. So read the cohort as a triage
+          that earns a candidate a closer look, not a verdict. The mechanism for adding that human judgment, per-candidate
+          conviction with an audit trail, is the next layer in the{" "}
+          <a href="https://github.com/paytonmay/fellow-signal/blob/main/docs/selection-simulator-proposal.md" className="text-teal-300 hover:text-teal-200">proposal</a>.
+        </div>
+      </div>
     </div>
   );
 }
