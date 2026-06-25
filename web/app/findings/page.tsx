@@ -30,7 +30,10 @@ export default function Findings() {
   const y19 = fin.find((f) => f.year === 2019);
   const last = fin[fin.length - 1];
   const em = data.emerging_science?.topics ?? [];
-  const white = em.filter((t) => !t.activate_present).slice(0, 4).map((t) => t.topic.replace(" Methods", "").replace(" Research", "").replace(" Techniques", ""));
+  const white = em
+    .filter((t) => !t.activate_present && t.federal_matched && (t.federal_momentum > 0 || t.federal_new))
+    .slice(0, 3)
+    .map((t) => t.topic.replace(" Methods", "").replace(" Research", "").replace(" Techniques", "").replace(" and Diagnostics", ""));
 
   return (
     <main className="min-h-screen">
@@ -55,7 +58,7 @@ export default function Findings() {
         <H n="01">Who Activate funds is remarkably consistent</H>
         <p>
           From their own bios, <span className="text-zinc-100">{Math.round(bg.phd_pct * 100)}% of fellows hold a PhD</span>,
-          and the training pipeline is concentrated: MIT, Berkeley, and Stanford alone account for roughly half of all
+          and the training pipeline is concentrated: MIT, Berkeley, and Stanford together account for nearly a third of all
           university mentions. The discipline a founder trained in maps cleanly onto the space they build in, electronics
           ventures come from electrical engineering, energy storage from chemistry and materials, industrial biotech from
           biology. This isn&apos;t a pedigree rule to enforce; it&apos;s a baseline that tells you what a strong candidate
@@ -71,8 +74,8 @@ export default function Findings() {
           The single most useful result is a dissociation between two things people usually conflate. A founder&apos;s
           <span className="text-zinc-100"> research footprint is a strong discovery signal</span>: their pre-founding
           publications visibly foreshadow the venture, often two to four years early (Ryan DuChanois&apos;s membrane and
-          ion-separation work preceding Solidec&apos;s electrochemical reactors; Margaret Lumley&apos;s battery-materials
-          research preceding Roca Water&apos;s desalination battery). That means you can find these scientists before
+          separation work preceding Solidec&apos;s electrochemical chemical manufacturing; Bilen Akuzum&apos;s battery-materials
+          research preceding Aepnus&apos;s battery-production process). That means you can find these scientists before
           they&apos;ve incorporated, the earliest possible point of contact.
         </p>
         <p className="mt-3">
