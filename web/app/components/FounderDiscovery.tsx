@@ -94,8 +94,29 @@ export default function FounderDiscovery({ data }: { data: Dataset }) {
             </div>
           ))}
         </div>
-        <div className="mt-3 text-[11px] text-zinc-600">
-          <span className="text-amber-300">Amber</span> = Activate under 12% present, the sharpest gaps. Lead funder shown in the Space Forecast.
+        <div className="mt-4 panel p-3 text-[11px] text-zinc-500 leading-relaxed">
+          <div className="text-zinc-300 font-medium mb-1.5">How to read a row</div>
+          <div className="space-y-1.5">
+            <div>
+              <span className="text-zinc-200 font-medium">res ×N</span>: how fast the{" "}
+              <span className="text-zinc-300">science</span> is growing: this field&apos;s share of the world&apos;s
+              research papers now (2021-24) vs a decade ago (2013-16), from OpenAlex.
+            </div>
+            <div>
+              <span className="text-zinc-200 font-medium">fed ×N</span>: how fast{" "}
+              <span className="text-zinc-300">federal funding</span> into the space is growing, recent years vs a
+              prior window, from USAspending. <span className="text-zinc-600">&quot;99+&quot; just means very large.</span>
+            </div>
+            <div>
+              <span className="text-amber-300 font-medium">N% in</span>: how much of{" "}
+              <span className="text-zinc-300">Activate&apos;s recent ventures</span> (the 2021-25 cohorts of companies,
+              not fellows) are already in this space. Amber = under 12%, the thinnest.
+            </div>
+          </div>
+          <div className="mt-2.5 text-zinc-400">
+            Plain version: <span className="text-zinc-300">science booming + money booming + Activate barely there
+            = source here next.</span> The multiples are directional, so trust the ranking over the exact number.
+          </div>
         </div>
       </div>
 
