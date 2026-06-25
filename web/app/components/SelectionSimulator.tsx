@@ -286,14 +286,21 @@ export default function SelectionSimulator({ data }: { data: Dataset }) {
                     <span className="text-zinc-100 truncate">{hovered.sector.replace(" / CO2e", "")}</span>
                   </div>
                   <div className="text-[10px] text-zinc-500 mb-1.5">{hovered.hub}</div>
-                  <div className="space-y-0.5 text-[10px]">
-                    {([["research", hovered.researchN], ["funding", hovered.fundingN], ["whitespace", hovered.whitespaceN], ["depth", hovered.depthPct]] as [string, number][]).map(([k, v]) => (
+                  <div className="text-[8.5px] uppercase tracking-wide text-zinc-600">field, shared in sector</div>
+                  <div className="space-y-0.5 text-[10px] mt-0.5">
+                    {([["research", hovered.researchN], ["funding", hovered.fundingN], ["whitespace", hovered.whitespaceN]] as [string, number][]).map(([k, v]) => (
                       <div key={k} className="flex items-center gap-1.5">
                         <span className="text-zinc-500 w-16">{k}</span>
-                        <span className="flex-1 h-1 rounded bg-[#15181e] overflow-hidden"><span className="block h-full bg-teal-400/70 rounded" style={{ width: `${Math.round(v * 100)}%` }} /></span>
+                        <span className="flex-1 h-1 rounded bg-[#15181e] overflow-hidden"><span className="block h-full bg-zinc-400/70 rounded" style={{ width: `${Math.round(v * 100)}%` }} /></span>
                         <span className="text-zinc-500 tabular-nums w-5 text-right">{Math.round(v * 100)}</span>
                       </div>
                     ))}
+                  </div>
+                  <div className="text-[8.5px] uppercase tracking-wide text-zinc-600 mt-1.5">founder, this profile</div>
+                  <div className="flex items-center gap-1.5 text-[10px] mt-0.5">
+                    <span className="text-zinc-400 w-16">depth</span>
+                    <span className="flex-1 h-1 rounded bg-[#15181e] overflow-hidden"><span className="block h-full bg-teal-400/80 rounded" style={{ width: `${Math.round(hovered.depthPct * 100)}%` }} /></span>
+                    <span className="text-zinc-400 tabular-nums w-5 text-right">{Math.round(hovered.depthPct * 100)}</span>
                   </div>
                   <div className="mt-1.5 pt-1.5 border-t border-[#1a1d23] flex items-center justify-between text-[10.5px]">
                     <span className="text-zinc-300">score {Math.round(hovered.score * 100)}</span>
@@ -321,7 +328,8 @@ export default function SelectionSimulator({ data }: { data: Dataset }) {
 
         <div className="space-y-4">
           <div>
-            <div className="text-[12.5px] font-medium text-zinc-200 mb-2">Signal weights</div>
+            <div className="text-[12.5px] font-medium text-zinc-200">Signal weights</div>
+            <div className="text-[10px] text-zinc-600 mb-2">Research, funding, and whitespace are field signals (same for everyone in a sector); only depth is the founder&apos;s own. So weights pick the sectors, depth picks who within them.</div>
             <div className="space-y-3">
               {sliders.map(([k, label, hint]) => (
                 <div key={k}>
