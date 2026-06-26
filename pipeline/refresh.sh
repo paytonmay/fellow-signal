@@ -19,6 +19,7 @@ run python pipeline/signals/run_outcomes.py     # NSF + SEC EDGAR outcomes ledge
 run python pipeline/signals/federal_outcomes.py # all-agency federal non-dilutive (USAspending)
 run python pipeline/signals/run_founders.py     # OpenAlex founder footprints (resumable)
 run python pipeline/signals/emerging_science.py # bottom-up emerging research topics
+run python pipeline/signals/sourcing.py    # Sourcing Radar: US institution hotspots per area
 run python pipeline/build_web.py                 # -> web/data/dataset.json
 
 # Blocking gate: hard data-integrity failures (parse errors, dup names/ids,

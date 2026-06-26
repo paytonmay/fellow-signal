@@ -2,9 +2,10 @@
   "topics": [
     {
       "topic": "Advanced Battery Technologies Research",
+      "id": "T10663",
       "field": "Engineering",
       "growth": 3.02,
-      "recent_works": 22280,
+      "recent_works": 22281,
       "activate_present": true,
       "federal_recent": 690622884,
       "federal_momentum": 20,
@@ -14,9 +15,10 @@
     },
     {
       "topic": "Concrete and Cement Materials Research",
+      "id": "T10033",
       "field": "Engineering",
       "growth": 2.31,
-      "recent_works": 16967,
+      "recent_works": 16968,
       "activate_present": false,
       "federal_recent": 176005900,
       "federal_momentum": 20.0,
@@ -26,9 +28,10 @@
     },
     {
       "topic": "Advancements in Battery Materials",
+      "id": "T10018",
       "field": "Engineering",
       "growth": 1.74,
-      "recent_works": 28138,
+      "recent_works": 28139,
       "activate_present": true,
       "federal_recent": 690622884,
       "federal_momentum": 20,
@@ -38,9 +41,10 @@
     },
     {
       "topic": "Genomics and Phylogenetic Studies",
+      "id": "T10015",
       "field": "Biochemistry, Genetics and Molecular Biology",
       "growth": 4.46,
-      "recent_works": 46447,
+      "recent_works": 46448,
       "activate_present": true,
       "federal_recent": 1928129668,
       "federal_momentum": 10.9,
@@ -50,6 +54,7 @@
     },
     {
       "topic": "Cancer Genomics and Diagnostics",
+      "id": "T11287",
       "field": "Biochemistry, Genetics and Molecular Biology",
       "growth": 2.25,
       "recent_works": 16941,
@@ -62,6 +67,7 @@
     },
     {
       "topic": "Advanced Photocatalysis Techniques",
+      "id": "T10078",
       "field": "Energy",
       "growth": 2.63,
       "recent_works": 32132,
@@ -74,6 +80,7 @@
     },
     {
       "topic": "Electrocatalysts for Energy Conversion",
+      "id": "T10030",
       "field": "Energy",
       "growth": 2.56,
       "recent_works": 25957,
@@ -86,9 +93,10 @@
     },
     {
       "topic": "Topic Modeling",
+      "id": "T10028",
       "field": "Computer Science",
       "growth": 4.64,
-      "recent_works": 31932,
+      "recent_works": 31933,
       "activate_present": false,
       "federal_recent": 0,
       "federal_momentum": 0.0,
@@ -98,9 +106,10 @@
     },
     {
       "topic": "Gut microbiota and health",
+      "id": "T10066",
       "field": "Biochemistry, Genetics and Molecular Biology",
       "growth": 2.87,
-      "recent_works": 22412,
+      "recent_works": 22411,
       "activate_present": false,
       "federal_recent": 3684328414,
       "federal_momentum": 4.4,
@@ -110,6 +119,7 @@
     },
     {
       "topic": "Advanced Sensor and Energy Harvesting Materials",
+      "id": "T10338",
       "field": "Engineering",
       "growth": 3.0,
       "recent_works": 22085,
@@ -122,6 +132,7 @@
     },
     {
       "topic": "Additive Manufacturing and 3D Printing Technologies",
+      "id": "T10783",
       "field": "Engineering",
       "growth": 2.34,
       "recent_works": 19677,
@@ -134,6 +145,7 @@
     },
     {
       "topic": "Perovskite Materials and Applications",
+      "id": "T10247",
       "field": "Engineering",
       "growth": 3.13,
       "recent_works": 25114,
@@ -146,9 +158,10 @@
     },
     {
       "topic": "Network Security and Intrusion Detection",
+      "id": "T10400",
       "field": "Computer Science",
       "growth": 2.86,
-      "recent_works": 22307,
+      "recent_works": 22310,
       "activate_present": false,
       "federal_recent": 0,
       "federal_momentum": 0.0,
@@ -158,6 +171,7 @@
     },
     {
       "topic": "Ionosphere and magnetosphere dynamics",
+      "id": "T10159",
       "field": "Physics and Astronomy",
       "growth": 2.57,
       "recent_works": 17820,
@@ -170,9 +184,10 @@
     },
     {
       "topic": "Educational Reforms and Innovations",
+      "id": "T12705",
       "field": "Environmental Science",
       "growth": 2.56,
-      "recent_works": 19513,
+      "recent_works": 19519,
       "activate_present": false,
       "federal_recent": 0,
       "federal_momentum": 0.0,
@@ -182,6 +197,7 @@
     },
     {
       "topic": "Computational Drug Discovery Methods",
+      "id": "T10211",
       "field": "Computer Science",
       "growth": 2.44,
       "recent_works": 21001,
@@ -194,6 +210,7 @@
     },
     {
       "topic": "IoT and Edge/Fog Computing",
+      "id": "T10273",
       "field": "Computer Science",
       "growth": 2.37,
       "recent_works": 17167,
@@ -206,6 +223,7 @@
     },
     {
       "topic": "Online Learning and Analytics",
+      "id": "T11122",
       "field": "Computer Science",
       "growth": 2.31,
       "recent_works": 16505,
@@ -218,6 +236,7 @@
     },
     {
       "topic": "Methane Hydrates and Related Phenomena",
+      "id": "T10995",
       "field": "Environmental Science",
       "growth": 2.24,
       "recent_works": 18957,
@@ -230,9 +249,10 @@
     },
     {
       "topic": "Land Use and Ecosystem Services",
+      "id": "T10226",
       "field": "Environmental Science",
       "growth": 2.23,
-      "recent_works": 15597,
+      "recent_works": 15598,
       "activate_present": false,
       "federal_recent": 0,
       "federal_momentum": 0.0,
@@ -242,9 +262,10 @@
     },
     {
       "topic": "Neural Networks and Applications",
+      "id": "T10320",
       "field": "Computer Science",
       "growth": 2.07,
-      "recent_works": 20118,
+      "recent_works": 20115,
       "activate_present": false,
       "federal_recent": 0,
       "federal_momentum": 0.0,
@@ -254,6 +275,7 @@
     },
     {
       "topic": "Cancer-related molecular mechanisms research",
+      "id": "T10515",
       "field": "Biochemistry, Genetics and Molecular Biology",
       "growth": 1.87,
       "recent_works": 16894,
@@ -266,9 +288,10 @@
     },
     {
       "topic": "Cancer, Hypoxia, and Metabolism",
+      "id": "T10631",
       "field": "Biochemistry, Genetics and Molecular Biology",
       "growth": 1.84,
-      "recent_works": 14370,
+      "recent_works": 14372,
       "activate_present": false,
       "federal_recent": 0,
       "federal_momentum": 0.0,
@@ -278,6 +301,7 @@
     },
     {
       "topic": "Supercapacitor Materials and Fabrication",
+      "id": "T10179",
       "field": "Materials Science",
       "growth": 1.82,
       "recent_works": 16947,
@@ -290,9 +314,10 @@
     },
     {
       "topic": "EEG and Brain-Computer Interfaces",
+      "id": "T10429",
       "field": "Neuroscience",
       "growth": 1.81,
-      "recent_works": 18249,
+      "recent_works": 18248,
       "activate_present": false,
       "federal_recent": 0,
       "federal_momentum": 0.0,
@@ -302,9 +327,10 @@
     },
     {
       "topic": "CRISPR and Genetic Engineering",
+      "id": "T10878",
       "field": "Biochemistry, Genetics and Molecular Biology",
       "growth": 1.75,
-      "recent_works": 13966,
+      "recent_works": 13967,
       "activate_present": true,
       "federal_recent": 0,
       "federal_momentum": 0.0,
@@ -314,6 +340,7 @@
     },
     {
       "topic": "Gas Sensing Nanomaterials and Sensors",
+      "id": "T10461",
       "field": "Engineering",
       "growth": 1.73,
       "recent_works": 12487,
@@ -326,6 +353,7 @@
     },
     {
       "topic": "Adsorption and biosorption for pollutant removal",
+      "id": "T10016",
       "field": "Environmental Science",
       "growth": 1.72,
       "recent_works": 13443,

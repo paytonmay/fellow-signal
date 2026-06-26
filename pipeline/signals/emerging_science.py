@@ -156,7 +156,7 @@ def main() -> None:
         # artifact, not real field emergence
         if r["growth"] > 8:
             continue
-        out.append({"topic": r["topic"], "field": fld, "growth": r["growth"],
+        out.append({"topic": r["topic"], "id": r["id"], "field": fld, "growth": r["growth"],
                     "recent_works": r["recent_works"], "activate_present": r["topic"].lower() in act})
         if len(out) >= 28:
             break

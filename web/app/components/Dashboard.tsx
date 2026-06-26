@@ -87,6 +87,9 @@ export default function Dashboard({ data }: { data: Dataset }) {
               <a href="/simulator" className="text-[11.5px] text-teal-300/90 hover:text-teal-200 border border-teal-500/30 rounded-full px-2.5 py-0.5">
                 Simulator →
               </a>
+              <a href="/radar" className="text-[11.5px] text-teal-300/90 hover:text-teal-200 border border-teal-500/30 rounded-full px-2.5 py-0.5">
+                Sourcing Radar →
+              </a>
             </div>
             <div className="flex items-center gap-2 flex-wrap ml-auto">
               <input value={f.q} onChange={(e) => set({ q: e.target.value })}
@@ -221,6 +224,8 @@ export default function Dashboard({ data }: { data: Dataset }) {
           <a href="/brief" className="text-zinc-400 hover:text-teal-300 underline decoration-zinc-700">Point of View →</a>
           {" · "}
           <a href="/simulator" className="text-zinc-400 hover:text-teal-300 underline decoration-zinc-700">Selection Simulator →</a>
+          {" · "}
+          <a href="/radar" className="text-zinc-400 hover:text-teal-300 underline decoration-zinc-700">Sourcing Radar →</a>
           {" · "}
           <a href="/findings" className="text-zinc-400 hover:text-teal-300 underline decoration-zinc-700">Findings →</a>
         </footer>
