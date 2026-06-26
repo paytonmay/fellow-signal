@@ -68,6 +68,18 @@ def main() -> None:
     check("fellow companies join to a venture", not unjoined,
           f"{len(unjoined)} unmatched: {unjoined[:5]}", hard=False)
 
+    # 7. sourcing radar packets (operational-facing, so check provenance + non-empty)
+    src = (D.get("sourcing") or {}).get("areas", [])
+    if src:
+        no_id = [a["topic"] for a in src if not a.get("id")]
+        check("sourcing areas carry a topic ID", not no_id, f"missing id: {no_id[:5]}")
+        bad_inst = [a["topic"] for a in src if not a.get("institutions")]
+        check("sourcing areas have institutions", not bad_inst, f"empty: {bad_inst[:5]}")
+        bad_str = [a["topic"] for a in src for i in a.get("institutions", []) if not i.get("name")]
+        check("sourcing institutions have names", not bad_str, f"{len(bad_str)} unnamed")
+        thin = [a["topic"] for a in src if len(a.get("institutions", [])) < 4]
+        check("sourcing areas have >=4 institutions", not thin, f"thin coverage: {thin[:5]}", hard=False)
+
     print()
     if errors:
         print(f"{len(errors)} hard failure(s):")

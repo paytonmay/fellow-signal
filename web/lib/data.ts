@@ -165,12 +165,13 @@ export type Dataset = {
 
 export type SourcingArea = {
   topic: string;
+  id: string;
   field: string;
   research_growth: number;
   activate_present: boolean;
   funding_phrase: string;
   orphan: boolean;
-  institutions: { name: string; type?: string; recent: number; growth: number; spec: number; score: number }[];
+  institutions: { name: string; type?: string; recent: number; growth: number | null; spec: number; score: number }[];
   bottlenecks: { term: string; count: number; samples: string[] }[];
   evidence: { topic_match: string; us_institutions: string; funding_match: string; abstract_coverage: number };
   why_now: string;

@@ -28,11 +28,12 @@ export default function SourcingRadar({ data }: { data: Dataset }) {
           {areas.map((x, i) => <option key={x.topic} value={i}>{x.topic.replace(" Research", "").replace(" Methods", "")}</option>)}
         </select>
         {a.orphan
-          ? <span className="text-[11px] px-2 py-0.5 rounded-full bg-amber-400/15 text-amber-300">orphan: science ahead of the ecosystem</span>
+          ? <span className="text-[11px] px-2 py-0.5 rounded-full bg-amber-400/15 text-amber-300" title="strong research, low matched federal funding, no Activate presence">orphan: research-rich, funding-thin</span>
           : a.activate_present
             ? <span className="text-[11px] px-2 py-0.5 rounded-full bg-teal-400/10 text-teal-300/90">Activate present</span>
             : <span className="text-[11px] px-2 py-0.5 rounded-full bg-zinc-700/40 text-zinc-400">whitespace</span>}
         <span className="text-[11px] text-zinc-600">{a.field}</span>
+        <a href={`https://openalex.org/${a.id}`} target="_blank" rel="noopener noreferrer" className="text-[10px] text-zinc-600 hover:text-teal-300 underline decoration-zinc-700">{a.id}</a>
       </div>
 
       {/* why now */}
@@ -53,7 +54,7 @@ export default function SourcingRadar({ data }: { data: Dataset }) {
                 <span className="relative text-[10px] text-zinc-600 w-3 text-right tabular-nums">{i + 1}</span>
                 <span className="relative flex-1 min-w-0">
                   <span className="block text-[12px] text-zinc-200 truncate">{inst.name}</span>
-                  <span className="block text-[9.5px] text-zinc-600">{inst.type} · {inst.recent} recent papers · ×{inst.growth} growth</span>
+                  <span className="block text-[9.5px] text-zinc-600">{inst.type} · {inst.recent} papers since 2022 · {inst.growth != null ? `×${inst.growth} growth` : "new to this topic"}</span>
                 </span>
               </div>
             ))}
@@ -63,7 +64,7 @@ export default function SourcingRadar({ data }: { data: Dataset }) {
         {/* what is technically hard */}
         <div className="panel p-4">
           <div className="text-[12px] font-medium text-zinc-200">What&apos;s technically hard</div>
-          <div className="text-[10px] text-zinc-600 mb-2.5">Recurring unsolved constraints in recent abstracts, the company-thesis territory</div>
+          <div className="text-[10px] text-zinc-600 mb-2.5">Recurring constraint terms in a sample of {a.n_works} recent papers (most-cited), keyword-matched, the company-thesis territory</div>
           <div className="space-y-2.5">
             {a.bottlenecks.map((b, i) => (
               <div key={i}>
@@ -83,7 +84,7 @@ export default function SourcingRadar({ data }: { data: Dataset }) {
         <div className="panel p-4">
           <div className="text-[12px] font-medium text-zinc-200 mb-2.5">Signals</div>
           <div className="space-y-1.5 text-[11.5px]">
-            <Row k="Research growth" v={`×${a.research_growth} over a decade`} />
+            <Row k="Research growth" v={`×${a.research_growth} share growth (vs ~7y ago)`} />
             <Row k="Federal funding" v={a.funding_phrase} accent={a.orphan ? "text-amber-300" : a.funding_phrase.includes("unavailable") ? "text-zinc-500" : "text-zinc-300"} />
             <Row k="Activate presence" v={a.activate_present ? "in this space" : "not yet"} accent={a.activate_present ? "text-teal-300" : "text-amber-300/80"} />
           </div>

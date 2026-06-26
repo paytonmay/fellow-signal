@@ -2,20 +2,13 @@
   "areas": [
     {
       "topic": "Advanced Battery Technologies Research",
+      "id": "T10663",
       "field": "Engineering",
       "research_growth": 3.02,
       "activate_present": true,
       "funding_phrase": "rising (x20, $691M)",
       "orphan": false,
       "institutions": [
-        {
-          "name": "National Laboratory of the Rockies",
-          "type": "facility",
-          "recent": 139,
-          "growth": 1.3,
-          "spec": 11.1,
-          "score": 19.37772803776476
-        },
         {
           "name": "Sandia National Laboratories",
           "type": "facility",
@@ -71,6 +64,14 @@
           "growth": 3,
           "spec": 2.1,
           "score": 7.239701408383746
+        },
+        {
+          "name": "Argonne National Laboratory",
+          "type": "facility",
+          "recent": 92,
+          "growth": 1.2,
+          "spec": 4.4,
+          "score": 7.159523420914933
         }
       ],
       "bottlenecks": [
@@ -126,11 +127,12 @@
         "funding_match": "matched keyword",
         "abstract_coverage": 0.47
       },
-      "why_now": "Research output is up ~3.02x over a decade; the federal funding signal is rising (x20, $691M); Activate is already in this space. Recurring bottlenecks: degradation, efficiency, cost.",
+      "why_now": "The field's share of publications is up ~3.02x over the past several years; the federal funding signal is rising (x20, $691M); Activate is already in this space. Recurring bottlenecks: degradation, efficiency, cost.",
       "n_works": 120
     },
     {
       "topic": "Concrete and Cement Materials Research",
+      "id": "T10033",
       "field": "Engineering",
       "research_growth": 2.31,
       "activate_present": false,
@@ -253,11 +255,12 @@
         "funding_match": "matched keyword",
         "abstract_coverage": 0.41
       },
-      "why_now": "Research output is up ~2.31x over a decade; the federal funding signal is appeared recently (~$176M); Activate is not yet in this space. Recurring bottlenecks: durability, cost, efficiency.",
+      "why_now": "The field's share of publications is up ~2.31x over the past several years; the federal funding signal is appeared recently (~$176M); Activate is not yet in this space. Recurring bottlenecks: durability, cost, efficiency.",
       "n_works": 120
     },
     {
       "topic": "Advancements in Battery Materials",
+      "id": "T10018",
       "field": "Engineering",
       "research_growth": 1.74,
       "activate_present": true,
@@ -313,20 +316,20 @@
           "score": 18.36638441048959
         },
         {
-          "name": "National Laboratory of the Rockies",
-          "type": "facility",
-          "recent": 128,
-          "growth": 1.2,
-          "spec": 10.2,
-          "score": 14.916162298564988
-        },
-        {
           "name": "University of Chicago",
           "type": "education",
           "recent": 114,
           "growth": 3,
           "spec": 1.7,
           "score": 14.1514230281844
+        },
+        {
+          "name": "The University of Texas at Austin",
+          "type": "education",
+          "recent": 258,
+          "growth": 0.9,
+          "spec": 2.0,
+          "score": 9.985595706424265
         }
       ],
       "bottlenecks": [
@@ -382,11 +385,12 @@
         "funding_match": "matched keyword",
         "abstract_coverage": 0.64
       },
-      "why_now": "Research output is up ~1.74x over a decade; the federal funding signal is rising (x20, $691M); Activate is already in this space. Recurring bottlenecks: stability, cost, efficiency.",
+      "why_now": "The field's share of publications is up ~1.74x over the past several years; the federal funding signal is rising (x20, $691M); Activate is already in this space. Recurring bottlenecks: stability, cost, efficiency.",
       "n_works": 120
     },
     {
       "topic": "Genomics and Phylogenetic Studies",
+      "id": "T10015",
       "field": "Biochemistry, Genetics and Molecular Biology",
       "research_growth": 4.46,
       "activate_present": true,
@@ -450,12 +454,12 @@
           "score": 7.561354867617155
         },
         {
-          "name": "Material Measurement Laboratory",
-          "type": "government",
-          "recent": 21,
-          "growth": 2.5,
-          "spec": 19.2,
-          "score": 7.27046002953705
+          "name": "Lawrence Berkeley National Laboratory",
+          "type": "facility",
+          "recent": 121,
+          "growth": 0.9,
+          "spec": 2.7,
+          "score": 5.920983767670625
         }
       ],
       "bottlenecks": [
@@ -511,11 +515,12 @@
         "funding_match": "matched keyword",
         "abstract_coverage": 0.91
       },
-      "why_now": "Research output is up ~4.46x over a decade; the federal funding signal is rising (x11, $1928M); Activate is already in this space. Recurring bottlenecks: cost, throughput, contamination.",
+      "why_now": "The field's share of publications is up ~4.46x over the past several years; the federal funding signal is rising (x11, $1928M); Activate is already in this space. Recurring bottlenecks: cost, throughput, contamination.",
       "n_works": 120
     },
     {
       "topic": "Cancer Genomics and Diagnostics",
+      "id": "T11287",
       "field": "Biochemistry, Genetics and Molecular Biology",
       "research_growth": 2.25,
       "activate_present": false,
@@ -563,14 +568,6 @@
           "score": 49.49485251295643
         },
         {
-          "name": "Genesee Community College",
-          "type": "education",
-          "recent": 40,
-          "growth": 2.5,
-          "spec": 178.6,
-          "score": 42.25771273642583
-        },
-        {
           "name": "Weill Cornell Medicine",
           "type": "education",
           "recent": 209,
@@ -585,6 +582,14 @@
           "growth": 1.1,
           "spec": 3.6,
           "score": 35.61861036704048
+        },
+        {
+          "name": "Cornell University",
+          "type": "education",
+          "recent": 388,
+          "growth": 1.3,
+          "spec": 3.9,
+          "score": 31.641612752940716
         }
       ],
       "bottlenecks": [
@@ -619,25 +624,18 @@
         "funding_match": "matched keyword",
         "abstract_coverage": 0.75
       },
-      "why_now": "Research output is up ~2.25x over a decade; the federal funding signal is rising (x11, $1928M); Activate is not yet in this space. Recurring bottlenecks: sensitivity, cost, throughput.",
+      "why_now": "The field's share of publications is up ~2.25x over the past several years; the federal funding signal is rising (x11, $1928M); Activate is not yet in this space. Recurring bottlenecks: sensitivity, cost, throughput.",
       "n_works": 120
     },
     {
       "topic": "Advanced Photocatalysis Techniques",
+      "id": "T10078",
       "field": "Energy",
       "research_growth": 2.63,
       "activate_present": false,
       "funding_phrase": "rising (x9, $61M)",
       "orphan": false,
       "institutions": [
-        {
-          "name": "ASA College",
-          "type": "education",
-          "recent": 45,
-          "growth": 2.5,
-          "spec": 8.3,
-          "score": 10.272651864060121
-        },
         {
           "name": "New Jersey Institute of Technology",
           "type": "education",
@@ -650,49 +648,57 @@
           "name": "Kean University",
           "type": "education",
           "recent": 18,
-          "growth": 2.5,
+          "growth": null,
           "spec": 10.5,
-          "score": 4.603461791425697
-        },
-        {
-          "name": "South University",
-          "type": "education",
-          "recent": 16,
-          "growth": 2.5,
-          "spec": 12.2,
-          "score": 4.41894541332886
-        },
-        {
-          "name": "National Laboratory of the Rockies",
-          "type": "facility",
-          "recent": 38,
-          "growth": 2.1,
-          "spec": 3.0,
-          "score": 4.417144850880727
+          "score": 3.682769433140557
         },
         {
           "name": "Illinois Institute of Technology",
           "type": "education",
           "recent": 18,
-          "growth": 2.5,
+          "growth": null,
           "spec": 3.3,
-          "score": 2.594714869315635
+          "score": 2.075771895452508
         },
         {
           "name": "Northwestern Polytechnic University",
           "type": "education",
           "recent": 14,
-          "growth": 2.5,
+          "growth": null,
           "spec": 4.7,
-          "score": 2.395350687902042
+          "score": 1.9162805503216336
         },
         {
-          "name": "Saint Joseph's College",
+          "name": "Georgia Institute of Technology",
           "type": "education",
-          "recent": 15,
-          "growth": 2.5,
-          "spec": 3.8,
-          "score": 2.3088401822368407
+          "recent": 58,
+          "growth": 0.8,
+          "spec": 1.4,
+          "score": 1.8197989820459681
+        },
+        {
+          "name": "Pennsylvania State University",
+          "type": "education",
+          "recent": 52,
+          "growth": 1.1,
+          "spec": 0.9,
+          "score": 1.7507640503127855
+        },
+        {
+          "name": "University of California, Santa Barbara",
+          "type": "education",
+          "recent": 25,
+          "growth": 2.1,
+          "spec": 1.0,
+          "score": 1.6445546300798768
+        },
+        {
+          "name": "Texas A&M University",
+          "type": "education",
+          "recent": 46,
+          "growth": 1.1,
+          "spec": 0.9,
+          "score": 1.5301255115048173
         }
       ],
       "bottlenecks": [
@@ -748,11 +754,12 @@
         "funding_match": "matched keyword",
         "abstract_coverage": 0.58
       },
-      "why_now": "Research output is up ~2.63x over a decade; the federal funding signal is rising (x9, $61M); Activate is not yet in this space. Recurring bottlenecks: efficiency, degradation, cost.",
+      "why_now": "The field's share of publications is up ~2.63x over the past several years; the federal funding signal is rising (x9, $61M); Activate is not yet in this space. Recurring bottlenecks: efficiency, degradation, cost.",
       "n_works": 120
     },
     {
       "topic": "Electrocatalysts for Energy Conversion",
+      "id": "T10030",
       "field": "Energy",
       "research_growth": 2.56,
       "activate_present": true,
@@ -877,132 +884,12 @@
         "funding_match": "matched keyword",
         "abstract_coverage": 0.77
       },
-      "why_now": "Research output is up ~2.56x over a decade; the federal funding signal is rising (x9, $90M); Activate is already in this space. Recurring bottlenecks: stability, overpotential, efficiency.",
-      "n_works": 120
-    },
-    {
-      "topic": "Topic Modeling",
-      "field": "Computer Science",
-      "research_growth": 4.64,
-      "activate_present": false,
-      "funding_phrase": "unavailable (no clean keyword match)",
-      "orphan": false,
-      "institutions": [
-        {
-          "name": "Carnegie Mellon University",
-          "type": "education",
-          "recent": 352,
-          "growth": 0.6,
-          "spec": 11.1,
-          "score": 20.774567425471947
-        },
-        {
-          "name": "University of Illinois Urbana-Champaign",
-          "type": "education",
-          "recent": 256,
-          "growth": 0.9,
-          "spec": 4.5,
-          "score": 16.06889544434721
-        },
-        {
-          "name": "New York University",
-          "type": "education",
-          "recent": 191,
-          "growth": 1.1,
-          "spec": 3.0,
-          "score": 11.589193608041167
-        },
-        {
-          "name": "University of Southern California",
-          "type": "education",
-          "recent": 207,
-          "growth": 0.9,
-          "spec": 3.8,
-          "score": 11.56295462404734
-        },
-        {
-          "name": "Georgia Institute of Technology",
-          "type": "education",
-          "recent": 158,
-          "growth": 1.1,
-          "spec": 3.9,
-          "score": 10.987676056338028
-        },
-        {
-          "name": "Harvard University",
-          "type": "education",
-          "recent": 130,
-          "growth": 2.5,
-          "spec": 0.9,
-          "score": 9.659655167316659
-        },
-        {
-          "name": "University of Illinois Chicago",
-          "type": "education",
-          "recent": 121,
-          "growth": 1.4,
-          "spec": 3.1,
-          "score": 9.651989002833126
-        },
-        {
-          "name": "University of Notre Dame",
-          "type": "education",
-          "recent": 90,
-          "growth": 1.5,
-          "spec": 4.8,
-          "score": 9.542697285894036
-        }
-      ],
-      "bottlenecks": [
-        {
-          "term": "efficiency",
-          "count": 8,
-          "samples": [
-            "Emergent Abilities of Large Language Models",
-            "Efficient Transformers: A Survey",
-            "ChatGPT outperforms crowd workers for text-annotation tasks"
-          ]
-        },
-        {
-          "term": "toxicity",
-          "count": 1,
-          "samples": [
-            "PaLM: Scaling Language Modeling with Pathways"
-          ]
-        },
-        {
-          "term": "throughput",
-          "count": 1,
-          "samples": [
-            "Efficient Memory Management for Large Language Model Serving with PagedAttention"
-          ]
-        },
-        {
-          "term": "cost",
-          "count": 1,
-          "samples": [
-            "ChatGPT outperforms crowd workers for text-annotation tasks"
-          ]
-        },
-        {
-          "term": "yield",
-          "count": 1,
-          "samples": [
-            "Parameter-efficient fine-tuning of large-scale pre-trained language models"
-          ]
-        }
-      ],
-      "evidence": {
-        "topic_match": "by OpenAlex topic ID",
-        "us_institutions": "strong",
-        "funding_match": "unavailable",
-        "abstract_coverage": 0.91
-      },
-      "why_now": "Research output is up ~4.64x over a decade; the federal funding signal is unavailable (no clean keyword match); Activate is not yet in this space. Recurring bottlenecks: efficiency, toxicity, throughput.",
+      "why_now": "The field's share of publications is up ~2.56x over the past several years; the federal funding signal is rising (x9, $90M); Activate is already in this space. Recurring bottlenecks: stability, overpotential, efficiency.",
       "n_works": 120
     },
     {
       "topic": "Gut microbiota and health",
+      "id": "T10066",
       "field": "Biochemistry, Genetics and Molecular Biology",
       "research_growth": 2.87,
       "activate_present": false,
@@ -1123,11 +1010,12 @@
         "funding_match": "matched keyword",
         "abstract_coverage": 0.68
       },
-      "why_now": "Research output is up ~2.87x over a decade; the federal funding signal is rising (x4, $3684M); Activate is not yet in this space. Recurring bottlenecks: crosstalk, degradation, sensitivity.",
+      "why_now": "The field's share of publications is up ~2.87x over the past several years; the federal funding signal is rising (x4, $3684M); Activate is not yet in this space. Recurring bottlenecks: crosstalk, degradation, sensitivity.",
       "n_works": 120
     },
     {
       "topic": "Advanced Sensor and Energy Harvesting Materials",
+      "id": "T10338",
       "field": "Engineering",
       "research_growth": 3.0,
       "activate_present": true,
@@ -1141,14 +1029,6 @@
           "growth": 0.8,
           "spec": 15.7,
           "score": 67.0017988070353
-        },
-        {
-          "name": "Wilson College",
-          "type": "education",
-          "recent": 34,
-          "growth": 2.3,
-          "spec": 51.4,
-          "score": 17.465339771098243
         },
         {
           "name": "Pennsylvania State University",
@@ -1183,20 +1063,28 @@
           "score": 12.023271264522233
         },
         {
-          "name": "The University of Texas at Tyler",
-          "type": "education",
-          "recent": 28,
-          "growth": 2.5,
-          "spec": 12.9,
-          "score": 7.962481337956234
-        },
-        {
           "name": "University of California, Los Angeles",
           "type": "education",
           "recent": 167,
           "growth": 1.0,
           "spec": 1.9,
           "score": 7.256724127904922
+        },
+        {
+          "name": "The Wallace H. Coulter Department of Biomedical Engineering",
+          "type": "education",
+          "recent": 42,
+          "growth": 1.3,
+          "spec": 17.1,
+          "score": 6.986023170848366
+        },
+        {
+          "name": "The University of Texas at Tyler",
+          "type": "education",
+          "recent": 28,
+          "growth": null,
+          "spec": 12.9,
+          "score": 6.369985070364987
         }
       ],
       "bottlenecks": [
@@ -1252,11 +1140,12 @@
         "funding_match": "matched keyword",
         "abstract_coverage": 0.72
       },
-      "why_now": "Research output is up ~3.0x over a decade; the federal funding signal is rising (x4, $181M); Activate is already in this space. Recurring bottlenecks: sensitivity, stability, efficiency.",
+      "why_now": "The field's share of publications is up ~3.0x over the past several years; the federal funding signal is rising (x4, $181M); Activate is already in this space. Recurring bottlenecks: sensitivity, stability, efficiency.",
       "n_works": 120
     },
     {
       "topic": "Additive Manufacturing and 3D Printing Technologies",
+      "id": "T10783",
       "field": "Engineering",
       "research_growth": 2.34,
       "activate_present": true,
@@ -1312,20 +1201,20 @@
           "score": 10.28244184252328
         },
         {
-          "name": "Government of the United States of America",
-          "type": "government",
-          "recent": 39,
-          "growth": 2.5,
-          "spec": 8.5,
-          "score": 8.969757129864218
-        },
-        {
           "name": "The University of Texas at El Paso",
           "type": "education",
           "recent": 68,
           "growth": 1.4,
           "spec": 7.9,
           "score": 8.1991554693369
+        },
+        {
+          "name": "Pennsylvania State University",
+          "type": "education",
+          "recent": 144,
+          "growth": 1.1,
+          "spec": 2.5,
+          "score": 7.966977907919328
         }
       ],
       "bottlenecks": [
@@ -1379,11 +1268,12 @@
         "funding_match": "matched keyword",
         "abstract_coverage": 0.67
       },
-      "why_now": "Research output is up ~2.34x over a decade; the federal funding signal is rising (x3, $1269M); Activate is already in this space. Recurring bottlenecks: cost, efficiency, corrosion.",
+      "why_now": "The field's share of publications is up ~2.34x over the past several years; the federal funding signal is rising (x3, $1269M); Activate is already in this space. Recurring bottlenecks: cost, efficiency, corrosion.",
       "n_works": 120
     },
     {
       "topic": "Perovskite Materials and Applications",
+      "id": "T10247",
       "field": "Engineering",
       "research_growth": 3.13,
       "activate_present": true,
@@ -1391,20 +1281,12 @@
       "orphan": false,
       "institutions": [
         {
-          "name": "National Laboratory of the Rockies",
-          "type": "facility",
-          "recent": 282,
-          "growth": 1.0,
-          "spec": 22.5,
-          "score": 43.21841580672351
-        },
-        {
           "name": "Lamar University",
           "type": "education",
           "recent": 62,
-          "growth": 2.5,
+          "growth": null,
           "spec": 25.3,
-          "score": 24.652211627918803
+          "score": 19.72176930233504
         },
         {
           "name": "Brookhaven National Laboratory",
@@ -1453,6 +1335,14 @@
           "growth": 1.8,
           "spec": 2.1,
           "score": 11.306507241396726
+        },
+        {
+          "name": "Argonne National Laboratory",
+          "type": "facility",
+          "recent": 150,
+          "growth": 0.9,
+          "spec": 7.1,
+          "score": 11.216325173656262
         }
       ],
       "bottlenecks": [
@@ -1508,363 +1398,12 @@
         "funding_match": "matched keyword",
         "abstract_coverage": 0.6
       },
-      "why_now": "Research output is up ~3.13x over a decade; the federal funding signal is low/flat; Activate is already in this space. Recurring bottlenecks: efficiency, stability, degradation.",
-      "n_works": 120
-    },
-    {
-      "topic": "Network Security and Intrusion Detection",
-      "field": "Computer Science",
-      "research_growth": 2.86,
-      "activate_present": false,
-      "funding_phrase": "unavailable (no clean keyword match)",
-      "orphan": false,
-      "institutions": [
-        {
-          "name": "University of the Cumberlands",
-          "type": "education",
-          "recent": 125,
-          "growth": 2.5,
-          "spec": 50.2,
-          "score": 70.04543555867507
-        },
-        {
-          "name": "United States Military Academy",
-          "type": "education",
-          "recent": 48,
-          "growth": 3,
-          "spec": 22.9,
-          "score": 21.78112808177703
-        },
-        {
-          "name": "ASA College",
-          "type": "education",
-          "recent": 56,
-          "growth": 3,
-          "spec": 10.4,
-          "score": 17.113036876264967
-        },
-        {
-          "name": "University of West Florida",
-          "type": "education",
-          "recent": 35,
-          "growth": 3,
-          "spec": 18.0,
-          "score": 14.099722119002053
-        },
-        {
-          "name": "Illinois Institute of Technology",
-          "type": "education",
-          "recent": 47,
-          "growth": 2.5,
-          "spec": 8.7,
-          "score": 10.947820543756336
-        },
-        {
-          "name": "North Carolina Agricultural and Technical State University",
-          "type": "education",
-          "recent": 42,
-          "growth": 2.5,
-          "spec": 9.4,
-          "score": 10.03689779806099
-        },
-        {
-          "name": "University of Illinois at Springfield",
-          "type": "education",
-          "recent": 22,
-          "growth": 2.5,
-          "spec": 25.8,
-          "score": 8.827649770373997
-        },
-        {
-          "name": "University of North Dakota",
-          "type": "education",
-          "recent": 41,
-          "growth": 2.5,
-          "spec": 7.1,
-          "score": 8.637288061890743
-        }
-      ],
-      "bottlenecks": [
-        {
-          "term": "efficiency",
-          "count": 9,
-          "samples": [
-            "A Secure Intrusion Detection Platform Using Blockchain and Radial Basis Function Neural Networks for Internet of Drones",
-            "Innovative Machine Learning Algorithms for Classification and Intrusion Detectionv By IJISRT",
-            "\u201cWhy Should I Trust Your IDS?\u201d: An Explainable Deep Learning Framework for Intrusion Detection Systems in Internet of Things Networks"
-          ]
-        },
-        {
-          "term": "cost",
-          "count": 2,
-          "samples": [
-            "Edge-IIoTset: A New Comprehensive Realistic Cyber Security Dataset of IoT and IIoT Applications for Centralized and Federated Learning",
-            "Towards the Development of a Realistic Multidimensional IoT Profiling Dataset"
-          ]
-        },
-        {
-          "term": "scalability",
-          "count": 2,
-          "samples": [
-            "A machine learning-based intrusion detection for detecting internet of things network attacks",
-            "Dependable Intrusion Detection System for IoT: A Deep Transfer Learning Based Approach"
-          ]
-        },
-        {
-          "term": "degradation",
-          "count": 2,
-          "samples": [
-            "IGRF-RFE: a hybrid feature selection method for MLP-based network intrusion detection on UNSW-NB15 dataset",
-            "A Flow-Based Anomaly Detection Approach With Feature Selection Method Against DDoS Attacks in SDNs"
-          ]
-        },
-        {
-          "term": "throughput",
-          "count": 2,
-          "samples": [
-            "Towards a machine learning-based framework for DDOS attack detection in software-defined IoT (SD-IoT) networks",
-            "A Flow-Based Anomaly Detection Approach With Feature Selection Method Against DDoS Attacks in SDNs"
-          ]
-        }
-      ],
-      "evidence": {
-        "topic_match": "by OpenAlex topic ID",
-        "us_institutions": "strong",
-        "funding_match": "unavailable",
-        "abstract_coverage": 0.71
-      },
-      "why_now": "Research output is up ~2.86x over a decade; the federal funding signal is unavailable (no clean keyword match); Activate is not yet in this space. Recurring bottlenecks: efficiency, cost, scalability.",
-      "n_works": 120
-    },
-    {
-      "topic": "Ionosphere and magnetosphere dynamics",
-      "field": "Physics and Astronomy",
-      "research_growth": 2.57,
-      "activate_present": false,
-      "funding_phrase": "unavailable (no clean keyword match)",
-      "orphan": false,
-      "institutions": [
-        {
-          "name": "Environmental Molecular Sciences Laboratory",
-          "type": "facility",
-          "recent": 11279,
-          "growth": 3,
-          "spec": 19.6,
-          "score": 4740.023353913003
-        },
-        {
-          "name": "Pacific Northwest National Laboratory",
-          "type": "facility",
-          "recent": 11440,
-          "growth": 3,
-          "spec": 18.9,
-          "score": 4714.883357874689
-        },
-        {
-          "name": "Joslin Diabetes Center",
-          "type": "facility",
-          "recent": 615,
-          "growth": 2.5,
-          "spec": 240.7,
-          "score": 754.3227918246569
-        },
-        {
-          "name": "Brigham Young University",
-          "type": "education",
-          "recent": 907,
-          "growth": 2.5,
-          "spec": 57.3,
-          "score": 543.003477756557
-        },
-        {
-          "name": "University of Arizona",
-          "type": "education",
-          "recent": 1039,
-          "growth": 3,
-          "spec": 20.9,
-          "score": 451.0502716050781
-        },
-        {
-          "name": "Washington State University",
-          "type": "education",
-          "recent": 699,
-          "growth": 3,
-          "spec": 30.2,
-          "score": 364.70107680386036
-        },
-        {
-          "name": "University of Oklahoma",
-          "type": "education",
-          "recent": 621,
-          "growth": 2.5,
-          "spec": 34.1,
-          "score": 286.6650470421423
-        },
-        {
-          "name": "University of California, Los Angeles",
-          "type": "education",
-          "recent": 1352,
-          "growth": 1.7,
-          "spec": 15.7,
-          "score": 283.05218270275907
-        }
-      ],
-      "bottlenecks": [
-        {
-          "term": "sensitivity",
-          "count": 2,
-          "samples": [
-            "Cooling and Contraction of the Mesosphere and Lower Thermosphere From 2002 to 2021",
-            "Machine Learning Gravity Wave Parameterization Generalizes to Capture the QBO and Response to Increased CO<sub>2</sub>"
-          ]
-        },
-        {
-          "term": "stability",
-          "count": 2,
-          "samples": [
-            "Prediction of Global Ionospheric TEC Based on Deep Learning",
-            "Deep Learning for Global Ionospheric TEC Forecasting: Different Approaches and Validation"
-          ]
-        },
-        {
-          "term": "lifetime",
-          "count": 2,
-          "samples": [
-            "A review of air-breathing electric propulsion: from mission studies to technology verification",
-            "New thermosphere neutral mass density and crosswind datasets from CHAMP, GRACE, and GRACE-FO"
-          ]
-        },
-        {
-          "term": "efficiency",
-          "count": 1,
-          "samples": [
-            "A Database of MMS Bow Shock Crossings Compiled Using Machine Learning"
-          ]
-        },
-        {
-          "term": "yield",
-          "count": 1,
-          "samples": [
-            "Global Ionospheric TEC Forecasting for Geomagnetic Storm Time Using a Deep Learning\u2010Based Multi\u2010Model Ensemble Method"
-          ]
-        }
-      ],
-      "evidence": {
-        "topic_match": "by OpenAlex topic ID",
-        "us_institutions": "strong",
-        "funding_match": "unavailable",
-        "abstract_coverage": 0.93
-      },
-      "why_now": "Research output is up ~2.57x over a decade; the federal funding signal is unavailable (no clean keyword match); Activate is not yet in this space. Recurring bottlenecks: sensitivity, stability, lifetime.",
-      "n_works": 120
-    },
-    {
-      "topic": "Educational Reforms and Innovations",
-      "field": "Environmental Science",
-      "research_growth": 2.56,
-      "activate_present": false,
-      "funding_phrase": "unavailable (no clean keyword match)",
-      "orphan": false,
-      "institutions": [
-        {
-          "name": "Weatherford College",
-          "type": "education",
-          "recent": 74,
-          "growth": 3,
-          "spec": 1.1,
-          "score": 7.491964144405275
-        },
-        {
-          "name": "Crest Middle School",
-          "type": "education",
-          "recent": 4,
-          "growth": 3,
-          "spec": 18.0,
-          "score": 1.6107745325136582
-        },
-        {
-          "name": "National Defense University",
-          "type": "education",
-          "recent": 4,
-          "growth": 3,
-          "spec": 3.4,
-          "score": 0.6951413356361907
-        },
-        {
-          "name": "City University of Seattle",
-          "type": "education",
-          "recent": 5,
-          "growth": 1.0,
-          "spec": 5.6,
-          "score": 0.37455547914624565
-        },
-        {
-          "name": "Hodges University",
-          "type": "education",
-          "recent": 6,
-          "growth": 1.0,
-          "spec": 2.8,
-          "score": 0.3202563076101743
-        },
-        {
-          "name": "King University",
-          "type": "education",
-          "recent": 4,
-          "growth": 1.0,
-          "spec": 1.0,
-          "score": 0.12720867910820832
-        },
-        {
-          "name": "New York University",
-          "type": "education",
-          "recent": 5,
-          "growth": 1.0,
-          "spec": 0.1,
-          "score": 0.044203153501805426
-        }
-      ],
-      "bottlenecks": [
-        {
-          "term": "efficiency",
-          "count": 2,
-          "samples": [
-            "Demonstration and Suggestion on the Communication Efficiency of New Media of Environmental Education Based on Ideological and Political Education",
-            "Practical exploration of English translation activity courses in universities under the background of artificial intelligence"
-          ]
-        },
-        {
-          "term": "stability",
-          "count": 1,
-          "samples": [
-            "Analysis of the Applicability of the Convergence Control Method for Gateroad Design Based on Conducted Underground Investigations"
-          ]
-        },
-        {
-          "term": "durability",
-          "count": 1,
-          "samples": [
-            "Research Progress and Trend Analysis of Solid Waste Resource Utilization in Geopolymer Concrete"
-          ]
-        },
-        {
-          "term": "cost",
-          "count": 1,
-          "samples": [
-            "Research on the Marketing Strategy of Pinduoduo\u2014Based on the STP and 4Ps Methods"
-          ]
-        }
-      ],
-      "evidence": {
-        "topic_match": "by OpenAlex topic ID",
-        "us_institutions": "limited",
-        "funding_match": "unavailable",
-        "abstract_coverage": 0.83
-      },
-      "why_now": "Research output is up ~2.56x over a decade; the federal funding signal is unavailable (no clean keyword match); Activate is not yet in this space. Recurring bottlenecks: efficiency, stability, durability.",
+      "why_now": "The field's share of publications is up ~3.13x over the past several years; the federal funding signal is low/flat; Activate is already in this space. Recurring bottlenecks: efficiency, stability, degradation.",
       "n_works": 120
     },
     {
       "topic": "Computational Drug Discovery Methods",
+      "id": "T10211",
       "field": "Computer Science",
       "research_growth": 2.44,
       "activate_present": false,
@@ -1872,28 +1411,12 @@
       "orphan": true,
       "institutions": [
         {
-          "name": "Northwood University",
-          "type": "education",
-          "recent": 109,
-          "growth": 2.5,
-          "spec": 249.4,
-          "score": 136.09401826597787
-        },
-        {
           "name": "University of Arkansas for Medical Sciences",
           "type": "education",
           "recent": 122,
           "growth": 3,
           "spec": 11.4,
           "score": 39.15640119538055
-        },
-        {
-          "name": "University of Toledo",
-          "type": "education",
-          "recent": 121,
-          "growth": 2.5,
-          "spec": 10.6,
-          "score": 31.110361092531413
         },
         {
           "name": "University of Florida",
@@ -1904,12 +1427,12 @@
           "score": 29.916537099313786
         },
         {
-          "name": "Wayne State University",
+          "name": "University of Toledo",
           "type": "education",
-          "recent": 128,
-          "growth": 2.5,
-          "spec": 5.9,
-          "score": 24.651878904683052
+          "recent": 121,
+          "growth": null,
+          "spec": 10.6,
+          "score": 24.88828887402513
         },
         {
           "name": "University of Minnesota",
@@ -1920,20 +1443,36 @@
           "score": 24.190518585490288
         },
         {
-          "name": "National Center for Toxicological Research",
-          "type": "facility",
-          "recent": 44,
-          "growth": 1.3,
-          "spec": 61.8,
-          "score": 13.750663363956845
+          "name": "Wayne State University",
+          "type": "education",
+          "recent": 128,
+          "growth": null,
+          "spec": 5.9,
+          "score": 19.72150312374644
+        },
+        {
+          "name": "University of North Carolina at Chapel Hill",
+          "type": "education",
+          "recent": 184,
+          "growth": 1.0,
+          "spec": 1.9,
+          "score": 8.124745331472377
+        },
+        {
+          "name": "Massachusetts Institute of Technology",
+          "type": "education",
+          "recent": 123,
+          "growth": 1.4,
+          "spec": 2.2,
+          "score": 7.994376729968709
         },
         {
           "name": "Kean University",
           "type": "education",
           "recent": 28,
-          "growth": 2.5,
+          "growth": null,
           "spec": 16.3,
-          "score": 8.931262053061992
+          "score": 7.145009642449594
         }
       ],
       "bottlenecks": [
@@ -1987,239 +1526,12 @@
         "funding_match": "matched keyword",
         "abstract_coverage": 0.82
       },
-      "why_now": "Research output is up ~2.44x over a decade; the federal funding signal is low/flat; Activate is not yet in this space. Recurring bottlenecks: toxicity, cost, efficiency.",
-      "n_works": 120
-    },
-    {
-      "topic": "IoT and Edge/Fog Computing",
-      "field": "Computer Science",
-      "research_growth": 2.37,
-      "activate_present": false,
-      "funding_phrase": "unavailable (no clean keyword match)",
-      "orphan": false,
-      "institutions": [
-        {
-          "name": "SUNY New Paltz",
-          "type": "education",
-          "recent": 53,
-          "growth": 1.9,
-          "spec": 42.6,
-          "score": 20.71553139670395
-        },
-        {
-          "name": "University of the Cumberlands",
-          "type": "education",
-          "recent": 32,
-          "growth": 2.5,
-          "spec": 12.9,
-          "score": 9.072767633979883
-        },
-        {
-          "name": "Sul Ross State University",
-          "type": "education",
-          "recent": 13,
-          "growth": 2.5,
-          "spec": 27.0,
-          "score": 5.342967087424112
-        },
-        {
-          "name": "Cisco College",
-          "type": "education",
-          "recent": 9,
-          "growth": 2.5,
-          "spec": 46.4,
-          "score": 4.846217570669732
-        },
-        {
-          "name": "Saint Joseph's College",
-          "type": "education",
-          "recent": 23,
-          "growth": 2.5,
-          "spec": 5.8,
-          "score": 4.383779864849764
-        },
-        {
-          "name": "University of Houston",
-          "type": "education",
-          "recent": 64,
-          "growth": 1.1,
-          "spec": 3.0,
-          "score": 3.821831455397388
-        },
-        {
-          "name": "Northeastern University",
-          "type": "education",
-          "recent": 40,
-          "growth": 1.8,
-          "spec": 2.0,
-          "score": 3.2874966528710177
-        },
-        {
-          "name": "Southern Methodist University",
-          "type": "education",
-          "recent": 21,
-          "growth": 2.5,
-          "spec": 3.7,
-          "score": 3.1793861565588943
-        }
-      ],
-      "bottlenecks": [
-        {
-          "term": "efficiency",
-          "count": 19,
-          "samples": [
-            "Exploring the Full Potentials of IoT for Better Financial Growth and Stability: A Comprehensive Survey",
-            "Edge AI: A survey",
-            "IoT-Based Healthcare-Monitoring System towards Improving Quality of Life: A Review"
-          ]
-        },
-        {
-          "term": "cost",
-          "count": 19,
-          "samples": [
-            "Metaverse for Healthcare: A Survey on Potential Applications, Challenges and Future Directions",
-            "Efficient Acceleration of Deep Learning Inference on Resource-Constrained Edge Devices: A Review",
-            "Recent Advancements in Emerging Technologies for Healthcare Management Systems: A Survey"
-          ]
-        },
-        {
-          "term": "scalability",
-          "count": 5,
-          "samples": [
-            "Microservices Architecture",
-            "Intelligent Data-Driven Task Offloading Framework for Internet of Vehicles Using Edge Computing and Reinforcement Learning",
-            "Integrating Digital Twin and Advanced Intelligent Technologies to Realize the Metaverse"
-          ]
-        },
-        {
-          "term": "throughput",
-          "count": 4,
-          "samples": [
-            "Wireless Communication Technologies for IoT in 5G: Vision, Applications, and Challenges",
-            "A Comprehensive Review on Artificial Intelligence/Machine Learning Algorithms for Empowering the Future IoT Toward 6G Era",
-            "A Joint Resource Allocation, Security with Efficient Task Scheduling in Cloud Computing Using Hybrid Machine Learning Techniques"
-          ]
-        },
-        {
-          "term": "stability",
-          "count": 2,
-          "samples": [
-            "Exploring the Full Potentials of IoT for Better Financial Growth and Stability: A Comprehensive Survey",
-            "MESON: A Mobility-Aware Dependent Task Offloading Scheme for Urban Vehicular Edge Computing"
-          ]
-        }
-      ],
-      "evidence": {
-        "topic_match": "by OpenAlex topic ID",
-        "us_institutions": "strong",
-        "funding_match": "unavailable",
-        "abstract_coverage": 0.83
-      },
-      "why_now": "Research output is up ~2.37x over a decade; the federal funding signal is unavailable (no clean keyword match); Activate is not yet in this space. Recurring bottlenecks: efficiency, cost, scalability.",
-      "n_works": 120
-    },
-    {
-      "topic": "Online Learning and Analytics",
-      "field": "Computer Science",
-      "research_growth": 2.31,
-      "activate_present": false,
-      "funding_phrase": "unavailable (no clean keyword match)",
-      "orphan": false,
-      "institutions": [
-        {
-          "name": "University of Florida",
-          "type": "education",
-          "recent": 96,
-          "growth": 2.7,
-          "spec": 1.2,
-          "score": 8.843428222725244
-        },
-        {
-          "name": "Carnegie Mellon University",
-          "type": "education",
-          "recent": 84,
-          "growth": 1.6,
-          "spec": 2.6,
-          "score": 6.7210856507872
-        },
-        {
-          "name": "Lindenwood University",
-          "type": "education",
-          "recent": 13,
-          "growth": 2.5,
-          "spec": 26.1,
-          "score": 5.250980019449573
-        },
-        {
-          "name": "Texas A&M University",
-          "type": "education",
-          "recent": 47,
-          "growth": 3,
-          "spec": 0.9,
-          "score": 4.225560997288093
-        },
-        {
-          "name": "University of Illinois Urbana-Champaign",
-          "type": "education",
-          "recent": 78,
-          "growth": 1.4,
-          "spec": 1.4,
-          "score": 4.043591595502933
-        },
-        {
-          "name": "Georgia Southern University",
-          "type": "education",
-          "recent": 23,
-          "growth": 2.5,
-          "spec": 4.5,
-          "score": 3.843372634680797
-        },
-        {
-          "name": "University of North Texas",
-          "type": "education",
-          "recent": 53,
-          "growth": 1.2,
-          "spec": 3.5,
-          "score": 3.616592773277588
-        },
-        {
-          "name": "North Carolina State University",
-          "type": "education",
-          "recent": 62,
-          "growth": 1.3,
-          "spec": 1.7,
-          "score": 3.3884531339412827
-        }
-      ],
-      "bottlenecks": [
-        {
-          "term": "efficiency",
-          "count": 4,
-          "samples": [
-            "Exploring the potential of artificial intelligence tools in educational measurement and assessment",
-            "Exploring the Potential Impact of Artificial Intelligence (AI) on International Students in Higher Education: Generative AI, Chatbots, Analytics, and ",
-            "The Impact of Artificial Intelligence (AI) on Students\u2019 Academic Development"
-          ]
-        },
-        {
-          "term": "cost",
-          "count": 1,
-          "samples": [
-            "Role of AI in Education"
-          ]
-        }
-      ],
-      "evidence": {
-        "topic_match": "by OpenAlex topic ID",
-        "us_institutions": "strong",
-        "funding_match": "unavailable",
-        "abstract_coverage": 0.82
-      },
-      "why_now": "Research output is up ~2.31x over a decade; the federal funding signal is unavailable (no clean keyword match); Activate is not yet in this space. Recurring bottlenecks: efficiency, cost.",
+      "why_now": "The field's share of publications is up ~2.44x over the past several years; the federal funding signal is low/flat; Activate is not yet in this space. Recurring bottlenecks: toxicity, cost, efficiency.",
       "n_works": 120
     },
     {
       "topic": "Methane Hydrates and Related Phenomena",
+      "id": "T10995",
       "field": "Environmental Science",
       "research_growth": 2.24,
       "activate_present": false,
@@ -2259,14 +1571,6 @@
           "score": 703.9136340718194
         },
         {
-          "name": "Worcester State University",
-          "type": "education",
-          "recent": 384,
-          "growth": 2.5,
-          "spec": 388.7,
-          "score": 598.492032152983
-        },
-        {
           "name": "Argonne National Laboratory",
           "type": "facility",
           "recent": 793,
@@ -2286,9 +1590,17 @@
           "name": "Alabama Agricultural and Mechanical University",
           "type": "education",
           "recent": 312,
-          "growth": 2.5,
+          "growth": null,
           "spec": 271.8,
-          "score": 406.6314411354102
+          "score": 325.3051529083282
+        },
+        {
+          "name": "United States Department of Agriculture",
+          "type": "government",
+          "recent": 471,
+          "growth": 3,
+          "spec": 42.0,
+          "score": 289.55669776962935
         }
       ],
       "bottlenecks": [
@@ -2340,265 +1652,12 @@
         "funding_match": "unavailable",
         "abstract_coverage": 0.47
       },
-      "why_now": "Research output is up ~2.24x over a decade; the federal funding signal is unavailable (no clean keyword match); Activate is not yet in this space. Recurring bottlenecks: stability, efficiency, cost.",
-      "n_works": 120
-    },
-    {
-      "topic": "Land Use and Ecosystem Services",
-      "field": "Environmental Science",
-      "research_growth": 2.23,
-      "activate_present": false,
-      "funding_phrase": "unavailable (no clean keyword match)",
-      "orphan": false,
-      "institutions": [
-        {
-          "name": "University of Florida",
-          "type": "education",
-          "recent": 107,
-          "growth": 2.2,
-          "spec": 1.3,
-          "score": 8.521350667300586
-        },
-        {
-          "name": "Mississippi State University",
-          "type": "education",
-          "recent": 33,
-          "growth": 2.8,
-          "spec": 2.8,
-          "score": 4.782743671314917
-        },
-        {
-          "name": "Pacific Southwest Research Station",
-          "type": "government",
-          "recent": 12,
-          "growth": 2.5,
-          "spec": 18.5,
-          "score": 4.076197322920545
-        },
-        {
-          "name": "Northern Research Station",
-          "type": "government",
-          "recent": 24,
-          "growth": 1.3,
-          "spec": 13.4,
-          "score": 3.5073924157741003
-        },
-        {
-          "name": "Michigan State University",
-          "type": "education",
-          "recent": 81,
-          "growth": 0.9,
-          "spec": 1.4,
-          "score": 2.8663554131784994
-        },
-        {
-          "name": "Texas A&M University",
-          "type": "education",
-          "recent": 49,
-          "growth": 1.9,
-          "spec": 0.9,
-          "score": 2.825746417943102
-        },
-        {
-          "name": "SUNY College of Environmental Science and Forestry",
-          "type": "education",
-          "recent": 26,
-          "growth": 1.0,
-          "spec": 11.6,
-          "score": 2.7942951339155737
-        },
-        {
-          "name": "University of Fort Lauderdale",
-          "type": "education",
-          "recent": 14,
-          "growth": 2.5,
-          "spec": 6.3,
-          "score": 2.785710142041902
-        }
-      ],
-      "bottlenecks": [
-        {
-          "term": "degradation",
-          "count": 7,
-          "samples": [
-            "Global impacts of future urban expansion on terrestrial vertebrate diversity",
-            "Urbanisation-driven land degradation and socioeconomic challenges in peri-urban areas: Insights from Southern Europe",
-            "Temporal and spatial variation analysis of habitat quality on the PLUS-InVEST model for Ebinur Lake Basin, China"
-          ]
-        },
-        {
-          "term": "efficiency",
-          "count": 4,
-          "samples": [
-            "Urban expansion and the urban\u2013rural income gap: Empirical evidence from China",
-            "Exploring the impact of urban form on urban land use efficiency under low-carbon emission constraints: A case study in China's Yellow River Basin",
-            "Building in or out? Examining urban expansion patterns and land use efficiency across the global sample of 466 cities with million+ inhabitants"
-          ]
-        },
-        {
-          "term": "sensitivity",
-          "count": 3,
-          "samples": [
-            "Identifying ecological security patterns based on the supply, demand and sensitivity of ecosystem service: A case study in the Yellow River Basin, Chi",
-            "Construction of an ecological security pattern based on ecosystem sensitivity and the importance of ecological services: A case study of the Guanzhong",
-            "Spatiotemporal evolution of ecological vulnerability in the Yellow River Basin under ecological restoration initiatives"
-          ]
-        },
-        {
-          "term": "stability",
-          "count": 2,
-          "samples": [
-            "Assessment of the variation and influencing factors of vegetation NPP and carbon sink capacity under different natural conditions",
-            "Land use optimization of rural production\u2013living\u2013ecological space at different scales based on the BP\u2013ANN and CLUE\u2013S models"
-          ]
-        },
-        {
-          "term": "yield",
-          "count": 2,
-          "samples": [
-            "Analyzing spatio-temporal changes and trade-offs/synergies among ecosystem services in the Yellow River Basin, China",
-            "Relative effects of land conversion and land-use intensity on terrestrial vertebrate diversity"
-          ]
-        }
-      ],
-      "evidence": {
-        "topic_match": "by OpenAlex topic ID",
-        "us_institutions": "strong",
-        "funding_match": "unavailable",
-        "abstract_coverage": 0.56
-      },
-      "why_now": "Research output is up ~2.23x over a decade; the federal funding signal is unavailable (no clean keyword match); Activate is not yet in this space. Recurring bottlenecks: degradation, efficiency, sensitivity.",
-      "n_works": 120
-    },
-    {
-      "topic": "Neural Networks and Applications",
-      "field": "Computer Science",
-      "research_growth": 2.07,
-      "activate_present": false,
-      "funding_phrase": "unavailable (no clean keyword match)",
-      "orphan": false,
-      "institutions": [
-        {
-          "name": "University of Memphis",
-          "type": "education",
-          "recent": 75,
-          "growth": 3,
-          "spec": 10.1,
-          "score": 22.58144004104157
-        },
-        {
-          "name": "Sandia National Laboratories",
-          "type": "facility",
-          "recent": 78,
-          "growth": 3,
-          "spec": 5.6,
-          "score": 17.511315780263832
-        },
-        {
-          "name": "Georgia Institute of Technology",
-          "type": "education",
-          "recent": 95,
-          "growth": 1.9,
-          "spec": 2.3,
-          "score": 8.926154652594342
-        },
-        {
-          "name": "Northeastern University",
-          "type": "education",
-          "recent": 42,
-          "growth": 3,
-          "spec": 2.1,
-          "score": 5.836240931810454
-        },
-        {
-          "name": "Emory University",
-          "type": "education",
-          "recent": 59,
-          "growth": 3,
-          "spec": 1.0,
-          "score": 5.540612094547803
-        },
-        {
-          "name": "Sandia National Laboratories California",
-          "type": "facility",
-          "recent": 32,
-          "growth": 2.3,
-          "spec": 5.6,
-          "score": 5.492423000812188
-        },
-        {
-          "name": "University of Illinois Urbana-Champaign",
-          "type": "education",
-          "recent": 74,
-          "growth": 1.9,
-          "spec": 1.3,
-          "score": 5.2241364064165925
-        },
-        {
-          "name": "Massachusetts Institute of Technology",
-          "type": "education",
-          "recent": 101,
-          "growth": 1.2,
-          "spec": 1.8,
-          "score": 4.996846635215733
-        }
-      ],
-      "bottlenecks": [
-        {
-          "term": "efficiency",
-          "count": 6,
-          "samples": [
-            "Neuromodulatory Control Networks (NCNs): A Biologically Inspired Architecture for Dynamic LLM Processing",
-            "Complex-Valued Neural Networks: A Comprehensive Survey",
-            "RELU-Function and Derived Function Review"
-          ]
-        },
-        {
-          "term": "stability",
-          "count": 5,
-          "samples": [
-            "Event-Based Adaptive Neural Network Control for Large-Scale Systems With Nonconstant Control Gains and Unknown Measurement Sensitivity",
-            "Adaptive Neural Dynamic-Memory Event-Triggered Control of High-Order Random Nonlinear Systems With Deferred Output Constraints",
-            "Pinning-Based Neural Control for Multiagent Systems With Self-Regulation Intermediate Event-Triggered Method"
-          ]
-        },
-        {
-          "term": "cost",
-          "count": 4,
-          "samples": [
-            "Adan: Adaptive Nesterov Momentum Algorithm for Faster Optimizing Deep Models",
-            "A Novel Centralized Federated Deep Fuzzy Neural Network with Multi-objectives Neural Architecture Search for Epistatic Detection",
-            "Two Statistical Approaches to Justify the Use of the Logistic Function in Binary Logistic Regression"
-          ]
-        },
-        {
-          "term": "throughput",
-          "count": 2,
-          "samples": [
-            "Mamba: Linear-Time Sequence Modeling with Selective State Spaces",
-            "Run, Don't Walk: Chasing Higher FLOPS for Faster Neural Networks"
-          ]
-        },
-        {
-          "term": "yield",
-          "count": 2,
-          "samples": [
-            "The Modern Mathematics of Deep Learning",
-            "Coevolutionary Neural Solution for Nonconvex Optimization With Noise Tolerance"
-          ]
-        }
-      ],
-      "evidence": {
-        "topic_match": "by OpenAlex topic ID",
-        "us_institutions": "strong",
-        "funding_match": "unavailable",
-        "abstract_coverage": 0.62
-      },
-      "why_now": "Research output is up ~2.07x over a decade; the federal funding signal is unavailable (no clean keyword match); Activate is not yet in this space. Recurring bottlenecks: efficiency, stability, cost.",
+      "why_now": "The field's share of publications is up ~2.24x over the past several years; the federal funding signal is unavailable (no clean keyword match); Activate is not yet in this space. Recurring bottlenecks: stability, efficiency, cost.",
       "n_works": 120
     },
     {
       "topic": "Cancer-related molecular mechanisms research",
+      "id": "T10515",
       "field": "Biochemistry, Genetics and Molecular Biology",
       "research_growth": 1.87,
       "activate_present": false,
@@ -2633,25 +1692,9 @@
           "name": "California University of Pennsylvania",
           "type": "education",
           "recent": 51,
-          "growth": 2.5,
+          "growth": null,
           "spec": 2.6,
-          "score": 6.4400446106602125
-        },
-        {
-          "name": "University of Massachusetts Chan Medical School",
-          "type": "education",
-          "recent": 46,
-          "growth": 2.5,
-          "spec": 2.7,
-          "score": 5.985426818284871
-        },
-        {
-          "name": "Roswell Park Comprehensive Cancer Center",
-          "type": "facility",
-          "recent": 31,
-          "growth": 2.5,
-          "spec": 5.1,
-          "score": 5.5094806689563915
+          "score": 5.15203568852817
         },
         {
           "name": "Augusta University",
@@ -2662,12 +1705,28 @@
           "score": 5.131377172023092
         },
         {
+          "name": "University of Massachusetts Chan Medical School",
+          "type": "education",
+          "recent": 46,
+          "growth": null,
+          "spec": 2.7,
+          "score": 4.788341454627897
+        },
+        {
           "name": "Washington University in St. Louis",
           "type": "education",
           "recent": 83,
           "growth": 1.5,
           "spec": 1.3,
           "score": 4.643748208096542
+        },
+        {
+          "name": "New York University",
+          "type": "education",
+          "recent": 68,
+          "growth": 2.0,
+          "spec": 1.1,
+          "score": 4.433958374823313
         }
       ],
       "bottlenecks": [
@@ -2721,11 +1780,12 @@
         "funding_match": "unavailable",
         "abstract_coverage": 0.75
       },
-      "why_now": "Research output is up ~1.87x over a decade; the federal funding signal is unavailable (no clean keyword match); Activate is not yet in this space. Recurring bottlenecks: stability, degradation, sensitivity.",
+      "why_now": "The field's share of publications is up ~1.87x over the past several years; the federal funding signal is unavailable (no clean keyword match); Activate is not yet in this space. Recurring bottlenecks: stability, degradation, sensitivity.",
       "n_works": 120
     },
     {
       "topic": "Cancer, Hypoxia, and Metabolism",
+      "id": "T10631",
       "field": "Biochemistry, Genetics and Molecular Biology",
       "research_growth": 1.84,
       "activate_present": false,
@@ -2847,11 +1907,12 @@
         "funding_match": "unavailable",
         "abstract_coverage": 0.74
       },
-      "why_now": "Research output is up ~1.84x over a decade; the federal funding signal is unavailable (no clean keyword match); Activate is not yet in this space. Recurring bottlenecks: degradation, stability, sensitivity.",
+      "why_now": "The field's share of publications is up ~1.84x over the past several years; the federal funding signal is unavailable (no clean keyword match); Activate is not yet in this space. Recurring bottlenecks: degradation, stability, sensitivity.",
       "n_works": 120
     },
     {
       "topic": "Supercapacitor Materials and Fabrication",
+      "id": "T10179",
       "field": "Materials Science",
       "research_growth": 1.82,
       "activate_present": true,
@@ -2867,20 +1928,12 @@
           "score": 30.355670286683957
         },
         {
-          "name": "ASA College",
-          "type": "education",
-          "recent": 62,
-          "growth": 2.5,
-          "spec": 11.5,
-          "score": 16.61312504200499
-        },
-        {
           "name": "Central Connecticut State University",
           "type": "education",
           "recent": 13,
-          "growth": 2.5,
+          "growth": null,
           "spec": 12.0,
-          "score": 3.5574611668881295
+          "score": 2.8459689335105036
         },
         {
           "name": "South Dakota School of Mines and Technology",
@@ -2899,28 +1952,36 @@
           "score": 2.6646367166589235
         },
         {
-          "name": "Saint Joseph's College",
+          "name": "University at Buffalo, State University of New York",
           "type": "education",
-          "recent": 16,
-          "growth": 2.5,
-          "spec": 4.0,
-          "score": 2.5435305457373247
+          "recent": 32,
+          "growth": 1.5,
+          "spec": 1.3,
+          "score": 1.7489367611966233
         },
         {
           "name": "Southern Connecticut State University",
           "type": "education",
           "recent": 9,
-          "growth": 2.5,
+          "growth": null,
           "spec": 8.2,
-          "score": 2.040774936154539
+          "score": 1.6326199489236313
+        },
+        {
+          "name": "University of Memphis",
+          "type": "education",
+          "recent": 20,
+          "growth": 1.5,
+          "spec": 2.7,
+          "score": 1.5946674181166558
         },
         {
           "name": "Lehigh University",
           "type": "education",
           "recent": 16,
-          "growth": 2.5,
+          "growth": null,
           "spec": 2.4,
-          "score": 1.9651512101937427
+          "score": 1.5721209681549941
         }
       ],
       "bottlenecks": [
@@ -2974,11 +2035,12 @@
         "funding_match": "unavailable",
         "abstract_coverage": 0.53
       },
-      "why_now": "Research output is up ~1.82x over a decade; the federal funding signal is unavailable (no clean keyword match); Activate is already in this space. Recurring bottlenecks: stability, cost, efficiency.",
+      "why_now": "The field's share of publications is up ~1.82x over the past several years; the federal funding signal is unavailable (no clean keyword match); Activate is already in this space. Recurring bottlenecks: stability, cost, efficiency.",
       "n_works": 120
     },
     {
       "topic": "EEG and Brain-Computer Interfaces",
+      "id": "T10429",
       "field": "Neuroscience",
       "research_growth": 1.81,
       "activate_present": false,
@@ -3000,14 +2062,6 @@
           "growth": 1.5,
           "spec": 15.4,
           "score": 20.539083674389424
-        },
-        {
-          "name": "Albany Stratton VA Medical Center Albany",
-          "type": "healthcare",
-          "recent": 23,
-          "growth": 2.5,
-          "spec": 114.4,
-          "score": 19.450632751349268
         },
         {
           "name": "Emory University",
@@ -3048,6 +2102,14 @@
           "growth": 1.5,
           "spec": 39.6,
           "score": 13.140085617303537
+        },
+        {
+          "name": "Shirley Ryan AbilityLab",
+          "type": "healthcare",
+          "recent": 39,
+          "growth": 1.6,
+          "spec": 23.4,
+          "score": 9.693541544526692
         }
       ],
       "bottlenecks": [
@@ -3098,11 +2160,12 @@
         "funding_match": "unavailable",
         "abstract_coverage": 0.79
       },
-      "why_now": "Research output is up ~1.81x over a decade; the federal funding signal is unavailable (no clean keyword match); Activate is not yet in this space. Recurring bottlenecks: sensitivity, efficiency, stability.",
+      "why_now": "The field's share of publications is up ~1.81x over the past several years; the federal funding signal is unavailable (no clean keyword match); Activate is not yet in this space. Recurring bottlenecks: sensitivity, efficiency, stability.",
       "n_works": 120
     },
     {
       "topic": "CRISPR and Genetic Engineering",
+      "id": "T10878",
       "field": "Biochemistry, Genetics and Molecular Biology",
       "research_growth": 1.75,
       "activate_present": true,
@@ -3142,14 +2205,6 @@
           "score": 18.219801986059608
         },
         {
-          "name": "Brotman Baty Institute",
-          "type": "facility",
-          "recent": 27,
-          "growth": 2.5,
-          "spec": 36.3,
-          "score": 12.858762858769289
-        },
-        {
           "name": "Massachusetts Institute of Technology",
           "type": "education",
           "recent": 219,
@@ -3172,6 +2227,14 @@
           "growth": 0.9,
           "spec": 3.3,
           "score": 11.599929102909185
+        },
+        {
+          "name": "National Institutes of Health",
+          "type": "government",
+          "recent": 181,
+          "growth": 0.9,
+          "spec": 4.7,
+          "score": 11.075547577175755
         }
       ],
       "bottlenecks": [
@@ -3227,11 +2290,12 @@
         "funding_match": "unavailable",
         "abstract_coverage": 0.67
       },
-      "why_now": "Research output is up ~1.75x over a decade; the federal funding signal is unavailable (no clean keyword match); Activate is already in this space. Recurring bottlenecks: efficiency, sensitivity, contamination.",
+      "why_now": "The field's share of publications is up ~1.75x over the past several years; the federal funding signal is unavailable (no clean keyword match); Activate is already in this space. Recurring bottlenecks: efficiency, sensitivity, contamination.",
       "n_works": 120
     },
     {
       "topic": "Gas Sensing Nanomaterials and Sensors",
+      "id": "T10461",
       "field": "Engineering",
       "research_growth": 1.73,
       "activate_present": true,
@@ -3255,14 +2319,6 @@
           "score": 3.256680750129973
         },
         {
-          "name": "Northwestern Polytechnic University",
-          "type": "education",
-          "recent": 15,
-          "growth": 2.5,
-          "spec": 5.0,
-          "score": 2.656525198288204
-        },
-        {
           "name": "National Energy Technology Laboratory",
           "type": "facility",
           "recent": 26,
@@ -3271,20 +2327,20 @@
           "score": 2.527177854243097
         },
         {
+          "name": "Northwestern Polytechnic University",
+          "type": "education",
+          "recent": 15,
+          "growth": null,
+          "spec": 5.0,
+          "score": 2.125220158630563
+        },
+        {
           "name": "Cornell University",
           "type": "education",
           "recent": 36,
-          "growth": 2.5,
+          "growth": null,
           "spec": 0.4,
-          "score": 1.7113132237213735
-        },
-        {
-          "name": "Saint Joseph's College",
-          "type": "education",
-          "recent": 12,
-          "growth": 2.5,
-          "spec": 3.0,
-          "score": 1.6520715509326651
+          "score": 1.3690505789770988
         },
         {
           "name": "Sandia National Laboratories",
@@ -3301,6 +2357,14 @@
           "growth": 2.8,
           "spec": 1.5,
           "score": 1.1802465590781814
+        },
+        {
+          "name": "Purdue University West Lafayette",
+          "type": "education",
+          "recent": 22,
+          "growth": 2.8,
+          "spec": 0.3,
+          "score": 1.106789621562711
         }
       ],
       "bottlenecks": [
@@ -3356,11 +2420,12 @@
         "funding_match": "unavailable",
         "abstract_coverage": 0.53
       },
-      "why_now": "Research output is up ~1.73x over a decade; the federal funding signal is unavailable (no clean keyword match); Activate is already in this space. Recurring bottlenecks: selectivity, sensitivity, cost.",
+      "why_now": "The field's share of publications is up ~1.73x over the past several years; the federal funding signal is unavailable (no clean keyword match); Activate is already in this space. Recurring bottlenecks: selectivity, sensitivity, cost.",
       "n_works": 120
     },
     {
       "topic": "Adsorption and biosorption for pollutant removal",
+      "id": "T10016",
       "field": "Environmental Science",
       "research_growth": 1.72,
       "activate_present": false,
@@ -3371,25 +2436,9 @@
           "name": "Kansas State University",
           "type": "education",
           "recent": 17,
-          "growth": 2.5,
+          "growth": null,
           "spec": 1.3,
-          "score": 1.5440290221100161
-        },
-        {
-          "name": "University of Wisconsin\u2013Parkside",
-          "type": "education",
-          "recent": 7,
-          "growth": 1.4,
-          "spec": 18.2,
-          "score": 1.3214317304279544
-        },
-        {
-          "name": "ASA College",
-          "type": "education",
-          "recent": 15,
-          "growth": 1.4,
-          "spec": 2.8,
-          "score": 1.0783487852738949
+          "score": 1.235223217688013
         },
         {
           "name": "University of Missouri",
@@ -3398,14 +2447,6 @@
           "growth": 3.0,
           "spec": 0.5,
           "score": 0.788342169339608
-        },
-        {
-          "name": "Rensselaer Polytechnic Institute",
-          "type": "education",
-          "recent": 9,
-          "growth": 2.5,
-          "spec": 1.1,
-          "score": 0.7425207908732208
         },
         {
           "name": "Mississippi State University",
@@ -3430,6 +2471,30 @@
           "growth": 3,
           "spec": 0.5,
           "score": 0.6780461846546475
+        },
+        {
+          "name": "Rensselaer Polytechnic Institute",
+          "type": "education",
+          "recent": 9,
+          "growth": null,
+          "spec": 1.1,
+          "score": 0.5940166326985766
+        },
+        {
+          "name": "Indiana University of Pennsylvania",
+          "type": "education",
+          "recent": 7,
+          "growth": null,
+          "spec": 6.3,
+          "score": 0.5551361100027009
+        },
+        {
+          "name": "Textile Research Institute",
+          "type": "facility",
+          "recent": 7,
+          "growth": null,
+          "spec": 6.2,
+          "score": 0.5497296091459929
         }
       ],
       "bottlenecks": [
@@ -3485,7 +2550,7 @@
         "funding_match": "unavailable",
         "abstract_coverage": 0.48
       },
-      "why_now": "Research output is up ~1.72x over a decade; the federal funding signal is unavailable (no clean keyword match); Activate is not yet in this space. Recurring bottlenecks: cost, efficiency, contamination.",
+      "why_now": "The field's share of publications is up ~1.72x over the past several years; the federal funding signal is unavailable (no clean keyword match); Activate is not yet in this space. Recurring bottlenecks: cost, efficiency, contamination.",
       "n_works": 120
     }
   ]

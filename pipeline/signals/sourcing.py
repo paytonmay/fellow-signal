@@ -27,6 +27,17 @@ WORKS = "https://api.openalex.org/works"
 INSTS = "https://api.openalex.org/institutions"
 REC_START, PRI_START, PRI_END = "2022-01-01", "2018-01-01", "2021-12-31"
 
+# known OpenAlex institution artifacts: for-profit/community colleges and parsing
+# errors whose output is inflated by mis-attributed works (so they pass volume floors)
+BLOCK_INST = {"National Laboratory of the Rockies", "ASA College", "South University",
+              "Saint Joseph's College", "Wilson College", "Genesee Community College",
+              "Northwood University"}
+
+# off-thesis topics that ride OpenAlex growth but aren't hard-tech sourcing areas
+DENY = ["topic modeling", "network security", "intrusion", "ionosphere", "magnetosphere",
+        "educational", "online learning", "iot and edge", "neural networks and applications",
+        "land use"]
+
 # unsolved-constraint vocabulary, the 'what is technically hard' signal
 BOTTLENECKS = ["stability", "selectivity", "degradation", "durability", "scalability",
                "scale-up", "throughput", "corrosion", "toxicity", "lifetime", "yield",
@@ -109,8 +120,9 @@ def funding_signal(t: dict) -> tuple[str, bool]:
 
 
 def main() -> None:
-    topics = [t for t in json.loads(EMERGING.read_text())["topics"] if t.get("id")]
-    print(f"building sourcing packets for {len(topics)} areas...")
+    topics = [t for t in json.loads(EMERGING.read_text())["topics"]
+              if t.get("id") and not any(d in t["topic"].lower() for d in DENY)]
+    print(f"building sourcing packets for {len(topics)} hard-tech areas...")
     areas = []
     meta_cache: dict[str, dict] = {}
     for t in topics:
@@ -126,22 +138,28 @@ def main() -> None:
             # require US + a ROR id (drops OpenAlex's auto-generated affiliation-string
             # entities, e.g. journals miscoded as institutions); drop archive/other
             # types and tiny miscoded "company" entities
-            if not m or m["country"] != "US" or not m.get("ror") or n < 4:
+            if not m or m["country"] != "US" or not m.get("ror") or n < 6:
+                continue
+            if m["name"] in BLOCK_INST:
                 continue
             # Sourcing targets where PRE-company research happens: universities,
             # national labs, academic medical centers, government research. This is
             # both on-target for founder discovery and far cleaner (it drops the
-            # company/nonprofit OpenAlex artifacts). A substance floor drops tiny
-            # miscoded entities whose huge specialization is an attribution artifact.
+            # company/nonprofit OpenAlex artifacts).
             if m.get("type") not in ("education", "facility", "government", "healthcare"):
                 continue
-            if m["recent_total"] < 150:
+            # credibility floor: a substantial research producer (drops community/
+            # for-profit colleges and tiny miscoded entities spuriously topic-tagged)
+            if m["recent_total"] < 1000:
                 continue
-            growth = (n / pri[iid]) if pri.get(iid) else (2.5 if n >= 8 else 1.0)
-            spec = n / max(1, m["recent_total"])           # focus: topic share of the institution's output
-            score = n * (spec ** 0.5) * min(growth, 3)     # output x specialization (softened) x growth
+            prior = pri.get(iid, 0)
+            growth = (n / prior) if prior > 0 else None       # measured growth, or None (no prior baseline)
+            g_score = growth if growth is not None else (2.0 if n >= 8 else 1.0)  # default only for scoring
+            spec = n / max(1, m["recent_total"])              # focus: topic share of the institution's output
+            score = n * (spec ** 0.5) * min(g_score, 3)       # output x specialization (softened) x growth
             scored.append({"name": m["name"], "type": m.get("type"), "recent": n,
-                           "growth": round(min(growth, 3), 1), "spec": round(spec * 1000, 1), "score": score})
+                           "growth": round(min(growth, 3), 1) if growth is not None else None,
+                           "spec": round(spec * 1000, 1), "score": score})
         scored.sort(key=lambda x: -x["score"])
         institutions = scored[:8]
 
@@ -154,11 +172,12 @@ def main() -> None:
             "funding_match": "matched keyword" if t.get("federal_matched") else "unavailable",
             "abstract_coverage": cov,
         }
-        why = (f"Research output is up ~{t['growth']}x over a decade; the federal funding signal is {fund_phrase}; "
+        why = (f"The field's share of publications is up ~{t['growth']}x over the past several years; "
+               f"the federal funding signal is {fund_phrase}; "
                f"Activate is {'already in this space' if present else 'not yet in this space'}. "
                + (f"Recurring bottlenecks: {', '.join(b['term'] for b in bn[:3])}." if bn else ""))
         areas.append({
-            "topic": t["topic"], "field": t.get("field", ""), "research_growth": t["growth"],
+            "topic": t["topic"], "id": tid, "field": t.get("field", ""), "research_growth": t["growth"],
             "activate_present": present, "funding_phrase": fund_phrase, "orphan": orphan,
             "institutions": institutions, "bottlenecks": bn, "evidence": ev, "why_now": why,
             "n_works": n_works,
