@@ -10,14 +10,6 @@
       "orphan": false,
       "institutions": [
         {
-          "name": "Sandia National Laboratories",
-          "type": "facility",
-          "recent": 99,
-          "growth": 1.5,
-          "spec": 7.1,
-          "score": 12.333002079808255
-        },
-        {
           "name": "University of California, Merced",
           "type": "education",
           "recent": 42,
@@ -72,63 +64,25 @@
           "growth": 1.2,
           "spec": 4.4,
           "score": 7.159523420914933
+        },
+        {
+          "name": "University of California, Davis",
+          "type": "education",
+          "recent": 71,
+          "growth": 2.8,
+          "spec": 1.2,
+          "score": 6.974100220914524
         }
       ],
-      "bottlenecks": [
-        {
-          "term": "degradation",
-          "count": 10,
-          "samples": [
-            "Physics-informed neural network for lithium-ion battery degradation stable modeling and prognosis",
-            "Application of Electrochemical Impedance Spectroscopy to Degradation and Aging Research of Lithium-Ion Batteries",
-            "Lithium-ion battery degradation: how to model it"
-          ]
-        },
-        {
-          "term": "efficiency",
-          "count": 10,
-          "samples": [
-            "A Comprehensive Review of Power Converter Topologies and Control Methods for Electric Vehicle Fast Charging Applications",
-            "Review of Electric Vehicle Charging Technologies, Standards, Architectures, and Converter Configurations",
-            "A review of battery energy storage systems and advanced battery management system for different applications: Challenges and recommendations"
-          ]
-        },
-        {
-          "term": "cost",
-          "count": 9,
-          "samples": [
-            "A Comprehensive Review of Power Converter Topologies and Control Methods for Electric Vehicle Fast Charging Applications",
-            "Lithium-Ion Batteries\u2014The Crux of Electric Vehicles with Opportunities and Challenges",
-            "Cost Projections for Utility-Scale Battery Storage: 2023 Update"
-          ]
-        },
-        {
-          "term": "lifetime",
-          "count": 8,
-          "samples": [
-            "Immersion cooling for lithium-ion batteries \u2013 A review",
-            "Battery thermal management systems: Recent progress and challenges",
-            "Towards Long Lifetime Battery: AI-Based Manufacturing and Management"
-          ]
-        },
-        {
-          "term": "stability",
-          "count": 6,
-          "samples": [
-            "Immersion cooling for lithium-ion batteries \u2013 A review",
-            "Energy storage technologies: An integrated survey of developments, global economical/environmental effects, optimal scheduling model, and sustainable ",
-            "Review of Electric Vehicle Charging Technologies, Standards, Architectures, and Converter Configurations"
-          ]
-        }
-      ],
+      "bottlenecks": [],
       "evidence": {
         "topic_match": "by OpenAlex topic ID",
         "us_institutions": "strong",
         "funding_match": "matched keyword",
-        "abstract_coverage": 0.47
+        "abstract_coverage": 0.0
       },
-      "why_now": "The field's share of publications is up ~3.02x over the past several years; the federal funding signal is rising (x20, $691M); Activate is already in this space. Recurring bottlenecks: degradation, efficiency, cost.",
-      "n_works": 120
+      "why_now": "The field's share of publications is up ~3.02x over the past several years; the federal funding signal is rising (x20, $691M); Activate is already in this space. ",
+      "n_works": 0
     },
     {
       "topic": "Concrete and Cement Materials Research",
@@ -136,127 +90,18 @@
       "field": "Engineering",
       "research_growth": 2.31,
       "activate_present": false,
-      "funding_phrase": "appeared recently (~$176M)",
+      "funding_phrase": "newly present (~$176M)",
       "orphan": false,
-      "institutions": [
-        {
-          "name": "Missouri University of Science and Technology",
-          "type": "education",
-          "recent": 109,
-          "growth": 1.6,
-          "spec": 19.0,
-          "score": 24.429919392861724
-        },
-        {
-          "name": "Texas State University",
-          "type": "education",
-          "recent": 67,
-          "growth": 2.0,
-          "spec": 11.3,
-          "score": 14.482468321160535
-        },
-        {
-          "name": "The University of Texas at Arlington",
-          "type": "education",
-          "recent": 78,
-          "growth": 2.0,
-          "spec": 7.0,
-          "score": 13.017977035464623
-        },
-        {
-          "name": "Stevens Institute of Technology",
-          "type": "education",
-          "recent": 29,
-          "growth": 3,
-          "spec": 4.6,
-          "score": 5.9017261297602595
-        },
-        {
-          "name": "University of Illinois Urbana-Champaign",
-          "type": "education",
-          "recent": 73,
-          "growth": 1.9,
-          "spec": 1.3,
-          "score": 4.9199574720724835
-        },
-        {
-          "name": "Clarkson University",
-          "type": "education",
-          "recent": 23,
-          "growth": 2.3,
-          "spec": 8.6,
-          "score": 4.895156555885312
-        },
-        {
-          "name": "Oregon State University",
-          "type": "education",
-          "recent": 66,
-          "growth": 1.4,
-          "spec": 2.6,
-          "score": 4.723453544472973
-        },
-        {
-          "name": "Pennsylvania State University",
-          "type": "education",
-          "recent": 61,
-          "growth": 2.0,
-          "spec": 1.0,
-          "score": 3.8720413508628653
-        }
-      ],
-      "bottlenecks": [
-        {
-          "term": "durability",
-          "count": 23,
-          "samples": [
-            "Review on the deterioration and approaches to enhance the durability of concrete in the freeze\u2013thaw environment",
-            "Durability Performance of Geopolymer Concrete: A Review",
-            "A Comprehensive Review on the Ground Granulated Blast Furnace Slag (GGBS) in Concrete Production"
-          ]
-        },
-        {
-          "term": "cost",
-          "count": 9,
-          "samples": [
-            "Geopolymer concrete as a cleaner construction material: An overview on materials and structural performances",
-            "Properties of geopolymers sourced from construction and demolition waste: A review",
-            "Engineered geopolymer composites: A state-of-the-art review"
-          ]
-        },
-        {
-          "term": "efficiency",
-          "count": 3,
-          "samples": [
-            "Decarbonising cement and concrete production: Strategies, challenges and pathways for sustainable development",
-            "An overview of utilizing CO2 for accelerated carbonation treatment in the concrete industry",
-            "Literature review on policies to mitigate GHG emissions for cement and concrete"
-          ]
-        },
-        {
-          "term": "stability",
-          "count": 2,
-          "samples": [
-            "Stabilization of expansive soils using chemical additives: A review",
-            "Stability of hemicarbonate under cement paste-like conditions"
-          ]
-        },
-        {
-          "term": "degradation",
-          "count": 2,
-          "samples": [
-            "Decarbonising cement and concrete production: Strategies, challenges and pathways for sustainable development",
-            "Production, characteristics, and utilization of rice husk ash in alkali activated materials: An overview of fresh and hardened state properties"
-          ]
-        }
-      ],
+      "institutions": [],
+      "bottlenecks": [],
       "evidence": {
         "topic_match": "by OpenAlex topic ID",
-        "us_institutions": "strong",
+        "us_institutions": "thin",
         "funding_match": "matched keyword",
-        "abstract_coverage": 0.41
+        "abstract_coverage": 0.0
       },
-      "why_now": "The field's share of publications is up ~2.31x over the past several years; the federal funding signal is appeared recently (~$176M); Activate is not yet in this space. Recurring bottlenecks: durability, cost, efficiency.",
-      "n_works": 120
+      "why_now": "The field's share of publications is up ~2.31x over the past several years; the federal funding signal is newly present (~$176M); Activate is not yet in this space. ",
+      "n_works": 0
     },
     {
       "topic": "Advancements in Battery Materials",
@@ -266,127 +111,16 @@
       "activate_present": true,
       "funding_phrase": "rising (x20, $691M)",
       "orphan": false,
-      "institutions": [
-        {
-          "name": "Argonne National Laboratory",
-          "type": "facility",
-          "recent": 763,
-          "growth": 1.0,
-          "spec": 36.1,
-          "score": 144.78618827255335
-        },
-        {
-          "name": "Brookhaven National Laboratory",
-          "type": "facility",
-          "recent": 262,
-          "growth": 0.8,
-          "spec": 24.5,
-          "score": 32.74973504924987
-        },
-        {
-          "name": "Oak Ridge National Laboratory",
-          "type": "facility",
-          "recent": 307,
-          "growth": 1.0,
-          "spec": 11.7,
-          "score": 32.046435264605776
-        },
-        {
-          "name": "Stanford Synchrotron Radiation Lightsource",
-          "type": "facility",
-          "recent": 107,
-          "growth": 1.2,
-          "spec": 64.0,
-          "score": 31.83683062470227
-        },
-        {
-          "name": "SLAC National Accelerator Laboratory",
-          "type": "facility",
-          "recent": 156,
-          "growth": 0.8,
-          "spec": 22.3,
-          "score": 19.015382243260074
-        },
-        {
-          "name": "Lawrence Berkeley National Laboratory",
-          "type": "facility",
-          "recent": 312,
-          "growth": 0.7,
-          "spec": 7.0,
-          "score": 18.36638441048959
-        },
-        {
-          "name": "University of Chicago",
-          "type": "education",
-          "recent": 114,
-          "growth": 3,
-          "spec": 1.7,
-          "score": 14.1514230281844
-        },
-        {
-          "name": "The University of Texas at Austin",
-          "type": "education",
-          "recent": 258,
-          "growth": 0.9,
-          "spec": 2.0,
-          "score": 9.985595706424265
-        }
-      ],
-      "bottlenecks": [
-        {
-          "term": "stability",
-          "count": 21,
-          "samples": [
-            "Designing better electrolytes",
-            "Ether-based electrolytes for sodium ion batteries",
-            "Direct regeneration of degraded lithium-ion battery cathodes with a multifunctional organic lithium salt"
-          ]
-        },
-        {
-          "term": "cost",
-          "count": 20,
-          "samples": [
-            "<scp>High\u2010Energy</scp> Lithium\u2010Ion Batteries: Recent Progress and a Promising Future in Applications",
-            "A non-academic perspective on the future of lithium-based batteries",
-            "Ether-based electrolytes for sodium ion batteries"
-          ]
-        },
-        {
-          "term": "efficiency",
-          "count": 11,
-          "samples": [
-            "Ether-based electrolytes for sodium ion batteries",
-            "Fluorinated ether electrolyte with controlled solvation structure for high voltage lithium metal batteries",
-            "Anion-enrichment interface enables high-voltage anode-free lithium metal batteries"
-          ]
-        },
-        {
-          "term": "degradation",
-          "count": 6,
-          "samples": [
-            "Origin of structural degradation in Li-rich layered oxide cathode",
-            "Review\u2014\u201cKnees\u201d in Lithium-Ion Battery Aging Trajectories",
-            "Layered Oxide Cathodes for Sodium-Ion Batteries: Storage Mechanism, Electrochemistry, and Techno-economics"
-          ]
-        },
-        {
-          "term": "lifetime",
-          "count": 3,
-          "samples": [
-            "Review\u2014\u201cKnees\u201d in Lithium-Ion Battery Aging Trajectories",
-            "Solid-state batteries: The critical role of mechanics",
-            "Electron and Ion Transport in Lithium and Lithium-Ion Battery Negative and Positive Composite Electrodes"
-          ]
-        }
-      ],
+      "institutions": [],
+      "bottlenecks": [],
       "evidence": {
         "topic_match": "by OpenAlex topic ID",
-        "us_institutions": "strong",
+        "us_institutions": "thin",
         "funding_match": "matched keyword",
-        "abstract_coverage": 0.64
+        "abstract_coverage": 0.0
       },
-      "why_now": "The field's share of publications is up ~1.74x over the past several years; the federal funding signal is rising (x20, $691M); Activate is already in this space. Recurring bottlenecks: stability, cost, efficiency.",
-      "n_works": 120
+      "why_now": "The field's share of publications is up ~1.74x over the past several years; the federal funding signal is rising (x20, $691M); Activate is already in this space. ",
+      "n_works": 0
     },
     {
       "topic": "Genomics and Phylogenetic Studies",
@@ -396,127 +130,16 @@
       "activate_present": true,
       "funding_phrase": "rising (x11, $1928M)",
       "orphan": false,
-      "institutions": [
-        {
-          "name": "University of California, Santa Cruz",
-          "type": "education",
-          "recent": 158,
-          "growth": 1.6,
-          "spec": 9.3,
-          "score": 24.080964331950142
-        },
-        {
-          "name": "National Center for Biotechnology Information",
-          "type": "facility",
-          "recent": 74,
-          "growth": 0.9,
-          "spec": 66.4,
-          "score": 17.416338090661068
-        },
-        {
-          "name": "Rockefeller University",
-          "type": "education",
-          "recent": 64,
-          "growth": 2.3,
-          "spec": 10.9,
-          "score": 15.272104257005875
-        },
-        {
-          "name": "Howard Hughes Medical Institute",
-          "type": "facility",
-          "recent": 116,
-          "growth": 1.0,
-          "spec": 8.0,
-          "score": 10.58222184060371
-        },
-        {
-          "name": "University of California, Berkeley",
-          "type": "education",
-          "recent": 183,
-          "growth": 1.1,
-          "spec": 2.1,
-          "score": 9.250754974021508
-        },
-        {
-          "name": "Joint Genome Institute",
-          "type": "facility",
-          "recent": 97,
-          "growth": 0.9,
-          "spec": 10.6,
-          "score": 8.89262011149514
-        },
-        {
-          "name": "University of California San Diego",
-          "type": "education",
-          "recent": 190,
-          "growth": 0.8,
-          "spec": 2.3,
-          "score": 7.561354867617155
-        },
-        {
-          "name": "Lawrence Berkeley National Laboratory",
-          "type": "facility",
-          "recent": 121,
-          "growth": 0.9,
-          "spec": 2.7,
-          "score": 5.920983767670625
-        }
-      ],
-      "bottlenecks": [
-        {
-          "term": "cost",
-          "count": 6,
-          "samples": [
-            "Ultrafast one\u2010pass FASTQ data preprocessing, quality control, and deduplication using fastp",
-            "Next-Generation Sequencing Technology: Current Trends and Advancements",
-            "Dali server: structural unification of protein families"
-          ]
-        },
-        {
-          "term": "throughput",
-          "count": 6,
-          "samples": [
-            "Next-Generation Sequencing Technology: Current Trends and Advancements",
-            "SeqKit2: A Swiss army knife for sequence and alignment processing",
-            "BWA-MEME: BWA-MEM emulated with a machine learning approach"
-          ]
-        },
-        {
-          "term": "contamination",
-          "count": 5,
-          "samples": [
-            "Ultrafast one\u2010pass FASTQ data preprocessing, quality control, and deduplication using fastp",
-            "Rapid and sensitive detection of genome contamination at scale with FCS-GX",
-            "Database resources of the National Center for Biotechnology Information"
-          ]
-        },
-        {
-          "term": "yield",
-          "count": 4,
-          "samples": [
-            "Sanger Tree of Life HMW DNA Extraction: Automated MagAttract v.2 v1",
-            "Nucleotide Transformer: building and evaluating robust foundation models for human genomics",
-            "Semi-automated assembly of high-quality diploid human reference genomes"
-          ]
-        },
-        {
-          "term": "reproducibility",
-          "count": 3,
-          "samples": [
-            "Proksee: in-depth characterization and visualization of bacterial genomes",
-            "<i>Ggtree</i> : A serialized data object for visualization of a phylogenetic tree and annotation data",
-            "Critical Assessment of Metagenome Interpretation: the second round of challenges"
-          ]
-        }
-      ],
+      "institutions": [],
+      "bottlenecks": [],
       "evidence": {
         "topic_match": "by OpenAlex topic ID",
-        "us_institutions": "strong",
+        "us_institutions": "thin",
         "funding_match": "matched keyword",
-        "abstract_coverage": 0.91
+        "abstract_coverage": 0.0
       },
-      "why_now": "The field's share of publications is up ~4.46x over the past several years; the federal funding signal is rising (x11, $1928M); Activate is already in this space. Recurring bottlenecks: cost, throughput, contamination.",
-      "n_works": 120
+      "why_now": "The field's share of publications is up ~4.46x over the past several years; the federal funding signal is rising (x11, $1928M); Activate is already in this space. ",
+      "n_works": 0
     },
     {
       "topic": "Cancer Genomics and Diagnostics",
@@ -526,106 +149,16 @@
       "activate_present": false,
       "funding_phrase": "rising (x11, $1928M)",
       "orphan": false,
-      "institutions": [
-        {
-          "name": "Memorial Sloan Kettering Cancer Center",
-          "type": "healthcare",
-          "recent": 563,
-          "growth": 1.1,
-          "spec": 18.2,
-          "score": 83.2763753262901
-        },
-        {
-          "name": "The University of Texas MD Anderson Cancer Center",
-          "type": "healthcare",
-          "recent": 628,
-          "growth": 0.9,
-          "spec": 14.6,
-          "score": 70.90149604333457
-        },
-        {
-          "name": "Dana-Farber Cancer Institute",
-          "type": "facility",
-          "recent": 489,
-          "growth": 0.9,
-          "spec": 20.3,
-          "score": 64.82256645296607
-        },
-        {
-          "name": "Kettering University",
-          "type": "education",
-          "recent": 141,
-          "growth": 1.8,
-          "spec": 40.1,
-          "score": 51.71236400570641
-        },
-        {
-          "name": "Sidney Kimmel Comprehensive Cancer Center",
-          "type": "facility",
-          "recent": 171,
-          "growth": 1.5,
-          "spec": 35.9,
-          "score": 49.49485251295643
-        },
-        {
-          "name": "Weill Cornell Medicine",
-          "type": "education",
-          "recent": 209,
-          "growth": 1.6,
-          "spec": 11.3,
-          "score": 36.035516136774206
-        },
-        {
-          "name": "Harvard University",
-          "type": "education",
-          "recent": 524,
-          "growth": 1.1,
-          "spec": 3.6,
-          "score": 35.61861036704048
-        },
-        {
-          "name": "Cornell University",
-          "type": "education",
-          "recent": 388,
-          "growth": 1.3,
-          "spec": 3.9,
-          "score": 31.641612752940716
-        }
-      ],
-      "bottlenecks": [
-        {
-          "term": "sensitivity",
-          "count": 8,
-          "samples": [
-            "Molecular Biomarkers in Cancer",
-            "A Cell-free DNA Blood-Based Test for Colorectal Cancer Screening",
-            "Clinical and analytical validation of FoundationOne\u00aeCDx, a comprehensive genomic profiling assay for solid tumors"
-          ]
-        },
-        {
-          "term": "cost",
-          "count": 2,
-          "samples": [
-            "Recommendations for the use of next-generation sequencing (NGS) for patients with advanced cancer in 2024: a report from the ESMO Precision Medicine W",
-            "Detecting Liver Cancer Using Cell-Free DNA Fragmentomes"
-          ]
-        },
-        {
-          "term": "throughput",
-          "count": 1,
-          "samples": [
-            "The application of long-read sequencing in clinical settings"
-          ]
-        }
-      ],
+      "institutions": [],
+      "bottlenecks": [],
       "evidence": {
         "topic_match": "by OpenAlex topic ID",
-        "us_institutions": "strong",
+        "us_institutions": "thin",
         "funding_match": "matched keyword",
-        "abstract_coverage": 0.75
+        "abstract_coverage": 0.0
       },
-      "why_now": "The field's share of publications is up ~2.25x over the past several years; the federal funding signal is rising (x11, $1928M); Activate is not yet in this space. Recurring bottlenecks: sensitivity, cost, throughput.",
-      "n_works": 120
+      "why_now": "The field's share of publications is up ~2.25x over the past several years; the federal funding signal is rising (x11, $1928M); Activate is not yet in this space. ",
+      "n_works": 0
     },
     {
       "topic": "Advanced Photocatalysis Techniques",
@@ -635,127 +168,16 @@
       "activate_present": false,
       "funding_phrase": "rising (x9, $61M)",
       "orphan": false,
-      "institutions": [
-        {
-          "name": "New Jersey Institute of Technology",
-          "type": "education",
-          "recent": 37,
-          "growth": 2.1,
-          "spec": 5.1,
-          "score": 5.44230436596368
-        },
-        {
-          "name": "Kean University",
-          "type": "education",
-          "recent": 18,
-          "growth": null,
-          "spec": 10.5,
-          "score": 3.682769433140557
-        },
-        {
-          "name": "Illinois Institute of Technology",
-          "type": "education",
-          "recent": 18,
-          "growth": null,
-          "spec": 3.3,
-          "score": 2.075771895452508
-        },
-        {
-          "name": "Northwestern Polytechnic University",
-          "type": "education",
-          "recent": 14,
-          "growth": null,
-          "spec": 4.7,
-          "score": 1.9162805503216336
-        },
-        {
-          "name": "Georgia Institute of Technology",
-          "type": "education",
-          "recent": 58,
-          "growth": 0.8,
-          "spec": 1.4,
-          "score": 1.8197989820459681
-        },
-        {
-          "name": "Pennsylvania State University",
-          "type": "education",
-          "recent": 52,
-          "growth": 1.1,
-          "spec": 0.9,
-          "score": 1.7507640503127855
-        },
-        {
-          "name": "University of California, Santa Barbara",
-          "type": "education",
-          "recent": 25,
-          "growth": 2.1,
-          "spec": 1.0,
-          "score": 1.6445546300798768
-        },
-        {
-          "name": "Texas A&M University",
-          "type": "education",
-          "recent": 46,
-          "growth": 1.1,
-          "spec": 0.9,
-          "score": 1.5301255115048173
-        }
-      ],
-      "bottlenecks": [
-        {
-          "term": "efficiency",
-          "count": 30,
-          "samples": [
-            "Solar-to-hydrogen efficiency of more than\u00a09% in photocatalytic water splitting",
-            "Solar-Driven Hydrogen Production: Recent Advances, Challenges, and Future Perspectives",
-            "Constructing Cd0.5Zn0.5S/Bi2WO6 S-scheme heterojunction for boosted photocatalytic antibiotic oxidation and Cr(VI) reduction"
-          ]
-        },
-        {
-          "term": "degradation",
-          "count": 19,
-          "samples": [
-            "Review on Methylene Blue: Its Properties, Uses, Toxicity and Photodegradation",
-            "A Review on Photocatalysis Used For Wastewater Treatment: Dye Degradation",
-            "Photocatalytic Dye Degradation from Textile Wastewater: A Review"
-          ]
-        },
-        {
-          "term": "cost",
-          "count": 15,
-          "samples": [
-            "Review on Methylene Blue: Its Properties, Uses, Toxicity and Photodegradation",
-            "Non-Noble Plasmonic Metal-Based Photocatalysts",
-            "Protruding Pt single-sites on hexagonal ZnIn2S4 to accelerate photocatalytic hydrogen evolution"
-          ]
-        },
-        {
-          "term": "selectivity",
-          "count": 13,
-          "samples": [
-            "Unraveling the dual defect sites in graphite carbon nitride for ultra-high photocatalytic H<sub>2</sub>O<sub>2</sub> evolution",
-            "Water decontamination via nonradical process by nanoconfined Fenton-like catalysts",
-            "Developing Ni single-atom sites in carbon nitride for efficient photocatalytic H2O2 production"
-          ]
-        },
-        {
-          "term": "toxicity",
-          "count": 8,
-          "samples": [
-            "Review on Methylene Blue: Its Properties, Uses, Toxicity and Photodegradation",
-            "Constructing Cd0.5Zn0.5S/Bi2WO6 S-scheme heterojunction for boosted photocatalytic antibiotic oxidation and Cr(VI) reduction",
-            "A plasmonic S-scheme Au/MIL-101(Fe)/BiOBr photocatalyst for efficient synchronous decontamination of Cr(VI) and norfloxacin antibiotic"
-          ]
-        }
-      ],
+      "institutions": [],
+      "bottlenecks": [],
       "evidence": {
         "topic_match": "by OpenAlex topic ID",
-        "us_institutions": "strong",
+        "us_institutions": "thin",
         "funding_match": "matched keyword",
-        "abstract_coverage": 0.58
+        "abstract_coverage": 0.0
       },
-      "why_now": "The field's share of publications is up ~2.63x over the past several years; the federal funding signal is rising (x9, $61M); Activate is not yet in this space. Recurring bottlenecks: efficiency, degradation, cost.",
-      "n_works": 120
+      "why_now": "The field's share of publications is up ~2.63x over the past several years; the federal funding signal is rising (x9, $61M); Activate is not yet in this space. ",
+      "n_works": 0
     },
     {
       "topic": "Electrocatalysts for Energy Conversion",
@@ -765,127 +187,16 @@
       "activate_present": true,
       "funding_phrase": "rising (x9, $90M)",
       "orphan": false,
-      "institutions": [
-        {
-          "name": "Pittsburg State University",
-          "type": "education",
-          "recent": 76,
-          "growth": 2.7,
-          "spec": 48.8,
-          "score": 45.5608924720224
-        },
-        {
-          "name": "Argonne National Laboratory",
-          "type": "facility",
-          "recent": 192,
-          "growth": 0.8,
-          "spec": 9.1,
-          "score": 13.83338625951734
-        },
-        {
-          "name": "Oak Ridge National Laboratory",
-          "type": "facility",
-          "recent": 145,
-          "growth": 1.0,
-          "spec": 5.5,
-          "score": 10.556481685977342
-        },
-        {
-          "name": "Brookhaven National Laboratory",
-          "type": "facility",
-          "recent": 134,
-          "growth": 0.7,
-          "spec": 12.5,
-          "score": 9.997567493450928
-        },
-        {
-          "name": "SLAC National Accelerator Laboratory",
-          "type": "facility",
-          "recent": 92,
-          "growth": 0.8,
-          "spec": 13.1,
-          "score": 8.435263611015456
-        },
-        {
-          "name": "California NanoSystems Institute",
-          "type": "facility",
-          "recent": 38,
-          "growth": 1.3,
-          "spec": 21.9,
-          "score": 7.127520177919166
-        },
-        {
-          "name": "Massachusetts Institute of Technology",
-          "type": "education",
-          "recent": 118,
-          "growth": 1.1,
-          "spec": 2.1,
-          "score": 5.830746649735197
-        },
-        {
-          "name": "California Institute of Technology",
-          "type": "education",
-          "recent": 86,
-          "growth": 1.2,
-          "spec": 3.1,
-          "score": 5.763326998235949
-        }
-      ],
-      "bottlenecks": [
-        {
-          "term": "stability",
-          "count": 33,
-          "samples": [
-            "Enhancing the stability of cobalt spinel oxide towards sustainable oxygen evolution in acid",
-            "Stability and deactivation of OER electrocatalysts: A review",
-            "RuO2 electronic structure and lattice strain dual engineering for enhanced acidic oxygen evolution reaction performance"
-          ]
-        },
-        {
-          "term": "overpotential",
-          "count": 28,
-          "samples": [
-            "La- and Mn-doped cobalt spinel oxygen evolution catalyst for proton exchange membrane electrolysis",
-            "Subnanometric Ru clusters with upshifted D band center improve performance for alkaline hydrogen evolution reaction",
-            "Oxygen Evolution Reaction in Alkaline Environment: Material Challenges and Solutions"
-          ]
-        },
-        {
-          "term": "efficiency",
-          "count": 17,
-          "samples": [
-            "Unraveling the electronegativity-dominated intermediate adsorption on high-entropy alloy electrocatalysts",
-            "Oxygen Evolution Reaction in Alkaline Environment: Material Challenges and Solutions",
-            "Revealing the role of interfacial water and key intermediates at ruthenium surfaces in the alkaline hydrogen evolution reaction"
-          ]
-        },
-        {
-          "term": "durability",
-          "count": 12,
-          "samples": [
-            "RuO2 electronic structure and lattice strain dual engineering for enhanced acidic oxygen evolution reaction performance",
-            "High Durability of Fe\u2013N\u2013C Single\u2010Atom Catalysts with Carbon Vacancies toward the\u00a0Oxygen Reduction Reaction in Alkaline Media",
-            "Electrocatalysis in Alkaline Media and Alkaline Membrane-Based Energy Technologies"
-          ]
-        },
-        {
-          "term": "degradation",
-          "count": 10,
-          "samples": [
-            "La- and Mn-doped cobalt spinel oxygen evolution catalyst for proton exchange membrane electrolysis",
-            "Bifunctional Electrocatalysts for Overall and Hybrid Water Splitting",
-            "Oxygen Evolution Reaction in Alkaline Environment: Material Challenges and Solutions"
-          ]
-        }
-      ],
+      "institutions": [],
+      "bottlenecks": [],
       "evidence": {
         "topic_match": "by OpenAlex topic ID",
-        "us_institutions": "strong",
+        "us_institutions": "thin",
         "funding_match": "matched keyword",
-        "abstract_coverage": 0.77
+        "abstract_coverage": 0.0
       },
-      "why_now": "The field's share of publications is up ~2.56x over the past several years; the federal funding signal is rising (x9, $90M); Activate is already in this space. Recurring bottlenecks: stability, overpotential, efficiency.",
-      "n_works": 120
+      "why_now": "The field's share of publications is up ~2.56x over the past several years; the federal funding signal is rising (x9, $90M); Activate is already in this space. ",
+      "n_works": 0
     },
     {
       "topic": "Gut microbiota and health",
@@ -895,123 +206,16 @@
       "activate_present": false,
       "funding_phrase": "rising (x4, $3684M)",
       "orphan": false,
-      "institutions": [
-        {
-          "name": "Harvard University",
-          "type": "education",
-          "recent": 517,
-          "growth": 1.1,
-          "spec": 3.5,
-          "score": 33.42370596456238
-        },
-        {
-          "name": "University of California San Diego",
-          "type": "education",
-          "recent": 364,
-          "growth": 1.1,
-          "spec": 4.3,
-          "score": 25.57057863040932
-        },
-        {
-          "name": "Cornell University",
-          "type": "education",
-          "recent": 307,
-          "growth": 1.2,
-          "spec": 3.1,
-          "score": 21.187744727807583
-        },
-        {
-          "name": "University of Wisconsin\u2013Madison",
-          "type": "education",
-          "recent": 220,
-          "growth": 1.6,
-          "spec": 3.2,
-          "score": 20.261839417487707
-        },
-        {
-          "name": "University of Chicago",
-          "type": "education",
-          "recent": 238,
-          "growth": 1.4,
-          "spec": 3.6,
-          "score": 19.80468157257776
-        },
-        {
-          "name": "University of Illinois Urbana-Champaign",
-          "type": "education",
-          "recent": 218,
-          "growth": 1.4,
-          "spec": 3.9,
-          "score": 18.3668281900023
-        },
-        {
-          "name": "Stanford University",
-          "type": "education",
-          "recent": 260,
-          "growth": 1.3,
-          "spec": 2.3,
-          "score": 16.36962177251396
-        },
-        {
-          "name": "The Ohio State University",
-          "type": "education",
-          "recent": 177,
-          "growth": 1.7,
-          "spec": 2.8,
-          "score": 15.511549681878696
-        }
-      ],
-      "bottlenecks": [
-        {
-          "term": "crosstalk",
-          "count": 3,
-          "samples": [
-            "Gut microbiome and health: mechanistic insights",
-            "Mechanisms of Blood\u2013Brain Barrier Protection by Microbiota-Derived Short-Chain Fatty Acids",
-            "Implication of Intestinal Barrier Dysfunction in Gut Dysbiosis and Diseases"
-          ]
-        },
-        {
-          "term": "degradation",
-          "count": 3,
-          "samples": [
-            "Gut Bacteria and Neurotransmitters",
-            "Gut firmicutes: Relationship with dietary fiber and role in host homeostasis",
-            "Mechanisms of Blood\u2013Brain Barrier Protection by Microbiota-Derived Short-Chain Fatty Acids"
-          ]
-        },
-        {
-          "term": "sensitivity",
-          "count": 3,
-          "samples": [
-            "Gut microbial carbohydrate metabolism contributes to insulin resistance",
-            "Gut microbiome composition may be an indicator of preclinical Alzheimer\u2019s disease",
-            "The Power of Microbiome Studies: Some Considerations on Which Alpha and Beta Metrics to Use and How to Report Results"
-          ]
-        },
-        {
-          "term": "yield",
-          "count": 1,
-          "samples": [
-            "Greengenes2 unifies microbial data in a single reference tree"
-          ]
-        },
-        {
-          "term": "throughput",
-          "count": 1,
-          "samples": [
-            "The Gut Microbiota in Inflammatory Bowel Disease"
-          ]
-        }
-      ],
+      "institutions": [],
+      "bottlenecks": [],
       "evidence": {
         "topic_match": "by OpenAlex topic ID",
-        "us_institutions": "strong",
+        "us_institutions": "thin",
         "funding_match": "matched keyword",
-        "abstract_coverage": 0.68
+        "abstract_coverage": 0.0
       },
-      "why_now": "The field's share of publications is up ~2.87x over the past several years; the federal funding signal is rising (x4, $3684M); Activate is not yet in this space. Recurring bottlenecks: crosstalk, degradation, sensitivity.",
-      "n_works": 120
+      "why_now": "The field's share of publications is up ~2.87x over the past several years; the federal funding signal is rising (x4, $3684M); Activate is not yet in this space. ",
+      "n_works": 0
     },
     {
       "topic": "Advanced Sensor and Energy Harvesting Materials",
@@ -1021,127 +225,16 @@
       "activate_present": true,
       "funding_phrase": "rising (x4, $181M)",
       "orphan": false,
-      "institutions": [
-        {
-          "name": "Georgia Institute of Technology",
-          "type": "education",
-          "recent": 637,
-          "growth": 0.8,
-          "spec": 15.7,
-          "score": 67.0017988070353
-        },
-        {
-          "name": "Pennsylvania State University",
-          "type": "education",
-          "recent": 155,
-          "growth": 2.0,
-          "spec": 2.6,
-          "score": 16.255216048647846
-        },
-        {
-          "name": "Textile Research Institute",
-          "type": "facility",
-          "recent": 34,
-          "growth": 2.3,
-          "spec": 30.0,
-          "score": 13.3385340811562
-        },
-        {
-          "name": "North Carolina State University",
-          "type": "education",
-          "recent": 172,
-          "growth": 1.1,
-          "spec": 4.8,
-          "score": 12.679886282717575
-        },
-        {
-          "name": "Northeastern University",
-          "type": "education",
-          "recent": 68,
-          "growth": 3,
-          "spec": 3.5,
-          "score": 12.023271264522233
-        },
-        {
-          "name": "University of California, Los Angeles",
-          "type": "education",
-          "recent": 167,
-          "growth": 1.0,
-          "spec": 1.9,
-          "score": 7.256724127904922
-        },
-        {
-          "name": "The Wallace H. Coulter Department of Biomedical Engineering",
-          "type": "education",
-          "recent": 42,
-          "growth": 1.3,
-          "spec": 17.1,
-          "score": 6.986023170848366
-        },
-        {
-          "name": "The University of Texas at Tyler",
-          "type": "education",
-          "recent": 28,
-          "growth": null,
-          "spec": 12.9,
-          "score": 6.369985070364987
-        }
-      ],
-      "bottlenecks": [
-        {
-          "term": "sensitivity",
-          "count": 18,
-          "samples": [
-            "Wearable Pressure Sensors for Pulse Wave Monitoring",
-            "Super Stretchable, Self\u2010Healing, Adhesive Ionic Conductive Hydrogels Based on Tailor\u2010Made Ionic Liquid for High\u2010Performance Strain Sensors",
-            "Perception\u2010to\u2010Cognition Tactile Sensing Based on Artificial\u2010Intelligence\u2010Motivated Human Full\u2010Skin Bionic Electronic Skin"
-          ]
-        },
-        {
-          "term": "stability",
-          "count": 11,
-          "samples": [
-            "High\u2010Stretchability, Ultralow\u2010Hysteresis ConductingPolymer Hydrogel Strain Sensors for Soft Machines",
-            "Highly stable flexible pressure sensors with a quasi-homogeneous composition and interlinked interfaces",
-            "Stretchable Triboelectric Self\u2010Powered Sweat Sensor Fabricated from Self\u2010Healing Nanocellulose Hydrogels"
-          ]
-        },
-        {
-          "term": "efficiency",
-          "count": 7,
-          "samples": [
-            "Super Stretchable, Self\u2010Healing, Adhesive Ionic Conductive Hydrogels Based on Tailor\u2010Made Ionic Liquid for High\u2010Performance Strain Sensors",
-            "The Emergence of AI-Based Wearable Sensors for Digital Health Technology: A Review",
-            "Applications of nanotechnology in smart textile industry: A critical review"
-          ]
-        },
-        {
-          "term": "cost",
-          "count": 5,
-          "samples": [
-            "Wearable and flexible electrochemical sensors for sweat analysis: a review",
-            "Recent Advances in Triboelectric Nanogenerators: From Technological Progress to Commercial Applications",
-            "Applications of nanotechnology in smart textile industry: A critical review"
-          ]
-        },
-        {
-          "term": "durability",
-          "count": 3,
-          "samples": [
-            "Strong Tough Conductive Hydrogels via the Synergy of Ion\u2010Induced Cross\u2010Linking and Salting\u2010Out",
-            "A Dual-Mode Triboelectric Nanogenerator for Wind Energy Harvesting and Self-Powered Wind Speed Monitoring",
-            "Self-Healing Polymers for Electronics and Energy Devices"
-          ]
-        }
-      ],
+      "institutions": [],
+      "bottlenecks": [],
       "evidence": {
         "topic_match": "by OpenAlex topic ID",
-        "us_institutions": "strong",
+        "us_institutions": "thin",
         "funding_match": "matched keyword",
-        "abstract_coverage": 0.72
+        "abstract_coverage": 0.0
       },
-      "why_now": "The field's share of publications is up ~3.0x over the past several years; the federal funding signal is rising (x4, $181M); Activate is already in this space. Recurring bottlenecks: sensitivity, stability, efficiency.",
-      "n_works": 120
+      "why_now": "The field's share of publications is up ~3.0x over the past several years; the federal funding signal is rising (x4, $181M); Activate is already in this space. ",
+      "n_works": 0
     },
     {
       "topic": "Additive Manufacturing and 3D Printing Technologies",
@@ -1151,125 +244,16 @@
       "activate_present": true,
       "funding_phrase": "rising (x3, $1269M)",
       "orphan": false,
-      "institutions": [
-        {
-          "name": "Oak Ridge National Laboratory",
-          "type": "facility",
-          "recent": 248,
-          "growth": 1.4,
-          "spec": 9.4,
-          "score": 34.549678254648136
-        },
-        {
-          "name": "University of Massachusetts Lowell",
-          "type": "education",
-          "recent": 65,
-          "growth": 2.4,
-          "spec": 10.2,
-          "score": 15.836878818172266
-        },
-        {
-          "name": "Auburn University",
-          "type": "education",
-          "recent": 90,
-          "growth": 2.3,
-          "spec": 4.7,
-          "score": 14.25614966982834
-        },
-        {
-          "name": "Sandia National Laboratories",
-          "type": "facility",
-          "recent": 68,
-          "growth": 2.6,
-          "spec": 4.9,
-          "score": 12.4266639706456
-        },
-        {
-          "name": "Texas A&M University",
-          "type": "education",
-          "recent": 141,
-          "growth": 1.5,
-          "spec": 2.7,
-          "score": 10.749614308620824
-        },
-        {
-          "name": "Arizona State University",
-          "type": "education",
-          "recent": 86,
-          "growth": 2.7,
-          "spec": 2.0,
-          "score": 10.28244184252328
-        },
-        {
-          "name": "The University of Texas at El Paso",
-          "type": "education",
-          "recent": 68,
-          "growth": 1.4,
-          "spec": 7.9,
-          "score": 8.1991554693369
-        },
-        {
-          "name": "Pennsylvania State University",
-          "type": "education",
-          "recent": 144,
-          "growth": 1.1,
-          "spec": 2.5,
-          "score": 7.966977907919328
-        }
-      ],
-      "bottlenecks": [
-        {
-          "term": "cost",
-          "count": 16,
-          "samples": [
-            "Additive manufacturing in the aerospace and automotive industries: Recent trends and role in achieving sustainable development goals",
-            "Machine learning techniques in additive manufacturing: a state of the art review on design, processes and production control",
-            "Recent advances of additive manufacturing in implant fabrication \u2013 A review"
-          ]
-        },
-        {
-          "term": "efficiency",
-          "count": 8,
-          "samples": [
-            "Additive manufacturing in the aerospace and automotive industries: Recent trends and role in achieving sustainable development goals",
-            "Additive manufacturing of heat exchangers in aerospace applications: a review",
-            "Big data, machine learning, and digital twin assisted additive manufacturing: A review"
-          ]
-        },
-        {
-          "term": "corrosion",
-          "count": 3,
-          "samples": [
-            "Vat photopolymerization-based 3D printing of polymer nanocomposites: current trends and applications",
-            "Additive manufacturing of magnesium matrix composites: Comprehensive review of recent progress and research perspectives",
-            "An overview of additively manufactured metal matrix composites: preparation, performance, and challenge"
-          ]
-        },
-        {
-          "term": "stability",
-          "count": 2,
-          "samples": [
-            "Direct Ink Writing: A 3D Printing Technology for Diverse Materials",
-            "Additive manufacturing of magnesium matrix composites: Comprehensive review of recent progress and research perspectives"
-          ]
-        },
-        {
-          "term": "scalability",
-          "count": 2,
-          "samples": [
-            "Recent advances of additive manufacturing in implant fabrication \u2013 A review",
-            "Electrochemical (Bio)Sensors Enabled by Fused Deposition Modeling-Based 3D Printing: A Guide to Selecting Designs, Printing Parameters, and Post-Treat"
-          ]
-        }
-      ],
+      "institutions": [],
+      "bottlenecks": [],
       "evidence": {
         "topic_match": "by OpenAlex topic ID",
-        "us_institutions": "strong",
+        "us_institutions": "thin",
         "funding_match": "matched keyword",
-        "abstract_coverage": 0.67
+        "abstract_coverage": 0.0
       },
-      "why_now": "The field's share of publications is up ~2.34x over the past several years; the federal funding signal is rising (x3, $1269M); Activate is already in this space. Recurring bottlenecks: cost, efficiency, corrosion.",
-      "n_works": 120
+      "why_now": "The field's share of publications is up ~2.34x over the past several years; the federal funding signal is rising (x3, $1269M); Activate is already in this space. ",
+      "n_works": 0
     },
     {
       "topic": "Perovskite Materials and Applications",
@@ -1279,127 +263,16 @@
       "activate_present": true,
       "funding_phrase": "low/flat",
       "orphan": false,
-      "institutions": [
-        {
-          "name": "Lamar University",
-          "type": "education",
-          "recent": 62,
-          "growth": null,
-          "spec": 25.3,
-          "score": 19.72176930233504
-        },
-        {
-          "name": "Brookhaven National Laboratory",
-          "type": "facility",
-          "recent": 93,
-          "growth": 1.5,
-          "spec": 8.7,
-          "score": 13.006010135863086
-        },
-        {
-          "name": "Center for Integrated Nanotechnologies",
-          "type": "facility",
-          "recent": 43,
-          "growth": 1.6,
-          "spec": 33.4,
-          "score": 12.522380342839261
-        },
-        {
-          "name": "Lawrence Berkeley National Laboratory",
-          "type": "facility",
-          "recent": 202,
-          "growth": 0.9,
-          "spec": 4.5,
-          "score": 12.50189645976852
-        },
-        {
-          "name": "University of Colorado Boulder",
-          "type": "education",
-          "recent": 144,
-          "growth": 1.3,
-          "spec": 4.0,
-          "score": 12.124300837654495
-        },
-        {
-          "name": "University of Toledo",
-          "type": "education",
-          "recent": 118,
-          "growth": 1.0,
-          "spec": 10.3,
-          "score": 11.687096653636951
-        },
-        {
-          "name": "Purdue University West Lafayette",
-          "type": "education",
-          "recent": 140,
-          "growth": 1.8,
-          "spec": 2.1,
-          "score": 11.306507241396726
-        },
-        {
-          "name": "Argonne National Laboratory",
-          "type": "facility",
-          "recent": 150,
-          "growth": 0.9,
-          "spec": 7.1,
-          "score": 11.216325173656262
-        }
-      ],
-      "bottlenecks": [
-        {
-          "term": "efficiency",
-          "count": 58,
-          "samples": [
-            "Inactive (PbI <sub>2</sub> ) <sub>2</sub> RbCl stabilizes perovskite films for efficient solar cells",
-            "Conformal quantum dot\u2013SnO <sub>2</sub> layers as electron transporters for efficient perovskite solar cells",
-            "Improved charge extraction in inverted perovskite solar cells with dual-site-binding ligands"
-          ]
-        },
-        {
-          "term": "stability",
-          "count": 44,
-          "samples": [
-            "Inactive (PbI <sub>2</sub> ) <sub>2</sub> RbCl stabilizes perovskite films for efficient solar cells",
-            "Conformal quantum dot\u2013SnO <sub>2</sub> layers as electron transporters for efficient perovskite solar cells",
-            "Improved charge extraction in inverted perovskite solar cells with dual-site-binding ligands"
-          ]
-        },
-        {
-          "term": "degradation",
-          "count": 8,
-          "samples": [
-            "Damp heat\u2013stable perovskite solar cells with tailored-dimensionality 2D/3D heterojunctions",
-            "Engineering ligand reactivity enables high-temperature operation of stable perovskite solar cells",
-            "Compositional texture engineering for highly stable wide-bandgap perovskite solar cells"
-          ]
-        },
-        {
-          "term": "cost",
-          "count": 8,
-          "samples": [
-            "An extensive study on multiple ETL and HTL layers to design and simulation of high-performance lead-free CsSnCl3-based perovskite solar cells",
-            "Next-generation applications for integrated perovskite solar cells",
-            "Perovskite Light\u2010Emitting Diodes with an External Quantum Efficiency Exceeding 30%"
-          ]
-        },
-        {
-          "term": "lifetime",
-          "count": 6,
-          "samples": [
-            "Minimizing buried interfacial defects for efficient inverted perovskite solar cells",
-            "Bimolecularly passivated interface enables efficient and stable inverted perovskite solar cells",
-            "Reducing nonradiative recombination in perovskite solar cells with a porous insulator contact"
-          ]
-        }
-      ],
+      "institutions": [],
+      "bottlenecks": [],
       "evidence": {
         "topic_match": "by OpenAlex topic ID",
-        "us_institutions": "strong",
+        "us_institutions": "thin",
         "funding_match": "matched keyword",
-        "abstract_coverage": 0.6
+        "abstract_coverage": 0.0
       },
-      "why_now": "The field's share of publications is up ~3.13x over the past several years; the federal funding signal is low/flat; Activate is already in this space. Recurring bottlenecks: efficiency, stability, degradation.",
-      "n_works": 120
+      "why_now": "The field's share of publications is up ~3.13x over the past several years; the federal funding signal is low/flat; Activate is already in this space. ",
+      "n_works": 0
     },
     {
       "topic": "Computational Drug Discovery Methods",
@@ -1409,125 +282,16 @@
       "activate_present": false,
       "funding_phrase": "low/flat",
       "orphan": true,
-      "institutions": [
-        {
-          "name": "University of Arkansas for Medical Sciences",
-          "type": "education",
-          "recent": 122,
-          "growth": 3,
-          "spec": 11.4,
-          "score": 39.15640119538055
-        },
-        {
-          "name": "University of Florida",
-          "type": "education",
-          "recent": 200,
-          "growth": 3,
-          "spec": 2.5,
-          "score": 29.916537099313786
-        },
-        {
-          "name": "University of Toledo",
-          "type": "education",
-          "recent": 121,
-          "growth": null,
-          "spec": 10.6,
-          "score": 24.88828887402513
-        },
-        {
-          "name": "University of Minnesota",
-          "type": "education",
-          "recent": 150,
-          "growth": 3,
-          "spec": 2.9,
-          "score": 24.190518585490288
-        },
-        {
-          "name": "Wayne State University",
-          "type": "education",
-          "recent": 128,
-          "growth": null,
-          "spec": 5.9,
-          "score": 19.72150312374644
-        },
-        {
-          "name": "University of North Carolina at Chapel Hill",
-          "type": "education",
-          "recent": 184,
-          "growth": 1.0,
-          "spec": 1.9,
-          "score": 8.124745331472377
-        },
-        {
-          "name": "Massachusetts Institute of Technology",
-          "type": "education",
-          "recent": 123,
-          "growth": 1.4,
-          "spec": 2.2,
-          "score": 7.994376729968709
-        },
-        {
-          "name": "Kean University",
-          "type": "education",
-          "recent": 28,
-          "growth": null,
-          "spec": 16.3,
-          "score": 7.145009642449594
-        }
-      ],
-      "bottlenecks": [
-        {
-          "term": "toxicity",
-          "count": 13,
-          "samples": [
-            "ProTox 3.0: a webserver for the prediction of toxicity of chemicals",
-            "Artificial Intelligence in Pharmaceutical Technology and Drug Delivery Design",
-            "Metal Ions, Metal Chelators and Metal Chelating Assay as Antioxidant Method"
-          ]
-        },
-        {
-          "term": "cost",
-          "count": 8,
-          "samples": [
-            "Computational approaches streamlining drug discovery",
-            "Machine Learning Methods for Small Data Challenges in Molecular Science",
-            "Deep learning in drug discovery: an integrative review and future challenges"
-          ]
-        },
-        {
-          "term": "efficiency",
-          "count": 3,
-          "samples": [
-            "The Role of AI in Drug Discovery: Challenges, Opportunities, and Strategies",
-            "Artificial Intelligence (AI) Applications in Drug Discovery and Drug Delivery: Revolutionizing Personalized Medicine",
-            "Drug Repurposing: An Effective Tool in Modern Drug Discovery"
-          ]
-        },
-        {
-          "term": "sensitivity",
-          "count": 2,
-          "samples": [
-            "SynergyFinder Plus: Toward Better Interpretation and Annotation of Drug Combination Screening Datasets",
-            "Deep learning in drug discovery: an integrative review and future challenges"
-          ]
-        },
-        {
-          "term": "yield",
-          "count": 2,
-          "samples": [
-            "A review of molecular representation in the age of machine learning",
-            "Deep-PK: deep learning for small molecule pharmacokinetic and toxicity prediction"
-          ]
-        }
-      ],
+      "institutions": [],
+      "bottlenecks": [],
       "evidence": {
         "topic_match": "by OpenAlex topic ID",
-        "us_institutions": "strong",
+        "us_institutions": "thin",
         "funding_match": "matched keyword",
-        "abstract_coverage": 0.82
+        "abstract_coverage": 0.0
       },
-      "why_now": "The field's share of publications is up ~2.44x over the past several years; the federal funding signal is low/flat; Activate is not yet in this space. Recurring bottlenecks: toxicity, cost, efficiency.",
-      "n_works": 120
+      "why_now": "The field's share of publications is up ~2.44x over the past several years; the federal funding signal is low/flat; Activate is not yet in this space. ",
+      "n_works": 0
     },
     {
       "topic": "Methane Hydrates and Related Phenomena",
@@ -1537,123 +301,16 @@
       "activate_present": false,
       "funding_phrase": "unavailable (no clean keyword match)",
       "orphan": false,
-      "institutions": [
-        {
-          "name": "Environmental Molecular Sciences Laboratory",
-          "type": "facility",
-          "recent": 42589,
-          "growth": 0.4,
-          "spec": 74.1,
-          "score": 5133.8570919822805
-        },
-        {
-          "name": "Pacific Northwest National Laboratory",
-          "type": "facility",
-          "recent": 43199,
-          "growth": 0.4,
-          "spec": 71.3,
-          "score": 4496.866694797668
-        },
-        {
-          "name": "Oregon State University",
-          "type": "education",
-          "recent": 1456,
-          "growth": 2.0,
-          "spec": 57.3,
-          "score": 711.7239412896197
-        },
-        {
-          "name": "University of California, Berkeley",
-          "type": "education",
-          "recent": 2868,
-          "growth": 1.3,
-          "spec": 33.4,
-          "score": 703.9136340718194
-        },
-        {
-          "name": "Argonne National Laboratory",
-          "type": "facility",
-          "recent": 793,
-          "growth": 3,
-          "spec": 37.5,
-          "score": 460.82940607840675
-        },
-        {
-          "name": "University of Missouri",
-          "type": "education",
-          "recent": 790,
-          "growth": 3,
-          "spec": 31.6,
-          "score": 421.09833666641623
-        },
-        {
-          "name": "Alabama Agricultural and Mechanical University",
-          "type": "education",
-          "recent": 312,
-          "growth": null,
-          "spec": 271.8,
-          "score": 325.3051529083282
-        },
-        {
-          "name": "United States Department of Agriculture",
-          "type": "government",
-          "recent": 471,
-          "growth": 3,
-          "spec": 42.0,
-          "score": 289.55669776962935
-        }
-      ],
-      "bottlenecks": [
-        {
-          "term": "stability",
-          "count": 8,
-          "samples": [
-            "CO2 hydrate stability in oceanic sediments under brine conditions",
-            "Rock organic carbon oxidation CO2 release offsets silicate weathering sink",
-            "Evaluating liquid CO2 hydrate formation kinetics, morphology, and stability in oceanic sediments on a lab scale using top injection"
-          ]
-        },
-        {
-          "term": "efficiency",
-          "count": 6,
-          "samples": [
-            "Capillary Sealing Efficiency Analysis of Caprocks: Implication for Hydrogen Geological Storage",
-            "Earth energy evolution, human development and carbon neutral strategy",
-            "Hydrate Technologies for CO<sub>2</sub> Capture and Sequestration: Status and Perspectives"
-          ]
-        },
-        {
-          "term": "cost",
-          "count": 3,
-          "samples": [
-            "Advances in subsea carbon dioxide utilization and storage",
-            "Assessing the technical aspects of ocean-alkalinity-enhancement approaches",
-            "The Origin and Occurrence of Natural Hydrogen"
-          ]
-        },
-        {
-          "term": "degradation",
-          "count": 1,
-          "samples": [
-            "Geological Hydrogen Storage: Geochemical Reactivity of Hydrogen with Sandstone Reservoirs"
-          ]
-        },
-        {
-          "term": "contamination",
-          "count": 1,
-          "samples": [
-            "Advances in subsea carbon dioxide utilization and storage"
-          ]
-        }
-      ],
+      "institutions": [],
+      "bottlenecks": [],
       "evidence": {
         "topic_match": "by OpenAlex topic ID",
-        "us_institutions": "strong",
+        "us_institutions": "thin",
         "funding_match": "unavailable",
-        "abstract_coverage": 0.47
+        "abstract_coverage": 0.0
       },
-      "why_now": "The field's share of publications is up ~2.24x over the past several years; the federal funding signal is unavailable (no clean keyword match); Activate is not yet in this space. Recurring bottlenecks: stability, efficiency, cost.",
-      "n_works": 120
+      "why_now": "The field's share of publications is up ~2.24x over the past several years; the federal funding signal is unavailable (no clean keyword match); Activate is not yet in this space. ",
+      "n_works": 0
     },
     {
       "topic": "Cancer-related molecular mechanisms research",
@@ -1663,125 +320,16 @@
       "activate_present": false,
       "funding_phrase": "unavailable (no clean keyword match)",
       "orphan": false,
-      "institutions": [
-        {
-          "name": "Capital University",
-          "type": "education",
-          "recent": 150,
-          "growth": 3,
-          "spec": 9.0,
-          "score": 42.75578667472146
-        },
-        {
-          "name": "National Clinical Research",
-          "type": "facility",
-          "recent": 53,
-          "growth": 1.7,
-          "spec": 7.3,
-          "score": 7.718232733526752
-        },
-        {
-          "name": "The University of Texas MD Anderson Cancer Center",
-          "type": "healthcare",
-          "recent": 157,
-          "growth": 0.7,
-          "spec": 3.7,
-          "score": 7.033712682365001
-        },
-        {
-          "name": "California University of Pennsylvania",
-          "type": "education",
-          "recent": 51,
-          "growth": null,
-          "spec": 2.6,
-          "score": 5.15203568852817
-        },
-        {
-          "name": "Augusta University",
-          "type": "education",
-          "recent": 42,
-          "growth": 1.8,
-          "spec": 4.9,
-          "score": 5.131377172023092
-        },
-        {
-          "name": "University of Massachusetts Chan Medical School",
-          "type": "education",
-          "recent": 46,
-          "growth": null,
-          "spec": 2.7,
-          "score": 4.788341454627897
-        },
-        {
-          "name": "Washington University in St. Louis",
-          "type": "education",
-          "recent": 83,
-          "growth": 1.5,
-          "spec": 1.3,
-          "score": 4.643748208096542
-        },
-        {
-          "name": "New York University",
-          "type": "education",
-          "recent": 68,
-          "growth": 2.0,
-          "spec": 1.1,
-          "score": 4.433958374823313
-        }
-      ],
-      "bottlenecks": [
-        {
-          "term": "stability",
-          "count": 16,
-          "samples": [
-            "New insights into the interplay between long non\u2010coding RNAs and RNA\u2010binding proteins in cancer",
-            "LncRNA-PACERR induces pro-tumour macrophages via interacting with miR-671-3p and m6A-reader IGF2BP2 in pancreatic ductal adenocarcinoma",
-            "Hypoxia-induced HIF-1\u03b1/lncRNA-PMAN inhibits ferroptosis by promoting the cytoplasmic translocation of ELAVL1 in peritoneal dissemination from gastric "
-          ]
-        },
-        {
-          "term": "degradation",
-          "count": 7,
-          "samples": [
-            "Deferoxamine Alleviates Osteoarthritis by Inhibiting Chondrocyte Ferroptosis and Activating the Nrf2 Pathway",
-            "LncRNA LINC00942 promotes chemoresistance in gastric cancer by suppressing MSI2 degradation to enhance <i>c\u2010Myc</i> mRNA stability",
-            "Hypoxia-induced lncRNA STEAP3-AS1 activates Wnt/\u03b2-catenin signaling to promote colorectal cancer progression by preventing m6A-mediated degradation of"
-          ]
-        },
-        {
-          "term": "sensitivity",
-          "count": 7,
-          "samples": [
-            "Downregulation of MEIS1 mediated by ELFN1-AS1/EZH2/DNMT3a axis promotes tumorigenesis and oxaliplatin resistance in colorectal cancer",
-            "LncRNA HEPFAL accelerates ferroptosis in hepatocellular carcinoma by regulating SLC7A11 ubiquitination",
-            "Resveratrol reduces ROS-induced ferroptosis by activating SIRT3 and compensating the GSH/GPX4 pathway"
-          ]
-        },
-        {
-          "term": "efficiency",
-          "count": 2,
-          "samples": [
-            "Enterobacterial LPS-inducible LINC00152 is regulated by histone lactylation and promotes cancer cells invasion and migration",
-            "Non-coding RNA in cancer drug resistance: Underlying mechanisms and clinical applications"
-          ]
-        },
-        {
-          "term": "throughput",
-          "count": 2,
-          "samples": [
-            "RNADisease v4.0: an updated resource of RNA-associated diseases, providing RNA-disease analysis, enrichment\u00a0and prediction",
-            "High-throughput single nucleus total RNA sequencing of formalin-fixed paraffin-embedded tissues by snRandom-seq"
-          ]
-        }
-      ],
+      "institutions": [],
+      "bottlenecks": [],
       "evidence": {
         "topic_match": "by OpenAlex topic ID",
-        "us_institutions": "strong",
+        "us_institutions": "thin",
         "funding_match": "unavailable",
-        "abstract_coverage": 0.75
+        "abstract_coverage": 0.0
       },
-      "why_now": "The field's share of publications is up ~1.87x over the past several years; the federal funding signal is unavailable (no clean keyword match); Activate is not yet in this space. Recurring bottlenecks: stability, degradation, sensitivity.",
-      "n_works": 120
+      "why_now": "The field's share of publications is up ~1.87x over the past several years; the federal funding signal is unavailable (no clean keyword match); Activate is not yet in this space. ",
+      "n_works": 0
     },
     {
       "topic": "Cancer, Hypoxia, and Metabolism",
@@ -1791,124 +339,16 @@
       "activate_present": false,
       "funding_phrase": "unavailable (no clean keyword match)",
       "orphan": false,
-      "institutions": [
-        {
-          "name": "The University of Texas MD Anderson Cancer Center",
-          "type": "healthcare",
-          "recent": 217,
-          "growth": 0.9,
-          "spec": 5.1,
-          "score": 13.44997079847495
-        },
-        {
-          "name": "Sidney Kimmel Comprehensive Cancer Center",
-          "type": "facility",
-          "recent": 52,
-          "growth": 2.3,
-          "spec": 10.9,
-          "score": 12.290464712305324
-        },
-        {
-          "name": "Moffitt Cancer Center",
-          "type": "healthcare",
-          "recent": 81,
-          "growth": 1.4,
-          "spec": 6.4,
-          "score": 9.381849495838155
-        },
-        {
-          "name": "Memorial Sloan Kettering Cancer Center",
-          "type": "healthcare",
-          "recent": 106,
-          "growth": 1.3,
-          "spec": 3.4,
-          "score": 7.822644045757847
-        },
-        {
-          "name": "University of Chicago",
-          "type": "education",
-          "recent": 101,
-          "growth": 1.8,
-          "spec": 1.5,
-          "score": 7.094748244718181
-        },
-        {
-          "name": "Johns Hopkins University",
-          "type": "education",
-          "recent": 166,
-          "growth": 1.0,
-          "spec": 1.4,
-          "score": 6.310878152577985
-        },
-        {
-          "name": "University of Pennsylvania",
-          "type": "education",
-          "recent": 118,
-          "growth": 1.2,
-          "spec": 1.6,
-          "score": 5.556843321302027
-        },
-        {
-          "name": "University of Oklahoma Health Sciences Center",
-          "type": "healthcare",
-          "recent": 36,
-          "growth": 2.4,
-          "spec": 4.1,
-          "score": 5.514269583795287
-        }
-      ],
-      "bottlenecks": [
-        {
-          "term": "degradation",
-          "count": 6,
-          "samples": [
-            "Tumor metabolite lactate promotes tumorigenesis by modulating MOESIN lactylation and enhancing TGF-\u03b2 signaling in regulatory T\u00a0cells",
-            "Mitochondrial dysfunction promotes the transition of precursor to terminally exhausted T cells through HIF-1\u03b1-mediated glycolytic reprogramming",
-            "Von Hippel\u2013Lindau disease: insights into oxygen sensing, protein degradation, and cancer"
-          ]
-        },
-        {
-          "term": "stability",
-          "count": 4,
-          "samples": [
-            "Tumor metabolite lactate promotes tumorigenesis by modulating MOESIN lactylation and enhancing TGF-\u03b2 signaling in regulatory T\u00a0cells",
-            "METTL5 stabilizes c\u2010Myc by facilitating USP5 translation to reprogram glucose metabolism and promote hepatocellular carcinoma progression",
-            "Ubiquitin-Specific Proteases (USPs) and Metabolic Disorders"
-          ]
-        },
-        {
-          "term": "sensitivity",
-          "count": 4,
-          "samples": [
-            "ROS/PI3K/Akt and Wnt/\u03b2-catenin signalings activate HIF-1\u03b1-induced metabolic reprogramming to impart 5-fluorouracil resistance in colorectal cancer",
-            "HIF-1\u03b1 signaling: Essential roles in tumorigenesis and implications in targeted therapies",
-            "Tumor hypoxia and radiotherapy: A major driver of resistance even for novel radiotherapy modalities"
-          ]
-        },
-        {
-          "term": "crosstalk",
-          "count": 2,
-          "samples": [
-            "Spatially resolved multi-omics highlights cell-specific metabolic remodeling and interactions in gastric cancer",
-            "Metabolic reprogramming in the tumor microenvironment of liver cancer"
-          ]
-        },
-        {
-          "term": "efficiency",
-          "count": 1,
-          "samples": [
-            "Lactylation-Related Gene Signature Effectively Predicts Prognosis and Treatment Responsiveness in Hepatocellular Carcinoma"
-          ]
-        }
-      ],
+      "institutions": [],
+      "bottlenecks": [],
       "evidence": {
         "topic_match": "by OpenAlex topic ID",
-        "us_institutions": "strong",
+        "us_institutions": "thin",
         "funding_match": "unavailable",
-        "abstract_coverage": 0.74
+        "abstract_coverage": 0.0
       },
-      "why_now": "The field's share of publications is up ~1.84x over the past several years; the federal funding signal is unavailable (no clean keyword match); Activate is not yet in this space. Recurring bottlenecks: degradation, stability, sensitivity.",
-      "n_works": 120
+      "why_now": "The field's share of publications is up ~1.84x over the past several years; the federal funding signal is unavailable (no clean keyword match); Activate is not yet in this space. ",
+      "n_works": 0
     },
     {
       "topic": "Supercapacitor Materials and Fabrication",
@@ -1918,125 +358,16 @@
       "activate_present": true,
       "funding_phrase": "unavailable (no clean keyword match)",
       "orphan": false,
-      "institutions": [
-        {
-          "name": "Pittsburg State University",
-          "type": "education",
-          "recent": 73,
-          "growth": 1.9,
-          "spec": 46.9,
-          "score": 30.355670286683957
-        },
-        {
-          "name": "Central Connecticut State University",
-          "type": "education",
-          "recent": 13,
-          "growth": null,
-          "spec": 12.0,
-          "score": 2.8459689335105036
-        },
-        {
-          "name": "South Dakota School of Mines and Technology",
-          "type": "education",
-          "recent": 17,
-          "growth": 1.5,
-          "spec": 10.6,
-          "score": 2.699707296292079
-        },
-        {
-          "name": "The University of Texas at Dallas",
-          "type": "education",
-          "recent": 41,
-          "growth": 1.1,
-          "spec": 3.4,
-          "score": 2.6646367166589235
-        },
-        {
-          "name": "University at Buffalo, State University of New York",
-          "type": "education",
-          "recent": 32,
-          "growth": 1.5,
-          "spec": 1.3,
-          "score": 1.7489367611966233
-        },
-        {
-          "name": "Southern Connecticut State University",
-          "type": "education",
-          "recent": 9,
-          "growth": null,
-          "spec": 8.2,
-          "score": 1.6326199489236313
-        },
-        {
-          "name": "University of Memphis",
-          "type": "education",
-          "recent": 20,
-          "growth": 1.5,
-          "spec": 2.7,
-          "score": 1.5946674181166558
-        },
-        {
-          "name": "Lehigh University",
-          "type": "education",
-          "recent": 16,
-          "growth": null,
-          "spec": 2.4,
-          "score": 1.5721209681549941
-        }
-      ],
-      "bottlenecks": [
-        {
-          "term": "stability",
-          "count": 12,
-          "samples": [
-            "Review on Graphene-, Graphene Oxide-, Reduced Graphene Oxide-Based Flexible Composites: From Fabrication to Applications",
-            "Supercapacitor and electrochemical techniques: A brief review",
-            "Conductive Metal\u2013Organic Frameworks for Supercapacitors"
-          ]
-        },
-        {
-          "term": "cost",
-          "count": 9,
-          "samples": [
-            "Recent Advances in Laser\u2010Induced Graphene: Mechanism, Fabrication, Properties, and Applications in Flexible Electronics",
-            "Functional Carbon from Nature: Biomass\u2010Derived Carbon Materials and the Recent Progress of Their Applications",
-            "Status and Opportunities of Zinc Ion Hybrid Capacitors: Focus on Carbon Materials, Current Collectors, and Separators"
-          ]
-        },
-        {
-          "term": "efficiency",
-          "count": 5,
-          "samples": [
-            "A Comprehensive Review on Supercapacitor Applications and Developments",
-            "A review of supercapacitors: Materials, technology, challenges, and renewable energy applications",
-            "Recent Advanced Supercapacitor: A Review of Storage Mechanisms, Electrode Materials, Modification, and Perspectives"
-          ]
-        },
-        {
-          "term": "lifetime",
-          "count": 2,
-          "samples": [
-            "A comprehensive review on batteries and supercapacitors: Development and challenges since their inception",
-            "Smart Electronic Textile\u2010Based Wearable Supercapacitors"
-          ]
-        },
-        {
-          "term": "degradation",
-          "count": 2,
-          "samples": [
-            "The Many Deaths of Supercapacitors: Degradation, Aging, and Performance Fading",
-            "Metal\u2013Organic Framework Supercapacitors: Challenges and Opportunities"
-          ]
-        }
-      ],
+      "institutions": [],
+      "bottlenecks": [],
       "evidence": {
         "topic_match": "by OpenAlex topic ID",
-        "us_institutions": "strong",
+        "us_institutions": "thin",
         "funding_match": "unavailable",
-        "abstract_coverage": 0.53
+        "abstract_coverage": 0.0
       },
-      "why_now": "The field's share of publications is up ~1.82x over the past several years; the federal funding signal is unavailable (no clean keyword match); Activate is already in this space. Recurring bottlenecks: stability, cost, efficiency.",
-      "n_works": 120
+      "why_now": "The field's share of publications is up ~1.82x over the past several years; the federal funding signal is unavailable (no clean keyword match); Activate is already in this space. ",
+      "n_works": 0
     },
     {
       "topic": "EEG and Brain-Computer Interfaces",
@@ -2046,122 +377,16 @@
       "activate_present": false,
       "funding_phrase": "unavailable (no clean keyword match)",
       "orphan": false,
-      "institutions": [
-        {
-          "name": "Center for Translational Research in Neuroimaging and Data Science",
-          "type": "facility",
-          "recent": 44,
-          "growth": 3,
-          "spec": 41.3,
-          "score": 26.817708579097427
-        },
-        {
-          "name": "Allen Institute for Brain Science",
-          "type": "facility",
-          "recent": 110,
-          "growth": 1.5,
-          "spec": 15.4,
-          "score": 20.539083674389424
-        },
-        {
-          "name": "Emory University",
-          "type": "education",
-          "recent": 145,
-          "growth": 2.3,
-          "spec": 2.4,
-          "score": 16.37713502404087
-        },
-        {
-          "name": "Neurological Surgery",
-          "type": "healthcare",
-          "recent": 125,
-          "growth": 1.3,
-          "spec": 8.9,
-          "score": 15.220863120539113
-        },
-        {
-          "name": "Harvard University",
-          "type": "education",
-          "recent": 264,
-          "growth": 1.2,
-          "spec": 1.8,
-          "score": 13.237669686547138
-        },
-        {
-          "name": "Providence VA Medical Center",
-          "type": "healthcare",
-          "recent": 44,
-          "growth": 1.8,
-          "spec": 29.0,
-          "score": 13.179920650776454
-        },
-        {
-          "name": "Center for Neuro-Oncology",
-          "type": "facility",
-          "recent": 43,
-          "growth": 1.5,
-          "spec": 39.6,
-          "score": 13.140085617303537
-        },
-        {
-          "name": "Shirley Ryan AbilityLab",
-          "type": "healthcare",
-          "recent": 39,
-          "growth": 1.6,
-          "spec": 23.4,
-          "score": 9.693541544526692
-        }
-      ],
-      "bottlenecks": [
-        {
-          "term": "sensitivity",
-          "count": 9,
-          "samples": [
-            "Brain-Like Initial-Boosted Hyperchaos and Application in Biomedical Image Encryption",
-            "Automated Interpretation of Clinical Electroencephalograms Using Artificial Intelligence",
-            "EEG-ITNet: An Explainable Inception Temporal Convolutional Network for Motor Imagery Classification"
-          ]
-        },
-        {
-          "term": "efficiency",
-          "count": 2,
-          "samples": [
-            "Automated Interpretation of Clinical Electroencephalograms Using Artificial Intelligence",
-            "An automated detection of epileptic seizures EEG using CNN classifier based on feature fusion with high accuracy"
-          ]
-        },
-        {
-          "term": "stability",
-          "count": 2,
-          "samples": [
-            "Assessment of Safety of a Fully Implanted Endovascular Brain-Computer Interface for Severe Paralysis in 4 Patients",
-            "GANSER: A Self-Supervised Data Augmentation Framework for EEG-Based Emotion Recognition"
-          ]
-        },
-        {
-          "term": "cost",
-          "count": 2,
-          "samples": [
-            "Non-Invasive Brain-Computer Interfaces: State of the Art and Trends",
-            "An Attention-Based Wavelet Convolution Neural Network for Epilepsy EEG Classification"
-          ]
-        },
-        {
-          "term": "contamination",
-          "count": 1,
-          "samples": [
-            "Removal of movement-induced EEG artifacts: current state of the art and guidelines"
-          ]
-        }
-      ],
+      "institutions": [],
+      "bottlenecks": [],
       "evidence": {
         "topic_match": "by OpenAlex topic ID",
-        "us_institutions": "strong",
+        "us_institutions": "thin",
         "funding_match": "unavailable",
-        "abstract_coverage": 0.79
+        "abstract_coverage": 0.0
       },
-      "why_now": "The field's share of publications is up ~1.81x over the past several years; the federal funding signal is unavailable (no clean keyword match); Activate is not yet in this space. Recurring bottlenecks: sensitivity, efficiency, stability.",
-      "n_works": 120
+      "why_now": "The field's share of publications is up ~1.81x over the past several years; the federal funding signal is unavailable (no clean keyword match); Activate is not yet in this space. ",
+      "n_works": 0
     },
     {
       "topic": "CRISPR and Genetic Engineering",
@@ -2171,127 +396,16 @@
       "activate_present": true,
       "funding_phrase": "unavailable (no clean keyword match)",
       "orphan": false,
-      "institutions": [
-        {
-          "name": "Howard Hughes Medical Institute",
-          "type": "facility",
-          "recent": 373,
-          "growth": 0.9,
-          "spec": 25.8,
-          "score": 51.89572090114773
-        },
-        {
-          "name": "Innovative Genomics Institute",
-          "type": "education",
-          "recent": 157,
-          "growth": 0.9,
-          "spec": 140.2,
-          "score": 50.98724482434864
-        },
-        {
-          "name": "Harvard University",
-          "type": "education",
-          "recent": 478,
-          "growth": 0.9,
-          "spec": 3.2,
-          "score": 23.67628930445215
-        },
-        {
-          "name": "Stanford University",
-          "type": "education",
-          "recent": 326,
-          "growth": 1.1,
-          "spec": 2.8,
-          "score": 18.219801986059608
-        },
-        {
-          "name": "Massachusetts Institute of Technology",
-          "type": "education",
-          "recent": 219,
-          "growth": 0.9,
-          "spec": 3.9,
-          "score": 12.645766788465234
-        },
-        {
-          "name": "University of California, Riverside",
-          "type": "education",
-          "recent": 108,
-          "growth": 1.7,
-          "spec": 4.8,
-          "score": 12.432394227374392
-        },
-        {
-          "name": "University of California, San Francisco",
-          "type": "education",
-          "recent": 232,
-          "growth": 0.9,
-          "spec": 3.3,
-          "score": 11.599929102909185
-        },
-        {
-          "name": "National Institutes of Health",
-          "type": "government",
-          "recent": 181,
-          "growth": 0.9,
-          "spec": 4.7,
-          "score": 11.075547577175755
-        }
-      ],
-      "bottlenecks": [
-        {
-          "term": "efficiency",
-          "count": 19,
-          "samples": [
-            "CRISPR/Cas9 therapeutics: progress and prospects",
-            "Past, present, and future of CRISPR genome editing technologies",
-            "Current applications and future perspective of CRISPR/Cas9 gene editing in cancer"
-          ]
-        },
-        {
-          "term": "sensitivity",
-          "count": 10,
-          "samples": [
-            "A CRISPR/Cas12a-empowered surface plasmon resonance platform for rapid and specific diagnosis of the Omicron variant of SARS-CoV-2",
-            "Amplification-free CRISPR/Cas detection technology: challenges, strategies, and perspectives",
-            "Photocontrolled crRNA activation enables robust CRISPR-Cas12a diagnostics"
-          ]
-        },
-        {
-          "term": "contamination",
-          "count": 5,
-          "samples": [
-            "Amplification-free CRISPR/Cas detection technology: challenges, strategies, and perspectives",
-            "Photocontrolled crRNA activation enables robust CRISPR-Cas12a diagnostics",
-            "Glycerol Additive Boosts 100-fold Sensitivity Enhancement for One-Pot RPA-CRISPR/Cas12a Assay"
-          ]
-        },
-        {
-          "term": "throughput",
-          "count": 4,
-          "samples": [
-            "Automated assembly scaffolding using RagTag elevates a new tomato system for high-throughput genome editing",
-            "CRISPR-Cas12a-Derived Photoelectrochemical Biosensor for Point-Of-Care Diagnosis of Nucleic Acid",
-            "Multiplexed CRISPR-based microfluidic platform for clinical testing of respiratory viruses and identification of SARS-CoV-2 variants"
-          ]
-        },
-        {
-          "term": "cost",
-          "count": 4,
-          "samples": [
-            "A CRISPR/Cas12a-empowered surface plasmon resonance platform for rapid and specific diagnosis of the Omicron variant of SARS-CoV-2",
-            "Multiplexed CRISPR-based microfluidic platform for clinical testing of respiratory viruses and identification of SARS-CoV-2 variants",
-            "A one-pot CRISPR/Cas13a-based contamination-free biosensor for low-cost and rapid nucleic acid diagnostics"
-          ]
-        }
-      ],
+      "institutions": [],
+      "bottlenecks": [],
       "evidence": {
         "topic_match": "by OpenAlex topic ID",
-        "us_institutions": "strong",
+        "us_institutions": "thin",
         "funding_match": "unavailable",
-        "abstract_coverage": 0.67
+        "abstract_coverage": 0.0
       },
-      "why_now": "The field's share of publications is up ~1.75x over the past several years; the federal funding signal is unavailable (no clean keyword match); Activate is already in this space. Recurring bottlenecks: efficiency, sensitivity, contamination.",
-      "n_works": 120
+      "why_now": "The field's share of publications is up ~1.75x over the past several years; the federal funding signal is unavailable (no clean keyword match); Activate is already in this space. ",
+      "n_works": 0
     },
     {
       "topic": "Gas Sensing Nanomaterials and Sensors",
@@ -2301,127 +415,16 @@
       "activate_present": true,
       "funding_phrase": "unavailable (no clean keyword match)",
       "orphan": false,
-      "institutions": [
-        {
-          "name": "Northeastern University",
-          "type": "education",
-          "recent": 34,
-          "growth": 3,
-          "spec": 1.7,
-          "score": 4.250868321594514
-        },
-        {
-          "name": "University of Notre Dame",
-          "type": "education",
-          "recent": 28,
-          "growth": 3,
-          "spec": 1.5,
-          "score": 3.256680750129973
-        },
-        {
-          "name": "National Energy Technology Laboratory",
-          "type": "facility",
-          "recent": 26,
-          "growth": 1.0,
-          "spec": 9.4,
-          "score": 2.527177854243097
-        },
-        {
-          "name": "Northwestern Polytechnic University",
-          "type": "education",
-          "recent": 15,
-          "growth": null,
-          "spec": 5.0,
-          "score": 2.125220158630563
-        },
-        {
-          "name": "Cornell University",
-          "type": "education",
-          "recent": 36,
-          "growth": null,
-          "spec": 0.4,
-          "score": 1.3690505789770988
-        },
-        {
-          "name": "Sandia National Laboratories",
-          "type": "facility",
-          "recent": 17,
-          "growth": 2.1,
-          "spec": 1.2,
-          "score": 1.2620830595186938
-        },
-        {
-          "name": "New Jersey Institute of Technology",
-          "type": "education",
-          "recent": 11,
-          "growth": 2.8,
-          "spec": 1.5,
-          "score": 1.1802465590781814
-        },
-        {
-          "name": "Purdue University West Lafayette",
-          "type": "education",
-          "recent": 22,
-          "growth": 2.8,
-          "spec": 0.3,
-          "score": 1.106789621562711
-        }
-      ],
-      "bottlenecks": [
-        {
-          "term": "selectivity",
-          "count": 25,
-          "samples": [
-            "A review on chemiresistive ZnO gas sensors",
-            "Selectivity in Chemiresistive Gas Sensors: Strategies and Challenges",
-            "Porous materials as effective chemiresistive gas sensors"
-          ]
-        },
-        {
-          "term": "sensitivity",
-          "count": 18,
-          "samples": [
-            "A review on chemiresistive ZnO gas sensors",
-            "Recent advances in SnO2 nanostructure based gas sensors",
-            "Metal oxide semiconductors for gas sensing"
-          ]
-        },
-        {
-          "term": "cost",
-          "count": 17,
-          "samples": [
-            "A review on chemiresistive ZnO gas sensors",
-            "Porous materials as effective chemiresistive gas sensors",
-            "Metal oxide semiconductors for gas sensing"
-          ]
-        },
-        {
-          "term": "stability",
-          "count": 16,
-          "samples": [
-            "A review on chemiresistive ZnO gas sensors",
-            "Stability of Metal Oxide Semiconductor Gas Sensors: A Review",
-            "Recent advances in ethanol gas sensors based on metal oxide semiconductor heterojunctions"
-          ]
-        },
-        {
-          "term": "degradation",
-          "count": 3,
-          "samples": [
-            "Efficient hydrogen production from wastewater remediation by\u00a0piezoelectricity coupling advanced oxidation processes",
-            "Insight on the enhanced piezo-photocatalytic mechanism of In2O3/BiFeO3 heterojunctions for degradation of tetracycline hydrochloride",
-            "Potential progress in SnO2 nanostructures for enhancing photocatalytic degradation of organic pollutants"
-          ]
-        }
-      ],
+      "institutions": [],
+      "bottlenecks": [],
       "evidence": {
         "topic_match": "by OpenAlex topic ID",
-        "us_institutions": "strong",
+        "us_institutions": "thin",
         "funding_match": "unavailable",
-        "abstract_coverage": 0.53
+        "abstract_coverage": 0.0
       },
-      "why_now": "The field's share of publications is up ~1.73x over the past several years; the federal funding signal is unavailable (no clean keyword match); Activate is already in this space. Recurring bottlenecks: selectivity, sensitivity, cost.",
-      "n_works": 120
+      "why_now": "The field's share of publications is up ~1.73x over the past several years; the federal funding signal is unavailable (no clean keyword match); Activate is already in this space. ",
+      "n_works": 0
     },
     {
       "topic": "Adsorption and biosorption for pollutant removal",
@@ -2431,127 +434,16 @@
       "activate_present": false,
       "funding_phrase": "unavailable (no clean keyword match)",
       "orphan": false,
-      "institutions": [
-        {
-          "name": "Kansas State University",
-          "type": "education",
-          "recent": 17,
-          "growth": null,
-          "spec": 1.3,
-          "score": 1.235223217688013
-        },
-        {
-          "name": "University of Missouri",
-          "type": "education",
-          "recent": 12,
-          "growth": 3.0,
-          "spec": 0.5,
-          "score": 0.788342169339608
-        },
-        {
-          "name": "Mississippi State University",
-          "type": "education",
-          "recent": 18,
-          "growth": 1.0,
-          "spec": 1.5,
-          "score": 0.7006195630105241
-        },
-        {
-          "name": "Purdue University West Lafayette",
-          "type": "education",
-          "recent": 15,
-          "growth": 3.0,
-          "spec": 0.2,
-          "score": 0.6797614103693901
-        },
-        {
-          "name": "Northeastern University",
-          "type": "education",
-          "recent": 10,
-          "growth": 3,
-          "spec": 0.5,
-          "score": 0.6780461846546475
-        },
-        {
-          "name": "Rensselaer Polytechnic Institute",
-          "type": "education",
-          "recent": 9,
-          "growth": null,
-          "spec": 1.1,
-          "score": 0.5940166326985766
-        },
-        {
-          "name": "Indiana University of Pennsylvania",
-          "type": "education",
-          "recent": 7,
-          "growth": null,
-          "spec": 6.3,
-          "score": 0.5551361100027009
-        },
-        {
-          "name": "Textile Research Institute",
-          "type": "facility",
-          "recent": 7,
-          "growth": null,
-          "spec": 6.2,
-          "score": 0.5497296091459929
-        }
-      ],
-      "bottlenecks": [
-        {
-          "term": "cost",
-          "count": 26,
-          "samples": [
-            "Adsorption of Heavy Metals: Mechanisms, Kinetics, and Applications of Various Adsorbents in Wastewater Remediation\u2014A Review",
-            "A comprehensive review on the chemical regeneration of biochar adsorbent for sustainable wastewater treatment",
-            "A comprehensive review on conventional and biological-driven heavy metals removal from industrial wastewater"
-          ]
-        },
-        {
-          "term": "efficiency",
-          "count": 19,
-          "samples": [
-            "Prediction of Soil Heavy Metal Immobilization by Biochar Using Machine Learning",
-            "A comprehensive review on conventional and biological-driven heavy metals removal from industrial wastewater",
-            "Modified biochar: synthesis and mechanism for removal of environmental heavy metals"
-          ]
-        },
-        {
-          "term": "contamination",
-          "count": 13,
-          "samples": [
-            "Innovations and challenges in adsorption-based wastewater remediation: A comprehensive review",
-            "Adsorption of Heavy Metals: Mechanisms, Kinetics, and Applications of Various Adsorbents in Wastewater Remediation\u2014A Review",
-            "A comprehensive review on the chemical regeneration of biochar adsorbent for sustainable wastewater treatment"
-          ]
-        },
-        {
-          "term": "toxicity",
-          "count": 7,
-          "samples": [
-            "Hydrogel-Based Adsorbent Material for the Effective Removal of Heavy Metals from Wastewater: A Comprehensive Review",
-            "Heavy Metal Contamination in the Aquatic Ecosystem: Toxicity and Its Remediation Using Eco-Friendly Approaches",
-            "Removal of lead ions (Pb2+) from water and wastewater: a review on the low-cost adsorbents"
-          ]
-        },
-        {
-          "term": "selectivity",
-          "count": 3,
-          "samples": [
-            "Innovations and challenges in adsorption-based wastewater remediation: A comprehensive review",
-            "Review on the impact of heavy metals from industrial wastewater effluent and removal technologies",
-            "Innovative Adsorbents for Pollutant Removal: Exploring the Latest Research and Applications"
-          ]
-        }
-      ],
+      "institutions": [],
+      "bottlenecks": [],
       "evidence": {
         "topic_match": "by OpenAlex topic ID",
-        "us_institutions": "strong",
+        "us_institutions": "thin",
         "funding_match": "unavailable",
-        "abstract_coverage": 0.48
+        "abstract_coverage": 0.0
       },
-      "why_now": "The field's share of publications is up ~1.72x over the past several years; the federal funding signal is unavailable (no clean keyword match); Activate is not yet in this space. Recurring bottlenecks: cost, efficiency, contamination.",
-      "n_works": 120
+      "why_now": "The field's share of publications is up ~1.72x over the past several years; the federal funding signal is unavailable (no clean keyword match); Activate is not yet in this space. ",
+      "n_works": 0
     }
   ]
 }

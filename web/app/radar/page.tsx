@@ -19,10 +19,10 @@ export default function RadarPage() {
       <div className="max-w-[1100px] mx-auto px-6 py-8">
         <h1 className="text-2xl md:text-3xl font-semibold tracking-tight text-zinc-50">Sourcing Radar</h1>
         <p className="mt-3 text-[14px] text-zinc-400 max-w-3xl leading-relaxed">
-          The rest of the site answers what is happening at the frontier. This answers who to call. Pick an emerging research
-          area and get a sourcing packet: where the US research is concentrated and rising, why now, what is technically hard
-          (the company-thesis territory), and how present Activate already is. Built from OpenAlex; institutions and areas only,
-          deliberately not individuals.
+          The rest of the site answers what is happening at the frontier. This answers where to look next, which research
+          communities to call into. Pick an emerging research area and get a sourcing packet: where the US research is
+          concentrated and rising, why now, what is technically hard (the company-thesis territory), and how present Activate
+          already is. Built from OpenAlex; institutions and areas only, deliberately not individuals.
         </p>
         <div className="mt-7">
           <SourcingRadar data={data} />

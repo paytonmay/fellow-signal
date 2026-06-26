@@ -31,7 +31,8 @@ REC_START, PRI_START, PRI_END = "2022-01-01", "2018-01-01", "2021-12-31"
 # errors whose output is inflated by mis-attributed works (so they pass volume floors)
 BLOCK_INST = {"National Laboratory of the Rockies", "ASA College", "South University",
               "Saint Joseph's College", "Wilson College", "Genesee Community College",
-              "Northwood University"}
+              "Northwood University", "Northwestern Polytechnic University",
+              "Pittsburg State University"}
 
 # off-thesis topics that ride OpenAlex growth but aren't hard-tech sourcing areas
 DENY = ["topic modeling", "network security", "intrusion", "ionosphere", "magnetosphere",
@@ -108,7 +109,7 @@ def funding_signal(t: dict) -> tuple[str, bool]:
     if not t.get("federal_matched"):
         return "unavailable (no clean keyword match)", False
     if t.get("federal_new"):
-        return f"appeared recently (~${round(t['federal_recent']/1e6)}M)", False
+        return f"newly present (~${round(t['federal_recent']/1e6)}M)", False
     mom = t.get("federal_momentum", 0)
     rec = t.get("federal_recent", 0)
     if mom >= 2:
