@@ -5,9 +5,9 @@ import { Dataset, verticalColor } from "@/lib/data";
 
 // Selection Simulator (see docs/selection-simulator-proposal.md).
 // A SYNTHETIC field of candidate-like profiles drawn from selected-fellow and
-// field-signal priors (NOT applicant data). 1,000 dots clustered by sector;
-// weights + levers reshape which ~50 get picked. The point: there is no objective
-// best 50, only a strategy made explicit. Composition is portfolio construction.
+// field-signal priors (NOT applicant data). Weights + levers reshape which ~50 get
+// picked. Now with exact (constraint-aware) marginal reasoning, weighted score
+// contributions, and a strategy-robustness (sensitivity) meter.
 
 const N = 1000;
 const FEDCAP = 40;
@@ -28,7 +28,7 @@ function mulberry32(a: number) {
     return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
   };
 }
-function pick(rng: () => number, cum: number[], total: number) {
+function pickIdx(rng: () => number, cum: number[], total: number) {
   const r = rng() * total;
   for (let i = 0; i < cum.length; i++) if (r < cum[i]) return i;
   return cum.length - 1;
@@ -39,6 +39,38 @@ function hexA(hex: string, a: number) {
 }
 const COLS = 4, ROWS = 4;
 const shortLabel = (v: string) => v.replace(" / CO2e", "").split(/ & | \/ /)[0];
+
+function scoreCand(c: Cand, w: Weights, leanSector: string, leanStrength: number) {
+  const sum = w.research + w.funding + w.depth + w.whitespace || 1;
+  let s = (w.research * c.researchN + w.funding * c.fundingN + w.depth * c.depthPct + w.whitespace * c.whitespaceN) / sum;
+  if (leanSector && c.sector === leanSector) s += leanStrength / 200;
+  return s;
+}
+// greedy: breadth floor first, then score-fill with the diversity cap
+function buildCohort(scored: { i: number; sector: string; score: number }[], size: number, cap: number, breadth: number) {
+  const capN = cap >= 100 ? Infinity : Math.max(1, Math.ceil((cap / 100) * size));
+  const per: Record<string, number> = {};
+  const sel = new Set<number>(), capBlocked = new Set<number>(), breadthPick = new Set<number>();
+  if (breadth > 0) {
+    const got: Record<string, number> = {};
+    for (const c of scored) {
+      if (sel.size >= size) break;
+      if ((got[c.sector] || 0) >= breadth || (per[c.sector] || 0) >= capN) continue;
+      got[c.sector] = (got[c.sector] || 0) + 1; per[c.sector] = (per[c.sector] || 0) + 1; sel.add(c.i); breadthPick.add(c.i);
+    }
+  }
+  for (const c of scored) {
+    if (sel.size >= size) break;
+    if (sel.has(c.i)) continue;
+    if ((per[c.sector] || 0) >= capN) { capBlocked.add(c.i); continue; }
+    per[c.sector] = (per[c.sector] || 0) + 1; sel.add(c.i);
+  }
+  return { sel, capBlocked, breadthPick };
+}
+function cohortFor(cand: Cand[], w: Weights, size: number, leanSector: string, leanStrength: number, cap: number, breadth: number) {
+  const scored = cand.map((c) => ({ i: c.i, sector: c.sector, score: scoreCand(c, w, leanSector, leanStrength) })).sort((a, b) => b.score - a.score);
+  return buildCohort(scored, size, cap, breadth).sel;
+}
 
 type Config = { w: Weights; size: number; leanSector: string; leanStrength: number; cap: number; breadth: number };
 const BASE: Config = { w: { research: 60, funding: 45, depth: 50, whitespace: 30 }, size: 50, leanSector: "", leanStrength: 50, cap: 100, breadth: 0 };
@@ -51,43 +83,43 @@ const PRESETS: Record<string, Config> = {
   "Broad & diverse": { w: { research: 50, funding: 50, depth: 50, whitespace: 45 }, size: 50, leanSector: "", leanStrength: 50, cap: 16, breadth: 1 },
 };
 
-function toQuery(c: Config, sectors: string[]): string {
+function toQuery(c: Config, sectors: string[], seed: number): string {
   const p = new URLSearchParams();
   p.set("w", [c.w.research, c.w.funding, c.w.depth, c.w.whitespace].join(","));
-  p.set("n", String(c.size)); p.set("cap", String(c.cap)); p.set("br", String(c.breadth));
+  p.set("n", String(c.size)); p.set("cap", String(c.cap)); p.set("br", String(c.breadth)); p.set("sd", String(seed));
   if (c.leanSector) { p.set("ls", String(sectors.indexOf(c.leanSector))); p.set("lst", String(c.leanStrength)); }
   return p.toString();
 }
-function fromQuery(q: string, sectors: string[]): Config | null {
+function fromQuery(q: string, sectors: string[]): { cfg: Config; seed: number } | null {
   const p = new URLSearchParams(q);
   const ws = (p.get("w") || "").split(",").map(Number);
   if (ws.length !== 4 || ws.some((n) => Number.isNaN(n))) return null;
   const lsI = p.has("ls") ? +(p.get("ls") as string) : -1;
   return {
-    w: { research: clamp(ws[0], 0, 100), funding: clamp(ws[1], 0, 100), depth: clamp(ws[2], 0, 100), whitespace: clamp(ws[3], 0, 100) },
-    size: clamp(+(p.get("n") || 50), 30, 70), cap: clamp(+(p.get("cap") || 100), 10, 100), breadth: clamp(+(p.get("br") || 0), 0, 3),
-    leanSector: lsI >= 0 && lsI < sectors.length ? sectors[lsI] : "", leanStrength: clamp(+(p.get("lst") || 50), 0, 100),
+    cfg: {
+      w: { research: clamp(ws[0], 0, 100), funding: clamp(ws[1], 0, 100), depth: clamp(ws[2], 0, 100), whitespace: clamp(ws[3], 0, 100) },
+      size: clamp(+(p.get("n") || 50), 30, 70), cap: clamp(+(p.get("cap") || 100), 10, 100), breadth: clamp(+(p.get("br") || 0), 0, 3),
+      leanSector: lsI >= 0 && lsI < sectors.length ? sectors[lsI] : "", leanStrength: clamp(+(p.get("lst") || 50), 0, 100),
+    },
+    seed: +(p.get("sd") || 20260624),
   };
 }
 
 export default function SelectionSimulator({ data }: { data: Dataset }) {
   const sectorNames = useMemo(() => data.verticals.map((v) => v.vertical), [data]);
   const [cfg, setCfg] = useState<Config>(BASE);
+  const [seed, setSeed] = useState(20260624);
   const { w, size, leanSector, leanStrength, cap, breadth } = cfg;
   const set = (patch: Partial<Config>) => setCfg((p) => ({ ...p, ...patch }));
   const [hovered, setHovered] = useState<Cand | null>(null);
   const [copied, setCopied] = useState(false);
 
-  // read shareable state from the URL on mount; mirror it back on change
-  useEffect(() => { const c = fromQuery(window.location.search, sectorNames); if (c) setCfg(c); }, [sectorNames]);
-  useEffect(() => {
-    const q = toQuery(cfg, sectorNames);
-    window.history.replaceState(null, "", `${window.location.pathname}?${q}`);
-  }, [cfg, sectorNames]);
+  useEffect(() => { const r = fromQuery(window.location.search, sectorNames); if (r) { setCfg(r.cfg); setSeed(r.seed); } }, [sectorNames]);
+  useEffect(() => { window.history.replaceState(null, "", `${window.location.pathname}?${toQuery(cfg, sectorNames, seed)}`); }, [cfg, sectorNames, seed]);
 
-  // ---- generate the synthetic field once, from real priors ----
+  // ---- synthetic field from real priors (re-draws when seed changes) ----
   const field = useMemo(() => {
-    const rng = mulberry32(20260624);
+    const rng = mulberry32(seed);
     const sectors = data.verticals.map((v) => v.vertical);
     const sw = data.verticals.map((v) => v.count);
     const swTot = sw.reduce((a, b) => a + b, 0);
@@ -103,14 +135,13 @@ export default function SelectionSimulator({ data }: { data: Dataset }) {
     const hubCum: number[] = []; let a2 = 0; for (const x of hubCnt) { a2 += x; hubCum.push(a2); }
     const cites = data.companies.flatMap((c) =>
       (c.founders ?? []).filter((f) => f.resolved && (f.cited_by_count ?? 0) > 0).map((f) => f.cited_by_count as number));
-
     const cand: Cand[] = [];
     for (let i = 0; i < N; i++) {
-      const si = pick(rng, swCum, swTot);
+      const si = pickIdx(rng, swCum, swTot);
       const sector = sectors[si];
       const r = radarB[sector], s = spaceB[sector];
       const presence = r ? r.activate_presence_recent : 0;
-      const hi = pick(rng, hubCum, hubTot);
+      const hi = pickIdx(rng, hubCum, hubTot);
       const col = si % COLS, row = Math.floor(si / COLS);
       const gx = (rng() + rng() + rng() - 1.5) / 1.5, gy = (rng() + rng() + rng() - 1.5) / 1.5;
       const x = Math.min(0.985, Math.max(0.015, (col + 0.5) / COLS + gx * 0.085));
@@ -124,40 +155,46 @@ export default function SelectionSimulator({ data }: { data: Dataset }) {
     }
     [...cand].sort((a, b) => a.cite - b.cite).forEach((c, idx) => { c.depthPct = idx / (N - 1); });
     return { cand, sectors };
-  }, [data]);
+  }, [data, seed]);
 
-  // ---- score + pick the cohort (sector lean, breadth floor, diversity cap) ----
-  const { sel, nearMiss } = useMemo(() => {
-    const sum = w.research + w.funding + w.depth + w.whitespace || 1;
-    field.cand.forEach((c) => {
-      let s = (w.research * c.researchN + w.funding * c.fundingN + w.depth * c.depthPct + w.whitespace * c.whitespaceN) / sum;
-      if (leanSector && c.sector === leanSector) s += leanStrength / 200; // softened (max +0.5)
-      c.score = s;
-    });
-    const sorted = [...field.cand].sort((a, b) => b.score - a.score);
-    const capN = cap >= 100 ? Infinity : Math.max(1, Math.ceil((cap / 100) * size));
-    const per: Record<string, number> = {};
-    const out = new Set<number>();
-    if (breadth > 0) {
-      const got: Record<string, number> = {};
-      for (const c of sorted) {
-        if (out.size >= size) break;
-        if ((got[c.sector] || 0) >= breadth || (per[c.sector] || 0) >= capN) continue;
-        got[c.sector] = (got[c.sector] || 0) + 1; per[c.sector] = (per[c.sector] || 0) + 1; out.add(c.i);
+  // ---- selection with exact, constraint-aware reasons ----
+  const { sel, reasonOf, weakIn, strongOut } = useMemo(() => {
+    field.cand.forEach((c) => { c.score = scoreCand(c, w, leanSector, leanStrength); });
+    const scored = [...field.cand].sort((a, b) => b.score - a.score).map((c) => ({ i: c.i, sector: c.sector, score: c.score }));
+    const { sel, capBlocked, breadthPick } = buildCohort(scored, size, cap, breadth);
+    const cut = scored[Math.min(scored.length - 1, size - 1)].score; // pure-score cutoff
+    const reasonOf = (i: number, sc: number, sector: string): string => {
+      if (sel.has(i)) {
+        if (breadthPick.has(i) && sc < cut) return "breadth floor";
+        if (leanSector && sector === leanSector && sc - leanStrength / 200 < cut) return "sector lean";
+        return "made the cut";
       }
-    }
-    for (const c of sorted) {
-      if (out.size >= size) break;
-      if (out.has(c.i) || (per[c.sector] || 0) >= capN) continue;
-      per[c.sector] = (per[c.sector] || 0) + 1; out.add(c.i);
-    }
-    const nm = sorted[Math.min(sorted.length - 1, Math.floor(size * 1.25))]?.score ?? 0;
-    return { sel: out, nearMiss: nm };
+      if (capBlocked.has(i)) return "sector cap full";
+      if (sc >= cut) return "edged out by breadth";
+      return "below the cut";
+    };
+    const selA = scored.filter((c) => sel.has(c.i));
+    const outA = scored.filter((c) => !sel.has(c.i));
+    const weakIn = selA.slice(-5).reverse().map((c) => ({ ...c, reason: reasonOf(c.i, c.score, c.sector) }));
+    const strongOut = outA.slice(0, 5).map((c) => ({ ...c, reason: reasonOf(c.i, c.score, c.sector) }));
+    return { sel, reasonOf, weakIn, strongOut };
   }, [w, size, leanSector, leanStrength, cap, breadth, field]);
 
-  const statusOf = (c: Cand) => sel.has(c.i) ? "selected" : c.score >= nearMiss ? "just missed" : "not selected";
+  // ---- robustness: how much the cohort churns under tiny weight nudges ----
+  const fragility = useMemo(() => {
+    const base = cohortFor(field.cand, w, size, leanSector, leanStrength, cap, breadth);
+    if (!base.size) return 0;
+    const ks: (keyof Weights)[] = ["research", "funding", "depth", "whitespace"];
+    let total = 0, runs = 0;
+    for (const k of ks) for (const d of [10, -10]) {
+      const alt = cohortFor(field.cand, { ...w, [k]: clamp(w[k] + d, 0, 100) }, size, leanSector, leanStrength, cap, breadth);
+      let dropped = 0; base.forEach((i) => { if (!alt.has(i)) dropped++; });
+      total += dropped / base.size; runs++;
+    }
+    return runs ? total / runs : 0;
+  }, [w, size, leanSector, leanStrength, cap, breadth, field]);
 
-  // ---- who changed: counts AND sector-level swap ----
+  // ---- who changed: sector-level swap ----
   const prevSel = useRef<Set<number>>(new Set());
   const prevSec = useRef<Record<string, number>>({});
   const [diff, setDiff] = useState<{ inN: number; outN: number; up: [string, number][]; down: [string, number][] }>({ inN: 0, outN: 0, up: [], down: [] });
@@ -169,11 +206,7 @@ export default function SelectionSimulator({ data }: { data: Dataset }) {
     let inN = 0, outN = 0;
     sel.forEach((i) => { if (!prevSel.current.has(i)) inN++; });
     prevSel.current.forEach((i) => { if (!sel.has(i)) outN++; });
-    setDiff({
-      inN, outN,
-      up: deltas.filter((d) => d[1] > 0).sort((a, b) => b[1] - a[1]).slice(0, 2),
-      down: deltas.filter((d) => d[1] < 0).sort((a, b) => a[1] - b[1]).slice(0, 2),
-    });
+    setDiff({ inN, outN, up: deltas.filter((d) => d[1] > 0).sort((a, b) => b[1] - a[1]).slice(0, 2), down: deltas.filter((d) => d[1] < 0).sort((a, b) => a[1] - b[1]).slice(0, 2) });
     prevSel.current = new Set(sel); prevSec.current = cur;
   }, [sel, field]);
 
@@ -182,8 +215,6 @@ export default function SelectionSimulator({ data }: { data: Dataset }) {
   const cvRef = useRef<HTMLCanvasElement>(null);
   const [cw, setCw] = useState(720);
   useLayoutEffect(() => {
-    // measure the CANVAS element (style width:100%), not the padded wrapper, so the
-    // hit-detection coordinates match where dots actually render
     const measure = () => setCw(cvRef.current?.clientWidth || wrapRef.current?.clientWidth || 720);
     measure(); window.addEventListener("resize", measure); return () => window.removeEventListener("resize", measure);
   }, []);
@@ -194,30 +225,21 @@ export default function SelectionSimulator({ data }: { data: Dataset }) {
     const ctx = cv.getContext("2d"); if (!ctx) return;
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0); ctx.clearRect(0, 0, W, H);
     ctx.font = "9px ui-sans-serif, system-ui"; ctx.textAlign = "center";
-    field.sectors.forEach((s, si) => {
-      const col = si % COLS, row = Math.floor(si / COLS);
-      ctx.fillStyle = hexA(verticalColor(s), 0.32);
-      ctx.fillText(shortLabel(s), ((col + 0.5) / COLS) * W, (row / ROWS) * H + 12);
-    });
+    field.sectors.forEach((s, si) => { const col = si % COLS, row = Math.floor(si / COLS); ctx.fillStyle = hexA(verticalColor(s), 0.32); ctx.fillText(shortLabel(s), ((col + 0.5) / COLS) * W, (row / ROWS) * H + 12); });
     for (const c of field.cand) { if (sel.has(c.i)) continue; ctx.beginPath(); ctx.arc(c.x * W, c.y * H, 1.9, 0, 6.2832); ctx.fillStyle = hexA(verticalColor(c.sector), 0.12); ctx.fill(); }
-    for (const c of field.cand) {
-      if (!sel.has(c.i)) continue;
-      ctx.beginPath(); ctx.arc(c.x * W, c.y * H, 3.3, 0, 6.2832); ctx.fillStyle = verticalColor(c.sector); ctx.fill();
-      ctx.strokeStyle = "rgba(255,255,255,0.5)"; ctx.lineWidth = 0.6; ctx.stroke();
-    }
+    for (const c of field.cand) { if (!sel.has(c.i)) continue; ctx.beginPath(); ctx.arc(c.x * W, c.y * H, 3.3, 0, 6.2832); ctx.fillStyle = verticalColor(c.sector); ctx.fill(); ctx.strokeStyle = "rgba(255,255,255,0.5)"; ctx.lineWidth = 0.6; ctx.stroke(); }
     if (hovered) { ctx.beginPath(); ctx.arc(hovered.x * W, hovered.y * H, 6.5, 0, 6.2832); ctx.strokeStyle = "#fff"; ctx.lineWidth = 1.4; ctx.stroke(); }
   }, [sel, field, cw, hovered]);
-
   const onMove = (e: React.MouseEvent) => {
     const cv = cvRef.current; if (!cv) return;
     const rect = cv.getBoundingClientRect();
     const mx = e.clientX - rect.left, my = e.clientY - rect.top;
-    let best: Cand | null = null, bestD = 196; // ~14px catch radius
+    let best: Cand | null = null, bestD = 196;
     for (const c of field.cand) { const dx = c.x * cw - mx, dy = c.y * 440 - my, d = dx * dx + dy * dy; if (d < bestD) { bestD = d; best = c; } }
     if (best?.i !== hovered?.i) setHovered(best);
   };
 
-  // ---- portfolio composition ----
+  // ---- composition + fingerprint ----
   const comp = useMemo(() => {
     const s = field.cand.filter((c) => sel.has(c.i));
     const bySector: Record<string, number> = {}, byHub: Record<string, number> = {};
@@ -231,7 +253,19 @@ export default function SelectionSimulator({ data }: { data: Dataset }) {
     return { sectorRank, hubRank, whitespace, topShare, topHubShare, medDepth, n: s.length };
   }, [sel, field]);
 
+  const fingerprint = useMemo(() => {
+    const ws = comp.whitespace / (comp.n || 1);
+    const frontier = ws > 0.5 ? "frontier-leaning" : ws < 0.25 ? "established-leaning" : "balanced";
+    const conc = comp.topShare > 0.4 ? `${shortLabel(comp.sectorRank[0]?.[0] || "")}-concentrated` : comp.topShare < 0.2 ? "broadly spread" : "moderately concentrated";
+    const depth = comp.medDepth > 0.7 ? "high founder-depth dependence" : comp.medDepth < 0.4 ? "low depth dependence" : "moderate depth dependence";
+    const breadthL = comp.sectorRank.length >= 12 ? "wide sector breadth" : comp.sectorRank.length <= 6 ? "narrow breadth" : "moderate breadth";
+    const robust = fragility < 0.1 ? "robust to strategy nudges" : fragility < 0.25 ? "moderately robust" : "fragile to small changes";
+    return `A ${frontier}, ${conc} cohort with ${depth} and ${breadthL}; ${robust}.`;
+  }, [comp, fragility]);
+
   const depthDominant = w.depth >= 70 && w.depth > w.research && w.depth > w.funding && w.depth > w.whitespace;
+  const fragLabel = fragility < 0.1 ? "Stable" : fragility < 0.25 ? "Moderate" : "Fragile";
+  const fragColor = fragility < 0.1 ? "text-teal-300" : fragility < 0.25 ? "text-zinc-200" : "text-amber-300";
 
   const sliders: [keyof Weights, string, string][] = [
     ["research", "Research momentum", "favor fields whose science is accelerating"],
@@ -240,6 +274,20 @@ export default function SelectionSimulator({ data }: { data: Dataset }) {
     ["whitespace", "Whitespace / frontier", "favor fields Activate is barely in yet"],
   ];
   const swap = (arr: [string, number][], sign: string) => arr.map(([s, n]) => `${sign}${Math.abs(n)} ${shortLabel(s)}`).join(", ");
+  const reasonColor = (r: string) => r === "made the cut" ? "text-zinc-500" : r.includes("cap") ? "text-amber-300/80" : r.includes("breadth") || r.includes("lean") ? "text-teal-300/80" : "text-zinc-500";
+
+  // weighted contributions for the hovered candidate
+  const contribs = (() => {
+    if (!hovered) return [];
+    const sum = w.research + w.funding + w.depth + w.whitespace || 1;
+    const rows: [string, number][] = [
+      ["research", (w.research * hovered.researchN) / sum], ["funding", (w.funding * hovered.fundingN) / sum],
+      ["depth", (w.depth * hovered.depthPct) / sum], ["whitespace", (w.whitespace * hovered.whitespaceN) / sum],
+    ];
+    if (leanSector && hovered.sector === leanSector) rows.push(["sector lean", leanStrength / 200]);
+    return rows;
+  })();
+  const maxC = Math.max(...contribs.map((c) => c[1]), 0.001);
 
   return (
     <div>
@@ -258,71 +306,50 @@ export default function SelectionSimulator({ data }: { data: Dataset }) {
       <div className="flex flex-wrap items-center gap-2 mb-4">
         <span className="text-[11.5px] text-zinc-500 mr-1">Try a strategy:</span>
         {Object.keys(PRESETS).map((name) => (
-          <button key={name} onClick={() => setCfg(PRESETS[name])}
-            className="text-[11.5px] rounded-full px-3 py-1 border border-[#1d2128] bg-[#0e1014] text-zinc-300 hover:border-teal-500/50 hover:text-teal-200 transition">{name}</button>
+          <button key={name} onClick={() => setCfg(PRESETS[name])} className="text-[11.5px] rounded-full px-3 py-1 border border-[#1d2128] bg-[#0e1014] text-zinc-300 hover:border-teal-500/50 hover:text-teal-200 transition">{name}</button>
         ))}
         <button onClick={() => setCfg(BASE)} className="text-[11px] text-zinc-600 hover:text-zinc-300 px-1">reset</button>
-        <button onClick={() => { navigator.clipboard?.writeText(window.location.href); setCopied(true); setTimeout(() => setCopied(false), 1500); }}
-          className="ml-auto text-[11px] text-teal-300/90 hover:text-teal-200 border border-teal-500/30 rounded-full px-2.5 py-1">{copied ? "link copied" : "copy share link"}</button>
+        <div className="ml-auto flex items-center gap-2">
+          <button onClick={() => setSeed((s) => s + 101)} title="redraw the synthetic field to test the insight across draws" className="text-[11px] text-zinc-500 hover:text-zinc-200 border border-[#1d2128] rounded-full px-2.5 py-1">regenerate field</button>
+          <button onClick={() => { navigator.clipboard?.writeText(window.location.href); setCopied(true); setTimeout(() => setCopied(false), 1500); }} className="text-[11px] text-teal-300/90 hover:text-teal-200 border border-teal-500/30 rounded-full px-2.5 py-1">{copied ? "link copied" : "copy share link"}</button>
+        </div>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
         <div className="lg:col-span-2">
           <div className="flex items-baseline justify-between mb-2">
             <span className="text-[12.5px] text-zinc-300">1,000 candidate-like profiles, clustered by sector</span>
-            <span className="text-[11px] text-zinc-500">
-              <span className="inline-block w-2 h-2 rounded-full bg-zinc-200 mr-1 align-middle" />
-              {comp.n} selected ({Math.round((comp.n / N) * 100)}%)
-            </span>
+            <span className="text-[11px] text-zinc-500"><span className="inline-block w-2 h-2 rounded-full bg-zinc-200 mr-1 align-middle" />{comp.n} selected ({Math.round((comp.n / N) * 100)}%)</span>
           </div>
           <div ref={wrapRef} className="panel p-2 relative">
             <canvas ref={cvRef} onMouseMove={onMove} onMouseLeave={() => setHovered(null)} style={{ width: "100%", height: 440, display: "block", cursor: "crosshair" }} />
             {hovered && (
-              <div className="absolute z-20 pointer-events-none"
-                style={{ left: Math.min(cw - 168, hovered.x * cw + 14), top: Math.min(372, hovered.y * 440 + 4) }}>
-                <div className="rounded-lg border border-teal-500/40 bg-[#1a1f27] shadow-2xl ring-1 ring-black/40 px-2.5 py-2 w-[170px]">
-                  <div className="flex items-center gap-1.5 text-[11px]">
-                    <span className="w-2 h-2 rounded-full shrink-0" style={{ background: verticalColor(hovered.sector) }} />
-                    <span className="text-zinc-100 truncate">{hovered.sector.replace(" / CO2e", "")}</span>
-                  </div>
-                  <div className="text-[10px] text-zinc-500 mb-1.5">{hovered.hub}</div>
-                  <div className="text-[8.5px] uppercase tracking-wide text-zinc-600">field, shared in sector</div>
-                  <div className="space-y-0.5 text-[10px] mt-0.5">
-                    {([["research", hovered.researchN], ["funding", hovered.fundingN], ["whitespace", hovered.whitespaceN]] as [string, number][]).map(([k, v]) => (
+              <div className="absolute z-20 pointer-events-none" style={{ left: Math.min(cw - 196, hovered.x * cw + 14), top: Math.min(312, hovered.y * 440 + 4) }}>
+                <div className="rounded-lg border border-teal-500/40 bg-[#1a1f27] shadow-2xl ring-1 ring-black/40 px-2.5 py-2 w-[196px]">
+                  <div className="flex items-center gap-1.5 text-[11px]"><span className="w-2 h-2 rounded-full shrink-0" style={{ background: verticalColor(hovered.sector) }} /><span className="text-zinc-100 truncate">{hovered.sector.replace(" / CO2e", "")}</span><span className="text-zinc-600">· {hovered.hub}</span></div>
+                  <div className="text-[9px] text-zinc-600 mt-1">signals: <span className="text-zinc-500">R{Math.round(hovered.researchN * 100)} F{Math.round(hovered.fundingN * 100)} W{Math.round(hovered.whitespaceN * 100)}</span> · founder <span className="text-zinc-400">D{Math.round(hovered.depthPct * 100)}</span></div>
+                  <div className="text-[8.5px] uppercase tracking-wide text-zinc-600 mt-1.5">what drove the score</div>
+                  <div className="space-y-0.5 mt-0.5 text-[10px]">
+                    {contribs.map(([k, v]) => (
                       <div key={k} className="flex items-center gap-1.5">
-                        <span className="text-zinc-500 w-16">{k}</span>
-                        <span className="flex-1 h-1 rounded bg-[#15181e] overflow-hidden"><span className="block h-full bg-zinc-400/70 rounded" style={{ width: `${Math.round(v * 100)}%` }} /></span>
+                        <span className="text-zinc-500 w-[68px] truncate">{k}</span>
+                        <span className="flex-1 h-1 rounded bg-[#15181e] overflow-hidden"><span className="block h-full bg-teal-400/75 rounded" style={{ width: `${(v / maxC) * 100}%` }} /></span>
                         <span className="text-zinc-500 tabular-nums w-5 text-right">{Math.round(v * 100)}</span>
                       </div>
                     ))}
                   </div>
-                  <div className="text-[8.5px] uppercase tracking-wide text-zinc-600 mt-1.5">founder, this profile</div>
-                  <div className="flex items-center gap-1.5 text-[10px] mt-0.5">
-                    <span className="text-zinc-400 w-16">depth</span>
-                    <span className="flex-1 h-1 rounded bg-[#15181e] overflow-hidden"><span className="block h-full bg-teal-400/80 rounded" style={{ width: `${Math.round(hovered.depthPct * 100)}%` }} /></span>
-                    <span className="text-zinc-400 tabular-nums w-5 text-right">{Math.round(hovered.depthPct * 100)}</span>
-                  </div>
                   <div className="mt-1.5 pt-1.5 border-t border-[#1a1d23] flex items-center justify-between text-[10.5px]">
                     <span className="text-zinc-300">score {Math.round(hovered.score * 100)}</span>
-                    <span className={statusOf(hovered) === "selected" ? "text-teal-300" : statusOf(hovered) === "just missed" ? "text-amber-300" : "text-zinc-600"}>{statusOf(hovered)}</span>
+                    <span className={sel.has(hovered.i) ? "text-teal-300" : reasonOf(hovered.i, hovered.score, hovered.sector).includes("cap") ? "text-amber-300" : "text-zinc-500"}>{sel.has(hovered.i) ? "selected" : reasonOf(hovered.i, hovered.score, hovered.sector)}</span>
                   </div>
                 </div>
               </div>
             )}
           </div>
-          {/* swap delta strip */}
           <div className="mt-2 panel p-2.5 min-h-[40px]">
             {(diff.up.length || diff.down.length) ? (
-              <div className="text-[11px]">
-                <span className="text-zinc-500">Last change: </span>
-                {diff.up.length > 0 && <span className="text-teal-300">{swap(diff.up, "+")}</span>}
-                {diff.up.length > 0 && diff.down.length > 0 && <span className="text-zinc-600"> · </span>}
-                {diff.down.length > 0 && <span className="text-zinc-400">{swap(diff.down, "-")}</span>}
-                <span className="text-zinc-600"> ({diff.inN} in / {diff.outN} out)</span>
-              </div>
-            ) : (
-              <div className="text-[11px] text-zinc-600">Hover any dot for its sector, hub, signal percentiles, score, and whether it made the cut. Drag a lever to see the sector swap here.</div>
-            )}
+              <div className="text-[11px]"><span className="text-zinc-500">Last change: </span>{diff.up.length > 0 && <span className="text-teal-300">{swap(diff.up, "+")}</span>}{diff.up.length > 0 && diff.down.length > 0 && <span className="text-zinc-600"> · </span>}{diff.down.length > 0 && <span className="text-zinc-400">{swap(diff.down, "-")}</span>}<span className="text-zinc-600"> ({diff.inN} in / {diff.outN} out)</span></div>
+            ) : (<div className="text-[11px] text-zinc-600">Hover any dot for its signals, what drove its score, and why it&apos;s in or out. Drag a lever to see the sector swap here.</div>)}
           </div>
         </div>
 
@@ -340,41 +367,29 @@ export default function SelectionSimulator({ data }: { data: Dataset }) {
               ))}
             </div>
           </div>
-
           <div className="border-t border-[#15181e] pt-3">
             <div className="text-[12.5px] font-medium text-zinc-200">Experimental levers</div>
             <div className="text-[10px] text-zinc-600 mb-2">Illustrative of the range; a real version would be tuned to Activate&apos;s actual process.</div>
             <div className="space-y-3">
-              <div>
-                <div className="flex justify-between text-[11.5px]"><span className="text-zinc-300">Cohort size</span><span className="text-teal-300 tabular-nums">{size}</span></div>
-                <input type="range" min={30} max={70} value={size} onChange={(e) => set({ size: +e.target.value })} className="w-full accent-teal-400" />
-              </div>
+              <div><div className="flex justify-between text-[11.5px]"><span className="text-zinc-300">Cohort size</span><span className="text-teal-300 tabular-nums">{size}</span></div><input type="range" min={30} max={70} value={size} onChange={(e) => set({ size: +e.target.value })} className="w-full accent-teal-400" /></div>
               <div>
                 <div className="text-[11.5px] text-zinc-300 mb-1">Lean into a sector <span className="text-zinc-600">(strong institutional override)</span></div>
-                <select value={leanSector} onChange={(e) => set({ leanSector: e.target.value })}
-                  className="w-full bg-[#0e1014] border border-[#1d2128] rounded-lg px-2 py-1 text-[11.5px] text-zinc-200 focus:outline-none focus:border-teal-500/60">
-                  <option value="">none</option>
-                  {sectorNames.map((v) => <option key={v} value={v}>{v.replace(" / CO2e", "")}</option>)}
-                </select>
+                <select value={leanSector} onChange={(e) => set({ leanSector: e.target.value })} className="w-full bg-[#0e1014] border border-[#1d2128] rounded-lg px-2 py-1 text-[11.5px] text-zinc-200 focus:outline-none focus:border-teal-500/60"><option value="">none</option>{sectorNames.map((v) => <option key={v} value={v}>{v.replace(" / CO2e", "")}</option>)}</select>
                 {leanSector && <input type="range" min={0} max={100} value={leanStrength} onChange={(e) => set({ leanStrength: +e.target.value })} className="w-full accent-teal-400 mt-1.5" />}
               </div>
-              <div>
-                <div className="flex justify-between text-[11.5px]"><span className="text-zinc-300">Diversity cap</span><span className="text-teal-300 tabular-nums">{cap >= 100 ? "off" : `${cap}%`}</span></div>
-                <input type="range" min={10} max={100} step={2} value={cap} onChange={(e) => set({ cap: +e.target.value })} className="w-full accent-teal-400" />
-                <div className="text-[10px] text-zinc-600 -mt-0.5">ceiling, max share any one sector can take</div>
-              </div>
-              <div>
-                <div className="flex justify-between text-[11.5px]"><span className="text-zinc-300">Breadth floor</span><span className="text-teal-300 tabular-nums">{breadth === 0 ? "off" : `${breadth}/sector`}</span></div>
-                <input type="range" min={0} max={3} step={1} value={breadth} onChange={(e) => set({ breadth: +e.target.value })} className="w-full accent-teal-400" />
-                <div className="text-[10px] text-zinc-600 -mt-0.5">floor, reserve up to N per sector (real cohorts span the frontier)</div>
-              </div>
+              <div><div className="flex justify-between text-[11.5px]"><span className="text-zinc-300">Diversity cap</span><span className="text-teal-300 tabular-nums">{cap >= 100 ? "off" : `${cap}%`}</span></div><input type="range" min={10} max={100} step={2} value={cap} onChange={(e) => set({ cap: +e.target.value })} className="w-full accent-teal-400" /><div className="text-[10px] text-zinc-600 -mt-0.5">ceiling, max share any one sector can take</div></div>
+              <div><div className="flex justify-between text-[11.5px]"><span className="text-zinc-300">Breadth floor</span><span className="text-teal-300 tabular-nums">{breadth === 0 ? "off" : `${breadth}/sector`}</span></div><input type="range" min={0} max={3} step={1} value={breadth} onChange={(e) => set({ breadth: +e.target.value })} className="w-full accent-teal-400" /><div className="text-[10px] text-zinc-600 -mt-0.5">floor, reserve up to N per sector (real cohorts span the frontier)</div></div>
             </div>
           </div>
         </div>
       </div>
 
       <div className="panel p-4 mt-5">
-        <div className="text-[11.5px] font-medium text-zinc-200 mb-3">The cohort you just built (portfolio composition)</div>
+        <div className="flex items-baseline justify-between gap-3 mb-3 flex-wrap">
+          <span className="text-[11.5px] font-medium text-zinc-200">The cohort you just built</span>
+          <span className="text-[11px] text-zinc-500">Robustness: <span className={fragColor}>{fragLabel}</span> <span className="text-zinc-600">({Math.round(fragility * 100)}% churn under ±10 nudges)</span></span>
+        </div>
+        <div className="text-[11.5px] text-zinc-400 mb-3 italic">{fingerprint}</div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
           <div>
             <div className="grid grid-cols-2 gap-2 text-center">
@@ -383,30 +398,45 @@ export default function SelectionSimulator({ data }: { data: Dataset }) {
               <Stat v={`${Math.round((comp.whitespace / (comp.n || 1)) * 100)}%`} l="whitespace" accent />
               <Stat v={`${Math.round(comp.medDepth * 100)}`} l="median depth pct" />
             </div>
-            {depthDominant && (
-              <div className="mt-2 text-[10.5px] text-amber-300/90 leading-snug">
-                Citation-heavy strategy: weighting depth this hard favors founders from well-resourced labs. Watch the second-order effects.
-              </div>
-            )}
+            {depthDominant && <div className="mt-2 text-[10.5px] text-amber-300/90 leading-snug">Citation-heavy strategy: weighting depth this hard favors founders from well-resourced labs. Watch the second-order effects.</div>}
           </div>
           <div>
             <div className="text-[10px] uppercase tracking-wider text-zinc-600 mb-1">Sector mix</div>
-            <div className="space-y-0.5">
-              {comp.sectorRank.slice(0, 6).map(([s, n]) => (
-                <div key={s} className="flex items-center gap-2 text-[11px]">
-                  <span className="w-1.5 h-1.5 rounded-full shrink-0" style={{ background: verticalColor(s) }} />
-                  <span className="text-zinc-400 flex-1 truncate">{s.replace(" / CO2e", "")}</span><span className="text-zinc-500 tabular-nums">{n}</span>
-                </div>
-              ))}
-            </div>
+            <div className="space-y-0.5">{comp.sectorRank.slice(0, 6).map(([s, n]) => (<div key={s} className="flex items-center gap-2 text-[11px]"><span className="w-1.5 h-1.5 rounded-full shrink-0" style={{ background: verticalColor(s) }} /><span className="text-zinc-400 flex-1 truncate">{s.replace(" / CO2e", "")}</span><span className="text-zinc-500 tabular-nums">{n}</span></div>))}</div>
           </div>
           <div>
             <div className="text-[10px] uppercase tracking-wider text-zinc-600 mb-1">Hub balance</div>
-            <div className="space-y-0.5">
-              {comp.hubRank.map(([h, n]) => (
-                <div key={h} className="flex items-center gap-2 text-[11px]"><span className="text-zinc-400 flex-1">{h}</span><span className="text-zinc-500 tabular-nums">{n}</span></div>
-              ))}
-            </div>
+            <div className="space-y-0.5">{comp.hubRank.map(([h, n]) => (<div key={h} className="flex items-center gap-2 text-[11px]"><span className="text-zinc-400 flex-1">{h}</span><span className="text-zinc-500 tabular-nums">{n}</span></div>))}</div>
+          </div>
+        </div>
+      </div>
+
+      {/* On the margin: weakest selected vs strongest excluded, with exact reasons */}
+      <div className="panel p-4 mt-4">
+        <div className="text-[11.5px] font-medium text-zinc-200">On the margin</div>
+        <div className="text-[10px] text-zinc-600 mb-3">The decision lives at the edge. These are the closest calls under the current strategy, with why each landed in or out.</div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-1.5">
+          <div>
+            <div className="text-[10px] uppercase tracking-wider text-teal-400/70 mb-1">Weakest selected (last in)</div>
+            {weakIn.map((c, i) => (
+              <div key={i} className="flex items-center gap-2 text-[11px] py-0.5">
+                <span className="w-1.5 h-1.5 rounded-full shrink-0" style={{ background: verticalColor(c.sector) }} />
+                <span className="text-zinc-300 flex-1 truncate">{c.sector.replace(" / CO2e", "")}</span>
+                <span className={`${reasonColor(c.reason)} text-[10px]`}>{c.reason}</span>
+                <span className="text-zinc-600 tabular-nums w-6 text-right">{Math.round(c.score * 100)}</span>
+              </div>
+            ))}
+          </div>
+          <div>
+            <div className="text-[10px] uppercase tracking-wider text-amber-400/70 mb-1">Strongest excluded (first out)</div>
+            {strongOut.map((c, i) => (
+              <div key={i} className="flex items-center gap-2 text-[11px] py-0.5">
+                <span className="w-1.5 h-1.5 rounded-full shrink-0" style={{ background: verticalColor(c.sector) }} />
+                <span className="text-zinc-300 flex-1 truncate">{c.sector.replace(" / CO2e", "")}</span>
+                <span className={`${reasonColor(c.reason)} text-[10px]`}>{c.reason}</span>
+                <span className="text-zinc-600 tabular-nums w-6 text-right">{Math.round(c.score * 100)}</span>
+              </div>
+            ))}
           </div>
         </div>
       </div>
