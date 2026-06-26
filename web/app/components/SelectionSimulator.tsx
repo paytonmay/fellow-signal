@@ -6,7 +6,7 @@ import { Dataset, verticalColor } from "@/lib/data";
 // Selection Simulator (see docs/selection-simulator-proposal.md).
 // A SYNTHETIC field of candidate-like profiles drawn from selected-fellow and
 // field-signal priors (NOT applicant data). Weights + levers reshape which ~50 get
-// picked. Now with exact (constraint-aware) marginal reasoning, weighted score
+// picked. Now with constraint-aware marginal reasoning, weighted score
 // contributions, and a strategy-robustness (sensitivity) meter.
 
 const N = 1000;
@@ -157,7 +157,7 @@ export default function SelectionSimulator({ data }: { data: Dataset }) {
     return { cand, sectors };
   }, [data, seed]);
 
-  // ---- selection with exact, constraint-aware reasons ----
+  // ---- selection with constraint-aware reasons ----
   const { sel, reasonOf, weakIn, strongOut } = useMemo(() => {
     field.cand.forEach((c) => { c.score = scoreCand(c, w, leanSector, leanStrength); });
     const scored = [...field.cand].sort((a, b) => b.score - a.score).map((c) => ({ i: c.i, sector: c.sector, score: c.score }));
@@ -259,7 +259,7 @@ export default function SelectionSimulator({ data }: { data: Dataset }) {
     const conc = comp.topShare > 0.4 ? `${shortLabel(comp.sectorRank[0]?.[0] || "")}-concentrated` : comp.topShare < 0.2 ? "broadly spread" : "moderately concentrated";
     const depth = comp.medDepth > 0.7 ? "high founder-depth dependence" : comp.medDepth < 0.4 ? "low depth dependence" : "moderate depth dependence";
     const breadthL = comp.sectorRank.length >= 12 ? "wide sector breadth" : comp.sectorRank.length <= 6 ? "narrow breadth" : "moderate breadth";
-    const robust = fragility < 0.1 ? "robust to strategy nudges" : fragility < 0.25 ? "moderately robust" : "fragile to small changes";
+    const robust = fragility < 0.1 ? "robust to weight nudges" : fragility < 0.25 ? "moderately robust to weight nudges" : "fragile to small weight changes";
     return `A ${frontier}, ${conc} cohort with ${depth} and ${breadthL}; ${robust}.`;
   }, [comp, fragility]);
 
@@ -339,7 +339,7 @@ export default function SelectionSimulator({ data }: { data: Dataset }) {
                     ))}
                   </div>
                   <div className="mt-1.5 pt-1.5 border-t border-[#1a1d23] flex items-center justify-between text-[10.5px]">
-                    <span className="text-zinc-300">score {Math.round(hovered.score * 100)}</span>
+                    <span className="text-zinc-300">score index {Math.round(hovered.score * 100)}</span>
                     <span className={sel.has(hovered.i) ? "text-teal-300" : reasonOf(hovered.i, hovered.score, hovered.sector).includes("cap") ? "text-amber-300" : "text-zinc-500"}>{sel.has(hovered.i) ? "selected" : reasonOf(hovered.i, hovered.score, hovered.sector)}</span>
                   </div>
                 </div>
@@ -387,7 +387,7 @@ export default function SelectionSimulator({ data }: { data: Dataset }) {
       <div className="panel p-4 mt-5">
         <div className="flex items-baseline justify-between gap-3 mb-3 flex-wrap">
           <span className="text-[11.5px] font-medium text-zinc-200">The cohort you just built</span>
-          <span className="text-[11px] text-zinc-500">Robustness: <span className={fragColor}>{fragLabel}</span> <span className="text-zinc-600">({Math.round(fragility * 100)}% churn under ±10 nudges)</span></span>
+          <span className="text-[11px] text-zinc-500" title="How much the cohort churns when each weight is nudged ±10, on the current synthetic field. Does not yet test seed, cap, or lean sensitivity, use 'regenerate field' to probe other draws.">Weight robustness: <span className={fragColor}>{fragLabel}</span> <span className="text-zinc-600">({Math.round(fragility * 100)}% churn, ±10, this field)</span></span>
         </div>
         <div className="text-[11.5px] text-zinc-400 mb-3 italic">{fingerprint}</div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
@@ -411,10 +411,10 @@ export default function SelectionSimulator({ data }: { data: Dataset }) {
         </div>
       </div>
 
-      {/* On the margin: weakest selected vs strongest excluded, with exact reasons */}
+      {/* On the margin: weakest selected vs strongest excluded, with the binding reason */}
       <div className="panel p-4 mt-4">
         <div className="text-[11.5px] font-medium text-zinc-200">On the margin</div>
-        <div className="text-[10px] text-zinc-600 mb-3">The decision lives at the edge. These are the closest calls under the current strategy, with why each landed in or out.</div>
+        <div className="text-[10px] text-zinc-600 mb-3">The decision lives at the edge. These are the closest calls under the current strategy, with the <span className="text-zinc-500">primary binding reason</span> each landed in or out (the dominant constraint from the selection pass, not a full counterfactual rerun). Scores shown are the weighted index, not a probability.</div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-1.5">
           <div>
             <div className="text-[10px] uppercase tracking-wider text-teal-400/70 mb-1">Weakest selected (last in)</div>
