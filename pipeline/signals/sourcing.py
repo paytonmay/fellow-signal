@@ -13,6 +13,7 @@ from __future__ import annotations
 
 import json
 import re
+import sys
 import time
 from collections import defaultdict
 from pathlib import Path
@@ -187,8 +188,16 @@ def main() -> None:
         print(f"  {t['topic'][:38]:<38} {len(institutions)} US insts | {len(bn)} bottlenecks {flag}")
         time.sleep(0.2)
 
+    # Safeguard: if most areas came back with no institutions, OpenAlex was almost
+    # certainly throttling/erroring (e.g. concurrent runs). Don't overwrite good data
+    # with empty packets, fail loudly instead.
+    empty = sum(1 for a in areas if not a["institutions"])
+    if areas and empty > 0.3 * len(areas):
+        sys.exit(f"\nABORT: {empty}/{len(areas)} areas have no institutions (likely API throttling). "
+                 f"Not overwriting {OUT.name}. Re-run when OpenAlex is responsive.")
+
     OUT.write_text(json.dumps({"areas": areas}, indent=2), encoding="utf-8")
-    print(f"\nWrote {OUT.relative_to(ROOT)} ({len(areas)} areas)")
+    print(f"\nWrote {OUT.relative_to(ROOT)} ({len(areas)} areas, {empty} empty)")
 
 
 if __name__ == "__main__":
