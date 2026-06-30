@@ -92,13 +92,14 @@ export default function Brief() {
           engine of the institution, and it makes a continuously-improving, data-driven version of it a genuine moat.
         </p>
 
-        <H n="05">What I&apos;d build in the first 90 days</H>
+        <H n="05">Where it could go</H>
+        <p className="text-zinc-400 mb-2">Four directions the analysis points to, sketched, not prescribed:</p>
         <ol className="mt-2 space-y-3 list-none">
           {[
-            ["Instrument the engine", "Stand up exactly this pipeline as the internal source of truth: every applicant and fellow with their research footprint, and every cohort tracked against real outcomes (non-dilutive funding, raises, exits). Make the loop visible."],
-            ["Source the whitespace", "Run the frontier radar quarterly and pair it with the discipline → space key, so sourcing is pointed at accelerating fields and the scientist profiles that succeed there, with hubs treated as the distinct theses they already are."],
-            ["Close the selection loop", "Correlate selection-time signals with outcomes to learn what actually predicts a strong fellow, then feed that back into reviewer rubrics, carefully, with the bias guardrails the mission demands. The goal is a system that gets better every cohort, not a fixed scorecard."],
-            ["Productize the intelligence", "Package the frontier read as an offering, internal decision support for selection and sponsor cultivation, and an external Frontier Report that makes Activate the authority on where hard tech is heading."],
+            ["Instrument the engine", "The pipeline could become the internal source of truth: every applicant and fellow with their research footprint, every cohort tracked against real outcomes (non-dilutive funding, raises, exits). The selection loop, made visible."],
+            ["Source the whitespace", "Run quarterly, the frontier radar and the discipline → space key point sourcing at accelerating fields and the scientist profiles that succeed there, with hubs read as the distinct theses they already are."],
+            ["Close the selection loop", "Correlating selection-time signals with outcomes would surface what actually predicts a strong fellow, fed back into reviewer rubrics carefully, with the bias guardrails the mission demands. A system that improves every cohort, not a fixed scorecard."],
+            ["Productize the intelligence", "The frontier read as an offering: internal decision support for selection and sponsor cultivation, and an external Frontier Report on where hard tech is heading."],
           ].map(([t, d], i) => (
             <li key={i} className="panel p-4">
               <div className="text-[13px] font-semibold text-teal-300">{i + 1}. {t}</div>
