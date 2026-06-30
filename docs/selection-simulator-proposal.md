@@ -2,7 +2,7 @@
 
 Status: v2, revised after review
 Author: Payton May
-Context: Fellow Signal (fellowsignal.xyz), for the deep-tech founder discovery role at Activate.
+Context: Fellow Signal (fellowsignal.xyz), an independent analysis of Activate's fellowship and the deep-tech founder frontier.
 
 ### Revisions from review (v2)
 
@@ -17,11 +17,11 @@ Context: Fellow Signal (fellowsignal.xyz), for the deep-tech founder discovery r
 
 ## 1. One-liner
 
-An interactive page that simulates the core act of the role: looking at ~1,000 applicants and choosing ~50. ~1,000 dots clustered by sector, each carrying real-world signals; a set of weights, strategy dials, manual overrides, and a stakeholder-vote layer that reshape the chosen cohort in real time. The point is not the toy: it is to make visceral that **there is no objective best 50, only a strategy made explicit.**
+An interactive page that simulates the core act of founder discovery: looking at ~1,000 applicants and choosing ~50. ~1,000 dots clustered by sector, each carrying real-world signals; a set of weights, strategy dials, manual overrides, and a stakeholder-vote layer that reshape the chosen cohort in real time. The point is not the toy: it is to make visceral that **there is no objective best 50, only a strategy made explicit.**
 
-## 2. Why this, and why it fits the role
+## 2. Why this, and why it fits the problem
 
-Every other panel on the site analyzes the **output** of selection (the accepted cohorts). This is the only one that models the **selection function itself**, the literal job. It also connects directly to the real funnel we surfaced: Activate draws **~900-1,040 applicants per cohort and accepts ~50 (~5%)**, growing ~30%/yr since 2015 ([sources in the brief]). The simulator puts the reviewer inside that 1,000 → 50 decision.
+Every other panel on the site analyzes the **output** of selection (the accepted cohorts). This is the only one that models the **selection function itself**, the core function. It also connects directly to the real funnel we surfaced: Activate draws **~900-1,040 applicants per cohort and accepts ~50 (~5%)**, growing ~30%/yr since 2015 ([sources in the brief]). The simulator puts the reviewer inside that 1,000 → 50 decision.
 
 It extends the "close the selection loop" pillar from a static scorecard into a working instrument: weights in, a cohort out, the trade-offs visible.
 

@@ -2,17 +2,17 @@
 
 Status: draft for review
 Author: Payton May
-Context: Fellow Signal (fellowsignal.xyz), for the deep-tech founder discovery role at Activate.
+Context: Fellow Signal (fellowsignal.xyz), an independent analysis of Activate's fellowship and the deep-tech founder frontier.
 
 ---
 
 ## 1. One-liner
 
-Stop treating publication data as "field momentum + founder depth" and turn it into a **sourcing graph**: topics → labs → authors → institutions → funders → timing. The product: pick a research area and see **where to look, who to watch, why now, and what evidence says it is becoming venture-ready.** This is the part of the role the rest of the site only sets up: not "what is happening at the frontier," but "who do I call on Monday."
+Stop treating publication data as "field momentum + founder depth" and turn it into a **sourcing graph**: topics → labs → authors → institutions → funders → timing. The product: pick a research area and see **where to look, who to watch, why now, and what evidence says it is becoming venture-ready.** This is the part the rest of the site only sets up: not "what is happening at the frontier," but "who do I call on Monday."
 
 ## 2. Why this is the strongest direction
 
-Every other layer (radar, emerging science, the simulator) answers *what* is moving. Sourcing answers *who*, and that is the literal job of Founder Discovery. It is also the deepest, most defensible thing public data can do here: OpenAlex exposes authors, institutions, coauthorship, topics, and timing, which is exactly the raw material of a recruiting map.
+Every other layer (radar, emerging science, the simulator) answers *what* is moving. Sourcing answers *who*, and that is the core of Founder Discovery. It is also the deepest, most defensible thing public data can do here: OpenAlex exposes authors, institutions, coauthorship, topics, and timing, which is exactly the raw material of a recruiting map.
 
 ## 3. The honest feasibility triage (with our data)
 

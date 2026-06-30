@@ -8,8 +8,8 @@ cite ~235 total, counted on a broader basis.)
 
 **Live:** https://fellowsignal.xyz
 
-Built as an independent analysis / working prototype for the *Head of Scientific
-Founder Discovery & Insights* role.
+An independent analysis and working prototype, built entirely from public data,
+exploring where deep-tech scientific founders are likely to emerge next.
 
 ## What it does
 

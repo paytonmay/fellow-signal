@@ -4,8 +4,7 @@ A data system that maps Activate Global's fellow ventures — their science,
 their industries, and their potential impact — and future-casts where the
 frontier of hard tech is heading.
 
-This is a working prototype of the three responsibilities in Activate's
-*deep-tech founder discovery* role:
+This is a working prototype of three capabilities a deep-tech fellowship needs:
 1. **Talent engine** — a rigorous, structured view of the fellow pipeline.
 2. **Insight & strategy** — turn pipeline data into a read on the frontier.
 3. **Productize the pipeline** — a shareable, data-rich decision-support tool.
