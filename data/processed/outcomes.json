@@ -1111,11 +1111,19 @@
       "Advanced Manufacturing & Robotics",
       "Climate"
     ],
-    "nsf_awards": [],
-    "nsf_total": 0,
-    "nsf_count": 0,
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "MOTIBERA, INC.",
+        "amount": 305000,
+        "title": "SBIR Phase I: Twin Bearingless Motor with Integrated Thrust and Radial Suspension",
+        "date": "07/01/2026"
+      }
+    ],
+    "nsf_total": 305000,
+    "nsf_count": 1,
     "edgar_formD": 0,
-    "has_outcome": false
+    "has_outcome": true
   },
   {
     "slug": "nanoscale-labs",
@@ -1549,7 +1557,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "allium-engineering",
     "name": "Allium Engineering",
     "cohort_year": 2023,
     "hub": "Boston",
@@ -1573,7 +1581,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "alva-energy",
     "name": "Alva Energy",
     "cohort_year": 2023,
     "hub": "Boston",
@@ -1585,7 +1593,7 @@
     "has_outcome": false
   },
   {
-    "slug": "",
+    "slug": "anthology",
     "name": "Anthology",
     "cohort_year": 2023,
     "hub": "Boston",
@@ -1596,11 +1604,11 @@
     "nsf_awards": [],
     "nsf_total": 0,
     "nsf_count": 0,
-    "edgar_formD": 7,
-    "has_outcome": true
+    "edgar_formD": 0,
+    "has_outcome": false
   },
   {
-    "slug": "",
+    "slug": "arbon",
     "name": "Arbon",
     "cohort_year": 2023,
     "hub": "New York",
@@ -1615,7 +1623,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "arrakis-materials",
     "name": "Arrakis Materials",
     "cohort_year": 2023,
     "hub": "Boston",
@@ -1631,7 +1639,7 @@
     "has_outcome": false
   },
   {
-    "slug": "",
+    "slug": "asimica",
     "name": "AsimicA",
     "cohort_year": 2023,
     "hub": "Berkeley",
@@ -1661,7 +1669,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "banyu-carbon",
     "name": "Banyu Carbon",
     "cohort_year": 2023,
     "hub": "Anywhere",
@@ -1685,7 +1693,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "blaze-energy",
     "name": "Blaze Energy",
     "cohort_year": 2023,
     "hub": "Anywhere",
@@ -1701,7 +1709,7 @@
     "has_outcome": false
   },
   {
-    "slug": "",
+    "slug": "boston-atomics",
     "name": "Boston Atomics",
     "cohort_year": 2023,
     "hub": "Boston",
@@ -1716,7 +1724,7 @@
     "has_outcome": false
   },
   {
-    "slug": "",
+    "slug": "brekland",
     "name": "Brekland",
     "cohort_year": 2023,
     "hub": "New York",
@@ -1732,7 +1740,7 @@
     "has_outcome": false
   },
   {
-    "slug": "",
+    "slug": "calion-technologies",
     "name": "Calion Technologies",
     "cohort_year": 2023,
     "hub": "Berkeley",
@@ -1764,7 +1772,7 @@
     "has_outcome": false
   },
   {
-    "slug": "",
+    "slug": "cella-mineral-storage",
     "name": "Cella Mineral Storage",
     "cohort_year": 2023,
     "hub": "New York",
@@ -1780,7 +1788,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "dottir-labs",
     "name": "Dottir Labs",
     "cohort_year": 2023,
     "hub": "Boston",
@@ -1788,14 +1796,22 @@
       "Advanced Manufacturing & Robotics",
       "Chemistry & Materials"
     ],
-    "nsf_awards": [],
-    "nsf_total": 0,
-    "nsf_count": 0,
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "DOTTIR LABS, INC",
+        "amount": 305000,
+        "title": "SBIR Phase I: Centralized Raman Spectroscopy for Process Optimization",
+        "date": "07/01/2026"
+      }
+    ],
+    "nsf_total": 305000,
+    "nsf_count": 1,
     "edgar_formD": 0,
-    "has_outcome": false
+    "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "eva",
     "name": "Eva",
     "cohort_year": 2023,
     "hub": "Boston",
@@ -1810,7 +1826,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "feon-energy",
     "name": "Feon Energy",
     "cohort_year": 2023,
     "hub": "Boston",
@@ -1826,7 +1842,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "florrent",
     "name": "florrent",
     "cohort_year": 2023,
     "hub": "Boston",
@@ -1838,11 +1854,11 @@
     "nsf_awards": [],
     "nsf_total": 0,
     "nsf_count": 0,
-    "edgar_formD": 0,
-    "has_outcome": false
+    "edgar_formD": 3,
+    "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "flux-xii",
     "name": "Flux XII",
     "cohort_year": 2023,
     "hub": "Anywhere",
@@ -1874,7 +1890,7 @@
     "has_outcome": false
   },
   {
-    "slug": "",
+    "slug": "geolabe",
     "name": "Geolabe",
     "cohort_year": 2023,
     "hub": "Anywhere",
@@ -1899,7 +1915,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "hopo-therapeutics",
     "name": "HOPO Therapeutics",
     "cohort_year": 2023,
     "hub": "Berkeley",
@@ -1914,7 +1930,7 @@
     "has_outcome": false
   },
   {
-    "slug": "",
+    "slug": "juno-propulsion",
     "name": "Juno Propulsion",
     "cohort_year": 2023,
     "hub": "Anywhere",
@@ -1936,7 +1952,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "lucidean",
     "name": "Lucidean",
     "cohort_year": 2023,
     "hub": "Anywhere",
@@ -1951,7 +1967,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "morphosis",
     "name": "Morphosis",
     "cohort_year": 2023,
     "hub": "Berkeley",
@@ -1975,7 +1991,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "novel-farms",
     "name": "Novel Farms",
     "cohort_year": 2023,
     "hub": "Berkeley",
@@ -2005,7 +2021,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "opera-bioscience",
     "name": "Opera Bioscience",
     "cohort_year": 2023,
     "hub": "Anywhere",
@@ -2035,7 +2051,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "osrostrum-inc",
     "name": "OsRostrum Inc",
     "cohort_year": 2023,
     "hub": "Anywhere",
@@ -2050,7 +2066,7 @@
     "has_outcome": false
   },
   {
-    "slug": "",
+    "slug": "pascal",
     "name": "Pascal",
     "cohort_year": 2023,
     "hub": "Boston",
@@ -2070,11 +2086,11 @@
     ],
     "nsf_total": 1731999,
     "nsf_count": 1,
-    "edgar_formD": 527,
+    "edgar_formD": 528,
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "photonect-interconnect-solutions",
     "name": "Photonect Interconnect Solutions",
     "cohort_year": 2023,
     "hub": "New York",
@@ -2105,7 +2121,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "rareterra",
     "name": "RareTerra",
     "cohort_year": 2023,
     "hub": "Berkeley",
@@ -2120,7 +2136,7 @@
     "has_outcome": false
   },
   {
-    "slug": "",
+    "slug": "reynko",
     "name": "ReynKo",
     "cohort_year": 2023,
     "hub": "New York",
@@ -2137,7 +2153,7 @@
     "has_outcome": false
   },
   {
-    "slug": "",
+    "slug": "rockfix",
     "name": "RockFix",
     "cohort_year": 2023,
     "hub": "New York",
@@ -2154,7 +2170,7 @@
     "has_outcome": false
   },
   {
-    "slug": "",
+    "slug": "sirenopt",
     "name": "SirenOpt",
     "cohort_year": 2023,
     "hub": "Berkeley",
@@ -2178,7 +2194,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "sixline-semiconductor",
     "name": "SixLine Semiconductor",
     "cohort_year": 2023,
     "hub": "Anywhere",
@@ -2202,7 +2218,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "terra-watts",
     "name": "Terra Watts",
     "cohort_year": 2023,
     "hub": "New York",
@@ -2226,7 +2242,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "varada-agriculture",
     "name": "Varada Agriculture",
     "cohort_year": 2023,
     "hub": "Berkeley",
@@ -2241,7 +2257,7 @@
     "has_outcome": false
   },
   {
-    "slug": "",
+    "slug": "vellex-computing",
     "name": "Vellex Computing",
     "cohort_year": 2023,
     "hub": "Berkeley",
@@ -2266,7 +2282,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "vyir",
     "name": "Vyir",
     "cohort_year": 2023,
     "hub": "New York",
@@ -2282,7 +2298,7 @@
     "has_outcome": false
   },
   {
-    "slug": "",
+    "slug": "westwood-aerogel",
     "name": "Westwood Aerogel",
     "cohort_year": 2023,
     "hub": "Berkeley",
@@ -2307,7 +2323,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "aepnus-technology",
     "name": "Aepnus Technology",
     "cohort_year": 2022,
     "hub": "Berkeley",
@@ -2331,7 +2347,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "anvil-diagnostics",
     "name": "Anvil Diagnostics",
     "cohort_year": 2022,
     "hub": "Boston",
@@ -2354,7 +2370,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "bluumbio",
     "name": "BluumBio",
     "cohort_year": 2022,
     "hub": "Berkeley",
@@ -2384,7 +2400,7 @@
     "has_outcome": false
   },
   {
-    "slug": "",
+    "slug": "foray-bioscience",
     "name": "Foray Bioscience",
     "cohort_year": 2022,
     "hub": "New York",
@@ -2395,11 +2411,11 @@
     "nsf_awards": [],
     "nsf_total": 0,
     "nsf_count": 0,
-    "edgar_formD": 1,
-    "has_outcome": true
+    "edgar_formD": 0,
+    "has_outcome": false
   },
   {
-    "slug": "",
+    "slug": "found-energy",
     "name": "Found Energy",
     "cohort_year": 2022,
     "hub": "Boston",
@@ -2411,11 +2427,11 @@
     "nsf_awards": [],
     "nsf_total": 0,
     "nsf_count": 0,
-    "edgar_formD": 11,
-    "has_outcome": true
+    "edgar_formD": 0,
+    "has_outcome": false
   },
   {
-    "slug": "",
+    "slug": "impact-cooling",
     "name": "Impact Cooling",
     "cohort_year": 2022,
     "hub": "Anywhere",
@@ -2446,7 +2462,7 @@
     "has_outcome": false
   },
   {
-    "slug": "",
+    "slug": "ivu-biologics",
     "name": "Ivu Biologics",
     "cohort_year": 2022,
     "hub": "Boston",
@@ -2469,7 +2485,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "limelight-steel",
     "name": "Limelight Steel",
     "cohort_year": 2022,
     "hub": "Anywhere",
@@ -2494,7 +2510,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "lithios",
     "name": "Lithios",
     "cohort_year": 2022,
     "hub": "Boston",
@@ -2509,7 +2525,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "ludwig-computing",
     "name": "Ludwig Computing",
     "cohort_year": 2022,
     "hub": "Berkeley",
@@ -2539,7 +2555,7 @@
     "has_outcome": false
   },
   {
-    "slug": "",
+    "slug": "pseudolithic",
     "name": "PseudolithIC",
     "cohort_year": 2022,
     "hub": "Anywhere",
@@ -2570,7 +2586,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "pulsenics",
     "name": "Pulsenics",
     "cohort_year": 2022,
     "hub": "Anywhere",
@@ -2586,7 +2602,7 @@
     "has_outcome": false
   },
   {
-    "slug": "",
+    "slug": "quorum-bio",
     "name": "Quorum Bio",
     "cohort_year": 2022,
     "hub": "New York",
@@ -2601,7 +2617,7 @@
     "has_outcome": false
   },
   {
-    "slug": "",
+    "slug": "reegen",
     "name": "REEgen",
     "cohort_year": 2022,
     "hub": "Anywhere",
@@ -2632,7 +2648,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "robigo",
     "name": "Robigo",
     "cohort_year": 2022,
     "hub": "Boston",
@@ -2685,7 +2701,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "root-applied-sciences",
     "name": "Root Applied Sciences",
     "cohort_year": 2022,
     "hub": "Berkeley",
@@ -2701,7 +2717,7 @@
     "has_outcome": false
   },
   {
-    "slug": "",
+    "slug": "soctera",
     "name": "Soctera",
     "cohort_year": 2022,
     "hub": "Anywhere",
@@ -2730,7 +2746,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "solopulse",
     "name": "Solopulse",
     "cohort_year": 2022,
     "hub": "Anywhere",
@@ -2754,7 +2770,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "still-bright",
     "name": "Still Bright",
     "cohort_year": 2022,
     "hub": "New York, Boston",
@@ -2770,7 +2786,7 @@
     "has_outcome": false
   },
   {
-    "slug": "",
+    "slug": "sunchem",
     "name": "Sunchem",
     "cohort_year": 2022,
     "hub": "Berkeley",
@@ -2793,7 +2809,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "tensora",
     "name": "Tensora",
     "cohort_year": 2022,
     "hub": "New York",
@@ -2805,11 +2821,11 @@
     "nsf_awards": [],
     "nsf_total": 0,
     "nsf_count": 0,
-    "edgar_formD": 1,
-    "has_outcome": true
+    "edgar_formD": 0,
+    "has_outcome": false
   },
   {
-    "slug": "",
+    "slug": "thermobionics",
     "name": "ThermoBionics",
     "cohort_year": 2022,
     "hub": "Boston",
@@ -2833,7 +2849,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "turnover-labs",
     "name": "Turnover Labs",
     "cohort_year": 2022,
     "hub": "New York",
@@ -2849,7 +2865,7 @@
     "has_outcome": false
   },
   {
-    "slug": "",
+    "slug": "tyfast",
     "name": "Tyfast",
     "cohort_year": 2022,
     "hub": "Berkeley",
@@ -2879,7 +2895,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "verde-nanomaterials",
     "name": "VERDE Nanomaterials",
     "cohort_year": 2022,
     "hub": "Berkeley",
@@ -2894,7 +2910,7 @@
     "has_outcome": false
   },
   {
-    "slug": "",
+    "slug": "vycarb",
     "name": "Vycarb",
     "cohort_year": 2022,
     "hub": "New York",
@@ -2910,7 +2926,7 @@
     "has_outcome": false
   },
   {
-    "slug": "",
+    "slug": "wild-microbes",
     "name": "Wild Microbes",
     "cohort_year": 2022,
     "hub": "Boston",
@@ -2933,7 +2949,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "s-semiconductor",
     "name": "Ọsọ Semiconductor",
     "cohort_year": 2022,
     "hub": "Berkeley",
@@ -2947,7 +2963,7 @@
     "has_outcome": false
   },
   {
-    "slug": "",
+    "slug": "anthro",
     "name": "Anthro",
     "cohort_year": 2021,
     "hub": "Berkeley",
@@ -2961,7 +2977,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "aura-intelligent-systems",
     "name": "Aura Intelligent Systems",
     "cohort_year": 2021,
     "hub": "Boston",
@@ -2985,7 +3001,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "electrified-thermal-solutions",
     "name": "Electrified Thermal Solutions",
     "cohort_year": 2021,
     "hub": "Boston",
@@ -2996,11 +3012,11 @@
     "nsf_awards": [],
     "nsf_total": 0,
     "nsf_count": 0,
-    "edgar_formD": 2,
-    "has_outcome": true
+    "edgar_formD": 0,
+    "has_outcome": false
   },
   {
-    "slug": "",
+    "slug": "enertia-microsystems",
     "name": "Enertia Microsystems",
     "cohort_year": 2021,
     "hub": "Berkeley",
@@ -3024,7 +3040,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "flo-materials",
     "name": "FLO Materials",
     "cohort_year": 2021,
     "hub": "Berkeley",
@@ -3053,7 +3069,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "inlyte-energy",
     "name": "Inlyte Energy",
     "cohort_year": 2021,
     "hub": "Berkeley",
@@ -3068,7 +3084,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "intropic-materials",
     "name": "Intropic Materials",
     "cohort_year": 2021,
     "hub": "Berkeley",
@@ -3083,7 +3099,7 @@
     "has_outcome": false
   },
   {
-    "slug": "",
+    "slug": "kano-therapeutics",
     "name": "Kano Therapeutics",
     "cohort_year": 2021,
     "hub": "Boston",
@@ -3098,7 +3114,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "lintrinsic",
     "name": "LintrinsIC",
     "cohort_year": 2021,
     "hub": "Boston",
@@ -3113,7 +3129,7 @@
     "has_outcome": false
   },
   {
-    "slug": "",
+    "slug": "loamist",
     "name": "Loamist",
     "cohort_year": 2021,
     "hub": "Berkeley",
@@ -3125,7 +3141,7 @@
     "has_outcome": false
   },
   {
-    "slug": "",
+    "slug": "metavoxel-technologies",
     "name": "Metavoxel Technologies",
     "cohort_year": 2021,
     "hub": "Berkeley",
@@ -3140,7 +3156,7 @@
     "has_outcome": false
   },
   {
-    "slug": "",
+    "slug": "osmoses",
     "name": "Osmoses",
     "cohort_year": 2021,
     "hub": "Boston",
@@ -3164,7 +3180,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "pheronym",
     "name": "Pheronym",
     "cohort_year": 2021,
     "hub": "Berkeley",
@@ -3194,7 +3210,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "qunnect",
     "name": "Qunnect",
     "cohort_year": 2021,
     "hub": "Boston",
@@ -3218,7 +3234,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "revive-labs",
     "name": "Revive Labs",
     "cohort_year": 2021,
     "hub": "Boston",
@@ -3232,7 +3248,7 @@
     "has_outcome": false
   },
   {
-    "slug": "",
+    "slug": "semiotic-labs",
     "name": "Semiotic Labs",
     "cohort_year": 2021,
     "hub": "Berkeley",
@@ -3246,7 +3262,7 @@
     "has_outcome": false
   },
   {
-    "slug": "",
+    "slug": "thalo-labs",
     "name": "Thalo Labs",
     "cohort_year": 2021,
     "hub": "New York, Boston",
@@ -3262,7 +3278,7 @@
     "has_outcome": false
   },
   {
-    "slug": "",
+    "slug": "aeroshield",
     "name": "AeroShield",
     "cohort_year": 2020,
     "hub": "Boston",
@@ -3293,7 +3309,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "concerto-biosciences",
     "name": "Concerto Biosciences",
     "cohort_year": 2020,
     "hub": "Boston",
@@ -3308,7 +3324,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "elmworks",
     "name": "Elmworks",
     "cohort_year": 2020,
     "hub": "Berkeley",
@@ -3324,7 +3340,7 @@
     "has_outcome": false
   },
   {
-    "slug": "",
+    "slug": "gigacrop",
     "name": "GigaCrop",
     "cohort_year": 2020,
     "hub": "Berkeley",
@@ -3339,7 +3355,7 @@
     "has_outcome": false
   },
   {
-    "slug": "",
+    "slug": "irradiant-technologies",
     "name": "Irradiant Technologies",
     "cohort_year": 2020,
     "hub": "Boston",
@@ -3362,7 +3378,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "metaseismic",
     "name": "METAseismic",
     "cohort_year": 2020,
     "hub": "Berkeley",
@@ -3393,7 +3409,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "nitricity",
     "name": "Nitricity",
     "cohort_year": 2020,
     "hub": "Berkeley",
@@ -3416,7 +3432,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "radical-plastics",
     "name": "Radical Plastics",
     "cohort_year": 2020,
     "hub": "Boston",
@@ -3430,7 +3446,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "resonant-link",
     "name": "Resonant Link",
     "cohort_year": 2020,
     "hub": "Berkeley",
@@ -3451,11 +3467,11 @@
     ],
     "nsf_total": 224997,
     "nsf_count": 1,
-    "edgar_formD": 3,
+    "edgar_formD": 0,
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "resource",
     "name": "ReSource",
     "cohort_year": 2020,
     "hub": "Berkeley",
@@ -3467,11 +3483,11 @@
     "nsf_awards": [],
     "nsf_total": 0,
     "nsf_count": 0,
-    "edgar_formD": 1883,
-    "has_outcome": true
+    "edgar_formD": 0,
+    "has_outcome": false
   },
   {
-    "slug": "",
+    "slug": "sitration",
     "name": "SiTration",
     "cohort_year": 2020,
     "hub": "Boston",
@@ -3495,7 +3511,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "sublime-systems",
     "name": "Sublime Systems",
     "cohort_year": 2020,
     "hub": "Boston",
@@ -3511,7 +3527,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "sync-computing",
     "name": "Sync Computing",
     "cohort_year": 2020,
     "hub": "Boston",
@@ -3525,7 +3541,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "umaro-foods",
     "name": "Umaro Foods",
     "cohort_year": 2020,
     "hub": "Berkeley",
@@ -3540,7 +3556,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "zanskar",
     "name": "Zanskar",
     "cohort_year": 2020,
     "hub": "Berkeley",
@@ -3553,11 +3569,11 @@
     "nsf_awards": [],
     "nsf_total": 0,
     "nsf_count": 0,
-    "edgar_formD": 1,
-    "has_outcome": true
+    "edgar_formD": 0,
+    "has_outcome": false
   },
   {
-    "slug": "",
+    "slug": "zestbio",
     "name": "ZestBio",
     "cohort_year": 2020,
     "hub": "Berkeley",
@@ -3588,7 +3604,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "aralez-bio",
     "name": "Aralez Bio",
     "cohort_year": 2019,
     "hub": "Berkeley",
@@ -3604,7 +3620,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "brimstone",
     "name": "Brimstone",
     "cohort_year": 2019,
     "hub": "Berkeley",
@@ -3624,11 +3640,11 @@
     ],
     "nsf_total": 256000,
     "nsf_count": 1,
-    "edgar_formD": 0,
+    "edgar_formD": 6,
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "cypris-materials",
     "name": "Cypris Materials",
     "cohort_year": 2019,
     "hub": "Berkeley",
@@ -3659,7 +3675,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "inchfab",
     "name": "InchFab",
     "cohort_year": 2019,
     "hub": "Berkeley",
@@ -3682,7 +3698,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "perceptra-technologies",
     "name": "Perceptra Technologies",
     "cohort_year": 2019,
     "hub": "Berkeley",
@@ -3707,7 +3723,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "reveel",
     "name": "Reveel",
     "cohort_year": 2019,
     "hub": "Berkeley",
@@ -3721,7 +3737,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "skygig",
     "name": "SkyGig",
     "cohort_year": 2019,
     "hub": "Berkeley",
@@ -3764,7 +3780,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "synopic",
     "name": "Synopic",
     "cohort_year": 2019,
     "hub": "Berkeley",
@@ -3794,7 +3810,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "terrafuse",
     "name": "terrafuse",
     "cohort_year": 2019,
     "hub": "Berkeley",
@@ -3824,7 +3840,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "activemems",
     "name": "ActiveMEMS",
     "cohort_year": 2018,
     "hub": "Berkeley",
@@ -3847,7 +3863,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "antora-energy",
     "name": "Antora Energy",
     "cohort_year": 2018,
     "hub": "Berkeley",
@@ -3877,7 +3893,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "cinderbio",
     "name": "CinderBio",
     "cohort_year": 2018,
     "hub": "Berkeley",
@@ -3893,7 +3909,7 @@
     "has_outcome": false
   },
   {
-    "slug": "",
+    "slug": "fervo-energy",
     "name": "Fervo Energy",
     "cohort_year": 2018,
     "hub": "Berkeley",
@@ -3909,7 +3925,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "noble-thermodynamic-systems",
     "name": "Noble Thermodynamic Systems",
     "cohort_year": 2018,
     "hub": "Berkeley",
@@ -3925,7 +3941,7 @@
     "has_outcome": false
   },
   {
-    "slug": "",
+    "slug": "noon-energy",
     "name": "Noon Energy",
     "cohort_year": 2018,
     "hub": "Berkeley",
@@ -3954,7 +3970,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "sonera",
     "name": "Sonera",
     "cohort_year": 2018,
     "hub": "Berkeley",
@@ -3978,7 +3994,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "takachar",
     "name": "Takachar",
     "cohort_year": 2018,
     "hub": "Berkeley",
@@ -3994,7 +4010,7 @@
     "has_outcome": false
   },
   {
-    "slug": "",
+    "slug": "dauntless-io",
     "name": "Dauntless.io",
     "cohort_year": 2017,
     "hub": "Berkeley",
@@ -4008,7 +4024,7 @@
     "has_outcome": false
   },
   {
-    "slug": "",
+    "slug": "gradient",
     "name": "Gradient",
     "cohort_year": 2017,
     "hub": "Berkeley",
@@ -4024,7 +4040,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "nelumbo",
     "name": "Nelumbo",
     "cohort_year": 2017,
     "hub": "Berkeley",
@@ -4039,7 +4055,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "photia",
     "name": "Photia",
     "cohort_year": 2017,
     "hub": "Berkeley",
@@ -4054,7 +4070,7 @@
     "has_outcome": false
   },
   {
-    "slug": "",
+    "slug": "liminal-insights",
     "name": "Liminal Insights",
     "cohort_year": 2016,
     "hub": "Berkeley",
@@ -4071,7 +4087,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "mallinda-materials",
     "name": "Mallinda Materials",
     "cohort_year": 2016,
     "hub": "Berkeley",
@@ -4085,7 +4101,7 @@
     "has_outcome": false
   },
   {
-    "slug": "",
+    "slug": "sepion-technologies",
     "name": "Sepion Technologies",
     "cohort_year": 2016,
     "hub": "Berkeley",
@@ -4101,7 +4117,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "tandem-pv",
     "name": "Tandem PV",
     "cohort_year": 2016,
     "hub": "Berkeley",
@@ -4117,7 +4133,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "tierra-biosciences",
     "name": "Tierra Biosciences",
     "cohort_year": 2016,
     "hub": "Berkeley",
@@ -4132,7 +4148,7 @@
     "has_outcome": false
   },
   {
-    "slug": "",
+    "slug": "calwave",
     "name": "CalWave",
     "cohort_year": 2015,
     "hub": "Berkeley",
@@ -4148,7 +4164,7 @@
     "has_outcome": false
   },
   {
-    "slug": "",
+    "slug": "mosaic-materials",
     "name": "Mosaic Materials",
     "cohort_year": 2015,
     "hub": "Berkeley",
@@ -4163,7 +4179,7 @@
     "has_outcome": false
   },
   {
-    "slug": "",
+    "slug": "polyspectra",
     "name": "PolySpectra",
     "cohort_year": 2015,
     "hub": "Berkeley",
@@ -4193,7 +4209,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "spark-thermionics",
     "name": "Spark Thermionics",
     "cohort_year": 2015,
     "hub": "Berkeley",
@@ -4208,7 +4224,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "twelve",
     "name": "Twelve",
     "cohort_year": 2015,
     "hub": "Berkeley",
@@ -4224,7 +4240,7 @@
     "has_outcome": true
   },
   {
-    "slug": "",
+    "slug": "visolis",
     "name": "Visolis",
     "cohort_year": 2015,
     "hub": "Berkeley",

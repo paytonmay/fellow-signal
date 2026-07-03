@@ -34,7 +34,7 @@
           "amount": 157622127.93
         }
       ],
-      "research_momentum": 3.6,
+      "research_momentum": 3.59,
       "activate_presence": 0.42
     },
     {
@@ -71,7 +71,7 @@
           "amount": 314300858.22
         }
       ],
-      "research_momentum": 4.16,
+      "research_momentum": 4.15,
       "activate_presence": 0.261
     },
     {
@@ -108,7 +108,7 @@
           "amount": 457867436.16
         }
       ],
-      "research_momentum": 7.28,
+      "research_momentum": 7.26,
       "activate_presence": 0.205
     },
     {
@@ -145,12 +145,12 @@
           "amount": 49439575.36
         }
       ],
-      "research_momentum": 3.07,
+      "research_momentum": 3.06,
       "activate_presence": 0.182
     },
     {
       "vertical": "Electronics & Connectivity",
-      "federal_total": 9148555242,
+      "federal_total": 9148560402,
       "federal_by_year": {
         "2016": 278203017,
         "2017": 293594694,
@@ -161,13 +161,13 @@
         "2022": 837500632,
         "2023": 1179933685,
         "2024": 2124372654,
-        "2025": 2196615896
+        "2025": 2196621056
       },
       "federal_momentum": 4.15,
       "top_agencies": [
         {
           "name": "Department of Defense",
-          "amount": 6677203411.49
+          "amount": 6677208571.49
         },
         {
           "name": "National Science Foundation",
@@ -182,7 +182,7 @@
           "amount": 341207377.37
         }
       ],
-      "research_momentum": 2.79,
+      "research_momentum": 2.78,
       "activate_presence": 0.17
     },
     {
@@ -219,7 +219,7 @@
           "amount": 496743016.41
         }
       ],
-      "research_momentum": 14.7,
+      "research_momentum": 14.64,
       "activate_presence": 0.182
     },
     {
@@ -293,7 +293,7 @@
           "amount": 18538853.0
         }
       ],
-      "research_momentum": 4.15,
+      "research_momentum": 4.14,
       "activate_presence": 0.17
     },
     {
@@ -335,7 +335,7 @@
     },
     {
       "vertical": "Energy Storage & Batteries",
-      "federal_total": 1514191072,
+      "federal_total": 1514441072,
       "federal_by_year": {
         "2016": 21772148,
         "2017": 7733358,
@@ -346,7 +346,7 @@
         "2022": 20857614,
         "2023": 623415751,
         "2024": 50329882,
-        "2025": 685304147
+        "2025": 685554147
       },
       "federal_momentum": 15.34,
       "top_agencies": [
@@ -360,14 +360,14 @@
         },
         {
           "name": "Department of Defense",
-          "amount": 77672180.24
+          "amount": 77672180.12
         },
         {
           "name": "Department of Transportation",
-          "amount": 13925391.29
+          "amount": 14175391.29
         }
       ],
-      "research_momentum": 4.51,
+      "research_momentum": 4.49,
       "activate_presence": 0.114
     },
     {
@@ -513,7 +513,7 @@
           "amount": 198694141.0
         }
       ],
-      "research_momentum": 3.48,
+      "research_momentum": 3.47,
       "activate_presence": 0.085
     },
     {
@@ -550,17 +550,17 @@
           "amount": 15321112.0
         }
       ],
-      "research_momentum": 5.23,
+      "research_momentum": 5.22,
       "activate_presence": 0.068
     },
     {
       "vertical": "Space & Aeronautics",
-      "federal_total": 21332734377,
+      "federal_total": 21332724883,
       "federal_by_year": {
         "2016": 3377919894,
         "2017": 3907482577,
         "2018": 4122872097,
-        "2019": 2831231407,
+        "2019": 2831221912,
         "2020": 1407811904,
         "2021": 1766076128,
         "2022": 1581097669,
@@ -572,7 +572,7 @@
       "top_agencies": [
         {
           "name": "National Aeronautics and Space Administration",
-          "amount": 20436319093.37
+          "amount": 20436309598.76
         },
         {
           "name": "Department of Defense",
@@ -587,7 +587,7 @@
           "amount": 7948017.22
         }
       ],
-      "research_momentum": 2.09,
+      "research_momentum": 2.08,
       "activate_presence": 0.062
     }
   ],
@@ -616,7 +616,7 @@
       "Electronics & Connectivity": 161161665.89,
       "Energy Storage & Batteries": 8985164.76,
       "Water": 178843784.02,
-      "Space & Aeronautics": 20436319093.37
+      "Space & Aeronautics": 20436309598.76
     },
     "Department of Health and Human Services": {
       "Chemistry & Materials": 159281944.02,
@@ -642,11 +642,11 @@
       "Chemistry & Materials": 153562345.53,
       "Advanced Manufacturing & Robotics": 425817111.22,
       "Industrial Biotechnology": 49439575.36,
-      "Electronics & Connectivity": 6677203411.49,
+      "Electronics & Connectivity": 6677208571.49,
       "Computing": 1842677236.38,
       "Carbon Management / CO2e": 18538853.0,
       "Life Science": 7435038208.18,
-      "Energy Storage & Batteries": 77672180.24,
+      "Energy Storage & Batteries": 77672180.12,
       "Earth Resources": 65473836.4,
       "Water": 1041395464.55,
       "Space & Aeronautics": 741279635.95
@@ -711,7 +711,7 @@
       "Water": 182850000.0
     },
     "Department of Transportation": {
-      "Energy Storage & Batteries": 13925391.29,
+      "Energy Storage & Batteries": 14175391.29,
       "Built Environment": 2740000.0,
       "Energy Generation & Delivery": 114959222.59,
       "Transportation & Mobility": 64675222.92

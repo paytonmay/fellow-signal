@@ -4,48 +4,48 @@
     {
       "vertical": "Chemistry & Materials",
       "field_share_recent": 0.01049,
-      "field_momentum": 3.6,
+      "field_momentum": 3.59,
       "activate_presence_recent": 0.42,
       "activate_trajectory": 0.9
     },
     {
       "vertical": "Climate",
-      "field_share_recent": 0.01065,
-      "field_momentum": 4.16,
+      "field_share_recent": 0.01064,
+      "field_momentum": 4.15,
       "activate_presence_recent": 0.261,
       "activate_trajectory": 0.64
     },
     {
       "vertical": "Advanced Manufacturing & Robotics",
       "field_share_recent": 0.00111,
-      "field_momentum": 7.28,
+      "field_momentum": 7.26,
       "activate_presence_recent": 0.205,
       "activate_trajectory": 0.82
     },
     {
       "vertical": "Industrial Biotechnology",
       "field_share_recent": 0.00071,
-      "field_momentum": 3.07,
+      "field_momentum": 3.06,
       "activate_presence_recent": 0.182,
       "activate_trajectory": 0.97
     },
     {
       "vertical": "Electronics & Connectivity",
       "field_share_recent": 0.00033,
-      "field_momentum": 2.79,
+      "field_momentum": 2.78,
       "activate_presence_recent": 0.17,
       "activate_trajectory": 0.78
     },
     {
       "vertical": "Computing",
       "field_share_recent": 0.00169,
-      "field_momentum": 14.7,
+      "field_momentum": 14.64,
       "activate_presence_recent": 0.182,
       "activate_trajectory": 1.94
     },
     {
       "vertical": "Food & Agriculture",
-      "field_share_recent": 0.01098,
+      "field_share_recent": 0.01097,
       "field_momentum": 3.38,
       "activate_presence_recent": 0.176,
       "activate_trajectory": 2.82
@@ -53,7 +53,7 @@
     {
       "vertical": "Carbon Management / CO2e",
       "field_share_recent": 0.00219,
-      "field_momentum": 4.15,
+      "field_momentum": 4.14,
       "activate_presence_recent": 0.17,
       "activate_trajectory": 1.36
     },
@@ -67,7 +67,7 @@
     {
       "vertical": "Energy Storage & Batteries",
       "field_share_recent": 0.00144,
-      "field_momentum": 4.51,
+      "field_momentum": 4.49,
       "activate_presence_recent": 0.114,
       "activate_trajectory": 0.73
     },
@@ -95,21 +95,21 @@
     {
       "vertical": "Water",
       "field_share_recent": 0.00038,
-      "field_momentum": 3.48,
+      "field_momentum": 3.47,
       "activate_presence_recent": 0.085,
       "activate_trajectory": 2.73
     },
     {
       "vertical": "Transportation & Mobility",
       "field_share_recent": 0.00072,
-      "field_momentum": 5.23,
+      "field_momentum": 5.22,
       "activate_presence_recent": 0.068,
       "activate_trajectory": null
     },
     {
       "vertical": "Space & Aeronautics",
       "field_share_recent": 9e-05,
-      "field_momentum": 2.09,
+      "field_momentum": 2.08,
       "activate_presence_recent": 0.062,
       "activate_trajectory": null
     }
