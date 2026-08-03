@@ -802,7 +802,56 @@
   "Carbon Infuse": [
     {
       "name": "Diandian Zhao",
-      "resolved": false
+      "resolved": true,
+      "display_name": "Diandian Zhao",
+      "institution": "Columbia University",
+      "training_institution": "Shenzhen University",
+      "affiliations": [
+        {
+          "name": "Shenzhen University",
+          "type": "education",
+          "country": "CN",
+          "since": 2017
+        },
+        {
+          "name": "University of Calgary",
+          "type": "education",
+          "country": "CA",
+          "since": 2019
+        },
+        {
+          "name": "Earth Island Institute",
+          "type": "nonprofit",
+          "country": "US",
+          "since": 2021
+        },
+        {
+          "name": "Earth Science Institute of the Slovak Academy of Sciences",
+          "type": "facility",
+          "country": "SK",
+          "since": 2021
+        },
+        {
+          "name": "Columbia University",
+          "type": "education",
+          "country": "US",
+          "since": 2021
+        }
+      ],
+      "field": "Engineering",
+      "works_count": 19,
+      "cited_by_count": 822,
+      "h_index": 14,
+      "pre_founding_topics": [
+        "Concrete and Cement Materials Research",
+        "Concrete Corrosion and Durability",
+        "CO2 Sequestration and Geologic Interactions",
+        "Recycling and utilization of industrial and municipal waste in materials production",
+        "Calcium Carbonate Crystallization and Inhibition",
+        "Innovations in Concrete and Construction Materials"
+      ],
+      "first_pub_year": 2017,
+      "years_to_founding": 7
     }
   ],
   "COBI": [
@@ -4129,7 +4178,62 @@
   "Orien Energy": [
     {
       "name": "Yajing Zhao",
-      "resolved": false
+      "resolved": true,
+      "display_name": "Yajing Zhao",
+      "institution": "China University of Geosciences (Beijing)",
+      "training_institution": "The University of Texas at Dallas",
+      "affiliations": [
+        {
+          "name": "The University of Texas at Dallas",
+          "type": "education",
+          "country": "US",
+          "since": 2007
+        },
+        {
+          "name": "Yanshan University",
+          "type": "education",
+          "country": "CN",
+          "since": 2009
+        },
+        {
+          "name": "The University of Texas at Austin",
+          "type": "education",
+          "country": "US",
+          "since": 2009
+        },
+        {
+          "name": "Jilin University",
+          "type": "education",
+          "country": "CN",
+          "since": 2012
+        },
+        {
+          "name": "Tianjin University",
+          "type": "education",
+          "country": "CN",
+          "since": 2013
+        },
+        {
+          "name": "Beijing Institute of Graphic Communication",
+          "type": "education",
+          "country": "CN",
+          "since": 2014
+        }
+      ],
+      "field": "Computer Science",
+      "works_count": 119,
+      "cited_by_count": 3886,
+      "h_index": 32,
+      "pre_founding_topics": [
+        "Advanced Database Systems and Queries",
+        "Software Engineering Research",
+        "Biometric Identification and Security",
+        "Soil and Unsaturated Flow",
+        "Service-Oriented Architecture and Web Services",
+        "Classical Philosophy and Thought"
+      ],
+      "first_pub_year": 2007,
+      "years_to_founding": 15
     }
   ],
   "PseudolithIC": [
@@ -4570,7 +4674,62 @@
   "Sunchem": [
     {
       "name": "Daniel Sun",
-      "resolved": false
+      "resolved": true,
+      "display_name": "Daniel T. Sun",
+      "institution": "Sunset Laboratory (United States)",
+      "training_institution": "Berkeley College",
+      "affiliations": [
+        {
+          "name": "Berkeley College",
+          "type": "education",
+          "country": "US",
+          "since": 2015
+        },
+        {
+          "name": "Lawrence Berkeley National Laboratory",
+          "type": "facility",
+          "country": "US",
+          "since": 2015
+        },
+        {
+          "name": "Institut de Chimie",
+          "type": "facility",
+          "country": "FR",
+          "since": 2015
+        },
+        {
+          "name": "Foundry (United Kingdom)",
+          "type": "company",
+          "country": "GB",
+          "since": 2015
+        },
+        {
+          "name": "Molecular Foundry",
+          "type": "facility",
+          "country": null,
+          "since": 2015
+        },
+        {
+          "name": "École Polytechnique Fédérale de Lausanne",
+          "type": "education",
+          "country": "CH",
+          "since": 2016
+        }
+      ],
+      "field": "Chemistry",
+      "works_count": 35,
+      "cited_by_count": 2646,
+      "h_index": 22,
+      "pre_founding_topics": [
+        "Metal-Organic Frameworks: Synthesis and Applications",
+        "Membrane Separation and Gas Transport",
+        "Crystallization and Solubility Studies",
+        "X-ray Diffraction in Crystallography",
+        "Nanomaterials for catalytic reactions",
+        "Extraction and Separation Processes"
+      ],
+      "first_pub_year": 2015,
+      "years_to_founding": 7
     }
   ],
   "Tensora": [
@@ -5827,13 +5986,66 @@
     },
     {
       "name": "Cheri Ackerman Araromi",
-      "resolved": false
+      "resolved": true,
+      "display_name": "Cheri M. Ackerman Araromi",
+      "institution": "Helicos Biosciences (United States)",
+      "training_institution": "Helicos Biosciences (United States)",
+      "affiliations": [
+        {
+          "name": "Helicos Biosciences (United States)",
+          "type": "company",
+          "country": "US",
+          "since": 2026
+        }
+      ],
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "works_count": 1,
+      "cited_by_count": 0,
+      "h_index": 0,
+      "pre_founding_topics": [],
+      "first_pub_year": 2026,
+      "years_to_founding": -6
     }
   ],
   "Elmworks": [
     {
       "name": "Sam Calisch",
-      "resolved": false
+      "resolved": true,
+      "display_name": "Sam Calisch",
+      "institution": "Kavli Energy NanoScience Institute",
+      "training_institution": "Massachusetts Institute of Technology",
+      "affiliations": [
+        {
+          "name": "MIT-Harvard Center for Ultracold Atoms",
+          "type": "facility",
+          "country": "US",
+          "since": 2014
+        },
+        {
+          "name": "Massachusetts Institute of Technology",
+          "type": "education",
+          "country": "US",
+          "since": 2014
+        },
+        {
+          "name": "Kavli Energy NanoScience Institute",
+          "type": "facility",
+          "country": "US",
+          "since": 2025
+        }
+      ],
+      "field": "Engineering",
+      "works_count": 8,
+      "cited_by_count": 434,
+      "h_index": 4,
+      "pre_founding_topics": [
+        "Advanced Materials and Mechanics",
+        "Cellular and Composite Structures",
+        "Modular Robots and Swarm Intelligence",
+        "Biomimetic flight and propulsion mechanisms"
+      ],
+      "first_pub_year": 2014,
+      "years_to_founding": 6
     }
   ],
   "GigaCrop": [
@@ -5851,7 +6063,50 @@
   "METAseismic": [
     {
       "name": "Noemi Bonessio",
-      "resolved": false
+      "resolved": true,
+      "display_name": "Noemi Bonessio",
+      "institution": null,
+      "training_institution": "Sapienza University of Rome",
+      "affiliations": [
+        {
+          "name": "Sapienza University of Rome",
+          "type": "education",
+          "country": "IT",
+          "since": 2010
+        },
+        {
+          "name": "University of California San Diego",
+          "type": "education",
+          "country": "US",
+          "since": 2011
+        },
+        {
+          "name": "University of California, Irvine",
+          "type": "education",
+          "country": "US",
+          "since": 2016
+        },
+        {
+          "name": "Irvine University",
+          "type": "education",
+          "country": "US",
+          "since": 2016
+        }
+      ],
+      "field": "Engineering",
+      "works_count": 13,
+      "cited_by_count": 268,
+      "h_index": 6,
+      "pre_founding_topics": [
+        "Seismic Performance and Analysis",
+        "Structural Health Monitoring Techniques",
+        "Probabilistic and Robust Engineering Design",
+        "Geodetic Measurements and Engineering Structures",
+        "Structural Behavior of Reinforced Concrete",
+        "Endodontics and Root Canal Treatments"
+      ],
+      "first_pub_year": 2010,
+      "years_to_founding": 10
     }
   ],
   "Nitricity": [
@@ -5861,37 +6116,314 @@
     },
     {
       "name": "Jay Schwalbe",
-      "resolved": false
+      "resolved": true,
+      "display_name": "Jay A. Schwalbe",
+      "institution": "Franciscan University of Steubenville",
+      "training_institution": "University of Wisconsin–La Crosse",
+      "affiliations": [
+        {
+          "name": "University of Wisconsin–La Crosse",
+          "type": "education",
+          "country": "US",
+          "since": 2003
+        },
+        {
+          "name": "Interface (United States)",
+          "type": "company",
+          "country": "US",
+          "since": 2016
+        },
+        {
+          "name": "Stanford University",
+          "type": "education",
+          "country": "US",
+          "since": 2016
+        },
+        {
+          "name": "Franciscan University of Steubenville",
+          "type": "education",
+          "country": "US",
+          "since": 2017
+        },
+        {
+          "name": "Shriram Institute for Industrial Research",
+          "type": "nonprofit",
+          "country": "IN",
+          "since": 2017
+        },
+        {
+          "name": "Stanford Medicine",
+          "type": "healthcare",
+          "country": "US",
+          "since": 2017
+        }
+      ],
+      "field": "Chemical Engineering",
+      "works_count": 22,
+      "cited_by_count": 4533,
+      "h_index": 12,
+      "pre_founding_topics": [
+        "Laser Design and Applications",
+        "Advanced Photocatalysis Techniques",
+        "Electrocatalysts for Energy Conversion",
+        "Gas Sensing Nanomaterials and Sensors",
+        "Ammonia Synthesis and Nitrogen Reduction",
+        "Catalytic Processes in Materials Science"
+      ],
+      "first_pub_year": 2003,
+      "years_to_founding": 17
     }
   ],
   "Radical Plastics": [
     {
       "name": "Kristin Taylor",
-      "resolved": false
+      "resolved": true,
+      "display_name": "Kristin M. Taylor",
+      "institution": null,
+      "training_institution": "Texas A&M University System",
+      "affiliations": [
+        {
+          "name": "Texas A&M University System",
+          "type": "education",
+          "country": "US",
+          "since": 1999
+        },
+        {
+          "name": "Texas A&M University",
+          "type": "education",
+          "country": "US",
+          "since": 2000
+        },
+        {
+          "name": "NatureServe",
+          "type": "nonprofit",
+          "country": "US",
+          "since": 2003
+        },
+        {
+          "name": "Framingham State University",
+          "type": "education",
+          "country": "US",
+          "since": 2011
+        },
+        {
+          "name": "SynZyme Technologies (United States)",
+          "type": "company",
+          "country": "US",
+          "since": 2014
+        }
+      ],
+      "field": "Agricultural and Biological Sciences",
+      "works_count": 24,
+      "cited_by_count": 1625,
+      "h_index": 17,
+      "pre_founding_topics": [
+        "Reproductive Physiology in Livestock",
+        "Reproductive System and Pregnancy",
+        "Bone and Dental Protein Studies",
+        "Growth Hormone and Insulin-like Growth Factors",
+        "MicroRNA in disease regulation",
+        "Glutathione Transferases and Polymorphisms"
+      ],
+      "first_pub_year": 1999,
+      "years_to_founding": 21
     }
   ],
   "Resonant Link": [
     {
       "name": "Grayson Zulauf",
-      "resolved": false
+      "resolved": true,
+      "display_name": "Grayson Zulauf",
+      "institution": null,
+      "training_institution": "Dartmouth College",
+      "affiliations": [
+        {
+          "name": "Dartmouth College",
+          "type": "education",
+          "country": "US",
+          "since": 2013
+        },
+        {
+          "name": "Dartmouth Hospital",
+          "type": "healthcare",
+          "country": "GB",
+          "since": 2013
+        },
+        {
+          "name": "Motion Control (United States)",
+          "type": "company",
+          "country": "US",
+          "since": 2015
+        },
+        {
+          "name": "Stanford University",
+          "type": "education",
+          "country": "US",
+          "since": 2017
+        },
+        {
+          "name": "ETH Zurich",
+          "type": "education",
+          "country": "CH",
+          "since": 2019
+        },
+        {
+          "name": "Lawrence Berkeley National Laboratory",
+          "type": "facility",
+          "country": "US",
+          "since": 2020
+        }
+      ],
+      "field": "Engineering",
+      "works_count": 37,
+      "cited_by_count": 1310,
+      "h_index": 18,
+      "pre_founding_topics": [
+        "Nanoparticle-Based Drug Delivery",
+        "Advanced Battery Technologies Research",
+        "Advanced DC-DC Converters",
+        "Silicon Carbide Semiconductor Technologies",
+        "GaN-based semiconductor devices and materials",
+        "Radio Frequency Integrated Circuit Design"
+      ],
+      "first_pub_year": 2013,
+      "years_to_founding": 7
     }
   ],
   "ReSource": [
     {
       "name": "Aanindeeta Banerjee",
-      "resolved": false
+      "resolved": true,
+      "display_name": "Aanindeeta Banerjee",
+      "institution": "Stanford University",
+      "training_institution": "Stanford University",
+      "affiliations": [
+        {
+          "name": "Stanford University",
+          "type": "education",
+          "country": "US",
+          "since": 2016
+        },
+        {
+          "name": "Stanford Medicine",
+          "type": "healthcare",
+          "country": "US",
+          "since": 2017
+        }
+      ],
+      "field": "Chemical Engineering",
+      "works_count": 3,
+      "cited_by_count": 613,
+      "h_index": 3,
+      "pre_founding_topics": [
+        "Carbon dioxide utilization in catalysis"
+      ],
+      "first_pub_year": 2016,
+      "years_to_founding": 4
     }
   ],
   "SiTration": [
     {
       "name": "Brendan Smith",
-      "resolved": false
+      "resolved": true,
+      "display_name": "Brendan Smith",
+      "institution": "Dalhousie University",
+      "training_institution": "Imperial College London",
+      "affiliations": [
+        {
+          "name": "Yorkshire Cancer Research",
+          "type": "nonprofit",
+          "country": "GB",
+          "since": 1991
+        },
+        {
+          "name": "St James's University Hospital",
+          "type": "healthcare",
+          "country": "GB",
+          "since": 1991
+        },
+        {
+          "name": "Hammersmith Hospital",
+          "type": "healthcare",
+          "country": "GB",
+          "since": 1999
+        },
+        {
+          "name": "Charing Cross Hospital",
+          "type": "healthcare",
+          "country": "GB",
+          "since": 1999
+        },
+        {
+          "name": "Imperial College London",
+          "type": "education",
+          "country": "GB",
+          "since": 1999
+        },
+        {
+          "name": "Scripps Research Institute",
+          "type": "nonprofit",
+          "country": "US",
+          "since": 2003
+        }
+      ],
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "works_count": 77,
+      "cited_by_count": 2964,
+      "h_index": 24,
+      "pre_founding_topics": [
+        "Military Technology and Strategies",
+        "Melanoma and MAPK Pathways",
+        "Neuroblastoma Research and Treatments",
+        "Skin and Cellular Biology Research",
+        "Cancer Cells and Metastasis",
+        "Cancer Genomics and Diagnostics"
+      ],
+      "first_pub_year": 1962,
+      "years_to_founding": 58
     }
   ],
   "Sublime Systems": [
     {
       "name": "Leah Ellis",
-      "resolved": false
+      "resolved": true,
+      "display_name": "L. D. Ellis",
+      "institution": "University of Prince Edward Island",
+      "training_institution": "Dalhousie University",
+      "affiliations": [
+        {
+          "name": "Dalhousie University",
+          "type": "education",
+          "country": "CA",
+          "since": 2012
+        },
+        {
+          "name": "Massachusetts Institute of Technology",
+          "type": "education",
+          "country": "US",
+          "since": 2019
+        },
+        {
+          "name": "University of Prince Edward Island",
+          "type": "education",
+          "country": "CA",
+          "since": 2020
+        }
+      ],
+      "field": "Engineering",
+      "works_count": 37,
+      "cited_by_count": 2173,
+      "h_index": 24,
+      "pre_founding_topics": [
+        "History and advancements in chemistry",
+        "Surface and Thin Film Phenomena",
+        "Thermochemical Biomass Conversion Processes",
+        "Advanced Materials Characterization Techniques",
+        "Advancements in Battery Materials",
+        "Metallurgical and Alloy Processes"
+      ],
+      "first_pub_year": 1935,
+      "years_to_founding": 85
     }
   ],
   "Sync Computing": [
@@ -5913,21 +6445,199 @@
   "Zanskar": [
     {
       "name": "Carl Hoiland",
-      "resolved": false
+      "resolved": true,
+      "display_name": "Carl W. Hoiland",
+      "institution": null,
+      "training_institution": "Stanford University",
+      "affiliations": [
+        {
+          "name": "Stanford University",
+          "type": "education",
+          "country": "US",
+          "since": 2012
+        }
+      ],
+      "field": "Earth and Planetary Sciences",
+      "works_count": 26,
+      "cited_by_count": 295,
+      "h_index": 9,
+      "pre_founding_topics": [
+        "Geological and Geochemical Analysis",
+        "Geological Studies and Exploration",
+        "Geological and Geophysical Studies",
+        "3D Surveying and Cultural Heritage",
+        "Methane Hydrates and Related Phenomena",
+        "Ancient and Medieval Archaeology Studies"
+      ],
+      "first_pub_year": 2011,
+      "years_to_founding": 9
     },
     {
       "name": "Joel Edwards",
-      "resolved": false
+      "resolved": true,
+      "display_name": "Nancy Edwards",
+      "institution": "University of Auckland",
+      "training_institution": "University of Southern California",
+      "affiliations": [
+        {
+          "name": "University of Southern California",
+          "type": "education",
+          "country": "US",
+          "since": 1986
+        },
+        {
+          "name": "American Medical Research",
+          "type": "facility",
+          "country": "US",
+          "since": 1986
+        },
+        {
+          "name": "Los Angeles Medical Center",
+          "type": "healthcare",
+          "country": "US",
+          "since": 1986
+        },
+        {
+          "name": "Johns Hopkins University",
+          "type": "education",
+          "country": "US",
+          "since": 2001
+        },
+        {
+          "name": "University of California, Los Angeles",
+          "type": "education",
+          "country": "US",
+          "since": 2002
+        },
+        {
+          "name": "VA Greater Los Angeles Healthcare System",
+          "type": "healthcare",
+          "country": "US",
+          "since": 2002
+        }
+      ],
+      "field": "Medicine",
+      "works_count": 54,
+      "cited_by_count": 3175,
+      "h_index": 23,
+      "pre_founding_topics": [
+        "Breastfeeding Practices and Influences",
+        "Forensic Toxicology and Drug Analysis",
+        "Advanced Neuroimaging Techniques and Applications",
+        "PARP inhibition in cancer therapy",
+        "Neuroscience and Neuropharmacology Research",
+        "Neurotransmitter Receptor Influence on Behavior"
+      ],
+      "first_pub_year": 1986,
+      "years_to_founding": 34
     }
   ],
   "ZestBio": [
     {
       "name": "Luke Latimer",
-      "resolved": false
+      "resolved": true,
+      "display_name": "Luke N. Latimer",
+      "institution": "University of California, Berkeley",
+      "training_institution": "University of Washington",
+      "affiliations": [
+        {
+          "name": "University of Washington",
+          "type": "education",
+          "country": "US",
+          "since": 2012
+        },
+        {
+          "name": "Energy Biosciences Institute",
+          "type": "facility",
+          "country": "US",
+          "since": 2014
+        },
+        {
+          "name": "University of California, Berkeley",
+          "type": "education",
+          "country": "US",
+          "since": 2014
+        },
+        {
+          "name": "Seattle University",
+          "type": "education",
+          "country": "US",
+          "since": 2019
+        }
+      ],
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "works_count": 12,
+      "cited_by_count": 273,
+      "h_index": 6,
+      "pre_founding_topics": [
+        "Fluid Dynamics and Thin Films",
+        "Nonlinear Optical Materials Research",
+        "Biofuel production and bioconversion",
+        "Catalytic C–H Functionalization Methods",
+        "Microbial Metabolic Engineering and Bioproduction",
+        "Luminescence and Fluorescent Materials"
+      ],
+      "first_pub_year": 2010,
+      "years_to_founding": 10
     },
     {
       "name": "Ryan Protzko",
-      "resolved": false
+      "resolved": true,
+      "display_name": "Ryan J. Protzko",
+      "institution": "Kantar Health (United States)",
+      "training_institution": "Salisbury University",
+      "affiliations": [
+        {
+          "name": "Salisbury University",
+          "type": "education",
+          "country": "US",
+          "since": 2012
+        },
+        {
+          "name": "Johns Hopkins University",
+          "type": "education",
+          "country": "US",
+          "since": 2013
+        },
+        {
+          "name": "Johns Hopkins Medicine",
+          "type": "healthcare",
+          "country": "US",
+          "since": 2013
+        },
+        {
+          "name": "Energy Biosciences Institute",
+          "type": "facility",
+          "country": "US",
+          "since": 2014
+        },
+        {
+          "name": "University of California, Berkeley",
+          "type": "education",
+          "country": "US",
+          "since": 2014
+        },
+        {
+          "name": "Kantar Health (United States)",
+          "type": "company",
+          "country": "US",
+          "since": 2026
+        }
+      ],
+      "field": "Engineering",
+      "works_count": 13,
+      "cited_by_count": 1641,
+      "h_index": 8,
+      "pre_founding_topics": [
+        "Molecular Biology Techniques and Applications",
+        "Olfactory and Sensory Function Studies",
+        "Polysaccharides and Plant Cell Walls",
+        "Biochemical Analysis and Sensing Techniques",
+        "Microbial Metabolic Engineering and Bioproduction",
+        "Biofuel production and bioconversion"
+      ],
+      "first_pub_year": 2012,
+      "years_to_founding": 8
     }
   ],
   "Aralez Bio": [
@@ -5939,13 +6649,122 @@
   "Brimstone": [
     {
       "name": "Cody Finke",
-      "resolved": false
+      "resolved": true,
+      "display_name": "Cody Finke",
+      "institution": null,
+      "training_institution": "California Institute of Technology",
+      "affiliations": [
+        {
+          "name": "California Institute of Technology",
+          "type": "education",
+          "country": "US",
+          "since": 2014
+        },
+        {
+          "name": "Linde (United States)",
+          "type": "company",
+          "country": "US",
+          "since": 2016
+        },
+        {
+          "name": "Pasadena City College",
+          "type": "education",
+          "country": "US",
+          "since": 2018
+        },
+        {
+          "name": "University of Maryland Center for Environmental Science",
+          "type": "education",
+          "country": "US",
+          "since": 2018
+        },
+        {
+          "name": "Sustainability Institute",
+          "type": "nonprofit",
+          "country": "ZA",
+          "since": 2018
+        },
+        {
+          "name": "Resnick Sustainability Institute",
+          "type": "education",
+          "country": null,
+          "since": 2018
+        }
+      ],
+      "field": "Energy",
+      "works_count": 11,
+      "cited_by_count": 423,
+      "h_index": 3,
+      "pre_founding_topics": [
+        "Water Quality Monitoring Technologies",
+        "Recycling and Waste Management Techniques",
+        "Water Treatment and Disinfection",
+        "Electrochemical Analysis and Applications",
+        "Electrocatalysts for Energy Conversion"
+      ],
+      "first_pub_year": 2014,
+      "years_to_founding": 5
     }
   ],
   "Cypris Materials": [
     {
       "name": "Ryan Pearson",
-      "resolved": false
+      "resolved": true,
+      "display_name": "Ryan M. Pearson",
+      "institution": "University of Maryland, Baltimore",
+      "training_institution": "Illinois Institute of Technology",
+      "affiliations": [
+        {
+          "name": "Hannah Research Foundation",
+          "type": "facility",
+          "country": "GB",
+          "since": 1943
+        },
+        {
+          "name": "IIT Research Institute",
+          "type": "nonprofit",
+          "country": "US",
+          "since": 1960
+        },
+        {
+          "name": "Illinois Institute of Technology",
+          "type": "education",
+          "country": "US",
+          "since": 1960
+        },
+        {
+          "name": "3M (United States)",
+          "type": "company",
+          "country": "US",
+          "since": 1993
+        },
+        {
+          "name": "University of California, Berkeley",
+          "type": "education",
+          "country": "US",
+          "since": 1993
+        },
+        {
+          "name": "University of Illinois Chicago",
+          "type": "education",
+          "country": "US",
+          "since": 2009
+        }
+      ],
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "works_count": 97,
+      "cited_by_count": 4549,
+      "h_index": 39,
+      "pre_founding_topics": [
+        "Ruminant Nutrition and Digestive Physiology",
+        "Photopolymerization techniques and applications",
+        "Thermal and Kinetic Analysis",
+        "Graphene and Nanomaterials Applications",
+        "Lipid Membrane Structure and Behavior",
+        "Advanced Polymer Synthesis and Characterization"
+      ],
+      "first_pub_year": 1943,
+      "years_to_founding": 76
     },
     {
       "name": "Matthew Ryan",
@@ -5955,51 +6774,384 @@
   "InchFab": [
     {
       "name": "Mitchell Hsing",
-      "resolved": false
+      "resolved": true,
+      "display_name": "Mitchell Hsing",
+      "institution": null,
+      "training_institution": "Massachusetts Institute of Technology",
+      "affiliations": [
+        {
+          "name": "Massachusetts Institute of Technology",
+          "type": "education",
+          "country": "US",
+          "since": 2015
+        }
+      ],
+      "field": "Engineering",
+      "works_count": 6,
+      "cited_by_count": 85,
+      "h_index": 3,
+      "pre_founding_topics": [
+        "Plasma Diagnostics and Applications",
+        "Semiconductor materials and devices",
+        "Wireless Power Transfer Systems",
+        "Metal and Thin Film Mechanics"
+      ],
+      "first_pub_year": 2014,
+      "years_to_founding": 5
     },
     {
       "name": "Parker Gould",
-      "resolved": false
+      "resolved": true,
+      "display_name": "Parker Gould",
+      "institution": null,
+      "training_institution": "Massachusetts Institute of Technology",
+      "affiliations": [
+        {
+          "name": "Massachusetts Institute of Technology",
+          "type": "education",
+          "country": "US",
+          "since": 2015
+        }
+      ],
+      "field": "Engineering",
+      "works_count": 6,
+      "cited_by_count": 85,
+      "h_index": 3,
+      "pre_founding_topics": [
+        "Plasma Diagnostics and Applications",
+        "Semiconductor materials and devices",
+        "Wireless Power Transfer Systems",
+        "Metal and Thin Film Mechanics"
+      ],
+      "first_pub_year": 2014,
+      "years_to_founding": 5
     }
   ],
   "Perceptra Technologies": [
     {
       "name": "Amir Atabaki",
-      "resolved": false
+      "resolved": true,
+      "display_name": "Amir H. Atabaki",
+      "institution": "Iranian Research Organization for Science and Technology",
+      "training_institution": "Sharif University of Technology",
+      "affiliations": [
+        {
+          "name": "Sharif University of Technology",
+          "type": "education",
+          "country": "IR",
+          "since": 2004
+        },
+        {
+          "name": "Georgia Institute of Technology",
+          "type": "education",
+          "country": "US",
+          "since": 2007
+        },
+        {
+          "name": "Massachusetts Institute of Technology",
+          "type": "education",
+          "country": "US",
+          "since": 2014
+        },
+        {
+          "name": "University of California, Berkeley",
+          "type": "education",
+          "country": "US",
+          "since": 2017
+        },
+        {
+          "name": "Cambridge Electronics (United States)",
+          "type": "company",
+          "country": "US",
+          "since": 2021
+        },
+        {
+          "name": "Shahid Beheshti University of Medical Sciences",
+          "type": "education",
+          "country": "IR",
+          "since": 2021
+        }
+      ],
+      "field": "Engineering",
+      "works_count": 105,
+      "cited_by_count": 3963,
+      "h_index": 21,
+      "pre_founding_topics": [
+        "Microwave Imaging and Scattering Analysis",
+        "Photonic Crystals and Applications",
+        "Photonic and Optical Devices",
+        "Advanced Photonic Communication Systems",
+        "Nanofabrication and Lithography Techniques",
+        "Magneto-Optical Properties and Applications"
+      ],
+      "first_pub_year": 2004,
+      "years_to_founding": 15
     }
   ],
   "Reveel": [
     {
       "name": "Raj Bhakta",
-      "resolved": false
+      "resolved": true,
+      "display_name": "Raj Bhakta",
+      "institution": null,
+      "training_institution": "New Mexico Institute of Mining and Technology",
+      "affiliations": [
+        {
+          "name": "New Mexico Institute of Mining and Technology",
+          "type": "education",
+          "country": "US",
+          "since": 2016
+        },
+        {
+          "name": "North Carolina State University",
+          "type": "education",
+          "country": "US",
+          "since": 2017
+        },
+        {
+          "name": "North Central State College",
+          "type": "education",
+          "country": "US",
+          "since": 2020
+        }
+      ],
+      "field": "Engineering",
+      "works_count": 13,
+      "cited_by_count": 48,
+      "h_index": 2,
+      "pre_founding_topics": [
+        "Luminescence and Fluorescent Materials",
+        "Characterization and Applications of Magnetic Nanoparticles",
+        "Flow Measurement and Analysis",
+        "Quantum Mechanics and Applications",
+        "High-Velocity Impact and Material Behavior",
+        "Advanced Sensor and Energy Harvesting Materials"
+      ],
+      "first_pub_year": 2016,
+      "years_to_founding": 3
     }
   ],
   "SkyGig": [
     {
       "name": "Armin Jam",
-      "resolved": false
+      "resolved": true,
+      "display_name": "Armin Jam",
+      "institution": "University of Michigan",
+      "training_institution": "University of Michigan",
+      "affiliations": [
+        {
+          "name": "Iranian National Institute for Oceanography and Atmospheric Science",
+          "type": "facility",
+          "country": "IR",
+          "since": 2011
+        },
+        {
+          "name": "University of Michigan",
+          "type": "education",
+          "country": "US",
+          "since": 2013
+        }
+      ],
+      "field": "Engineering",
+      "works_count": 16,
+      "cited_by_count": 166,
+      "h_index": 6,
+      "pre_founding_topics": [
+        "Reproductive biology and impacts on aquatic species",
+        "Marine Ecology and Invasive Species",
+        "Aquatic Invertebrate Ecology and Behavior",
+        "Microwave and Dielectric Measurement Techniques",
+        "Microwave Engineering and Waveguides",
+        "Terahertz technology and applications"
+      ],
+      "first_pub_year": 2011,
+      "years_to_founding": 8
     },
     {
       "name": "Avish Kosari",
-      "resolved": false
+      "resolved": true,
+      "display_name": "Avish Kosari",
+      "institution": "University of Michigan",
+      "training_institution": "University of Michigan",
+      "affiliations": [
+        {
+          "name": "University of Michigan",
+          "type": "education",
+          "country": "US",
+          "since": 2017
+        }
+      ],
+      "field": "Engineering",
+      "works_count": 6,
+      "cited_by_count": 102,
+      "h_index": 5,
+      "pre_founding_topics": [
+        "Energy Harvesting in Wireless Networks",
+        "Radio Frequency Integrated Circuit Design",
+        "Analog and Mixed-Signal Circuit Design",
+        "IoT Networks and Protocols"
+      ],
+      "first_pub_year": 2017,
+      "years_to_founding": 2
     }
   ],
   "Synopic": [
     {
       "name": "Jesse Adams",
-      "resolved": false
+      "resolved": true,
+      "display_name": "Jesse E. Adams",
+      "institution": null,
+      "training_institution": "University of Kentucky",
+      "affiliations": [
+        {
+          "name": "Woman's Hospital",
+          "type": "healthcare",
+          "country": "US",
+          "since": 1925
+        },
+        {
+          "name": "Kentucky Department of Education",
+          "type": "government",
+          "country": "US",
+          "since": 1945
+        },
+        {
+          "name": "University of Kentucky",
+          "type": "education",
+          "country": "US",
+          "since": 1945
+        },
+        {
+          "name": "Lafayette School Corporation",
+          "type": "education",
+          "country": "US",
+          "since": 1954
+        },
+        {
+          "name": "Vanderbilt University",
+          "type": "education",
+          "country": "US",
+          "since": 1958
+        },
+        {
+          "name": "Washington University in St. Louis",
+          "type": "education",
+          "country": "US",
+          "since": 1992
+        }
+      ],
+      "field": "Medicine",
+      "works_count": 46,
+      "cited_by_count": 3218,
+      "h_index": 18,
+      "pre_founding_topics": [
+        "Shoulder and Clavicle Injuries",
+        "Bone fractures and treatments",
+        "Abdominal Surgery and Complications",
+        "Diverse Education Studies and Reforms",
+        "Parental Involvement in Education",
+        "Education and Technology Integration"
+      ],
+      "first_pub_year": 1918,
+      "years_to_founding": 101
     }
   ],
   "terrafuse": [
     {
       "name": "Adrian Albert",
-      "resolved": false
+      "resolved": true,
+      "display_name": "Adrian Albert",
+      "institution": "Lawrence Berkeley National Laboratory",
+      "training_institution": "Stanford University",
+      "affiliations": [
+        {
+          "name": "Stanford University",
+          "type": "education",
+          "country": "US",
+          "since": 2011
+        },
+        {
+          "name": "Stanford Medicine",
+          "type": "healthcare",
+          "country": "US",
+          "since": 2014
+        },
+        {
+          "name": "Massachusetts Institute of Technology",
+          "type": "education",
+          "country": "US",
+          "since": 2017
+        },
+        {
+          "name": "Lawrence Berkeley National Laboratory",
+          "type": "facility",
+          "country": "US",
+          "since": 2018
+        },
+        {
+          "name": "Littelfuse (United States)",
+          "type": "company",
+          "country": "US",
+          "since": 2020
+        },
+        {
+          "name": "National Energy Research Scientific Computing Center",
+          "type": "facility",
+          "country": "US",
+          "since": 2021
+        }
+      ],
+      "field": "Engineering",
+      "works_count": 50,
+      "cited_by_count": 2583,
+      "h_index": 15,
+      "pre_founding_topics": [
+        "Chemistry and Stereochemistry Studies",
+        "Biomedical Text Mining and Ontologies",
+        "Coastal and Marine Management",
+        "Smart Grid Energy Management",
+        "Behavioral Health and Interventions",
+        "Urban and Freight Transport Logistics"
+      ],
+      "first_pub_year": 1939,
+      "years_to_founding": 80
     }
   ],
   "ActiveMEMS": [
     {
       "name": "Erkan Aktakka",
-      "resolved": false
+      "resolved": true,
+      "display_name": "Ethem Erkan Aktakka",
+      "institution": null,
+      "training_institution": "University of Michigan",
+      "affiliations": [
+        {
+          "name": "University of Michigan",
+          "type": "education",
+          "country": "US",
+          "since": 2008
+        },
+        {
+          "name": "University of Padua",
+          "type": "education",
+          "country": "IT",
+          "since": 2018
+        }
+      ],
+      "field": "Engineering",
+      "works_count": 31,
+      "cited_by_count": 1007,
+      "h_index": 16,
+      "pre_founding_topics": [
+        "Hemiptera Insect Studies",
+        "Advanced MEMS and NEMS Technologies",
+        "Innovative Energy Harvesting Technologies",
+        "Insect Pheromone Research and Control",
+        "Adhesion, Friction, and Surface Interactions",
+        "Ferroelectric and Piezoelectric Materials"
+      ],
+      "first_pub_year": 2008,
+      "years_to_founding": 10
     }
   ],
   "Antora Energy": [
@@ -6009,7 +7161,62 @@
     },
     {
       "name": "Justin Briggs",
-      "resolved": false
+      "resolved": true,
+      "display_name": "Justin A. Briggs",
+      "institution": "Energy Storage Systems (United States)",
+      "training_institution": "Stanford University",
+      "affiliations": [
+        {
+          "name": "Stanford University",
+          "type": "education",
+          "country": "US",
+          "since": 2013
+        },
+        {
+          "name": "Rice University",
+          "type": "education",
+          "country": "US",
+          "since": 2017
+        },
+        {
+          "name": "United States Department of Energy",
+          "type": "government",
+          "country": "US",
+          "since": 2021
+        },
+        {
+          "name": "University of Sheffield",
+          "type": "education",
+          "country": "GB",
+          "since": 2021
+        },
+        {
+          "name": "Panorama Research (United States)",
+          "type": "company",
+          "country": "US",
+          "since": 2022
+        },
+        {
+          "name": "Energy Storage Systems (United States)",
+          "type": "company",
+          "country": "US",
+          "since": 2024
+        }
+      ],
+      "field": "Engineering",
+      "works_count": 20,
+      "cited_by_count": 613,
+      "h_index": 9,
+      "pre_founding_topics": [
+        "Cardiovascular Effects of Exercise",
+        "Multilingual Education and Policy",
+        "solar cell performance optimization",
+        "Advanced Semiconductor Detectors and Materials",
+        "Plasmonic and Surface Plasmon Research",
+        "GaN-based semiconductor devices and materials"
+      ],
+      "first_pub_year": 2003,
+      "years_to_founding": 15
     },
     {
       "name": "Andrew Ponec",
@@ -6025,17 +7232,137 @@
   "Fervo Energy": [
     {
       "name": "Tim Latimer",
-      "resolved": false
+      "resolved": true,
+      "display_name": "Tim Latimer",
+      "institution": "Houston Fertility Institute",
+      "training_institution": "Houston Fertility Institute",
+      "affiliations": [
+        {
+          "name": "Houston Fertility Institute",
+          "type": "healthcare",
+          "country": "US",
+          "since": 2025
+        }
+      ],
+      "field": "Earth and Planetary Sciences",
+      "works_count": 1,
+      "cited_by_count": 3,
+      "h_index": 1,
+      "pre_founding_topics": [],
+      "first_pub_year": 2025,
+      "years_to_founding": -7
     },
     {
       "name": "Jack Norbeck",
-      "resolved": false
+      "resolved": true,
+      "display_name": "Jack Norbeck",
+      "institution": "Houston Fertility Institute",
+      "training_institution": "Colorado School of Mines",
+      "affiliations": [
+        {
+          "name": "Colorado School of Mines",
+          "type": "education",
+          "country": "US",
+          "since": 2012
+        },
+        {
+          "name": "Shell (Netherlands)",
+          "type": "company",
+          "country": "NL",
+          "since": 2012
+        },
+        {
+          "name": "Stanford University",
+          "type": "education",
+          "country": "US",
+          "since": 2015
+        },
+        {
+          "name": "Pacific Northwest National Laboratory",
+          "type": "facility",
+          "country": "US",
+          "since": 2016
+        },
+        {
+          "name": "United States Geological Survey",
+          "type": "government",
+          "country": "US",
+          "since": 2017
+        },
+        {
+          "name": "Environmental and Water Resources Engineering",
+          "type": "other",
+          "country": "IL",
+          "since": 2017
+        }
+      ],
+      "field": "Energy",
+      "works_count": 45,
+      "cited_by_count": 955,
+      "h_index": 13,
+      "pre_founding_topics": [
+        "Hydraulic Fracturing and Reservoir Analysis",
+        "Seismic Imaging and Inversion Techniques",
+        "earthquake and tectonic studies",
+        "Seismology and Earthquake Studies",
+        "Reservoir Engineering and Simulation Methods",
+        "Geochemistry and Geologic Mapping"
+      ],
+      "first_pub_year": 2012,
+      "years_to_founding": 6
     }
   ],
   "Noble Thermodynamic Systems": [
     {
       "name": "Miguel Sierra Aznar",
-      "resolved": false
+      "resolved": true,
+      "display_name": "Miguel Sierra Aznar",
+      "institution": "European Thermodynamics (United Kingdom)",
+      "training_institution": "Berkeley College",
+      "affiliations": [
+        {
+          "name": "Berkeley College",
+          "type": "education",
+          "country": "US",
+          "since": 2017
+        },
+        {
+          "name": "University of California, Berkeley",
+          "type": "education",
+          "country": "US",
+          "since": 2017
+        },
+        {
+          "name": "Lawrence Berkeley National Laboratory",
+          "type": "facility",
+          "country": "US",
+          "since": 2018
+        },
+        {
+          "name": "European Thermodynamics (United Kingdom)",
+          "type": "company",
+          "country": "GB",
+          "since": 2024
+        },
+        {
+          "name": "CryoRay Coolers (United States)",
+          "type": "company",
+          "country": "US",
+          "since": 2024
+        }
+      ],
+      "field": "Chemical Engineering",
+      "works_count": 9,
+      "cited_by_count": 123,
+      "h_index": 6,
+      "pre_founding_topics": [
+        "Catalytic Processes in Materials Science",
+        "Advanced Combustion Engine Technologies",
+        "Combustion and flame dynamics",
+        "Carbon Dioxide Capture Technologies"
+      ],
+      "first_pub_year": 2017,
+      "years_to_founding": 1
     }
   ],
   "Noon Energy": [
@@ -6047,11 +7374,87 @@
   "Sonera": [
     {
       "name": "Dominic Labanowski",
-      "resolved": false
+      "resolved": true,
+      "display_name": "Dominic Labanowski",
+      "institution": null,
+      "training_institution": "The Ohio State University",
+      "affiliations": [
+        {
+          "name": "The Ohio State University",
+          "type": "education",
+          "country": "US",
+          "since": 2012
+        },
+        {
+          "name": "University of California, Berkeley",
+          "type": "education",
+          "country": "US",
+          "since": 2015
+        },
+        {
+          "name": "University of California, Los Angeles",
+          "type": "education",
+          "country": "US",
+          "since": 2017
+        }
+      ],
+      "field": "Physics and Astronomy",
+      "works_count": 22,
+      "cited_by_count": 629,
+      "h_index": 6,
+      "pre_founding_topics": [
+        "Magnetic properties of thin films",
+        "Theoretical and Computational Physics",
+        "Atomic and Subatomic Physics Research",
+        "Carbon Nanotubes in Composites",
+        "Quantum and electron transport phenomena",
+        "Advanced Measurement and Detection Methods"
+      ],
+      "first_pub_year": 2010,
+      "years_to_founding": 8
     },
     {
       "name": "Nishita Deka",
-      "resolved": false
+      "resolved": true,
+      "display_name": "Nishita Deka",
+      "institution": "University of California, Berkeley",
+      "training_institution": "University of Southern California",
+      "affiliations": [
+        {
+          "name": "University of Southern California",
+          "type": "education",
+          "country": "US",
+          "since": 2013
+        },
+        {
+          "name": "California Southern University",
+          "type": "education",
+          "country": "US",
+          "since": 2013
+        },
+        {
+          "name": "Southern States University",
+          "type": "education",
+          "country": "US",
+          "since": 2013
+        },
+        {
+          "name": "University of California, Berkeley",
+          "type": "education",
+          "country": "US",
+          "since": 2018
+        }
+      ],
+      "field": "Engineering",
+      "works_count": 7,
+      "cited_by_count": 47,
+      "h_index": 2,
+      "pre_founding_topics": [
+        "Photonic and Optical Devices",
+        "Semiconductor materials and devices"
+      ],
+      "first_pub_year": 2013,
+      "years_to_founding": 5
     }
   ],
   "Takachar": [

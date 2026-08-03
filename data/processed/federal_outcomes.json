@@ -1067,12 +1067,12 @@
     ]
   },
   "Soctera": {
-    "federal_total": 1455999,
+    "federal_total": 1743499,
     "federal_count": 2,
     "agencies": [
       {
         "name": "National Science Foundation",
-        "amount": 1455999
+        "amount": 1743499
       }
     ]
   },
@@ -1705,12 +1705,12 @@
     ]
   },
   "Mosaic Materials": {
-    "federal_total": 2790538,
+    "federal_total": 1564228,
     "federal_count": 4,
     "agencies": [
       {
         "name": "Department of Energy",
-        "amount": 2790538
+        "amount": 1564228
       }
     ]
   },

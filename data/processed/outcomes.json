@@ -260,11 +260,19 @@
     "verticals": [
       "Energy Storage & Batteries"
     ],
-    "nsf_awards": [],
-    "nsf_total": 0,
-    "nsf_count": 0,
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "FLOWCELLUTIONS, INC",
+        "amount": 1554998,
+        "title": "SBIR Fast-Track: Electroanalytical State-of-charge and Chemical Composition Sensors for Redox Flow Batteries",
+        "date": "08/01/2026"
+      }
+    ],
+    "nsf_total": 1554998,
+    "nsf_count": 1,
     "edgar_formD": 0,
-    "has_outcome": false
+    "has_outcome": true
   },
   {
     "slug": "fourier",
@@ -278,7 +286,7 @@
     "nsf_awards": [],
     "nsf_total": 0,
     "nsf_count": 0,
-    "edgar_formD": 14,
+    "edgar_formD": 15,
     "has_outcome": true
   },
   {
@@ -1604,8 +1612,8 @@
     "nsf_awards": [],
     "nsf_total": 0,
     "nsf_count": 0,
-    "edgar_formD": 0,
-    "has_outcome": false
+    "edgar_formD": 7,
+    "has_outcome": true
   },
   {
     "slug": "arbon",
@@ -1822,7 +1830,7 @@
     "nsf_awards": [],
     "nsf_total": 0,
     "nsf_count": 0,
-    "edgar_formD": 306,
+    "edgar_formD": 309,
     "has_outcome": true
   },
   {
@@ -2086,7 +2094,7 @@
     ],
     "nsf_total": 1731999,
     "nsf_count": 1,
-    "edgar_formD": 528,
+    "edgar_formD": 530,
     "has_outcome": true
   },
   {
@@ -2411,8 +2419,8 @@
     "nsf_awards": [],
     "nsf_total": 0,
     "nsf_count": 0,
-    "edgar_formD": 0,
-    "has_outcome": false
+    "edgar_formD": 1,
+    "has_outcome": true
   },
   {
     "slug": "found-energy",
@@ -2427,8 +2435,8 @@
     "nsf_awards": [],
     "nsf_total": 0,
     "nsf_count": 0,
-    "edgar_formD": 0,
-    "has_outcome": false
+    "edgar_formD": 11,
+    "has_outcome": true
   },
   {
     "slug": "impact-cooling",
@@ -2821,8 +2829,8 @@
     "nsf_awards": [],
     "nsf_total": 0,
     "nsf_count": 0,
-    "edgar_formD": 0,
-    "has_outcome": false
+    "edgar_formD": 1,
+    "has_outcome": true
   },
   {
     "slug": "thermobionics",
@@ -3012,8 +3020,8 @@
     "nsf_awards": [],
     "nsf_total": 0,
     "nsf_count": 0,
-    "edgar_formD": 0,
-    "has_outcome": false
+    "edgar_formD": 2,
+    "has_outcome": true
   },
   {
     "slug": "enertia-microsystems",
@@ -3467,7 +3475,7 @@
     ],
     "nsf_total": 224997,
     "nsf_count": 1,
-    "edgar_formD": 0,
+    "edgar_formD": 3,
     "has_outcome": true
   },
   {
@@ -3483,8 +3491,8 @@
     "nsf_awards": [],
     "nsf_total": 0,
     "nsf_count": 0,
-    "edgar_formD": 0,
-    "has_outcome": false
+    "edgar_formD": 1890,
+    "has_outcome": true
   },
   {
     "slug": "sitration",
@@ -3569,8 +3577,8 @@
     "nsf_awards": [],
     "nsf_total": 0,
     "nsf_count": 0,
-    "edgar_formD": 0,
-    "has_outcome": false
+    "edgar_formD": 1,
+    "has_outcome": true
   },
   {
     "slug": "zestbio",
@@ -3640,7 +3648,7 @@
     ],
     "nsf_total": 256000,
     "nsf_count": 1,
-    "edgar_formD": 6,
+    "edgar_formD": 7,
     "has_outcome": true
   },
   {
@@ -4003,11 +4011,19 @@
       "Food & Agriculture",
       "Carbon Management / CO2e"
     ],
-    "nsf_awards": [],
-    "nsf_total": 0,
-    "nsf_count": 0,
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "Takachar Limited",
+        "amount": 305000,
+        "title": "SBIR Phase I: Physics-Informed Control and Optimization of Thermochemical Reactor Arrays",
+        "date": "07/15/2026"
+      }
+    ],
+    "nsf_total": 305000,
+    "nsf_count": 1,
     "edgar_formD": 0,
-    "has_outcome": false
+    "has_outcome": true
   },
   {
     "slug": "dauntless-io",
@@ -4036,7 +4052,7 @@
     "nsf_awards": [],
     "nsf_total": 0,
     "nsf_count": 0,
-    "edgar_formD": 35,
+    "edgar_formD": 36,
     "has_outcome": true
   },
   {
@@ -4236,7 +4252,7 @@
     "nsf_awards": [],
     "nsf_total": 0,
     "nsf_count": 0,
-    "edgar_formD": 268,
+    "edgar_formD": 270,
     "has_outcome": true
   },
   {
