@@ -7220,7 +7220,27 @@
     },
     {
       "name": "Andrew Ponec",
-      "resolved": false
+      "resolved": true,
+      "display_name": "Andrew J. Ponec",
+      "institution": null,
+      "training_institution": "Stanford University",
+      "affiliations": [
+        {
+          "name": "Stanford University",
+          "type": "education",
+          "country": "US",
+          "since": 2014
+        }
+      ],
+      "field": "Physics and Astronomy",
+      "works_count": 6,
+      "cited_by_count": 275,
+      "h_index": 5,
+      "pre_founding_topics": [
+        "Organic Electronics and Photovoltaics"
+      ],
+      "first_pub_year": 2014,
+      "years_to_founding": 4
     }
   ],
   "CinderBio": [
@@ -7460,7 +7480,62 @@
   "Takachar": [
     {
       "name": "Kevin Kung",
-      "resolved": false
+      "resolved": true,
+      "display_name": "Kevin S. Kung",
+      "institution": "University of British Columbia",
+      "training_institution": "University of Cambridge",
+      "affiliations": [
+        {
+          "name": "University of Cambridge",
+          "type": "education",
+          "country": "GB",
+          "since": 2011
+        },
+        {
+          "name": "Massachusetts Institute of Technology",
+          "type": "education",
+          "country": "US",
+          "since": 2012
+        },
+        {
+          "name": "University of Southern California",
+          "type": "education",
+          "country": "US",
+          "since": 2013
+        },
+        {
+          "name": "IIT@MIT",
+          "type": "facility",
+          "country": "US",
+          "since": 2018
+        },
+        {
+          "name": "Lawrence Berkeley National Laboratory",
+          "type": "facility",
+          "country": "US",
+          "since": 2019
+        },
+        {
+          "name": "University of British Columbia",
+          "type": "education",
+          "country": "CA",
+          "since": 2020
+        }
+      ],
+      "field": "Engineering",
+      "works_count": 30,
+      "cited_by_count": 2177,
+      "h_index": 15,
+      "pre_founding_topics": [
+        "Cellular Mechanics and Interactions",
+        "Cancer Cells and Metastasis",
+        "Digestive system and related health",
+        "Urban Transport and Accessibility",
+        "Human Mobility and Location-Based Analysis",
+        "Energy and Environment Impacts"
+      ],
+      "first_pub_year": 2011,
+      "years_to_founding": 7
     }
   ],
   "Dauntless.io": [
@@ -7472,35 +7547,308 @@
   "Gradient": [
     {
       "name": "Vince Romanin",
-      "resolved": false
+      "resolved": true,
+      "display_name": "Matthew D. Escarra",
+      "institution": "Tulane University",
+      "training_institution": "Rice University",
+      "affiliations": [
+        {
+          "name": "Rice University",
+          "type": "education",
+          "country": "US",
+          "since": 2005
+        },
+        {
+          "name": "Princeton University",
+          "type": "education",
+          "country": "US",
+          "since": 2009
+        },
+        {
+          "name": "Oregon State University",
+          "type": "education",
+          "country": "US",
+          "since": 2010
+        },
+        {
+          "name": "American Sentinel University",
+          "type": "education",
+          "country": "US",
+          "since": 2011
+        },
+        {
+          "name": "California Institute of Technology",
+          "type": "education",
+          "country": "US",
+          "since": 2012
+        },
+        {
+          "name": "Tulane University",
+          "type": "education",
+          "country": "US",
+          "since": 2013
+        }
+      ],
+      "field": "Engineering",
+      "works_count": 115,
+      "cited_by_count": 1433,
+      "h_index": 19,
+      "pre_founding_topics": [
+        "Terahertz technology and applications",
+        "Photonic and Optical Devices",
+        "Superconducting and THz Device Technology",
+        "Laser Design and Applications",
+        "Semiconductor Lasers and Optical Devices",
+        "Spectroscopy and Laser Applications"
+      ],
+      "first_pub_year": 2005,
+      "years_to_founding": 12
     }
   ],
   "Nelumbo": [
     {
       "name": "David Walther",
-      "resolved": false
+      "resolved": true,
+      "display_name": "David C. Walther",
+      "institution": "Chemnitz University of Technology",
+      "training_institution": "University of California, Berkeley",
+      "affiliations": [
+        {
+          "name": "Glenn Research Center",
+          "type": "facility",
+          "country": "US",
+          "since": 1996
+        },
+        {
+          "name": "University of California, Berkeley",
+          "type": "education",
+          "country": "US",
+          "since": 1996
+        },
+        {
+          "name": "Clausthal University of Technology",
+          "type": "education",
+          "country": "DE",
+          "since": 2004
+        },
+        {
+          "name": "Berkeley Geochronology Center",
+          "type": "nonprofit",
+          "country": "US",
+          "since": 2005
+        },
+        {
+          "name": "University of California, Irvine",
+          "type": "education",
+          "country": "US",
+          "since": 2005
+        },
+        {
+          "name": "Irvine University",
+          "type": "education",
+          "country": "US",
+          "since": 2005
+        }
+      ],
+      "field": "Engineering",
+      "works_count": 48,
+      "cited_by_count": 1266,
+      "h_index": 17,
+      "pre_founding_topics": [
+        "Fire dynamics and safety research",
+        "Simulation and Modeling Applications",
+        "Combustion and Detonation Processes",
+        "Copper Interconnects and Reliability",
+        "Combustion and flame dynamics",
+        "Atmospheric aerosols and clouds"
+      ],
+      "first_pub_year": 1996,
+      "years_to_founding": 21
     },
     {
       "name": "Lance Brockway",
-      "resolved": false
+      "resolved": true,
+      "display_name": "Lance Brockway",
+      "institution": null,
+      "training_institution": "Texas A&M University",
+      "affiliations": [
+        {
+          "name": "Texas A&M University",
+          "type": "education",
+          "country": "US",
+          "since": 2011
+        },
+        {
+          "name": "Mitchell Institute",
+          "type": "nonprofit",
+          "country": "US",
+          "since": 2012
+        },
+        {
+          "name": "Singapore-MIT Alliance for Research and Technology",
+          "type": "education",
+          "country": "SG",
+          "since": 2016
+        },
+        {
+          "name": "University of California, Berkeley",
+          "type": "education",
+          "country": "US",
+          "since": 2016
+        },
+        {
+          "name": "Menlo School",
+          "type": "education",
+          "country": "US",
+          "since": 2017
+        }
+      ],
+      "field": "Materials Science",
+      "works_count": 14,
+      "cited_by_count": 136,
+      "h_index": 8,
+      "pre_founding_topics": [
+        "Nanowire Synthesis and Applications",
+        "Advanced Thermoelectric Materials and Devices",
+        "Semiconductor materials and interfaces",
+        "Surface Modification and Superhydrophobicity"
+      ],
+      "first_pub_year": 2011,
+      "years_to_founding": 6
     }
   ],
   "Photia": [
     {
       "name": "Joe Geddes",
-      "resolved": false
+      "resolved": true,
+      "display_name": "Eric S Clarke",
+      "institution": "Idaho National Laboratory",
+      "training_institution": "Idaho National Laboratory",
+      "affiliations": [
+        {
+          "name": "Idaho National Laboratory",
+          "type": "facility",
+          "country": "US",
+          "since": 2020
+        }
+      ],
+      "field": "Physics and Astronomy",
+      "works_count": 7,
+      "cited_by_count": 36,
+      "h_index": 2,
+      "pre_founding_topics": [],
+      "first_pub_year": 2020,
+      "years_to_founding": -3
     }
   ],
   "Liminal Insights": [
     {
       "name": "Andrew Hsieh",
-      "resolved": false
+      "resolved": true,
+      "display_name": "Andrew Hsieh",
+      "institution": "Clinical Insights",
+      "training_institution": "Princeton University",
+      "affiliations": [
+        {
+          "name": "Princeton University",
+          "type": "education",
+          "country": "US",
+          "since": 2013
+        },
+        {
+          "name": "Princeton Public Schools",
+          "type": "education",
+          "country": "US",
+          "since": 2015
+        },
+        {
+          "name": "Department of Energy and Environment",
+          "type": "government",
+          "country": "US",
+          "since": 2015
+        },
+        {
+          "name": "Merck & Co., Inc., Rahway, NJ, USA (United States)",
+          "type": "company",
+          "country": "US",
+          "since": 2024
+        },
+        {
+          "name": "Clinical Insights",
+          "type": "facility",
+          "country": "US",
+          "since": 2026
+        }
+      ],
+      "field": "Engineering",
+      "works_count": 28,
+      "cited_by_count": 1050,
+      "h_index": 9,
+      "pre_founding_topics": [
+        "Graphene research and applications",
+        "Advancements in Battery Materials",
+        "Advanced Battery Technologies Research",
+        "Advanced battery technologies research",
+        "Nuclear Physics and Applications",
+        "Fuel Cells and Related Materials"
+      ],
+      "first_pub_year": 2013,
+      "years_to_founding": 3
     }
   ],
   "Mallinda Materials": [
     {
       "name": "Philip Taynton",
-      "resolved": false
+      "resolved": true,
+      "display_name": "Philip Taynton",
+      "institution": "Mallinckrodt (Ireland)",
+      "training_institution": "University of California, Santa Cruz",
+      "affiliations": [
+        {
+          "name": "Mallinckrodt (Ireland)",
+          "type": "company",
+          "country": "IE",
+          "since": 1900
+        },
+        {
+          "name": "University of California, Santa Cruz",
+          "type": "education",
+          "country": "US",
+          "since": 2007
+        },
+        {
+          "name": "University of Colorado Boulder",
+          "type": "education",
+          "country": "US",
+          "since": 2014
+        },
+        {
+          "name": "University of Colorado System",
+          "type": "education",
+          "country": "US",
+          "since": 2014
+        },
+        {
+          "name": "Pacific Northwest National Laboratory",
+          "type": "facility",
+          "country": "US",
+          "since": 2021
+        }
+      ],
+      "field": "Materials Science",
+      "works_count": 18,
+      "cited_by_count": 3360,
+      "h_index": 10,
+      "pre_founding_topics": [
+        "Natural Fiber Reinforced Composites",
+        "Asymmetric Synthesis and Catalysis",
+        "Polymer composites and self-healing",
+        "Covalent Organic Framework Applications",
+        "Advancements in Battery Materials",
+        "Fiber-reinforced polymer composites"
+      ],
+      "first_pub_year": 1900,
+      "years_to_founding": 116
     }
   ],
   "Sepion Technologies": [
@@ -7512,11 +7860,100 @@
   "Tandem PV": [
     {
       "name": "Colin Bailie",
-      "resolved": false
+      "resolved": true,
+      "display_name": "Colin D. Bailie",
+      "institution": null,
+      "training_institution": "Texas A&M University",
+      "affiliations": [
+        {
+          "name": "Texas A&M University",
+          "type": "education",
+          "country": "US",
+          "since": 2012
+        },
+        {
+          "name": "Stanford University",
+          "type": "education",
+          "country": "US",
+          "since": 2012
+        },
+        {
+          "name": "Stanford Medicine",
+          "type": "healthcare",
+          "country": "US",
+          "since": 2014
+        }
+      ],
+      "field": "Engineering",
+      "works_count": 22,
+      "cited_by_count": 6109,
+      "h_index": 13,
+      "pre_founding_topics": [
+        "TiO2 Photocatalysis and Solar Cells",
+        "Laser-Plasma Interactions and Diagnostics",
+        "Perovskite Materials and Applications"
+      ],
+      "first_pub_year": 2012,
+      "years_to_founding": 4
     },
     {
       "name": "Chris Eberspacher",
-      "resolved": false
+      "resolved": true,
+      "display_name": "C. Eberspächer",
+      "institution": "Newbury College",
+      "training_institution": "Stanford University",
+      "affiliations": [
+        {
+          "name": "Stanford University",
+          "type": "education",
+          "country": "US",
+          "since": 1985
+        },
+        {
+          "name": "Phillips Graduate Institute",
+          "type": "education",
+          "country": "US",
+          "since": 1988
+        },
+        {
+          "name": "Sensor Creations (United States)",
+          "type": "company",
+          "country": "US",
+          "since": 1989
+        },
+        {
+          "name": "Boeing (United States)",
+          "type": "company",
+          "country": "US",
+          "since": 1990
+        },
+        {
+          "name": "Siemens (Germany)",
+          "type": "company",
+          "country": "DE",
+          "since": 1991
+        },
+        {
+          "name": "Siemens (United States)",
+          "type": "company",
+          "country": "US",
+          "since": 1991
+        }
+      ],
+      "field": "Engineering",
+      "works_count": 49,
+      "cited_by_count": 693,
+      "h_index": 12,
+      "pre_founding_topics": [
+        "Semiconductor Quantum Structures and Devices",
+        "Chalcogenide Semiconductor Thin Films",
+        "Semiconductor materials and interfaces",
+        "ZnO doping and properties",
+        "solar cell performance optimization",
+        "Thin-Film Transistor Technologies"
+      ],
+      "first_pub_year": 1984,
+      "years_to_founding": 32
     }
   ],
   "Tierra Biosciences": [
@@ -7528,7 +7965,45 @@
   "CalWave": [
     {
       "name": "Marcus Lehmann",
-      "resolved": false
+      "resolved": true,
+      "display_name": "Marcus Lehmann",
+      "institution": "InertialWave (United States)",
+      "training_institution": "University of California, Berkeley",
+      "affiliations": [
+        {
+          "name": "Deutsches Zentrum für Luft- und Raumfahrt e. V. (DLR)",
+          "type": "facility",
+          "country": "DE",
+          "since": 2017
+        },
+        {
+          "name": "Ocean Power Technologies (United States)",
+          "type": "company",
+          "country": "US",
+          "since": 2017
+        },
+        {
+          "name": "University of California, Berkeley",
+          "type": "education",
+          "country": "US",
+          "since": 2017
+        },
+        {
+          "name": "InertialWave (United States)",
+          "type": "company",
+          "country": "US",
+          "since": 2024
+        }
+      ],
+      "field": "Engineering",
+      "works_count": 11,
+      "cited_by_count": 262,
+      "h_index": 3,
+      "pre_founding_topics": [
+        "Ocean Acidification Effects and Responses"
+      ],
+      "first_pub_year": 2015,
+      "years_to_founding": 0
     }
   ],
   "Mosaic Materials": [
@@ -7538,25 +8013,216 @@
     },
     {
       "name": "Steven Kaye",
-      "resolved": false
+      "resolved": true,
+      "display_name": "Steven S. Kaye",
+      "institution": "Wildcat Discovery Technologies (United States)",
+      "training_institution": "Yale University",
+      "affiliations": [
+        {
+          "name": "Yale University",
+          "type": "education",
+          "country": "US",
+          "since": 1976
+        },
+        {
+          "name": "Bristol Hospital",
+          "type": "healthcare",
+          "country": "US",
+          "since": 1997
+        },
+        {
+          "name": "UConn Health",
+          "type": "healthcare",
+          "country": "US",
+          "since": 1997
+        },
+        {
+          "name": "Massachusetts Institute of Technology",
+          "type": "education",
+          "country": "US",
+          "since": 2001
+        },
+        {
+          "name": "Sanofi (Mexico)",
+          "type": "company",
+          "country": "MX",
+          "since": 2005
+        },
+        {
+          "name": "University of California, Berkeley",
+          "type": "education",
+          "country": "US",
+          "since": 2005
+        }
+      ],
+      "field": "Chemistry",
+      "works_count": 29,
+      "cited_by_count": 4543,
+      "h_index": 15,
+      "pre_founding_topics": [
+        "Reliability and Agreement in Measurement",
+        "Carcinogens and Genotoxicity Assessment",
+        "Cardiac tumors and thrombi",
+        "Cyclization and Aryne Chemistry",
+        "Metal-Organic Frameworks: Synthesis and Applications",
+        "Mast cells and histamine"
+      ],
+      "first_pub_year": 1976,
+      "years_to_founding": 39
     }
   ],
   "PolySpectra": [
     {
       "name": "Raymond Weitekamp",
-      "resolved": false
+      "resolved": true,
+      "display_name": "Raymond A. Weitekamp",
+      "institution": "Dominican School of Philosophy and Theology",
+      "training_institution": "University of Pittsburgh at Bradford",
+      "affiliations": [
+        {
+          "name": "University of Pittsburgh at Bradford",
+          "type": "education",
+          "country": "US",
+          "since": 1977
+        },
+        {
+          "name": "California Institute of Technology",
+          "type": "education",
+          "country": "US",
+          "since": 2012
+        },
+        {
+          "name": "Dominican School of Philosophy and Theology",
+          "type": "education",
+          "country": "US",
+          "since": 2026
+        }
+      ],
+      "field": "Chemistry",
+      "works_count": 19,
+      "cited_by_count": 1372,
+      "h_index": 9,
+      "pre_founding_topics": [
+        "American Constitutional Law and Politics",
+        "Synthetic Organic Chemistry Methods",
+        "Photonic Crystals and Applications",
+        "Block Copolymer Self-Assembly",
+        "Mesoporous Materials and Catalysis",
+        "Diatoms and Algae Research"
+      ],
+      "first_pub_year": 1977,
+      "years_to_founding": 38
     }
   ],
   "Spark Thermionics": [
     {
       "name": "Jared Schwede",
-      "resolved": false
+      "resolved": true,
+      "display_name": "Jared Schwede",
+      "institution": "Institute of Thermophysics",
+      "training_institution": "Stanford University",
+      "affiliations": [
+        {
+          "name": "SLAC National Accelerator Laboratory",
+          "type": "facility",
+          "country": "US",
+          "since": 2010
+        },
+        {
+          "name": "Stanford University",
+          "type": "education",
+          "country": "US",
+          "since": 2010
+        },
+        {
+          "name": "Stanford Synchrotron Radiation Lightsource",
+          "type": "facility",
+          "country": "US",
+          "since": 2015
+        },
+        {
+          "name": "University of Pennsylvania",
+          "type": "education",
+          "country": "US",
+          "since": 2015
+        },
+        {
+          "name": "Lawrence Berkeley National Laboratory",
+          "type": "facility",
+          "country": "US",
+          "since": 2018
+        },
+        {
+          "name": "X Therma",
+          "type": "company",
+          "country": "US",
+          "since": 2019
+        }
+      ],
+      "field": "Engineering",
+      "works_count": 21,
+      "cited_by_count": 1039,
+      "h_index": 10,
+      "pre_founding_topics": [
+        "Thermal Radiation and Cooling Technologies",
+        "Photocathodes and Microchannel Plates",
+        "Chemical and Physical Properties of Materials",
+        "Graphene research and applications"
+      ],
+      "first_pub_year": 2010,
+      "years_to_founding": 5
     }
   ],
   "Twelve": [
     {
       "name": "Etosha Cave",
-      "resolved": false
+      "resolved": true,
+      "display_name": "Etosha R. Cave",
+      "institution": null,
+      "training_institution": "Stanford University",
+      "affiliations": [
+        {
+          "name": "Stanford University",
+          "type": "education",
+          "country": "US",
+          "since": 2011
+        },
+        {
+          "name": "Bepress (United States)",
+          "type": "company",
+          "country": "US",
+          "since": 2016
+        },
+        {
+          "name": "Opus 12 (United States)",
+          "type": "company",
+          "country": "US",
+          "since": 2017
+        },
+        {
+          "name": "Stanford Medicine",
+          "type": "healthcare",
+          "country": "US",
+          "since": 2017
+        },
+        {
+          "name": "SLAC National Accelerator Laboratory",
+          "type": "facility",
+          "country": "US",
+          "since": 2018
+        }
+      ],
+      "field": "Energy",
+      "works_count": 26,
+      "cited_by_count": 7919,
+      "h_index": 12,
+      "pre_founding_topics": [
+        "Earthquake and Disaster Impact Studies",
+        "CO2 Reduction Techniques and Catalysts",
+        "Fuel Cells and Related Materials"
+      ],
+      "first_pub_year": 1973,
+      "years_to_founding": 42
     }
   ],
   "Visolis": [

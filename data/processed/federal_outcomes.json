@@ -1212,12 +1212,12 @@
     "agencies": []
   },
   "Kano Therapeutics": {
-    "federal_total": 349952,
+    "federal_total": 1334233,
     "federal_count": 1,
     "agencies": [
       {
         "name": "Department of Health and Human Services",
-        "amount": 349952
+        "amount": 1334233
       }
     ]
   },
@@ -1560,12 +1560,12 @@
     "agencies": []
   },
   "Fervo Energy": {
-    "federal_total": 31322994,
+    "federal_total": 32098829,
     "federal_count": 6,
     "agencies": [
       {
         "name": "Department of Energy",
-        "amount": 31322994
+        "amount": 32098829
       }
     ]
   },

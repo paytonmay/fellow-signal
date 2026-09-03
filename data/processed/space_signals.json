@@ -34,12 +34,12 @@
           "amount": 157622127.93
         }
       ],
-      "research_momentum": 3.55,
+      "research_momentum": 3.4,
       "activate_presence": 0.42
     },
     {
       "vertical": "Climate",
-      "federal_total": 3368770476,
+      "federal_total": 3360660441,
       "federal_by_year": {
         "2016": 21104577,
         "2017": 22327794,
@@ -48,11 +48,11 @@
         "2020": 33021856,
         "2021": 65351129,
         "2022": 219732595,
-        "2023": 436395282,
-        "2024": 1623063559,
-        "2025": 904327261
+        "2023": 436555180,
+        "2024": 1622888626,
+        "2025": 896232261
       },
-      "federal_momentum": 36.64,
+      "federal_momentum": 36.55,
       "top_agencies": [
         {
           "name": "Department of Commerce",
@@ -71,12 +71,12 @@
           "amount": 314300858.22
         }
       ],
-      "research_momentum": 4.12,
+      "research_momentum": 3.94,
       "activate_presence": 0.261
     },
     {
       "vertical": "Advanced Manufacturing & Robotics",
-      "federal_total": 2864276384,
+      "federal_total": 2865334271,
       "federal_by_year": {
         "2016": 19343037,
         "2017": 43993077,
@@ -87,7 +87,7 @@
         "2022": 561199845,
         "2023": 391282843,
         "2024": 256717192,
-        "2025": 665551359
+        "2025": 666609246
       },
       "federal_momentum": 8.12,
       "top_agencies": [
@@ -108,18 +108,18 @@
           "amount": 457867436.16
         }
       ],
-      "research_momentum": 7.03,
+      "research_momentum": 6.74,
       "activate_presence": 0.205
     },
     {
       "vertical": "Industrial Biotechnology",
-      "federal_total": 1031431815,
+      "federal_total": 1031444705,
       "federal_by_year": {
         "2016": 22663989,
         "2017": 26850572,
         "2018": 22278755,
         "2019": 25963128,
-        "2020": 23460438,
+        "2020": 23473328,
         "2021": 79717165,
         "2022": 161604819,
         "2023": 188339468,
@@ -142,20 +142,20 @@
         },
         {
           "name": "Department of Defense",
-          "amount": 49426685.36
+          "amount": 49439575.36
         }
       ],
-      "research_momentum": 3.05,
+      "research_momentum": 2.92,
       "activate_presence": 0.182
     },
     {
       "vertical": "Electronics & Connectivity",
-      "federal_total": 9148555242,
+      "federal_total": 9148552970,
       "federal_by_year": {
         "2016": 278203017,
         "2017": 293594694,
         "2018": 511774058,
-        "2019": 443787989,
+        "2019": 443785717,
         "2020": 486745549,
         "2021": 796027068,
         "2022": 837500632,
@@ -182,12 +182,12 @@
           "amount": 341207377.37
         }
       ],
-      "research_momentum": 2.75,
+      "research_momentum": 2.64,
       "activate_presence": 0.17
     },
     {
       "vertical": "Computing",
-      "federal_total": 8440100631,
+      "federal_total": 8439758282,
       "federal_by_year": {
         "2016": 74402507,
         "2017": 58477763,
@@ -196,15 +196,15 @@
         "2020": 1096294602,
         "2021": 1073620013,
         "2022": 1344900177,
-        "2023": 1463616985,
+        "2023": 1463524636,
         "2024": 1488975118,
-        "2025": 1309301947
+        "2025": 1309051947
       },
       "federal_momentum": 8.45,
       "top_agencies": [
         {
           "name": "Department of Defense",
-          "amount": 1842767964.33
+          "amount": 1842517964.33
         },
         {
           "name": "National Science Foundation",
@@ -219,12 +219,12 @@
           "amount": 496743016.41
         }
       ],
-      "research_momentum": 14.41,
+      "research_momentum": 13.02,
       "activate_presence": 0.182
     },
     {
       "vertical": "Food & Agriculture",
-      "federal_total": 1722662233,
+      "federal_total": 1723040233,
       "federal_by_year": {
         "2016": 28061817,
         "2017": 40643547,
@@ -233,8 +233,8 @@
         "2020": 72428467,
         "2021": 56693589,
         "2022": 114328260,
-        "2023": 381908298,
-        "2024": 251116708,
+        "2023": 382018298,
+        "2024": 251384708,
         "2025": 632263575
       },
       "federal_momentum": 6.45,
@@ -256,7 +256,7 @@
           "amount": 124510709.0
         }
       ],
-      "research_momentum": 3.34,
+      "research_momentum": 3.22,
       "activate_presence": 0.176
     },
     {
@@ -293,12 +293,12 @@
           "amount": 18538853.0
         }
       ],
-      "research_momentum": 4.09,
+      "research_momentum": 3.76,
       "activate_presence": 0.17
     },
     {
       "vertical": "Life Science",
-      "federal_total": 62504123038,
+      "federal_total": 62505098038,
       "federal_by_year": {
         "2016": 687346950,
         "2017": 724658670,
@@ -309,7 +309,7 @@
         "2022": 10709951996,
         "2023": 10756787332,
         "2024": 10494292820,
-        "2025": 10315160378
+        "2025": 10316135378
       },
       "federal_momentum": 13.62,
       "top_agencies": [
@@ -330,7 +330,7 @@
           "amount": 151551769.33
         }
       ],
-      "research_momentum": 3.28,
+      "research_momentum": 3.26,
       "activate_presence": 0.142
     },
     {
@@ -367,7 +367,7 @@
           "amount": 14175391.29
         }
       ],
-      "research_momentum": 4.48,
+      "research_momentum": 4.02,
       "activate_presence": 0.114
     },
     {
@@ -402,7 +402,7 @@
           "amount": 2740000.0
         }
       ],
-      "research_momentum": 2.93,
+      "research_momentum": 2.75,
       "activate_presence": 0.085
     },
     {
@@ -439,7 +439,7 @@
           "amount": 114959222.59
         }
       ],
-      "research_momentum": 3.57,
+      "research_momentum": 3.43,
       "activate_presence": 0.08
     },
     {
@@ -476,12 +476,12 @@
           "amount": 80386992.7
         }
       ],
-      "research_momentum": 3.52,
+      "research_momentum": 3.29,
       "activate_presence": 0.085
     },
     {
       "vertical": "Water",
-      "federal_total": 11266666563,
+      "federal_total": 11266765371,
       "federal_by_year": {
         "2016": 145388405,
         "2017": 338187960,
@@ -492,7 +492,7 @@
         "2022": 2204819530,
         "2023": 3239408478,
         "2024": 2613317138,
-        "2025": 1661024092
+        "2025": 1661122900
       },
       "federal_momentum": 9.12,
       "top_agencies": [
@@ -513,7 +513,7 @@
           "amount": 198694141.0
         }
       ],
-      "research_momentum": 3.45,
+      "research_momentum": 3.35,
       "activate_presence": 0.085
     },
     {
@@ -550,12 +550,12 @@
           "amount": 15321112.0
         }
       ],
-      "research_momentum": 5.17,
+      "research_momentum": 4.83,
       "activate_presence": 0.068
     },
     {
       "vertical": "Space & Aeronautics",
-      "federal_total": 21332724089,
+      "federal_total": 21332723639,
       "federal_by_year": {
         "2016": 3377919894,
         "2017": 3907482577,
@@ -565,14 +565,14 @@
         "2021": 1766076128,
         "2022": 1581097669,
         "2023": 1171522340,
-        "2024": 438569530,
+        "2024": 438569080,
         "2025": 728150036
       },
       "federal_momentum": 0.28,
       "top_agencies": [
         {
           "name": "National Aeronautics and Space Administration",
-          "amount": 20436308804.69
+          "amount": 20436308354.69
         },
         {
           "name": "Department of Defense",
@@ -587,7 +587,7 @@
           "amount": 7948017.22
         }
       ],
-      "research_momentum": 2.08,
+      "research_momentum": 1.88,
       "activate_presence": 0.062
     }
   ],
@@ -613,10 +613,10 @@
     "National Aeronautics and Space Administration": {
       "Chemistry & Materials": 202616068.78,
       "Industrial Biotechnology": 21654797.4,
-      "Electronics & Connectivity": 161161665.89,
+      "Electronics & Connectivity": 161159393.97,
       "Energy Storage & Batteries": 8985164.76,
       "Water": 178843784.02,
-      "Space & Aeronautics": 20436308804.69
+      "Space & Aeronautics": 20436308354.69
     },
     "Department of Health and Human Services": {
       "Chemistry & Materials": 159281944.02,
@@ -641,9 +641,9 @@
     "Department of Defense": {
       "Chemistry & Materials": 153562345.53,
       "Advanced Manufacturing & Robotics": 425817111.22,
-      "Industrial Biotechnology": 49426685.36,
+      "Industrial Biotechnology": 49439575.36,
       "Electronics & Connectivity": 6677203411.49,
-      "Computing": 1842767964.33,
+      "Computing": 1842517964.33,
       "Carbon Management / CO2e": 18538853.0,
       "Life Science": 7435038208.18,
       "Energy Storage & Batteries": 77672180.12,
@@ -684,16 +684,16 @@
       "Space & Aeronautics": 4599839.08
     },
     "Department of Agriculture": {
-      "Climate": 191762225.81,
+      "Climate": 183652190.81,
       "Industrial Biotechnology": 69743424.9,
       "Food & Agriculture": 933769583.71,
       "Carbon Management / CO2e": 7931366.36,
-      "Life Science": 142963078.51,
+      "Life Science": 143938078.51,
       "Energy Storage & Batteries": 2925262.33
     },
     "General Services Administration": {
       "Advanced Manufacturing & Robotics": 138803755.01,
-      "Computing": 413506712.3
+      "Computing": 413414363.8
     },
     "Department of Veterans Affairs": {
       "Computing": 479781685.64,
@@ -703,7 +703,7 @@
       "Food & Agriculture": 128462320.19
     },
     "Inter-American Foundation": {
-      "Food & Agriculture": 24303788.0
+      "Food & Agriculture": 24681788.0
     },
     "U.S. International Development Finance Corporation": {
       "Carbon Management / CO2e": 5946000.0,

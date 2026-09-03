@@ -127,13 +127,20 @@
       {
         "source": "NSF",
         "awardee": "CARBIDE RADIO INC",
+        "amount": 1250000,
+        "title": "SBIR Phase II: Silicon Carbide Radio Frequency Switches",
+        "date": "08/15/2026"
+      },
+      {
+        "source": "NSF",
+        "awardee": "CARBIDE RADIO INC",
         "amount": 275000,
         "title": "SBIR Phase I: Silicon Carbide Radio Frequency Switches",
         "date": "12/01/2023"
       }
     ],
-    "nsf_total": 275000,
-    "nsf_count": 1,
+    "nsf_total": 1525000,
+    "nsf_count": 2,
     "edgar_formD": 0,
     "has_outcome": true
   },
@@ -283,9 +290,17 @@
       "Chemistry & Materials",
       "Electronics & Connectivity"
     ],
-    "nsf_awards": [],
-    "nsf_total": 0,
-    "nsf_count": 0,
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "FOURIER LLC",
+        "amount": 312379,
+        "title": "SBIR Phase II: Thermoformable Technical Ceramics for Thermal Management Solutions - Scaled Manufacturing Viability",
+        "date": "09/01/2026"
+      }
+    ],
+    "nsf_total": 312379,
+    "nsf_count": 1,
     "edgar_formD": 15,
     "has_outcome": true
   },
@@ -375,7 +390,7 @@
     ],
     "nsf_total": 150000,
     "nsf_count": 1,
-    "edgar_formD": 49,
+    "edgar_formD": 51,
     "has_outcome": true
   },
   {
@@ -1178,13 +1193,20 @@
       {
         "source": "NSF",
         "awardee": "NEXTGLASS LLC",
+        "amount": 100000,
+        "title": "SBIR Phase II: Low-Cost, High-Performance, Vacuum Insulated Glass Window",
+        "date": "09/01/2026"
+      },
+      {
+        "source": "NSF",
+        "awardee": "NEXTGLASS LLC",
         "amount": 256000,
         "title": "SBIR Phase I:  Low-Cost, High-Performance, Vacuum Insulated Glass Window",
         "date": "08/01/2023"
       }
     ],
-    "nsf_total": 256000,
-    "nsf_count": 1,
+    "nsf_total": 356000,
+    "nsf_count": 2,
     "edgar_formD": 1,
     "has_outcome": true
   },
@@ -1830,7 +1852,7 @@
     "nsf_awards": [],
     "nsf_total": 0,
     "nsf_count": 0,
-    "edgar_formD": 309,
+    "edgar_formD": 311,
     "has_outcome": true
   },
   {
@@ -1949,13 +1971,20 @@
       {
         "source": "NSF",
         "awardee": "JUNO PROPULSION INC.",
+        "amount": 312500,
+        "title": "SBIR Phase II: Rotating Detonation Combustion Satellite Thruster Using Novel, Non-toxic Propellants",
+        "date": "09/01/2026"
+      },
+      {
+        "source": "NSF",
+        "awardee": "JUNO PROPULSION INC.",
         "amount": 274969,
         "title": "SBIR Phase I: Rotating Detonation Combustion Satellite Thruster Using Novel, Non-toxic Propellants",
         "date": "09/15/2024"
       }
     ],
-    "nsf_total": 274969,
-    "nsf_count": 1,
+    "nsf_total": 587469,
+    "nsf_count": 2,
     "edgar_formD": 0,
     "has_outcome": true
   },
@@ -2094,7 +2123,7 @@
     ],
     "nsf_total": 1731999,
     "nsf_count": 1,
-    "edgar_formD": 530,
+    "edgar_formD": 531,
     "has_outcome": true
   },
   {
@@ -2137,11 +2166,19 @@
       "Chemistry & Materials",
       "Industrial Biotechnology"
     ],
-    "nsf_awards": [],
-    "nsf_total": 0,
-    "nsf_count": 0,
+    "nsf_awards": [
+      {
+        "source": "NSF",
+        "awardee": "RARETERRA, INC.",
+        "amount": 303808,
+        "title": "SBIR Phase I: Assessing and Enhancing Microbiological Rare Earth Element Recovery for Domestic Production",
+        "date": "09/01/2026"
+      }
+    ],
+    "nsf_total": 303808,
+    "nsf_count": 1,
     "edgar_formD": 0,
-    "has_outcome": false
+    "has_outcome": true
   },
   {
     "slug": "reynko",
@@ -2320,13 +2357,20 @@
       {
         "source": "NSF",
         "awardee": "WESTWOOD AEROGEL CO.",
+        "amount": 1249955,
+        "title": "SBIR Phase II: Advanced Manufacturing for Aerogels for Battery Safety Applications",
+        "date": "08/15/2026"
+      },
+      {
+        "source": "NSF",
+        "awardee": "WESTWOOD AEROGEL CO.",
         "amount": 274855,
         "title": "SBIR Phase I:  Advanced Manufacturing for Aerogels for Low and Zero-Emission Applications",
         "date": "07/01/2024"
       }
     ],
-    "nsf_total": 274855,
-    "nsf_count": 1,
+    "nsf_total": 1524810,
+    "nsf_count": 2,
     "edgar_formD": 0,
     "has_outcome": true
   },
@@ -2344,13 +2388,20 @@
       {
         "source": "NSF",
         "awardee": "AEPNUS TECHNOLOGY INC",
+        "amount": 310240,
+        "title": "SBIR Phase II: Novel electrolyzer architectures to enable low-cost chemical manufacturing at industrial scales",
+        "date": "09/01/2026"
+      },
+      {
+        "source": "NSF",
+        "awardee": "AEPNUS TECHNOLOGY INC",
         "amount": 274986,
         "title": "SBIR Phase I:  Novel electrolyzer architectures to enable electrified chemical manufacturing at industrial scales",
         "date": "09/15/2023"
       }
     ],
-    "nsf_total": 274986,
-    "nsf_count": 1,
+    "nsf_total": 585226,
+    "nsf_count": 2,
     "edgar_formD": 0,
     "has_outcome": true
   },
@@ -2543,8 +2594,8 @@
     "nsf_awards": [],
     "nsf_total": 0,
     "nsf_count": 0,
-    "edgar_formD": 0,
-    "has_outcome": false
+    "edgar_formD": 1,
+    "has_outcome": true
   },
   {
     "slug": "orien-energy",
@@ -2774,7 +2825,7 @@
     ],
     "nsf_total": 274059,
     "nsf_count": 1,
-    "edgar_formD": 0,
+    "edgar_formD": 1,
     "has_outcome": true
   },
   {
@@ -3491,7 +3542,7 @@
     "nsf_awards": [],
     "nsf_total": 0,
     "nsf_count": 0,
-    "edgar_formD": 1890,
+    "edgar_formD": 1895,
     "has_outcome": true
   },
   {
@@ -3648,7 +3699,7 @@
     ],
     "nsf_total": 256000,
     "nsf_count": 1,
-    "edgar_formD": 7,
+    "edgar_formD": 8,
     "has_outcome": true
   },
   {
@@ -3720,13 +3771,20 @@
       {
         "source": "NSF",
         "awardee": "PERCEPTRA TECHNOLOGIES, INC.",
+        "amount": 250000,
+        "title": "SBIR Phase II: High-Performance Integrated Photonic Raman Analyzers",
+        "date": "09/01/2026"
+      },
+      {
+        "source": "NSF",
+        "awardee": "PERCEPTRA TECHNOLOGIES, INC.",
         "amount": 275000,
         "title": "SBIR Phase I: High-Performance Integrated Photonic Raman Analyzers",
         "date": "09/15/2024"
       }
     ],
-    "nsf_total": 275000,
-    "nsf_count": 1,
+    "nsf_total": 525000,
+    "nsf_count": 2,
     "edgar_formD": 0,
     "has_outcome": true
   },
@@ -3897,7 +3955,7 @@
     ],
     "nsf_total": 1459779,
     "nsf_count": 2,
-    "edgar_formD": 1,
+    "edgar_formD": 2,
     "has_outcome": true
   },
   {
@@ -3974,7 +4032,7 @@
     ],
     "nsf_total": 1225000,
     "nsf_count": 2,
-    "edgar_formD": 2,
+    "edgar_formD": 0,
     "has_outcome": true
   },
   {
@@ -4052,7 +4110,7 @@
     "nsf_awards": [],
     "nsf_total": 0,
     "nsf_count": 0,
-    "edgar_formD": 36,
+    "edgar_formD": 38,
     "has_outcome": true
   },
   {
@@ -4252,7 +4310,7 @@
     "nsf_awards": [],
     "nsf_total": 0,
     "nsf_count": 0,
-    "edgar_formD": 270,
+    "edgar_formD": 271,
     "has_outcome": true
   },
   {
