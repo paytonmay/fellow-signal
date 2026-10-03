@@ -776,12 +776,12 @@
     ]
   },
   "Opera Bioscience": {
-    "federal_total": 1847638,
+    "federal_total": 2097436,
     "federal_count": 3,
     "agencies": [
       {
         "name": "National Science Foundation",
-        "amount": 1523994
+        "amount": 1773792
       },
       {
         "name": "Department of Health and Human Services",

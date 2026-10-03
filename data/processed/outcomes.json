@@ -390,7 +390,7 @@
     ],
     "nsf_total": 150000,
     "nsf_count": 1,
-    "edgar_formD": 51,
+    "edgar_formD": 53,
     "has_outcome": true
   },
   {
@@ -1193,7 +1193,7 @@
       {
         "source": "NSF",
         "awardee": "NEXTGLASS LLC",
-        "amount": 100000,
+        "amount": 312482,
         "title": "SBIR Phase II: Low-Cost, High-Performance, Vacuum Insulated Glass Window",
         "date": "09/01/2026"
       },
@@ -1205,7 +1205,7 @@
         "date": "08/01/2023"
       }
     ],
-    "nsf_total": 356000,
+    "nsf_total": 568482,
     "nsf_count": 2,
     "edgar_formD": 1,
     "has_outcome": true
@@ -2070,7 +2070,7 @@
       {
         "source": "NSF",
         "awardee": "OPERA BIOSCIENCE, INC.",
-        "amount": 1248994,
+        "amount": 1498792,
         "title": "SBIR Phase II:  A Gram-Negative Bacterial Secretion Platform for Cost-Effective, High-Purity Recombinant Protein Production",
         "date": "06/15/2025"
       },
@@ -2082,7 +2082,7 @@
         "date": "06/15/2023"
       }
     ],
-    "nsf_total": 1523994,
+    "nsf_total": 1773792,
     "nsf_count": 2,
     "edgar_formD": 0,
     "has_outcome": true
@@ -2123,7 +2123,7 @@
     ],
     "nsf_total": 1731999,
     "nsf_count": 1,
-    "edgar_formD": 531,
+    "edgar_formD": 544,
     "has_outcome": true
   },
   {
@@ -3542,7 +3542,7 @@
     "nsf_awards": [],
     "nsf_total": 0,
     "nsf_count": 0,
-    "edgar_formD": 1895,
+    "edgar_formD": 1898,
     "has_outcome": true
   },
   {
@@ -3699,7 +3699,7 @@
     ],
     "nsf_total": 256000,
     "nsf_count": 1,
-    "edgar_formD": 8,
+    "edgar_formD": 0,
     "has_outcome": true
   },
   {
@@ -3771,7 +3771,7 @@
       {
         "source": "NSF",
         "awardee": "PERCEPTRA TECHNOLOGIES, INC.",
-        "amount": 250000,
+        "amount": 462377,
         "title": "SBIR Phase II: High-Performance Integrated Photonic Raman Analyzers",
         "date": "09/01/2026"
       },
@@ -3783,7 +3783,7 @@
         "date": "09/15/2024"
       }
     ],
-    "nsf_total": 525000,
+    "nsf_total": 737377,
     "nsf_count": 2,
     "edgar_formD": 0,
     "has_outcome": true
@@ -4032,7 +4032,7 @@
     ],
     "nsf_total": 1225000,
     "nsf_count": 2,
-    "edgar_formD": 0,
+    "edgar_formD": 2,
     "has_outcome": true
   },
   {
@@ -4110,7 +4110,7 @@
     "nsf_awards": [],
     "nsf_total": 0,
     "nsf_count": 0,
-    "edgar_formD": 38,
+    "edgar_formD": 42,
     "has_outcome": true
   },
   {
@@ -4310,7 +4310,7 @@
     "nsf_awards": [],
     "nsf_total": 0,
     "nsf_count": 0,
-    "edgar_formD": 271,
+    "edgar_formD": 272,
     "has_outcome": true
   },
   {

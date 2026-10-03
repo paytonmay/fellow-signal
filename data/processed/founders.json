@@ -42,7 +42,62 @@
   "AlkaLi Labs": [
     {
       "name": "Luis Valencia",
-      "resolved": false
+      "resolved": true,
+      "display_name": "Luis Valencia",
+      "institution": null,
+      "training_institution": "Stockholm University",
+      "affiliations": [
+        {
+          "name": "Stockholm University",
+          "type": "education",
+          "country": "SE",
+          "since": 2017
+        },
+        {
+          "name": "Centre National de la Recherche Scientifique",
+          "type": "government",
+          "country": "FR",
+          "since": 2019
+        },
+        {
+          "name": "University of Freiburg",
+          "type": "education",
+          "country": "DE",
+          "since": 2019
+        },
+        {
+          "name": "Institut Charles Sadron",
+          "type": "facility",
+          "country": "FR",
+          "since": 2019
+        },
+        {
+          "name": "Université de Strasbourg",
+          "type": "education",
+          "country": "FR",
+          "since": 2019
+        },
+        {
+          "name": "Alfa Laval (Sweden)",
+          "type": "company",
+          "country": "SE",
+          "since": 2020
+        }
+      ],
+      "field": "Materials Science",
+      "works_count": 38,
+      "cited_by_count": 1017,
+      "h_index": 16,
+      "pre_founding_topics": [
+        "Advanced Polymer Synthesis and Characterization",
+        "Polymer Surface Interaction Studies",
+        "Synthetic Organic Chemistry Methods",
+        "Advanced Cellulose Research Studies",
+        "Metal-Organic Frameworks: Synthesis and Applications",
+        "Aerogels and thermal insulation"
+      ],
+      "first_pub_year": 2017,
+      "years_to_founding": 8
     }
   ],
   "Astral Materials, Inc.": [
@@ -7246,7 +7301,62 @@
   "CinderBio": [
     {
       "name": "Steve Yannone",
-      "resolved": false
+      "resolved": true,
+      "display_name": "Steven M. Yannone",
+      "institution": null,
+      "training_institution": "University of California System",
+      "affiliations": [
+        {
+          "name": "University of California System",
+          "type": "education",
+          "country": "US",
+          "since": 1993
+        },
+        {
+          "name": "University of California, Irvine",
+          "type": "education",
+          "country": "US",
+          "since": 1995
+        },
+        {
+          "name": "Lawrence Berkeley National Laboratory",
+          "type": "facility",
+          "country": "US",
+          "since": 2001
+        },
+        {
+          "name": "Buck Institute for Research on Aging",
+          "type": "nonprofit",
+          "country": "US",
+          "since": 2010
+        },
+        {
+          "name": "University of California, San Francisco",
+          "type": "education",
+          "country": "US",
+          "since": 2011
+        },
+        {
+          "name": "Virginia Commonwealth University",
+          "type": "education",
+          "country": "US",
+          "since": 2011
+        }
+      ],
+      "field": "Biochemistry, Genetics and Molecular Biology",
+      "works_count": 67,
+      "cited_by_count": 3021,
+      "h_index": 25,
+      "pre_founding_topics": [
+        "Chemical Thermodynamics and Molecular Structure",
+        "Metal-Catalyzed Oxygenation Mechanisms",
+        "bioluminescence and chemiluminescence research",
+        "Redox biology and oxidative stress",
+        "Porphyrin Metabolism and Disorders",
+        "DNA Repair Mechanisms"
+      ],
+      "first_pub_year": 1993,
+      "years_to_founding": 25
     }
   ],
   "Fervo Energy": [
